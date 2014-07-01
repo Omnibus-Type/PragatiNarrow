@@ -1,7 +1,6 @@
 # Archivo Narrow-Devanagari
 
 **Omnibus-Type**
-
 *SIL Open Font License, 1.1*
 
 
@@ -12,9 +11,12 @@ Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://o
 To contribute to the project contact [Omnibus Type](http://omnibus-type.com/).
 
 ### Designers
-Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva
+
+* **Latin** Hector Gatti
+* **Devanagari** Marcela Romero, Pablo Cosgaya and Nicolas Silva
 
 ### License
+
 Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Archivo'
 
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL);
