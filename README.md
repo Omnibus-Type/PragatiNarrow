@@ -87,8 +87,4 @@ If you make modifications be sure to add your name (N), email (E), web-address
 **N:** Pablo Cosgaya  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
-<<<<<<< HEAD
 **D:** Designer
-=======
-**D:** Designer
->>>>>>> FETCH_HEAD
