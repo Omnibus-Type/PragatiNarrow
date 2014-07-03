@@ -22,7 +22,7 @@ Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.c
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL);
 you may not use this file except in compliance with the License.
 
-* * *
+======
 ## FONTLOG for the Archivo Narrow fonts
 
 his file provides detailed information on the Archivo Narrow Font Software.
