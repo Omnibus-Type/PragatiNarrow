@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>936</integer>
+	<key>capHeight</key>
+	<integer>686</integer>
+	<key>copyright</key>
+	<string>Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Archivo'</string>
+	<key>descender</key>
+	<integer>-210</integer>
+	<key>familyName</key>
+	<string>Archivo Narrow Devanagari</string>
+	<key>italicAngle</key>
+	<real>0.0</real>
+	<key>openTypeHeadCreated</key>
+	<string>2013/12/03 20:08:51</string>
+	<key>openTypeHheaAscender</key>
+	<integer>936</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-210</integer>
+	<key>openTypeNameDescription</key>
+	<string>Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.</string>
+	<key>openTypeNameDesigner</key>
+	<string>Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Omnibus-Type</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://www.omnibus-type.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Archivo Narrow Devanagari</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-12</integer>
+		<integer>0</integer>
+		<integer>526</integer>
+		<integer>538</integer>
+		<integer>686</integer>
+		<integer>698</integer>
+		<integer>723</integer>
+		<integer>731</integer>
+	</array>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-182</integer>
+		<integer>-173</integer>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>101</integer>
+		<integer>110</integer>
+		<integer>114</integer>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<integer>120</integer>
+		<integer>125</integer>
+		<integer>128</integer>
+		<integer>132</integer>
+	</array>
+	<key>postscriptWeightName</key>
+	<string>Regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>4</integer>
+	<key>xHeight</key>
+	<integer>526</integer>
+</dict>
+</plist>
