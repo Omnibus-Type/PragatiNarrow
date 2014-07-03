@@ -22,6 +22,7 @@ Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.c
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL);
 you may not use this file except in compliance with the License.
 
+=======================================
 ## FONTLOG for the Archivo Narrow fonts
 
 his file provides detailed information on the Archivo Narrow Font Software.
@@ -52,15 +53,15 @@ Archivo Narrow was designed to be used simultaneously in print and digital platf
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
-* **23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
+**23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
 - Fix Name Table (Thanks Dave Crossland for his technical input.)
 - Updating hinting with ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G" -W
 
-* **02 October 2012 (Omnibus Type) Archivo Narrow v1.002**
+**02 October 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Fix encoding Tables and index (Thanks Theunis de Jong for his technical input.)
 - Fix TTF Naming Tables
 
-* **22 August 2012 (Omnibus Type) Archivo Narrow v1.002**
+**22 August 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Initial release under SIL Open Font License
 
 ### Acknowledgements
@@ -68,22 +69,22 @@ Archivo Narrow was designed to be used simultaneously in print and digital platf
 If you make modifications be sure to add your name (N), email (E), web-address
 (if you have one) (W) and description (D). This list is in alphabetical order.
 
-N: Hector Gatti
-E: omnibus.type@gmail.com
-W: http://www.omnibus-type.com
-D: Designer
+**N:** Hector Gatti,
+**E:** omnibus.type@gmail.com,
+**W:** http://www.omnibus-type.com,
+**D:** Designer**
 
-N: Marcela Romero
-E: omnibus.type@gmail.com
-W: http://www.omnibus-type.com
-D: Designer of Devanagari version
+**N:** Marcela Romero,
+**E:** omnibus.type@gmail.com,
+**W:** http://www.omnibus-type.com,
+**D:** Designer of Devanagari version,**
 
-N: Nicolas Silva
-E: omnibus.type@gmail.com
-W: http://www.omnibus-type.com
-D: Font Production/ Designer of Devanagari version
+**N:** Nicolas Silva,
+**E:** omnibus.type@gmail.com,
+**W:** http://www.omnibus-type.com,
+**D:** Font Production/ Designer of Devanagari version**
 
-N: Pablo Cosgaya
-E: omnibus.type@gmail.com
-W: http://www.omnibus-type.com
-D: Designer
+**N:** Pablo Cosgaya,
+**E:** omnibus.type@gmail.com,
+**W:** http://www.omnibus-type.com,
+**D:** Designer
