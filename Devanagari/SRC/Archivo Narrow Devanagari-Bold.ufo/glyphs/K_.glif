@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="1">
-  <advance width="592"/>
+  <advance width="523"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
-      <point x="189" y="686" type="line"/>
-      <point x="60" y="686" type="line"/>
-      <point x="60" y="0" type="line"/>
-      <point x="189" y="0" type="line"/>
-      <point x="189" y="175" type="line"/>
-      <point x="296" y="306" type="line"/>
-      <point x="445" y="0" type="line"/>
-      <point x="589" y="0" type="line"/>
-      <point x="380" y="407" type="line"/>
-      <point x="583" y="686" type="line"/>
-      <point x="440" y="686" type="line"/>
-      <point x="189" y="335" type="line"/>
+      <point x="389" y="606" type="line"/>
+      <point x="167" y="296" type="line"/>
+      <point x="167" y="606" type="line"/>
+      <point x="53" y="606" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="167" y="0" type="line"/>
+      <point x="167" y="155" type="line"/>
+      <point x="262" y="271" type="line"/>
+      <point x="393" y="0" type="line"/>
+      <point x="521" y="0" type="line"/>
+      <point x="336" y="360" type="line"/>
+      <point x="515" y="606" type="line"/>
     </contour>
     <contour>
-      <point x="296" y="686" type="move" name="top"/>
+      <point x="262" y="606" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="296" y="0" type="move" name="bottom"/>
+      <point x="262" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

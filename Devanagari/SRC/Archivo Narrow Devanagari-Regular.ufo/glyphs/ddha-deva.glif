@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddha-deva" format="1">
+  <advance width="381"/>
+  <unicode hex="0922"/>
+  <outline>
+    <contour>
+      <point x="299" y="370" type="line"/>
+      <point x="299" y="541" type="line"/>
+      <point x="397" y="541" type="line"/>
+      <point x="397" y="606" type="line"/>
+      <point x="-15" y="606" type="line"/>
+      <point x="-15" y="541" type="line"/>
+      <point x="227" y="541" type="line"/>
+      <point x="227" y="434" type="line"/>
+      <point x="201" y="434" type="line" smooth="yes"/>
+      <point x="89" y="434"/>
+      <point x="28" y="362"/>
+      <point x="28" y="239" type="curve" smooth="yes"/>
+      <point x="28" y="117"/>
+      <point x="87" y="51"/>
+      <point x="195" y="51" type="curve" smooth="yes"/>
+      <point x="279" y="51"/>
+      <point x="342" y="99"/>
+      <point x="342" y="176" type="curve" smooth="yes"/>
+      <point x="342" y="245"/>
+      <point x="296" y="289"/>
+      <point x="228" y="289" type="curve" smooth="yes"/>
+      <point x="207" y="289"/>
+      <point x="192" y="284"/>
+      <point x="177" y="279" type="curve"/>
+      <point x="177" y="210" type="line"/>
+      <point x="190" y="219"/>
+      <point x="204" y="225"/>
+      <point x="219" y="225" type="curve" smooth="yes"/>
+      <point x="248" y="225"/>
+      <point x="269" y="207"/>
+      <point x="269" y="177" type="curve" smooth="yes"/>
+      <point x="269" y="146"/>
+      <point x="244" y="116"/>
+      <point x="198" y="116" type="curve" smooth="yes"/>
+      <point x="132" y="116"/>
+      <point x="104" y="152"/>
+      <point x="104" y="236" type="curve" smooth="yes"/>
+      <point x="104" y="320"/>
+      <point x="138" y="370"/>
+      <point x="201" y="370" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="194.5" y="51.5" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="197.5" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="262" y="606" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

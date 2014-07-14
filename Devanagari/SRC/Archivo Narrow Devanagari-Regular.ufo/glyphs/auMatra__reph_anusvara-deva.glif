@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="auMatra_reph_anusvara-deva" format="1">
+  <advance width="207"/>
+  <outline>
+    <contour>
+      <point x="139.212" y="606" type="line"/>
+      <point x="127.465" y="640.014"/>
+      <point x="118" y="671.81"/>
+      <point x="118" y="695" type="curve" smooth="yes"/>
+      <point x="118" y="737"/>
+      <point x="149" y="762"/>
+      <point x="204" y="762" type="curve" smooth="yes"/>
+      <point x="209" y="762" type="line"/>
+      <point x="209" y="826" type="line"/>
+      <point x="204" y="827"/>
+      <point x="195" y="827"/>
+      <point x="186" y="827" type="curve" smooth="yes"/>
+      <point x="125.399" y="827"/>
+      <point x="90.459" y="784.56"/>
+      <point x="90.0048" y="721.252" type="curve"/>
+      <point x="57" y="821" type="line"/>
+      <point x="-16" y="821" type="line"/>
+      <point x="43" y="691" type="line"/>
+      <point x="90" y="606" type="line"/>
+      <point x="59" y="606" type="line"/>
+      <point x="-75" y="821" type="line"/>
+      <point x="-147" y="821" type="line"/>
+      <point x="5" y="606" type="line"/>
+      <point x="-22" y="606" type="line"/>
+      <point x="-22" y="541" type="line"/>
+      <point x="67" y="541" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="541" type="line"/>
+      <point x="229" y="541" type="line"/>
+      <point x="229" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="159" y="721" type="line"/>
+      <point x="159" y="644" type="line"/>
+      <point x="232" y="644" type="line"/>
+      <point x="232" y="721" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

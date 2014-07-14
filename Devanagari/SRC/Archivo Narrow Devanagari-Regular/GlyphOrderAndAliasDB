@@ -260,25 +260,70 @@ zcaron	zcaron	uni017E
 zdotaccent	zdotaccent	uni017C
 fi	fi	uniFB01
 fl	fl	uniFB02
-uni207F	uni207F	uni207F
+nsuperior	nsuperior	uni207F
 Delta	Delta	uni0394
 Omega	Omega	uni03A9
 mu	mu	uni03BC
 pi	pi	uni03C0
 uni093E	aaMatradeva	uni093E
+uni094C	auMatradeva	uni094C
 uni093F	iMatradeva	uni093F
 uni0940	iiMatradeva	uni0940
+ovowelsigndeva	oMatradeva	uni094B
+uni094A	oShortMatradeva	uni094A
+adeva	adeva	uni0905
+uni0904	aShortdeva	uni0904
+aadeva	aadeva	uni0906
+aideva	aideva	uni0910
+audeva	audeva	uni0914
+uni092C	badeva	uni092C
 bhadeva	bhadeva	uni092D
+cadeva	cadeva	uni091A
+chadeva	chadeva	uni091B
 dadeva	dadeva	uni0926
+ddadeva	ddadeva	uni0921
+ddhadeva	ddhadeva	uni0922
+dhadeva	dhadeva	uni0927
+edeva	edeva	uni090F
+eshortdeva	eShortdeva	uni090E
 gadeva	gadeva	uni0917
+ghadeva	ghadeva	uni0918
+ideva	ideva	uni0907
+iideva	iideva	uni0908
 kadeva	kadeva	uni0915
+khadeva	khadeva	uni0916
+lladeva	lladeva	uni0933
 madeva	madeva	uni092E
 nadeva	nadeva	uni0928
+ngadeva	ngadeva	uni0919
+nnadeva	nnadeva	uni0923
+odeva	odeva	uni0913
+oshortdeva	oShortdeva	uni0912
 padeva	padeva	uni092A
 uni092B	phadeva	uni092B
 uni0930	radeva	uni0930
+rradeva	rradeva	uni0931
+sadeva	sadeva	uni0938
+ssadeva	ssadeva	uni0937
+tadeva	tadeva	uni0924
+thadeva	thadeva	uni0925
+ttadeva	ttadeva	uni091F
+tthadeva	tthadeva	uni0920
 vadeva	vadeva	uni0935
 uni092F	yadeva	uni092F
+auMatra_anusvaradeva	auMatra_anusvaradeva
+uni094C_rephdeva	auMatra_rephdeva
+auMatra_reph_anusvaradeva	auMatra_reph_anusvaradeva
+uni0921094D_ddadeva	dd_ddadeva
+uni0921094D_ddadeva_uuvowelsigndeva	dd_dda_uuMatradeva
+kadeva_uvowelsigndeva	ka_uMatradeva
+kadeva_uuvowelsigndeva	ka_uuMatradeva
+oMatra_anusvaradeva	oMatra_anusvaradeva
+ovowelsigndeva_rephdeva	oMatra_rephdeva
+oMatra_reph_anusvaradeva	oMatra_reph_anusvaradeva
+uni092B_uvowelsigndeva	pha_uMatradeva
+uni092B_uuvowelsigndeva	pha_uuMatradeva
+uni0921094D	dddeva
 uni092E094D	mdeva
 uni092A094D	pdeva
 uni0935094D	vdeva
@@ -315,6 +360,7 @@ exclam	exclam	uni0021
 exclamdbl	exclamdbl	uni203C
 exclamdown	exclamdown	uni00A1
 numbersign	numbersign	uni0023
+overline	overline	uni203E
 period	period	uni002E
 periodcentered	periodcentered	uni00B7
 question	question	uni003F
@@ -325,16 +371,15 @@ semicolon	semicolon	uni003B
 slash	slash	uni002F
 underscore	underscore	uni005F
 underscoredbl	underscoredbl	uni2017
-uni203E	uni203E	uni203E
 braceleft	braceleft	uni007B
 braceright	braceright	uni007D
 bracketleft	bracketleft	uni005B
 bracketright	bracketright	uni005D
 parenleft	parenleft	uni0028
 parenright	parenright	uni0029
-uni2015	afii00208	uni2015
 emdash	emdash	uni2014
 endash	endash	uni2013
+uni2015	horizontalbar	uni2015
 hyphen	hyphen	uni002D
 softhyphen	softhyphen	uni00AD
 guillemotleft	guillemotleft	uni00AB
@@ -381,6 +426,7 @@ intersection	intersection	uni2229
 less	less	uni003C
 lessequal	lessequal	uni2264
 logicalnot	logicalnot	uni00AC
+logicalnotReversed	logicalnotReversed	uni2310
 uni00B5	micro	uni00B5
 minus	minus	uni2212
 multiply	multiply	uni00D7
@@ -394,12 +440,11 @@ plusminus	plusminus	uni00B1
 product	product	uni220F
 radical	radical	uni221A
 summation	summation	uni2211
-uni2105	afii61248	uni2105
-uni2116	afii61352	uni2116
 ampersand	ampersand	uni0026
 at	at	uni0040
 bar	bar	uni007C
 brokenbar	brokenbar	uni00A6
+uni2105	careof	uni2105
 copyright	copyright	uni00A9
 dagger	dagger	uni2020
 daggerdbl	daggerdbl	uni2021
@@ -408,6 +453,7 @@ estimated	estimated	uni212E
 house	house	uni2302
 uni2113	literSign	uni2113
 minute	minute	uni2032
+uni2116	numero	uni2116
 paragraph	paragraph	uni00B6
 registered	registered	uni00AE
 second	second	uni2033
@@ -420,9 +466,16 @@ arrowleft	arrowleft	uni2190
 arrowright	arrowright	uni2192
 arrowup	arrowup	uni2191
 arrowupdn	arrowupdn	uni2195
+arrowupdownbase	arrowupdownbase	uni21A8
 dottedcircle	dottedcircle	uni25CC
 lozenge	lozenge	uni25CA
+aivowelsigndeva	aiMatradeva	uni0948
 commaaccentcomb	commaaccent	uni0326
+evowelsigndeva	eMatradeva	uni0947
+eshortvowelsigndeva	eShortMatradeva	uni0946
+viramadeva	halantdeva	uni094D
+nuktadeva	nuktadeva	uni093C
+rephdeva	rephdeva
 uvowelsigndeva	uMatradeva	uni0941
 uuvowelsigndeva	uuMatradeva	uni0942
 firsttonechinese	firsttonechinese	uni02C9
@@ -439,6 +492,21 @@ macron	macron	uni00AF
 ogonek	ogonek	uni02DB
 ring	ring	uni02DA
 tilde	tilde	uni02DC
-arrowupdnbse	arrowupdnbse	uni21A8
-revlogicalnot	revlogicalnot	uni2310
+aiMatra_anusvaradeva	aiMatra_anusvaradeva
+aivowelsigndeva_rephdeva	aiMatra_rephdeva
+aiMatra_reph_anusvaradeva	aiMatra_reph_anusvaradeva
+eMatra_anusvaradeva	eMatra_anusvaradeva
+evowelsigndeva_rephdeva	eMatra_rephdeva
+eMatra_reph_anusvaradeva	eMatra_reph_anusvaradeva
+reph_anusvaradeva	reph_anusvaradeva
 NULL	NULL
+anusvaradeva	anusvaradeva
+dddhadeva	dddhadeva
+fadeva	fadeva
+ghhadeva	ghhadeva
+khhadeva	khhadeva
+llladeva	llladeva
+nnnadeva	nnnadeva
+qadeva	qadeva
+rhadeva	rhadeva
+yyadeva	yyadeva

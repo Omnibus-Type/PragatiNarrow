@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcommaaccent" format="1">
-  <advance width="501"/>
+  <advance width="443"/>
   <unicode hex="013B"/>
   <outline>
     <contour>
-      <point x="60" y="686" type="line"/>
-      <point x="60" y="0" type="line"/>
-      <point x="478" y="0" type="line"/>
-      <point x="478" y="120" type="line"/>
-      <point x="188" y="120" type="line"/>
-      <point x="188" y="686" type="line"/>
+      <point x="166" y="106" type="line"/>
+      <point x="166" y="606" type="line"/>
+      <point x="53" y="606" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="423" y="0" type="line"/>
+      <point x="423" y="106" type="line"/>
     </contour>
     <contour>
-      <point x="189" y="-55" type="line"/>
-      <point x="189" y="-178" type="line"/>
-      <point x="238" y="-178" type="line"/>
-      <point x="202" y="-263" type="line"/>
-      <point x="267" y="-263" type="line"/>
-      <point x="312" y="-167" type="line"/>
-      <point x="312" y="-55" type="line"/>
+      <point x="276" y="-148" type="line"/>
+      <point x="276" y="-49" type="line"/>
+      <point x="167" y="-49" type="line"/>
+      <point x="167" y="-157" type="line"/>
+      <point x="210" y="-157" type="line"/>
+      <point x="179" y="-232" type="line"/>
+      <point x="236" y="-232" type="line"/>
     </contour>
   </outline>
 </glyph>

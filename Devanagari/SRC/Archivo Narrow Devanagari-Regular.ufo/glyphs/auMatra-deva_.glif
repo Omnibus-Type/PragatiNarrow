@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="auMatra-deva" format="1">
+  <advance width="207"/>
+  <unicode hex="094C"/>
+  <outline>
+    <contour>
+      <point x="137" y="606" type="line"/>
+      <point x="137" y="821" type="line"/>
+      <point x="65" y="821" type="line"/>
+      <point x="65" y="743" type="line" smooth="yes"/>
+      <point x="65" y="697"/>
+      <point x="68" y="652"/>
+      <point x="73" y="606" type="curve"/>
+      <point x="56" y="606" type="line"/>
+      <point x="-3" y="821" type="line"/>
+      <point x="-76" y="821" type="line"/>
+      <point x="-8" y="606" type="line"/>
+      <point x="-22" y="606" type="line"/>
+      <point x="-22" y="541" type="line"/>
+      <point x="67" y="541" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="541" type="line"/>
+      <point x="229" y="541" type="line"/>
+      <point x="229" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

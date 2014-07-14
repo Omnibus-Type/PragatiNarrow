@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lozenge" format="1">
-  <advance width="559"/>
+  <advance width="494"/>
   <unicode hex="25CA"/>
   <outline>
     <contour>
-      <point x="338" y="686" type="line"/>
-      <point x="225" y="686" type="line"/>
-      <point x="115" y="343" type="line"/>
-      <point x="225" y="0" type="line"/>
-      <point x="338" y="0" type="line"/>
-      <point x="449" y="343" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="397" y="303" type="line"/>
+      <point x="299" y="606" type="line"/>
+      <point x="199" y="606" type="line"/>
+      <point x="102" y="303" type="line"/>
+      <point x="199" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="281" y="97" type="line"/>
-      <point x="277" y="97" type="line"/>
-      <point x="199" y="343" type="line"/>
-      <point x="277" y="589" type="line"/>
-      <point x="281" y="589" type="line"/>
-      <point x="356" y="343" type="line"/>
+      <point x="248" y="521" type="line"/>
+      <point x="315" y="303" type="line"/>
+      <point x="248" y="86" type="line"/>
+      <point x="245" y="86" type="line"/>
+      <point x="176" y="303" type="line"/>
+      <point x="245" y="521" type="line"/>
     </contour>
   </outline>
 </glyph>

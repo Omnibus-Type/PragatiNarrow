@@ -14,7 +14,11 @@ feature locl;
 feature sups;
 feature frac;
 feature ordn;
+feature nukt;
+feature rphf;
 feature half;
+feature cjct;
+feature abvs;
 } aalt;
 feature locl {
 # automatic
@@ -35,6 +39,7 @@ sub  L' periodcentered' L by Ldot;
 } locl;
 feature sups {
 # automatic
+sub n by nsuperior;
 sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
@@ -63,9 +68,65 @@ feature cpsp {
 # automatic
 pos @Uppercase <5 0 10 0>;
 } cpsp;
+feature nukt {
+sub pha-deva nukta-deva by fa-deva;
+sub ga-deva nukta-deva by ghha-deva;
+sub lla-deva nukta-deva by llla-deva;
+sub na-deva nukta-deva by nnna-deva;
+sub ka-deva nukta-deva by qa-deva;
+sub ddha-deva nukta-deva by rha-deva;
+sub dda-deva nukta-deva by dddha-deva;
+sub kha-deva nukta-deva by khha-deva;
+sub ya-deva nukta-deva by yya-deva;
+} nukt;
+feature rphf {
+# automatic
+sub ra-deva halant-deva by reph-deva;
+} rphf;
 feature half {
 # automatic
+sub dda-deva halant-deva by dd-deva;
 sub ma-deva halant-deva by m-deva;
 sub pa-deva halant-deva by p-deva;
 sub va-deva halant-deva by v-deva;
 } half;
+feature cjct {
+# automatic
+sub auMatra-deva anusvara-deva by auMatra_anusvara-deva;
+sub auMatra-deva reph-deva by auMatra_reph-deva;
+sub auMatra-deva reph-deva anusvara-deva by auMatra_reph_anusvara-deva;
+sub dd-deva dda-deva by dd_dda-deva;
+sub dd-deva dda-deva uuMatra-deva by dd_dda_uuMatra-deva;
+sub ka-deva uMatra-deva by ka_uMatra-deva;
+sub ka-deva uuMatra-deva by ka_uuMatra-deva;
+sub oMatra-deva anusvara-deva by oMatra_anusvara-deva;
+sub oMatra-deva reph-deva by oMatra_reph-deva;
+sub oMatra-deva reph-deva anusvara-deva by oMatra_reph_anusvara-deva;
+sub pha-deva uMatra-deva by pha_uMatra-deva;
+sub pha-deva uuMatra-deva by pha_uuMatra-deva;
+sub aiMatra-deva anusvara-deva by aiMatra_anusvara-deva;
+sub aiMatra-deva reph-deva by aiMatra_reph-deva;
+sub aiMatra-deva reph-deva anusvara-deva by aiMatra_reph_anusvara-deva;
+sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
+sub eMatra-deva reph-deva by eMatra_reph-deva;
+sub eMatra-deva reph-deva anusvara-deva by eMatra_reph_anusvara-deva;
+sub reph-deva anusvara-deva by reph_anusvara-deva;
+} cjct;
+feature abvs {
+#sub iiMatra-deva reph-deva by iiMatra_reph-deva;
+#sub iiMatra-deva anusvara-deva by iiMatra_anusvara-deva;
+sub eMatra-deva reph-deva by eMatra_reph-deva;
+sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
+sub aiMatra-deva reph-deva by aiMatra_reph-deva;
+sub aiMatra-deva anusvara-deva by aiMatra_anusvara-deva;
+sub oMatra-deva reph-deva by oMatra_reph-deva;
+sub oMatra-deva anusvara-deva by oMatra_anusvara-deva;
+sub auMatra-deva reph-deva by auMatra_reph-deva;
+sub auMatra-deva anusvara-deva by auMatra_anusvara-deva;
+sub eMatra_reph-deva anusvara-deva by eMatra_reph_anusvara-deva;
+sub aiMatra_reph-deva anusvara-deva by aiMatra_reph_anusvara-deva;
+sub reph-deva anusvara-deva by reph_anusvara-deva;
+#sub iiMatra_reph-deva anusvara-deva by iiMatra_reph_anusvara-deva;
+sub oMatra_reph-deva anusvara-deva by oMatra_reph_anusvara-deva;
+sub auMatra_reph-deva anusvara-deva by auMatra_reph_anusvara-deva;
+} abvs;

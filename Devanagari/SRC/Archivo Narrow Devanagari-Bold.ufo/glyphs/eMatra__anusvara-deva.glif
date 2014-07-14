@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eMatra_anusvara-deva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-139" y="821" type="line"/>
+      <point x="-246" y="821" type="line"/>
+      <point x="-178" y="606" type="line"/>
+      <point x="-186" y="606" type="line"/>
+      <point x="-186" y="513" type="line"/>
+      <point x="-71" y="513" type="line"/>
+      <point x="-71" y="606" type="line"/>
+      <point x="-80" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="-66" y="757" type="line"/>
+      <point x="-66" y="674" type="line"/>
+      <point x="33" y="674" type="line"/>
+      <point x="33" y="757" type="line"/>
+    </contour>
+    <contour>
+      <point x="-122" y="606" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

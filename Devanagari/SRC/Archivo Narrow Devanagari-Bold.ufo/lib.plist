@@ -266,25 +266,70 @@
 		<string>zdotaccent</string>
 		<string>fi</string>
 		<string>fl</string>
-		<string>uni207F</string>
+		<string>nsuperior</string>
 		<string>Delta</string>
 		<string>Omega</string>
 		<string>mu</string>
 		<string>pi</string>
 		<string>aaMatra-deva</string>
+		<string>auMatra-deva</string>
 		<string>iMatra-deva</string>
 		<string>iiMatra-deva</string>
+		<string>oMatra-deva</string>
+		<string>oShortMatra-deva</string>
+		<string>a-deva</string>
+		<string>aShort-deva</string>
+		<string>aa-deva</string>
+		<string>ai-deva</string>
+		<string>au-deva</string>
+		<string>ba-deva</string>
 		<string>bha-deva</string>
+		<string>ca-deva</string>
+		<string>cha-deva</string>
 		<string>da-deva</string>
+		<string>dda-deva</string>
+		<string>ddha-deva</string>
+		<string>dha-deva</string>
+		<string>e-deva</string>
+		<string>eShort-deva</string>
 		<string>ga-deva</string>
+		<string>gha-deva</string>
+		<string>i-deva</string>
+		<string>ii-deva</string>
 		<string>ka-deva</string>
+		<string>kha-deva</string>
+		<string>lla-deva</string>
 		<string>ma-deva</string>
 		<string>na-deva</string>
+		<string>nga-deva</string>
+		<string>nna-deva</string>
+		<string>o-deva</string>
+		<string>oShort-deva</string>
 		<string>pa-deva</string>
 		<string>pha-deva</string>
 		<string>ra-deva</string>
+		<string>rra-deva</string>
+		<string>sa-deva</string>
+		<string>ssa-deva</string>
+		<string>ta-deva</string>
+		<string>tha-deva</string>
+		<string>tta-deva</string>
+		<string>ttha-deva</string>
 		<string>va-deva</string>
 		<string>ya-deva</string>
+		<string>auMatra_anusvara-deva</string>
+		<string>auMatra_reph-deva</string>
+		<string>auMatra_reph_anusvara-deva</string>
+		<string>dd_dda-deva</string>
+		<string>dd_dda_uuMatra-deva</string>
+		<string>ka_uMatra-deva</string>
+		<string>ka_uuMatra-deva</string>
+		<string>oMatra_anusvara-deva</string>
+		<string>oMatra_reph-deva</string>
+		<string>oMatra_reph_anusvara-deva</string>
+		<string>pha_uMatra-deva</string>
+		<string>pha_uuMatra-deva</string>
+		<string>dd-deva</string>
 		<string>m-deva</string>
 		<string>p-deva</string>
 		<string>v-deva</string>
@@ -321,6 +366,7 @@
 		<string>exclamdbl</string>
 		<string>exclamdown</string>
 		<string>numbersign</string>
+		<string>overline</string>
 		<string>period</string>
 		<string>periodcentered</string>
 		<string>question</string>
@@ -331,16 +377,15 @@
 		<string>slash</string>
 		<string>underscore</string>
 		<string>underscoredbl</string>
-		<string>uni203E</string>
 		<string>braceleft</string>
 		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
 		<string>parenleft</string>
 		<string>parenright</string>
-		<string>afii00208</string>
 		<string>emdash</string>
 		<string>endash</string>
+		<string>horizontalbar</string>
 		<string>hyphen</string>
 		<string>softhyphen</string>
 		<string>guillemotleft</string>
@@ -387,6 +432,7 @@
 		<string>less</string>
 		<string>lessequal</string>
 		<string>logicalnot</string>
+		<string>logicalnotReversed</string>
 		<string>micro</string>
 		<string>minus</string>
 		<string>multiply</string>
@@ -400,12 +446,11 @@
 		<string>product</string>
 		<string>radical</string>
 		<string>summation</string>
-		<string>afii61248</string>
-		<string>afii61352</string>
 		<string>ampersand</string>
 		<string>at</string>
 		<string>bar</string>
 		<string>brokenbar</string>
+		<string>careof</string>
 		<string>copyright</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
@@ -414,6 +459,7 @@
 		<string>house</string>
 		<string>literSign</string>
 		<string>minute</string>
+		<string>numero</string>
 		<string>paragraph</string>
 		<string>registered</string>
 		<string>second</string>
@@ -426,9 +472,16 @@
 		<string>arrowright</string>
 		<string>arrowup</string>
 		<string>arrowupdn</string>
+		<string>arrowupdownbase</string>
 		<string>dottedcircle</string>
 		<string>lozenge</string>
+		<string>aiMatra-deva</string>
 		<string>commaaccent</string>
+		<string>eMatra-deva</string>
+		<string>eShortMatra-deva</string>
+		<string>halant-deva</string>
+		<string>nukta-deva</string>
+		<string>reph-deva</string>
 		<string>uMatra-deva</string>
 		<string>uuMatra-deva</string>
 		<string>firsttonechinese</string>
@@ -445,17 +498,34 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>arrowupdnbse</string>
-		<string>revlogicalnot</string>
+		<string>aiMatra_anusvara-deva</string>
+		<string>aiMatra_reph-deva</string>
+		<string>aiMatra_reph_anusvara-deva</string>
+		<string>eMatra_anusvara-deva</string>
+		<string>eMatra_reph-deva</string>
+		<string>eMatra_reph_anusvara-deva</string>
+		<string>reph_anusvara-deva</string>
 		<string>NULL</string>
+		<string>anusvara-deva</string>
+		<string>dddha-deva</string>
+		<string>fa-deva</string>
+		<string>ghha-deva</string>
+		<string>khha-deva</string>
+		<string>llla-deva</string>
+		<string>nnna-deva</string>
+		<string>qa-deva</string>
+		<string>rha-deva</string>
+		<string>yya-deva</string>
 	</array>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<true/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Bold</string>
 	<key>com.schriftgestaltung.weightValue</key>
-	<real>120</real>
+	<real>106</real>
 	<key>com.schriftgestaltung.widthValue</key>
-	<real>80</real>
+	<real>90</real>
 	<key>com.schriftgestaltung.fontMasterID</key>
-	<string>72E9C866-9899-4CE7-8B77-ABF2E23FF1EF</string>
+	<string>F2B4CDAA-6807-4065-84BE-44D9DAAC4806</string>
 </dict>
 </plist>

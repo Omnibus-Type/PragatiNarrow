@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aiMatra_reph-deva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-136" y="821" type="line"/>
+      <point x="-208" y="821" type="line"/>
+      <point x="-140" y="606" type="line"/>
+      <point x="-156" y="606" type="line"/>
+      <point x="-269" y="821" type="line"/>
+      <point x="-341" y="821" type="line"/>
+      <point x="-220" y="606" type="line"/>
+      <point x="-229" y="606" type="line"/>
+      <point x="-229" y="541" type="line"/>
+      <point x="-66" y="541" type="line"/>
+      <point x="-66" y="606" type="line"/>
+      <point x="-77" y="606" type="line"/>
+      <point x="-89" y="650.201" type="line"/>
+      <point x="-96" y="720.473"/>
+      <point x="-48" y="762"/>
+      <point x="22" y="762" type="curve" smooth="yes"/>
+      <point x="26" y="762" type="line"/>
+      <point x="26" y="826" type="line"/>
+      <point x="22" y="827"/>
+      <point x="13" y="827"/>
+      <point x="4" y="827" type="curve" smooth="yes"/>
+      <point x="-61" y="827"/>
+      <point x="-102" y="785.228"/>
+      <point x="-108" y="719.246" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-108" y="606" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
