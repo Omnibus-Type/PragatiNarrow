@@ -18,4 +18,25 @@
       <point x="369" y="716" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>716</integer>
+            <integer>43</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>229</integer>
+            <integer>63</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -20,4 +20,25 @@
       <point x="61" y="650" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-139</integer>
+            <integer>789</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>131</integer>
+            <integer>75</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

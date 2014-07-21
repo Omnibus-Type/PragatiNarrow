@@ -28,4 +28,33 @@
       <point x="55" y="522" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>376</integer>
+            <integer>89</integer>
+          </array>
+          <array>
+            <integer>557</integer>
+            <integer>89</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>55</integer>
+            <integer>106</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aivowelsigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0948"/>
+  <outline>
+    <contour>
+      <point x="-102" y="606" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-70" y="606" type="line"/>
+      <point x="-70" y="821" type="line"/>
+      <point x="-142" y="821" type="line"/>
+      <point x="-142" y="743" type="line" smooth="yes"/>
+      <point x="-142" y="697"/>
+      <point x="-139" y="652"/>
+      <point x="-134" y="606" type="curve"/>
+      <point x="-151" y="606" type="line"/>
+      <point x="-210" y="821" type="line"/>
+      <point x="-283" y="821" type="line"/>
+      <point x="-215" y="606" type="line"/>
+      <point x="-224" y="606" type="line"/>
+      <point x="-224" y="541" type="line"/>
+      <point x="-61" y="541" type="line"/>
+      <point x="-61" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-142</integer>
+            <integer>72</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

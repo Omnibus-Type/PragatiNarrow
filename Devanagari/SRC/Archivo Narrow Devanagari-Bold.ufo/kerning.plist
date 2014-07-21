@@ -8,8 +8,6 @@
 		<integer>-54</integer>
 		<key>Tcaron</key>
 		<integer>-54</integer>
-		<key>Tcommaaccent</key>
-		<integer>-54</integer>
 		<key>V</key>
 		<integer>-54</integer>
 		<key>W</key>
@@ -20,6 +18,8 @@
 		<integer>-40</integer>
 		<key>space</key>
 		<integer>-28</integer>
+		<key>uni021A</key>
+		<integer>-54</integer>
 		<key>v</key>
 		<integer>-28</integer>
 		<key>w</key>
@@ -33,8 +33,6 @@
 		<integer>-54</integer>
 		<key>Tcaron</key>
 		<integer>-54</integer>
-		<key>Tcommaaccent</key>
-		<integer>-54</integer>
 		<key>V</key>
 		<integer>-54</integer>
 		<key>W</key>
@@ -45,6 +43,8 @@
 		<integer>-40</integer>
 		<key>space</key>
 		<integer>-28</integer>
+		<key>uni021A</key>
+		<integer>-54</integer>
 		<key>v</key>
 		<integer>-28</integer>
 		<key>w</key>
@@ -67,8 +67,6 @@
 		<integer>-54</integer>
 		<key>Tcaron</key>
 		<integer>-54</integer>
-		<key>Tcommaaccent</key>
-		<integer>-54</integer>
 		<key>V</key>
 		<integer>-54</integer>
 		<key>W</key>
@@ -79,6 +77,8 @@
 		<integer>-40</integer>
 		<key>space</key>
 		<integer>-12</integer>
+		<key>uni021A</key>
+		<integer>-54</integer>
 		<key>y</key>
 		<integer>-28</integer>
 	</dict>
@@ -88,8 +88,6 @@
 		<integer>-54</integer>
 		<key>Tcaron</key>
 		<integer>-54</integer>
-		<key>Tcommaaccent</key>
-		<integer>-54</integer>
 		<key>V</key>
 		<integer>-54</integer>
 		<key>W</key>
@@ -100,6 +98,8 @@
 		<integer>-40</integer>
 		<key>space</key>
 		<integer>-12</integer>
+		<key>uni021A</key>
+		<integer>-54</integer>
 		<key>y</key>
 		<integer>-28</integer>
 	</dict>
@@ -122,14 +122,14 @@
 		<integer>0</integer>
 		<key>Tcaron</key>
 		<integer>0</integer>
-		<key>Tcommaaccent</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-12</integer>
 		<key>W</key>
 		<integer>-12</integer>
 		<key>Y</key>
 		<integer>-28</integer>
+		<key>uni021A</key>
+		<integer>0</integer>
 	</dict>
 	<key>Racute</key>
 	<dict>
@@ -137,14 +137,14 @@
 		<integer>0</integer>
 		<key>Tcaron</key>
 		<integer>0</integer>
-		<key>Tcommaaccent</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-12</integer>
 		<key>W</key>
 		<integer>-12</integer>
 		<key>Y</key>
 		<integer>-28</integer>
+		<key>uni021A</key>
+		<integer>0</integer>
 	</dict>
 	<key>Rcaron</key>
 	<dict>
@@ -152,14 +152,14 @@
 		<integer>0</integer>
 		<key>Tcaron</key>
 		<integer>0</integer>
-		<key>Tcommaaccent</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-12</integer>
 		<key>W</key>
 		<integer>-12</integer>
 		<key>Y</key>
 		<integer>-28</integer>
+		<key>uni021A</key>
+		<integer>0</integer>
 	</dict>
 	<key>T</key>
 	<dict>
@@ -209,53 +209,6 @@
 		<integer>-54</integer>
 	</dict>
 	<key>Tcaron</key>
-	<dict>
-		<key>A</key>
-		<integer>-54</integer>
-		<key>Aogonek</key>
-		<integer>-54</integer>
-		<key>O</key>
-		<integer>-12</integer>
-		<key>Ohungarumlaut</key>
-		<integer>-12</integer>
-		<key>a</key>
-		<integer>-54</integer>
-		<key>aogonek</key>
-		<integer>-54</integer>
-		<key>c</key>
-		<integer>-54</integer>
-		<key>colon</key>
-		<integer>-80</integer>
-		<key>comma</key>
-		<integer>-80</integer>
-		<key>e</key>
-		<integer>-54</integer>
-		<key>eogonek</key>
-		<integer>-54</integer>
-		<key>hyphen</key>
-		<integer>-40</integer>
-		<key>i</key>
-		<integer>-12</integer>
-		<key>o</key>
-		<integer>-54</integer>
-		<key>period</key>
-		<integer>-80</integer>
-		<key>r</key>
-		<integer>-40</integer>
-		<key>s</key>
-		<integer>-54</integer>
-		<key>semicolon</key>
-		<integer>-80</integer>
-		<key>space</key>
-		<integer>0</integer>
-		<key>u</key>
-		<integer>-54</integer>
-		<key>w</key>
-		<integer>-54</integer>
-		<key>y</key>
-		<integer>-54</integer>
-	</dict>
-	<key>Tcommaaccent</key>
 	<dict>
 		<key>A</key>
 		<integer>-54</integer>
@@ -474,10 +427,57 @@
 		<integer>0</integer>
 		<key>Tcaron</key>
 		<integer>0</integer>
-		<key>Tcommaaccent</key>
-		<integer>0</integer>
 		<key>Y</key>
 		<integer>-12</integer>
+		<key>uni021A</key>
+		<integer>0</integer>
+	</dict>
+	<key>uni021A</key>
+	<dict>
+		<key>A</key>
+		<integer>-54</integer>
+		<key>Aogonek</key>
+		<integer>-54</integer>
+		<key>O</key>
+		<integer>-12</integer>
+		<key>Ohungarumlaut</key>
+		<integer>-12</integer>
+		<key>a</key>
+		<integer>-54</integer>
+		<key>aogonek</key>
+		<integer>-54</integer>
+		<key>c</key>
+		<integer>-54</integer>
+		<key>colon</key>
+		<integer>-80</integer>
+		<key>comma</key>
+		<integer>-80</integer>
+		<key>e</key>
+		<integer>-54</integer>
+		<key>eogonek</key>
+		<integer>-54</integer>
+		<key>hyphen</key>
+		<integer>-40</integer>
+		<key>i</key>
+		<integer>-12</integer>
+		<key>o</key>
+		<integer>-54</integer>
+		<key>period</key>
+		<integer>-80</integer>
+		<key>r</key>
+		<integer>-40</integer>
+		<key>s</key>
+		<integer>-54</integer>
+		<key>semicolon</key>
+		<integer>-80</integer>
+		<key>space</key>
+		<integer>0</integer>
+		<key>u</key>
+		<integer>-54</integer>
+		<key>w</key>
+		<integer>-54</integer>
+		<key>y</key>
+		<integer>-54</integer>
 	</dict>
 	<key>v</key>
 	<dict>

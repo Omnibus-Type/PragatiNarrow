@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0917094D" format="1">
+  <advance width="314"/>
+  <outline>
+    <contour>
+      <point x="157" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="157" y="0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="385" y="513" type="line"/>
+      <point x="385" y="606" type="line"/>
+      <point x="-33" y="606" type="line"/>
+      <point x="-33" y="513" type="line"/>
+      <point x="173" y="513" type="line"/>
+      <point x="173" y="359" type="line"/>
+      <point x="138" y="359" type="line" smooth="yes"/>
+      <point x="55" y="359"/>
+      <point x="1" y="302"/>
+      <point x="1" y="218" type="curve" smooth="yes"/>
+      <point x="1" y="129"/>
+      <point x="52" y="75"/>
+      <point x="138" y="75" type="curve" smooth="yes"/>
+      <point x="224" y="75"/>
+      <point x="279" y="134"/>
+      <point x="279" y="218" type="curve" smooth="yes"/>
+      <point x="279" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="173" y="265" type="line"/>
+      <point x="173" y="218" type="line" smooth="yes"/>
+      <point x="173" y="188"/>
+      <point x="160" y="169"/>
+      <point x="138" y="169" type="curve" smooth="yes"/>
+      <point x="115" y="169"/>
+      <point x="102" y="186"/>
+      <point x="102" y="218" type="curve" smooth="yes"/>
+      <point x="102" y="245"/>
+      <point x="116" y="265"/>
+      <point x="138" y="265" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>75</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>265</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>1</integer>
+            <integer>101</integer>
+          </array>
+          <array>
+            <integer>173</integer>
+            <integer>106</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

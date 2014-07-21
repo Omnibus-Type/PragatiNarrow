@@ -4,10 +4,31 @@
   <unicode hex="002F"/>
   <outline>
     <contour>
+      <point x="126" y="650" type="line"/>
       <point x="1" y="-43" type="line"/>
       <point x="77" y="-43" type="line"/>
       <point x="202" y="650" type="line"/>
-      <point x="126" y="650" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-43</integer>
+            <integer>693</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>1</integer>
+            <integer>201</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

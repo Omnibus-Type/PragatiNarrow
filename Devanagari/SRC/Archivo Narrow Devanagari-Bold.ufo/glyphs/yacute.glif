@@ -4,15 +4,23 @@
   <unicode hex="00FD"/>
   <outline>
     <contour>
+      <point x="228" y="522" type="line"/>
+      <point x="324" y="636" type="line"/>
+      <point x="323" y="639" type="line"/>
+      <point x="217" y="639" type="line"/>
+      <point x="141" y="522" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="465" type="line"/>
       <point x="293" y="465" type="line"/>
-      <point x="236" y="246" type="line" smooth="yes"/>
+      <point x="236" y="246" type="line"/>
       <point x="225" y="207"/>
       <point x="221" y="165"/>
       <point x="214" y="126" type="curve"/>
       <point x="210" y="126" type="line"/>
       <point x="202" y="166"/>
       <point x="198" y="207"/>
-      <point x="186" y="247" type="curve" smooth="yes"/>
+      <point x="186" y="247" type="curve"/>
       <point x="116" y="465" type="line"/>
       <point x="4" y="465" type="line"/>
       <point x="158" y="0" type="line"/>
@@ -20,21 +28,42 @@
       <point x="117" y="-72"/>
       <point x="87" y="-72" type="curve" smooth="yes"/>
       <point x="39" y="-72" type="line"/>
-      <point x="39" y="-153" type="line" smooth="yes"/>
+      <point x="39" y="-153" type="line"/>
       <point x="39" y="-154"/>
       <point x="65" y="-161"/>
       <point x="108" y="-161" type="curve" smooth="yes"/>
       <point x="197" y="-161"/>
       <point x="243" y="-77"/>
       <point x="272" y="24" type="curve" smooth="yes"/>
-      <point x="400" y="465" type="line"/>
-    </contour>
-    <contour>
-      <point x="217" y="639" type="line"/>
-      <point x="141" y="522" type="line"/>
-      <point x="228" y="522" type="line"/>
-      <point x="324" y="636" type="line"/>
-      <point x="323" y="639" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-161</integer>
+            <integer>89</integer>
+          </array>
+          <array>
+            <integer>465</integer>
+            <integer>-20</integer>
+          </array>
+          <array>
+            <integer>522</integer>
+            <integer>117</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>4</integer>
+            <integer>396</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

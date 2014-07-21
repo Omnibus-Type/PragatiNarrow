@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="evowelsigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0947"/>
+  <outline>
+    <contour>
+      <point x="-103" y="606" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-76" y="606" type="line"/>
+      <point x="-135" y="821" type="line"/>
+      <point x="-208" y="821" type="line"/>
+      <point x="-140" y="606" type="line"/>
+      <point x="-148" y="606" type="line"/>
+      <point x="-148" y="541" type="line"/>
+      <point x="-67" y="541" type="line"/>
+      <point x="-67" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-148</integer>
+            <integer>81</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nnnadeva" format="1">
+  <advance width="535"/>
+  <outline>
+    <contour>
+      <point x="557" y="513" type="line"/>
+      <point x="557" y="606" type="line"/>
+      <point x="-34" y="606" type="line"/>
+      <point x="-34" y="513" type="line"/>
+      <point x="359" y="513" type="line"/>
+      <point x="359" y="381" type="line"/>
+      <point x="142" y="381" type="line" smooth="yes"/>
+      <point x="59" y="381"/>
+      <point x="5" y="326"/>
+      <point x="5" y="244" type="curve" smooth="yes"/>
+      <point x="5" y="158"/>
+      <point x="56" y="106"/>
+      <point x="142" y="106" type="curve" smooth="yes"/>
+      <point x="228" y="106"/>
+      <point x="283" y="163"/>
+      <point x="283" y="244" type="curve" smooth="yes"/>
+      <point x="283" y="288" type="line"/>
+      <point x="359" y="288" type="line"/>
+      <point x="359" y="0" type="line"/>
+      <point x="465" y="0" type="line"/>
+      <point x="465" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="177" y="288" type="line"/>
+      <point x="177" y="244" type="line" smooth="yes"/>
+      <point x="177" y="220"/>
+      <point x="164" y="200"/>
+      <point x="142" y="200" type="curve" smooth="yes"/>
+      <point x="121" y="200"/>
+      <point x="106" y="218"/>
+      <point x="106" y="244" type="curve" smooth="yes"/>
+      <point x="106" y="269"/>
+      <point x="121" y="288"/>
+      <point x="142" y="288" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="171" y="53" type="line"/>
+      <point x="171" y="-30" type="line"/>
+      <point x="270" y="-30" type="line"/>
+      <point x="270" y="53" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>53</integer>
+          </array>
+          <array>
+            <integer>106</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>288</integer>
+            <integer>93</integer>
+          </array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+          <array>
+            <integer>-30</integer>
+            <integer>83</integer>
+          </array>
+        </array>
+        <key>replaceTable</key>
+        <array>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>20</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>21</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>4</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>23</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>5</integer>
+            <integer>101</integer>
+          </array>
+          <array>
+            <integer>177</integer>
+            <integer>106</integer>
+          </array>
+          <array>
+            <integer>359</integer>
+            <integer>106</integer>
+          </array>
+          <array>
+            <integer>171</integer>
+            <integer>99</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

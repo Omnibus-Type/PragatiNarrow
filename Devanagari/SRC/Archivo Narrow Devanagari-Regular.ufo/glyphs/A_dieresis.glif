@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis" format="1">
+  <advance width="484"/>
+  <unicode hex="00C4"/>
+  <outline>
+    <contour>
+      <point x="214" y="697" type="line"/>
+      <point x="214" y="781" type="line"/>
+      <point x="137" y="781" type="line"/>
+      <point x="137" y="697" type="line"/>
+    </contour>
+    <contour>
+      <point x="347" y="697" type="line"/>
+      <point x="347" y="781" type="line"/>
+      <point x="270" y="781" type="line"/>
+      <point x="270" y="697" type="line"/>
+    </contour>
+    <contour>
+      <point x="484" y="0" type="line"/>
+      <point x="292" y="606" type="line"/>
+      <point x="192" y="606" type="line"/>
+      <point x="-1" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="118" y="135" type="line"/>
+      <point x="359" y="135" type="line"/>
+      <point x="400" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="240" y="543" type="line"/>
+      <point x="240" y="543"/>
+      <point x="248" y="496"/>
+      <point x="255" y="476" type="curve"/>
+      <point x="337" y="206" type="line"/>
+      <point x="140" y="206" type="line"/>
+      <point x="223" y="476" type="line" smooth="yes"/>
+      <point x="229" y="495"/>
+      <point x="237" y="543"/>
+      <point x="237" y="543" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>135</integer>
+            <integer>71</integer>
+          </array>
+          <array>
+            <integer>543</integer>
+            <integer>63</integer>
+          </array>
+          <array>
+            <integer>697</integer>
+            <integer>84</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>137</integer>
+            <integer>77</integer>
+          </array>
+          <array>
+            <integer>270</integer>
+            <integer>77</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

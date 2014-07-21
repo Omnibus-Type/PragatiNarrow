@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-17" y="606" type="move" name="_anusvara"/>
+    </contour>
+    <contour>
+      <point x="-97" y="606" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="19" y="644" type="line"/>
+      <point x="19" y="721" type="line"/>
+      <point x="-54" y="721" type="line"/>
+      <point x="-54" y="644" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>644</integer>
+            <integer>77</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-54</integer>
+            <integer>73</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eMatra_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-101" y="606" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-74" y="606" type="line"/>
+      <point x="-133" y="821" type="line"/>
+      <point x="-206" y="821" type="line"/>
+      <point x="-138" y="606" type="line"/>
+      <point x="-146" y="606" type="line"/>
+      <point x="-146" y="541" type="line"/>
+      <point x="-65" y="541" type="line"/>
+      <point x="-65" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="15" y="684" type="line"/>
+      <point x="15" y="761" type="line"/>
+      <point x="-59" y="761" type="line"/>
+      <point x="-59" y="684" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>684</integer>
+            <integer>77</integer>
+          </array>
+        </array>
+        <key>replaceTable</key>
+        <array>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>8</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-146</integer>
+            <integer>81</integer>
+          </array>
+          <array>
+            <integer>-59</integer>
+            <integer>74</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

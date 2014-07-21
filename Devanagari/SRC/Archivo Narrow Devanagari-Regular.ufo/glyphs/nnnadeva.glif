@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nnnadeva" format="1">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="478" y="541" type="line"/>
+      <point x="478" y="606" type="line"/>
+      <point x="-33" y="606" type="line"/>
+      <point x="-33" y="541" type="line"/>
+      <point x="316" y="541" type="line"/>
+      <point x="316" y="366" type="line"/>
+      <point x="114" y="366" type="line" smooth="yes"/>
+      <point x="46" y="366"/>
+      <point x="-1" y="322"/>
+      <point x="-1" y="255" type="curve" smooth="yes"/>
+      <point x="-1" y="191"/>
+      <point x="49" y="144"/>
+      <point x="115" y="144" type="curve" smooth="yes"/>
+      <point x="182" y="144"/>
+      <point x="228" y="189"/>
+      <point x="228" y="255" type="curve" smooth="yes"/>
+      <point x="228" y="300" type="line"/>
+      <point x="316" y="300" type="line"/>
+      <point x="316" y="0" type="line"/>
+      <point x="389" y="0" type="line"/>
+      <point x="389" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="156" y="300" type="line"/>
+      <point x="156" y="255" type="line" smooth="yes"/>
+      <point x="156" y="228"/>
+      <point x="140" y="209"/>
+      <point x="115" y="209" type="curve" smooth="yes"/>
+      <point x="91" y="209"/>
+      <point x="72" y="229"/>
+      <point x="72" y="255" type="curve" smooth="yes"/>
+      <point x="72" y="282"/>
+      <point x="90" y="300"/>
+      <point x="114" y="300" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="223" y="-1" type="line"/>
+      <point x="223" y="76" type="line"/>
+      <point x="150" y="76" type="line"/>
+      <point x="150" y="-1" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-1</integer>
+            <integer>77</integer>
+          </array>
+          <array>
+            <integer>144</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>300</integer>
+            <integer>66</integer>
+          </array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>replaceTable</key>
+        <array>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>20</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>2</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>3</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-1</integer>
+            <integer>73</integer>
+          </array>
+          <array>
+            <integer>156</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>316</integer>
+            <integer>73</integer>
+          </array>
+          <array>
+            <integer>150</integer>
+            <integer>73</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

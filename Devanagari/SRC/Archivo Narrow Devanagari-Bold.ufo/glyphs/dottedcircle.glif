@@ -86,10 +86,31 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-4</integer>
+            <integer>38</integer>
+          </array>
+          <array>
+            <integer>391</integer>
+            <integer>38</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>38</integer>
+          </array>
+          <array>
+            <integer>400</integer>
+            <integer>38</integer>
+          </array>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

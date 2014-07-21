@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ycircumflex" format="1">
+  <advance width="484"/>
+  <unicode hex="0176"/>
+  <outline>
+    <contour>
+      <point x="352" y="660" type="line"/>
+      <point x="277" y="780" type="line"/>
+      <point x="208" y="780" type="line"/>
+      <point x="132" y="660" type="line"/>
+      <point x="202" y="660" type="line"/>
+      <point x="242" y="730" type="line"/>
+      <point x="281" y="660" type="line"/>
+    </contour>
+    <contour>
+      <point x="281" y="251" type="line"/>
+      <point x="476" y="606" type="line"/>
+      <point x="401" y="606" type="line"/>
+      <point x="250" y="325" type="line"/>
+      <point x="247" y="325" type="line"/>
+      <point x="93" y="606" type="line"/>
+      <point x="7" y="606" type="line"/>
+      <point x="203" y="251" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="281" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>606</integer>
+            <integer>-20</integer>
+          </array>
+          <array>
+            <integer>660</integer>
+            <integer>120</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>203</integer>
+            <integer>78</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

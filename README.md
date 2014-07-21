@@ -1,10 +1,11 @@
-# Archivo Narrow-Devanagari
+# Archivo Narrow-Devanagari (*work in progress*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
 
+Archivo Narrow Devanagari is being developed from Archivo Narrow. This new font is still under development. Week by week we are working hard to create new Devanagari glyphs to complete a set of Devanagari glyphs based on [Lohit2](https://github.com/pravins/lohit2/tree/master/devanagari)
 
-Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
+Previously Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
 
 Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://omnibus-type.com/). It was originally designed for highlights and headlines. This family is reminiscent of late nineteenth century American typefaces. It includes Narrow and Black styles, and was derived from Chivo.
 
@@ -35,6 +36,7 @@ Archivo Narrow was designed to be used simultaneously in print and digital platf
 
 ### Archivo is a typeface family that supports Unicode language range: 
 
+* Devanagari (153 glyphs) *work in progress*
 * Basic Latin (95 glyphs),
 * Latin-1 Supplement (96 glyphs),
 * Latin Extended-A (128 glyphs),
@@ -53,13 +55,17 @@ Archivo Narrow was designed to be used simultaneously in print and digital platf
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**20 June 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*work in progress*)**
+– New vertical metrics in Latin glyphs to match Devanagari writing system
+- New Devanagari glyphs (partial range: 0900-097F)
+
 **23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
-- Fix Name Table (Thanks Dave Crossland for his technical input.)
-- Updating hinting with ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G" -W
+- Fixed Name Table (Thanks to Dave Crossland for his technical input.)
+- Updated hinting with ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G" -W
 
 **02 October 2012 (Omnibus Type) Archivo Narrow v1.002**
-- Fix encoding Tables and index (Thanks Theunis de Jong for his technical input.)
-- Fix TTF Naming Tables
+- Fixed encoding Tables and index (Thanks to Theunis de Jong for his technical input.)
+- Fixed TTF Naming Tables
 
 **22 August 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Initial release under SIL Open Font License

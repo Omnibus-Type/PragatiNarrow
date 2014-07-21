@@ -269,53 +269,81 @@ uni093E	aaMatradeva	uni093E
 uni094C	auMatradeva	uni094C
 uni093F	iMatradeva	uni093F
 uni0940	iiMatradeva	uni0940
+ocandravowelsigndeva	oCandraMatradeva	uni0949
 ovowelsigndeva	oMatradeva	uni094B
 uni094A	oShortMatradeva	uni094A
 adeva	adeva	uni0905
+uni0972	aCandradeva	uni0972
 uni0904	aShortdeva	uni0904
 aadeva	aadeva	uni0906
 aideva	aideva	uni0910
 audeva	audeva	uni0914
 uni092C	badeva	uni092C
+uni097F	bbadeva	uni097F
 bhadeva	bhadeva	uni092D
 cadeva	cadeva	uni091A
 chadeva	chadeva	uni091B
 dadeva	dadeva	uni0926
 ddadeva	ddadeva	uni0921
+uni097E	dddadeva	uni097E
 ddhadeva	ddhadeva	uni0922
 dhadeva	dhadeva	uni0927
 edeva	edeva	uni090F
+ecandradeva	eCandradeva	uni090D
 eshortdeva	eShortdeva	uni090E
 gadeva	gadeva	uni0917
+uni097B	ggadeva	uni097B
 ghadeva	ghadeva	uni0918
+hadeva	hadeva	uni0939
 ideva	ideva	uni0907
 iideva	iideva	uni0908
+jadeva	jadeva	uni091C
+jhadeva	jhadeva	uni091D
+uni097C	jjadeva	uni097C
 kadeva	kadeva	uni0915
 khadeva	khadeva	uni0916
+lvocalicdeva	lVocalicdeva	uni090C
+uni0932	ladeva	uni0932
+llvocalicdeva	llVocalicdeva	uni0961
 lladeva	lladeva	uni0933
 madeva	madeva	uni092E
 nadeva	nadeva	uni0928
 ngadeva	ngadeva	uni0919
 nnadeva	nnadeva	uni0923
+nyadeva	nyadeva	uni091E
 odeva	odeva	uni0913
+ocandradeva	oCandradeva	uni0911
 oshortdeva	oShortdeva	uni0912
 padeva	padeva	uni092A
 uni092B	phadeva	uni092B
+rvocalicdeva	rVocalicdeva	uni090B
 uni0930	radeva	uni0930
+rrvocalicdeva	rrVocalicdeva	uni0960
 rradeva	rradeva	uni0931
 sadeva	sadeva	uni0938
+shadeva	shadeva	uni0936
 ssadeva	ssadeva	uni0937
 tadeva	tadeva	uni0924
 thadeva	thadeva	uni0925
 ttadeva	ttadeva	uni091F
 tthadeva	tthadeva	uni0920
+udeva	udeva	uni0909
 vadeva	vadeva	uni0935
 uni092F	yadeva	uni092F
 auMatra_anusvaradeva	auMatra_anusvaradeva
 uni094C_rephdeva	auMatra_rephdeva
 auMatra_reph_anusvaradeva	auMatra_reph_anusvaradeva
+uni092C094D0930	b_radeva
+uni092D094D0930	bh_radeva
 uni0921094D_ddadeva	dd_ddadeva
 uni0921094D_ddadeva_uuvowelsigndeva	dd_dda_uuMatradeva
+iMatra_anusvaradeva	iMatra_anusvaradeva
+uni093F_rephdeva	iMatra_rephdeva
+iMatra_reph_anusvaradeva	iMatra_reph_anusvaradeva
+iiMatra_anusvaradeva	iiMatra_anusvaradeva
+uni0940_rephdeva	iiMatra_rephdeva
+iiMatra_reph_anusvaradeva	iiMatra_reph_anusvaradeva
+uni091C094D_nyadeva	j_nyadeva
 kadeva_uvowelsigndeva	ka_uMatradeva
 kadeva_uuvowelsigndeva	ka_uuMatradeva
 oMatra_anusvaradeva	oMatra_anusvaradeva
@@ -323,10 +351,42 @@ ovowelsigndeva_rephdeva	oMatra_rephdeva
 oMatra_reph_anusvaradeva	oMatra_reph_anusvaradeva
 uni092B_uvowelsigndeva	pha_uMatradeva
 uni092B_uuvowelsigndeva	pha_uuMatradeva
+uni092C094D	bdeva
+uni092D094D	bhdeva
+uni091A094D	cdeva
+uni091B094D	chdeva
+uni0926094D	ddeva
 uni0921094D	dddeva
+uni0922094D	ddhdeva
+uni0927094D	dhdeva
+uni0917094D	gdeva
+uni0918094D	ghdeva
+uni0939094D	hdeva
+uni091C094D	jdeva
+uni091D094D	jhdeva
+uni0915094D	kdeva
+uni0916094D	khdeva
+uni0932094D	ldeva
+uni0933094D	lldeva
 uni092E094D	mdeva
+uni0928094D	ndeva
+uni0919094D	ngdeva
+uni0923094D	nndeva
+uni091E094D	nydeva
 uni092A094D	pdeva
+uni092B094D	phdeva
+uni0931094D	rrdeva
+uni0938094D	sdeva
+uni0936094D	shdeva
+uni0937094D	ssdeva
+uni0924094D	tdeva
+uni0925094D	thdeva
+uni091F094D	ttdeva
+uni0920094D	tthdeva
 uni0935094D	vdeva
+uni092F094D	ydeva
+uni091D094D.NEP	jhdeva.NEP
+jhadeva.NEP	jhadeva.NEP
 zero	zero	uni0030
 one	one	uni0031
 two	two	uni0032
@@ -470,12 +530,16 @@ arrowupdownbase	arrowupdownbase	uni21A8
 dottedcircle	dottedcircle	uni25CC
 lozenge	lozenge	uni25CA
 aivowelsigndeva	aiMatradeva	uni0948
+candrabindudeva	candraBindudeva	uni0901
 commaaccentcomb	commaaccent	uni0326
+ecandravowelsigndeva	eCandraMatradeva	uni0945
 evowelsigndeva	eMatradeva	uni0947
 eshortvowelsigndeva	eShortMatradeva	uni0946
 viramadeva	halantdeva	uni094D
 nuktadeva	nuktadeva	uni093C
+rvocalicvowelsigndeva	rVocalicMatradeva	uni0943
 rephdeva	rephdeva
+rrvocalicvowelsigndeva	rrVocalicMatradeva	uni0944
 uvowelsigndeva	uMatradeva	uni0941
 uuvowelsigndeva	uuMatradeva	uni0942
 firsttonechinese	firsttonechinese	uni02C9
@@ -510,3 +574,4 @@ nnnadeva	nnnadeva
 qadeva	qadeva
 rhadeva	rhadeva
 yyadeva	yyadeva
+zadeva	zadeva

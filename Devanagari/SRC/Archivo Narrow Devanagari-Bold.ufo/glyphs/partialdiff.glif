@@ -35,6 +35,7 @@
       <point x="83" y="624" type="curve"/>
     </contour>
     <contour>
+      <point x="219" y="311" type="curve" smooth="yes"/>
       <point x="258" y="311"/>
       <point x="283" y="276"/>
       <point x="291" y="247" type="curve"/>
@@ -46,7 +47,39 @@
       <point x="142" y="178" type="curve" smooth="yes"/>
       <point x="142" y="250"/>
       <point x="176" y="311"/>
-      <point x="219" y="311" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-11</integer>
+            <integer>91</integer>
+          </array>
+          <array>
+            <integer>311</integer>
+            <integer>86</integer>
+          </array>
+          <array>
+            <integer>562</integer>
+            <integer>88</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>32</integer>
+            <integer>110</integer>
+          </array>
+          <array>
+            <integer>298</integer>
+            <integer>105</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

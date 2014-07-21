@@ -4,54 +4,54 @@
   <unicode hex="25CC"/>
   <outline>
     <contour>
-      <point x="107" y="354" type="line"/>
-      <point x="134" y="375"/>
-      <point x="165" y="387"/>
-      <point x="201" y="391" type="curve"/>
       <point x="201" y="429" type="line"/>
       <point x="156" y="425"/>
       <point x="116" y="409"/>
       <point x="79" y="379" type="curve"/>
+      <point x="107" y="354" type="line"/>
+      <point x="134" y="375"/>
+      <point x="165" y="387"/>
+      <point x="201" y="391" type="curve"/>
     </contour>
     <contour>
-      <point x="360" y="379" type="line"/>
-      <point x="324" y="409"/>
-      <point x="282" y="425"/>
-      <point x="238" y="429" type="curve"/>
       <point x="238" y="391" type="line"/>
       <point x="273" y="387"/>
       <point x="304" y="375"/>
       <point x="332" y="354" type="curve"/>
+      <point x="360" y="379" type="line"/>
+      <point x="324" y="409"/>
+      <point x="282" y="425"/>
+      <point x="238" y="429" type="curve"/>
     </contour>
     <contour>
-      <point x="38" y="234" type="line"/>
-      <point x="42" y="270"/>
-      <point x="56" y="301"/>
-      <point x="78" y="326" type="curve"/>
       <point x="51" y="354" type="line"/>
       <point x="20" y="318"/>
       <point x="4" y="278"/>
       <point x="0" y="234" type="curve"/>
+      <point x="38" y="234" type="line"/>
+      <point x="42" y="270"/>
+      <point x="56" y="301"/>
+      <point x="78" y="326" type="curve"/>
     </contour>
     <contour>
-      <point x="438" y="234" type="line"/>
-      <point x="434" y="279"/>
-      <point x="416" y="320"/>
-      <point x="386" y="354" type="curve"/>
       <point x="360" y="327" type="line"/>
       <point x="383" y="301"/>
       <point x="397" y="271"/>
       <point x="400" y="234" type="curve"/>
+      <point x="438" y="234" type="line"/>
+      <point x="434" y="279"/>
+      <point x="416" y="320"/>
+      <point x="386" y="354" type="curve"/>
     </contour>
     <contour>
-      <point x="75" y="102" type="line"/>
-      <point x="53" y="131"/>
-      <point x="41" y="163"/>
-      <point x="38" y="199" type="curve"/>
       <point x="0" y="199" type="line"/>
       <point x="4" y="149"/>
       <point x="20" y="108"/>
       <point x="49" y="74" type="curve"/>
+      <point x="75" y="102" type="line"/>
+      <point x="53" y="131"/>
+      <point x="41" y="163"/>
+      <point x="38" y="199" type="curve"/>
     </contour>
     <contour>
       <point x="400" y="199" type="line"/>
@@ -64,14 +64,14 @@
       <point x="438" y="199" type="curve"/>
     </contour>
     <contour>
-      <point x="201" y="34" type="line"/>
-      <point x="164" y="37"/>
-      <point x="130" y="51"/>
-      <point x="100" y="74" type="curve"/>
       <point x="75" y="49" type="line"/>
       <point x="114" y="17"/>
       <point x="156" y="0"/>
       <point x="201" y="-4" type="curve"/>
+      <point x="201" y="34" type="line"/>
+      <point x="164" y="37"/>
+      <point x="130" y="51"/>
+      <point x="100" y="74" type="curve"/>
     </contour>
     <contour>
       <point x="337" y="74" type="line"/>
@@ -86,10 +86,31 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-4</integer>
+            <integer>38</integer>
+          </array>
+          <array>
+            <integer>391</integer>
+            <integer>38</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>38</integer>
+          </array>
+          <array>
+            <integer>400</integer>
+            <integer>38</integer>
+          </array>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

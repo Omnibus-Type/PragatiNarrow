@@ -4,16 +4,98 @@
   <unicode hex="02C6"/>
   <outline>
     <contour>
-      <point x="158" y="519" type="line"/>
+      <point x="119" y="465" type="move" name="_top"/>
+    </contour>
+    <contour>
       <point x="229" y="519" type="line"/>
       <point x="154" y="638" type="line"/>
       <point x="85" y="638" type="line"/>
       <point x="9" y="519" type="line"/>
       <point x="80" y="519" type="line"/>
       <point x="119" y="589" type="line"/>
-    </contour>
-    <contour>
-      <point x="119" y="465" type="move" name="_top"/>
+      <point x="158" y="519" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>519</integer>
+            <integer>119</integer>
+          </array>
+          <array>
+            <integer>589</integer>
+            <integer>49</integer>
+          </array>
+        </array>
+        <key>replaceTable</key>
+        <array>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>5</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>6</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>9</integer>
+            <integer>220</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
