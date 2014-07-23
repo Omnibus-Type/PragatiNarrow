@@ -65,16 +65,16 @@ This information should be distributed along with the Archivo fonts and any deri
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
 **20 June 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*work in progress*)**
-1. New vertical metrics in Latin glyphs to match Devanagari writing system
-2. New Devanagari glyphs (partial range: 0900-097F)
+- New vertical metrics in Latin glyphs to match Devanagari writing system
+- New Devanagari glyphs (partial range: 0900-097F)
 
 **23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
-1. Fixed Name Table (Thanks to Dave Crossland for his technical input.)
-2. Updated hinting with ttfautohint (v0.95) with the follow values: `ttfautohint -l 8 -r 50 -G 200 -x 14 -w "G" -W [IN-FILE [OUT-FILE]]`
+- Fixed Name Table (Thanks to Dave Crossland @davelab6 for his technical input.)
+- Updated hinting with ttfautohint (v0.95) with the follow values: `ttfautohint -l 8 -r 50 -G 200 -x 14 -w "G" -W [IN-FILE [OUT-FILE]]`
 
 **02 October 2012 (Omnibus Type) Archivo Narrow v1.002**
-1. Fixed encoding Tables and index (Thanks to Theunis de Jong for his technical input.)
-2. Fixed TTF Naming Tables
+- Fixed encoding Tables and index (Thanks to Theunis de Jong for his technical input.)
+- Fixed TTF Naming Tables
 
 **22 August 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Initial release under SIL Open Font License
