@@ -12,7 +12,7 @@ Previously Archivo Narrow was designed to be used simultaneously in print and di
 
 Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://omnibus-type.com/). It was originally designed for highlights and headlines. This family is reminiscent of late nineteenth century American typefaces. It includes Narrow and Black styles, and was derived from Chivo.
 
-**Development state**
+**Development progress**
 - [x] Sketching and Key design
 - [x] Metrics and Key design
 - [x] Letters
