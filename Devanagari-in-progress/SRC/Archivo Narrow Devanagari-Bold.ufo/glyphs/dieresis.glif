@@ -7,41 +7,16 @@
       <point x="121" y="465" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-1" y="639" type="line"/>
-      <point x="-1" y="543" type="line"/>
-      <point x="88" y="543" type="line"/>
-      <point x="88" y="639" type="line"/>
-    </contour>
-    <contour>
-      <point x="154" y="639" type="line"/>
       <point x="154" y="543" type="line"/>
       <point x="242" y="543" type="line"/>
       <point x="242" y="639" type="line"/>
+      <point x="154" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1" y="543" type="line"/>
+      <point x="88" y="543" type="line"/>
+      <point x="88" y="639" type="line"/>
+      <point x="-1" y="639" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>543</integer>
-            <integer>96</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>-1</integer>
-            <integer>89</integer>
-          </array>
-          <array>
-            <integer>154</integer>
-            <integer>88</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

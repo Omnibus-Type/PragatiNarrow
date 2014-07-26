@@ -4,28 +4,13 @@
   <unicode hex="00E3"/>
   <outline>
     <contour>
-      <point x="282" y="639" type="line"/>
-      <point x="278" y="614"/>
-      <point x="266" y="606"/>
-      <point x="248" y="606" type="curve" smooth="yes"/>
-      <point x="208" y="606"/>
-      <point x="173" y="639"/>
-      <point x="130" y="639" type="curve" smooth="yes"/>
-      <point x="68" y="639"/>
-      <point x="43" y="580"/>
-      <point x="43" y="531" type="curve"/>
-      <point x="102" y="531" type="line"/>
-      <point x="105" y="555"/>
-      <point x="118" y="564"/>
-      <point x="136" y="564" type="curve" smooth="yes"/>
-      <point x="176" y="564"/>
-      <point x="210" y="531"/>
-      <point x="253" y="531" type="curve" smooth="yes"/>
-      <point x="316" y="531"/>
-      <point x="340" y="591"/>
-      <point x="340" y="639" type="curve"/>
-    </contour>
-    <contour>
+      <point x="192" y="476" type="curve" smooth="yes"/>
+      <point x="96" y="476"/>
+      <point x="34" y="424"/>
+      <point x="34" y="347" type="curve" smooth="yes"/>
+      <point x="34" y="339"/>
+      <point x="34" y="332"/>
+      <point x="35" y="327" type="curve"/>
       <point x="139" y="327" type="line"/>
       <point x="139" y="340" type="line" smooth="yes"/>
       <point x="139" y="362"/>
@@ -59,16 +44,9 @@
       <point x="350" y="339" type="line" smooth="yes"/>
       <point x="350" y="425"/>
       <point x="300" y="476"/>
-      <point x="192" y="476" type="curve" smooth="yes"/>
-      <point x="96" y="476"/>
-      <point x="34" y="424"/>
-      <point x="34" y="347" type="curve" smooth="yes"/>
-      <point x="34" y="339"/>
-      <point x="34" y="332"/>
-      <point x="35" y="327" type="curve"/>
     </contour>
     <contour>
-      <point x="243" y="179" type="line" smooth="yes"/>
+      <point x="243" y="179" type="line"/>
       <point x="243" y="125"/>
       <point x="224" y="78"/>
       <point x="173" y="78" type="curve" smooth="yes"/>
@@ -79,389 +57,27 @@
       <point x="181" y="206"/>
       <point x="243" y="206" type="curve"/>
     </contour>
+    <contour>
+      <point x="282" y="639" type="line"/>
+      <point x="278" y="614"/>
+      <point x="266" y="606"/>
+      <point x="248" y="606" type="curve" smooth="yes"/>
+      <point x="208" y="606"/>
+      <point x="173" y="639"/>
+      <point x="130" y="639" type="curve" smooth="yes"/>
+      <point x="68" y="639"/>
+      <point x="43" y="580"/>
+      <point x="43" y="531" type="curve"/>
+      <point x="102" y="531" type="line"/>
+      <point x="105" y="555"/>
+      <point x="118" y="564"/>
+      <point x="136" y="564" type="curve" smooth="yes"/>
+      <point x="176" y="564"/>
+      <point x="210" y="531"/>
+      <point x="253" y="531" type="curve" smooth="yes"/>
+      <point x="316" y="531"/>
+      <point x="340" y="591"/>
+      <point x="340" y="639" type="curve"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>-11</integer>
-            <integer>89</integer>
-          </array>
-          <array>
-            <integer>206</integer>
-            <integer>77</integer>
-          </array>
-          <array>
-            <integer>389</integer>
-            <integer>87</integer>
-          </array>
-          <array>
-            <integer>564</integer>
-            <integer>75</integer>
-          </array>
-          <array>
-            <integer>531</integer>
-            <integer>75</integer>
-          </array>
-        </array>
-        <key>replaceTable</key>
-        <array>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>3</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>5</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>3</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>6</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>7</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>3</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>13</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>24</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>28</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>12</integer>
-            <integer>109</integer>
-          </array>
-          <array>
-            <integer>243</integer>
-            <integer>107</integer>
-          </array>
-          <array>
-            <integer>34</integer>
-            <integer>105</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

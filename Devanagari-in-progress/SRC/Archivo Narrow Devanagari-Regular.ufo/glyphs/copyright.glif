@@ -6,104 +6,59 @@
     <contour>
       <point x="267" y="617" type="curve" smooth="yes"/>
       <point x="112" y="617"/>
-      <point x="19" y="494"/>
-      <point x="19" y="303" type="curve" smooth="yes"/>
-      <point x="19" y="112"/>
+      <point x="20" y="494"/>
+      <point x="20" y="303" type="curve" smooth="yes"/>
+      <point x="20" y="112"/>
       <point x="112" y="-11"/>
       <point x="267" y="-11" type="curve" smooth="yes"/>
-      <point x="422" y="-11"/>
-      <point x="515" y="112"/>
-      <point x="515" y="303" type="curve" smooth="yes"/>
-      <point x="515" y="494"/>
-      <point x="422" y="617"/>
+      <point x="421" y="-11"/>
+      <point x="513" y="112"/>
+      <point x="513" y="303" type="curve" smooth="yes"/>
+      <point x="513" y="494"/>
+      <point x="421" y="617"/>
     </contour>
     <contour>
-      <point x="267" y="575" type="curve" smooth="yes"/>
-      <point x="396" y="575"/>
-      <point x="475" y="469"/>
-      <point x="475" y="303" type="curve" smooth="yes"/>
-      <point x="475" y="138"/>
-      <point x="396" y="31"/>
-      <point x="267" y="31" type="curve" smooth="yes"/>
-      <point x="138" y="31"/>
-      <point x="59" y="138"/>
-      <point x="59" y="303" type="curve" smooth="yes"/>
-      <point x="59" y="469"/>
-      <point x="138" y="575"/>
+      <point x="269" y="494" type="curve" smooth="yes"/>
+      <point x="176" y="494"/>
+      <point x="129" y="433"/>
+      <point x="129" y="309" type="curve" smooth="yes"/>
+      <point x="129" y="186"/>
+      <point x="176" y="124"/>
+      <point x="269" y="124" type="curve" smooth="yes"/>
+      <point x="340" y="124"/>
+      <point x="391" y="165"/>
+      <point x="391" y="257" type="curve"/>
+      <point x="350" y="257" type="line"/>
+      <point x="350" y="195"/>
+      <point x="317" y="164"/>
+      <point x="269" y="164" type="curve" smooth="yes"/>
+      <point x="204" y="164"/>
+      <point x="173" y="207"/>
+      <point x="173" y="296" type="curve" smooth="yes"/>
+      <point x="173" y="324" type="line" smooth="yes"/>
+      <point x="173" y="413"/>
+      <point x="205" y="454"/>
+      <point x="269" y="454" type="curve" smooth="yes"/>
+      <point x="317" y="454"/>
+      <point x="348" y="424"/>
+      <point x="348" y="361" type="curve"/>
+      <point x="391" y="361" type="line"/>
+      <point x="391" y="450"/>
+      <point x="341" y="494"/>
     </contour>
     <contour>
-      <point x="344" y="257" type="line"/>
-      <point x="344" y="198"/>
-      <point x="314" y="169"/>
-      <point x="269" y="169" type="curve" smooth="yes"/>
-      <point x="209" y="169"/>
-      <point x="180" y="211"/>
-      <point x="180" y="295" type="curve" smooth="yes"/>
-      <point x="180" y="322" type="line" smooth="yes"/>
-      <point x="180" y="406"/>
-      <point x="209" y="447"/>
-      <point x="269" y="447" type="curve" smooth="yes"/>
-      <point x="313" y="447"/>
-      <point x="342" y="418"/>
-      <point x="342" y="358" type="curve"/>
-      <point x="393" y="358" type="line"/>
-      <point x="393" y="449"/>
-      <point x="341" y="493"/>
-      <point x="269" y="493" type="curve" smooth="yes"/>
-      <point x="176" y="493"/>
-      <point x="128" y="432"/>
-      <point x="128" y="308" type="curve" smooth="yes"/>
-      <point x="128" y="184"/>
-      <point x="176" y="123"/>
-      <point x="269" y="123" type="curve" smooth="yes"/>
-      <point x="341" y="123"/>
-      <point x="393" y="165"/>
-      <point x="393" y="257" type="curve"/>
+      <point x="267" y="577" type="curve" smooth="yes"/>
+      <point x="397" y="577"/>
+      <point x="477" y="470"/>
+      <point x="477" y="303" type="curve" smooth="yes"/>
+      <point x="477" y="137"/>
+      <point x="397" y="29"/>
+      <point x="267" y="29" type="curve" smooth="yes"/>
+      <point x="138" y="29"/>
+      <point x="58" y="137"/>
+      <point x="58" y="303" type="curve" smooth="yes"/>
+      <point x="58" y="470"/>
+      <point x="138" y="577"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>-11</integer>
-            <integer>42</integer>
-          </array>
-          <array>
-            <integer>123</integer>
-            <integer>46</integer>
-          </array>
-          <array>
-            <integer>447</integer>
-            <integer>46</integer>
-          </array>
-          <array>
-            <integer>575</integer>
-            <integer>42</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>19</integer>
-            <integer>40</integer>
-          </array>
-          <array>
-            <integer>128</integer>
-            <integer>52</integer>
-          </array>
-          <array>
-            <integer>344</integer>
-            <integer>49</integer>
-          </array>
-          <array>
-            <integer>475</integer>
-            <integer>40</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

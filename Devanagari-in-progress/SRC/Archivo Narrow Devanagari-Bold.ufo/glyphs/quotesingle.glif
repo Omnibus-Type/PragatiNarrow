@@ -4,54 +4,12 @@
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="122" y="360" type="line"/>
       <point x="141" y="476" type="line"/>
       <point x="141" y="606" type="line"/>
       <point x="33" y="606" type="line"/>
       <point x="33" y="476" type="line"/>
       <point x="52" y="360" type="line"/>
+      <point x="122" y="360" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>360</integer>
-            <integer>246</integer>
-          </array>
-        </array>
-        <key>replaceTable</key>
-        <array>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>33</integer>
-            <integer>108</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

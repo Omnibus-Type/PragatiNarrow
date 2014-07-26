@@ -10,35 +10,10 @@
       <point x="101" y="606" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="140" y="0" type="line"/>
-      <point x="140" y="606" type="line"/>
-      <point x="62" y="606" type="line"/>
-      <point x="62" y="0" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="135" y="0" type="line"/>
+      <point x="135" y="606" type="line"/>
+      <point x="67" y="606" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>21</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>606</integer>
-            <integer>-20</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>62</integer>
-            <integer>78</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

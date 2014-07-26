@@ -7,41 +7,16 @@
       <point x="181" y="465" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="327" y="431" type="line"/>
-      <point x="327" y="465" type="line"/>
-      <point x="37" y="465" type="line"/>
-      <point x="37" y="400" type="line"/>
-      <point x="227" y="400" type="line"/>
-      <point x="23" y="34" type="line"/>
-      <point x="23" y="0" type="line"/>
-      <point x="339" y="0" type="line"/>
-      <point x="339" y="65" type="line"/>
-      <point x="122" y="65" type="line"/>
+      <point x="111" y="58" type="line"/>
+      <point x="323" y="434" type="line"/>
+      <point x="323" y="465" type="line"/>
+      <point x="40" y="465" type="line"/>
+      <point x="40" y="407" type="line"/>
+      <point x="236" y="407" type="line"/>
+      <point x="25" y="31" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="337" y="0" type="line"/>
+      <point x="337" y="58" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>0</integer>
-            <integer>65</integer>
-          </array>
-          <array>
-            <integer>400</integer>
-            <integer>65</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>23</integer>
-            <integer>316</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

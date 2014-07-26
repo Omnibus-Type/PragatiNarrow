@@ -1,47 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="1">
-  <advance width="161"/>
+  <advance width="149"/>
   <unicode hex="006C"/>
   <outline>
     <contour>
-      <point x="80" y="0" type="move" name="bottom"/>
+      <point x="74" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="80" y="465" type="move" name="top"/>
+      <point x="74" y="465" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="143" y="465" type="move" name="topright"/>
+      <point x="131" y="465" type="move" name="topright"/>
     </contour>
     <contour>
-      <point x="117" y="0" type="line"/>
-      <point x="117" y="639" type="line"/>
-      <point x="44" y="639" type="line"/>
-      <point x="44" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="106" y="639" type="line"/>
+      <point x="43" y="639" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>21</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>639</integer>
-            <integer>-20</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>44</integer>
-            <integer>73</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

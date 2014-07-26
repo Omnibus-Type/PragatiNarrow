@@ -58,33 +58,4 @@
       <point x="409" y="331"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>122</integer>
-            <integer>73</integer>
-          </array>
-          <array>
-            <integer>331</integer>
-            <integer>73</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>42</integer>
-            <integer>83</integer>
-          </array>
-          <array>
-            <integer>504</integer>
-            <integer>83</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

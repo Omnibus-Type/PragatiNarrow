@@ -1,103 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="1">
-  <advance width="257"/>
+  <advance width="231"/>
   <unicode hex="0022"/>
   <outline>
     <contour>
-      <point x="105" y="476" type="line"/>
-      <point x="105" y="606" type="line"/>
-      <point x="33" y="606" type="line"/>
-      <point x="33" y="476" type="line"/>
-      <point x="52" y="360" type="line"/>
-      <point x="87" y="360" type="line"/>
+      <point x="198" y="476" type="line"/>
+      <point x="198" y="606" type="line"/>
+      <point x="135" y="606" type="line"/>
+      <point x="135" y="476" type="line"/>
+      <point x="154" y="360" type="line"/>
+      <point x="177" y="360" type="line"/>
     </contour>
     <contour>
-      <point x="223" y="476" type="line"/>
-      <point x="223" y="606" type="line"/>
-      <point x="150" y="606" type="line"/>
-      <point x="150" y="476" type="line"/>
-      <point x="169" y="360" type="line"/>
-      <point x="203" y="360" type="line"/>
+      <point x="92" y="476" type="line"/>
+      <point x="92" y="606" type="line"/>
+      <point x="31" y="606" type="line"/>
+      <point x="31" y="476" type="line"/>
+      <point x="50" y="360" type="line"/>
+      <point x="75" y="360" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>606</integer>
-            <integer>-20</integer>
-          </array>
-          <array>
-            <integer>360</integer>
-            <integer>246</integer>
-          </array>
-        </array>
-        <key>replaceTable</key>
-        <array>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>4</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>33</integer>
-            <integer>72</integer>
-          </array>
-          <array>
-            <integer>150</integer>
-            <integer>73</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

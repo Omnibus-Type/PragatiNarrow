@@ -1,74 +1,70 @@
 # Languagesystems
 languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem grek dflt;
 languagesystem dev2 dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn CAT;
 
-
 # DevaRemoveReph
 lookup removeReph {
-	sub ka-deva [ reph-deva reph_anusvara-deva ] by ka-deva;
-	sub kha-deva [ reph-deva reph_anusvara-deva ] by kha-deva;
-	sub ga-deva [ reph-deva reph_anusvara-deva ] by ga-deva;
-	sub gha-deva [ reph-deva reph_anusvara-deva ] by gha-deva;
-	sub nga-deva [ reph-deva reph_anusvara-deva ] by nga-deva;
-	sub ca-deva [ reph-deva reph_anusvara-deva ] by ca-deva;
-	sub cha-deva [ reph-deva reph_anusvara-deva ] by cha-deva;
-	sub ja-deva [ reph-deva reph_anusvara-deva ] by ja-deva;
-	sub jha-deva [ reph-deva reph_anusvara-deva ] by jha-deva;
-	sub nya-deva [ reph-deva reph_anusvara-deva ] by nya-deva;
-	sub tta-deva [ reph-deva reph_anusvara-deva ] by tta-deva;
-	sub ttha-deva [ reph-deva reph_anusvara-deva ] by ttha-deva;
-	sub dda-deva [ reph-deva reph_anusvara-deva ] by dda-deva;
-	sub ddha-deva [ reph-deva reph_anusvara-deva ] by ddha-deva;
-	sub nna-deva [ reph-deva reph_anusvara-deva ] by nna-deva;
-	sub ta-deva [ reph-deva reph_anusvara-deva ] by ta-deva;
-	sub tha-deva [ reph-deva reph_anusvara-deva ] by tha-deva;
-	sub da-deva [ reph-deva reph_anusvara-deva ] by da-deva;
-	sub dha-deva [ reph-deva reph_anusvara-deva ] by dha-deva;
-	sub na-deva [ reph-deva reph_anusvara-deva ] by na-deva;
-	sub nnna-deva [ reph-deva reph_anusvara-deva ] by nnna-deva;
-	sub pa-deva [ reph-deva reph_anusvara-deva ] by pa-deva;
-	sub pha-deva [ reph-deva reph_anusvara-deva ] by pha-deva;
-	sub ba-deva [ reph-deva reph_anusvara-deva ] by ba-deva;
-	sub bha-deva [ reph-deva reph_anusvara-deva ] by bha-deva;
-	sub ma-deva [ reph-deva reph_anusvara-deva ] by ma-deva;
-	sub ya-deva [ reph-deva reph_anusvara-deva ] by ya-deva;
-	sub ra-deva [ reph-deva reph_anusvara-deva ] by ra-deva;
-	sub rra-deva [ reph-deva reph_anusvara-deva ] by rra-deva;
-	sub la-deva [ reph-deva reph_anusvara-deva ] by la-deva;
-	sub lla-deva [ reph-deva reph_anusvara-deva ] by lla-deva;
-	sub llla-deva [ reph-deva reph_anusvara-deva ] by llla-deva;
-	sub va-deva [ reph-deva reph_anusvara-deva ] by va-deva;
-	sub sha-deva [ reph-deva reph_anusvara-deva ] by sha-deva;
-	sub ssa-deva [ reph-deva reph_anusvara-deva ] by ssa-deva;
-	sub sa-deva [ reph-deva reph_anusvara-deva ] by sa-deva;
-	sub ha-deva [ reph-deva reph_anusvara-deva ] by ha-deva;
-	sub qa-deva [ reph-deva reph_anusvara-deva ] by qa-deva;
-	sub khha-deva [ reph-deva reph_anusvara-deva ] by khha-deva;
-	sub ghha-deva [ reph-deva reph_anusvara-deva ] by ghha-deva;
-	sub za-deva [ reph-deva reph_anusvara-deva ] by za-deva;
-	sub dddha-deva [ reph-deva reph_anusvara-deva ] by dddha-deva;
-	sub rha-deva [ reph-deva reph_anusvara-deva ] by rha-deva;
-	sub fa-deva [ reph-deva reph_anusvara-deva ] by fa-deva;
-	sub yya-deva [ reph-deva reph_anusvara-deva ] by yya-deva;
-	sub gga-deva [ reph-deva reph_anusvara-deva ] by gga-deva;
-	sub jja-deva [ reph-deva reph_anusvara-deva ] by jja-deva;
-	sub ddda-deva [ reph-deva reph_anusvara-deva ] by ddda-deva;
-	sub bba-deva [ reph-deva reph_anusvara-deva ] by bba-deva;
-	#sub jha-deva.NEP [ reph-deva reph_anusvara-deva ] by jha-deva.NEP;
-	#sub zha-deva.NEP [ reph-deva reph_anusvara-deva ] by zha-deva.NEP;
+	sub ka-deva [reph-deva reph_anusvara-deva] by ka-deva;
+	sub kha-deva [reph-deva reph_anusvara-deva] by kha-deva;
+	sub ga-deva [reph-deva reph_anusvara-deva] by ga-deva;
+	sub gha-deva [reph-deva reph_anusvara-deva] by gha-deva;
+	sub nga-deva [reph-deva reph_anusvara-deva] by nga-deva;
+	sub ca-deva [reph-deva reph_anusvara-deva] by ca-deva;
+	sub cha-deva [reph-deva reph_anusvara-deva] by cha-deva;
+	sub ja-deva [reph-deva reph_anusvara-deva] by ja-deva;
+	sub jha-deva [reph-deva reph_anusvara-deva] by jha-deva;
+	sub nya-deva [reph-deva reph_anusvara-deva] by nya-deva;
+	sub tta-deva [reph-deva reph_anusvara-deva] by tta-deva;
+	sub ttha-deva [reph-deva reph_anusvara-deva] by ttha-deva;
+	sub dda-deva [reph-deva reph_anusvara-deva] by dda-deva;
+	sub ddha-deva [reph-deva reph_anusvara-deva] by ddha-deva;
+	sub nna-deva [reph-deva reph_anusvara-deva] by nna-deva;
+	sub ta-deva [reph-deva reph_anusvara-deva] by ta-deva;
+	sub tha-deva [reph-deva reph_anusvara-deva] by tha-deva;
+	sub da-deva [reph-deva reph_anusvara-deva] by da-deva;
+	sub dha-deva [reph-deva reph_anusvara-deva] by dha-deva;
+	sub na-deva [reph-deva reph_anusvara-deva] by na-deva;
+	sub nnna-deva [reph-deva reph_anusvara-deva] by nnna-deva;
+	sub pa-deva [reph-deva reph_anusvara-deva] by pa-deva;
+	sub pha-deva [reph-deva reph_anusvara-deva] by pha-deva;
+	sub ba-deva [reph-deva reph_anusvara-deva] by ba-deva;
+	sub bha-deva [reph-deva reph_anusvara-deva] by bha-deva;
+	sub ma-deva [reph-deva reph_anusvara-deva] by ma-deva;
+	sub ya-deva [reph-deva reph_anusvara-deva] by ya-deva;
+	sub ra-deva [reph-deva reph_anusvara-deva] by ra-deva;
+	sub rra-deva [reph-deva reph_anusvara-deva] by rra-deva;
+	sub la-deva [reph-deva reph_anusvara-deva] by la-deva;
+	sub lla-deva [reph-deva reph_anusvara-deva] by lla-deva;
+	sub llla-deva [reph-deva reph_anusvara-deva] by llla-deva;
+	sub va-deva [reph-deva reph_anusvara-deva] by va-deva;
+	sub sha-deva [reph-deva reph_anusvara-deva] by sha-deva;
+	sub ssa-deva [reph-deva reph_anusvara-deva] by ssa-deva;
+	sub sa-deva [reph-deva reph_anusvara-deva] by sa-deva;
+	sub ha-deva [reph-deva reph_anusvara-deva] by ha-deva;
+	sub qa-deva [reph-deva reph_anusvara-deva] by qa-deva;
+	sub khha-deva [reph-deva reph_anusvara-deva] by khha-deva;
+	sub ghha-deva [reph-deva reph_anusvara-deva] by ghha-deva;
+	sub za-deva [reph-deva reph_anusvara-deva] by za-deva;
+	sub dddha-deva [reph-deva reph_anusvara-deva] by dddha-deva;
+	sub rha-deva [reph-deva reph_anusvara-deva] by rha-deva;
+	sub fa-deva [reph-deva reph_anusvara-deva] by fa-deva;
+	sub yya-deva [reph-deva reph_anusvara-deva] by yya-deva;
+	sub gga-deva [reph-deva reph_anusvara-deva] by gga-deva;
+	sub jja-deva [reph-deva reph_anusvara-deva] by jja-deva;
+	sub ddda-deva [reph-deva reph_anusvara-deva] by ddda-deva;
+	sub bba-deva [reph-deva reph_anusvara-deva] by bba-deva;
+	#sub jha-deva.NEP [reph-deva reph_anusvara-deva] by jha-deva.NEP;
+	#sub zha-deva.NEP [reph-deva reph_anusvara-deva] by zha-deva.NEP;
 } removeReph;
 
-
-
-
 feature aalt {
-	feature locl;
 	feature ccmp;
+	feature locl;
 	feature sups;
 	feature frac;
 	feature ordn;
@@ -76,10 +72,22 @@ feature aalt {
 	feature akhn;
 	feature rphf;
 	feature rkrf;
+	feature blwf;
 	feature half;
 	feature cjct;
 	feature abvs;
+	
 } aalt;
+feature ccmp {
+	sub evowelsigndeva anusvaradeva by eMatra_anusvaradeva;
+	sub evowelsigndeva uni0930094D by eMatra_rephdeva;
+	sub evowelsigndeva uni0930094D anusvaradeva by eMatra_reph_anusvaradeva;
+	sub aivowelsigndeva anusvaradeva by aiMatra_anusvaradeva;
+	sub aivowelsigndeva uni0930094D by aiMatra_rephdeva;
+	sub aivowelsigndeva uni0930094D anusvaradeva by aiMatra_reph_anusvaradeva;
+	sub uni0930094D anusvaradeva by reph_anusvaradeva;
+	
+} ccmp;
 feature locl {
 	script latn;
 	language ROM;
@@ -95,21 +103,14 @@ feature locl {
 	language CAT;
 	sub  l' periodcentered' l by ldot;
 	sub  L' periodcentered' L by Ldot;
+	
 } locl;
-feature ccmp {
-	sub evowelsigndeva anusvaradeva by eMatra_anusvaradeva;
-	sub evowelsigndeva uni0930094D by eMatra_rephdeva;
-	sub evowelsigndeva uni0930094D anusvaradeva by eMatra_reph_anusvaradeva;
-	sub aivowelsigndeva anusvaradeva by aiMatra_anusvaradeva;
-	sub aivowelsigndeva uni0930094D by aiMatra_rephdeva;
-	sub aivowelsigndeva uni0930094D anusvaradeva by aiMatra_reph_anusvaradeva;
-	sub uni0930094D anusvaradeva by reph_anusvaradeva;
-} ccmp;
 feature sups {
 	sub n by nsuperior;
 	sub one by onesuperior;
 	sub two by twosuperior;
 	sub three by threesuperior;
+	
 } sups;
 feature frac {
 	sub one slash eight by oneeighth;
@@ -119,17 +120,21 @@ feature frac {
 	sub five slash eight by fiveeighths;
 	sub three slash four by threequarters;
 	sub seven slash eight by seveneighths;
+	
 } frac;
 feature ordn {
 	sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 	sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+	
 } ordn;
 feature liga {
 	sub f i by fi;
 	sub f l by fl;
+	
 } liga;
 feature cpsp {
 	pos @Uppercase <5 0 10 0>;
+	
 } cpsp;
 feature nukt {
 	sub kadeva nuktadeva by qadeva;
@@ -141,96 +146,121 @@ feature nukt {
 	sub nadeva nuktadeva by nnnadeva;
 	sub uni092B nuktadeva by fadeva;
 	sub uni092F nuktadeva by yyadeva;
-	sub uni0930 nuktadeva by rradeva;
+	sub radeva nuktadeva by rradeva;
 	sub lladeva nuktadeva by llladeva;
+	
 } nukt;
 feature akhn {
-	#sub uni0915094D ssadeva by k_ssadeva;
+	sub uni0915094D ssadeva by k_ssadeva;
 	sub uni091C094D nyadeva by j_nyadeva;
+	
 } akhn;
 feature rphf {
-	sub uni0930 viramadeva by uni0930094D;
+	sub radeva viramadeva by uni0930094D;
 } rphf;
 feature rkrf {
-	sub uni092C viramadeva uni0930 by b_radeva;
-	sub bhadeva viramadeva uni0930 by bh_radeva;
+	sub kadeva viramadeva radeva by k_radeva;
+	sub khadeva viramadeva radeva by kh_radeva;
+	sub gadeva viramadeva radeva by g_radeva;
+	sub ghadeva viramadeva radeva by gh_radeva;
+	sub cadeva viramadeva radeva by c_radeva;
+	sub jadeva viramadeva radeva by j_radeva;
+	sub jhadeva viramadeva radeva by jh_radeva;
+	sub nyadeva viramadeva radeva by ny_radeva;
+	sub nnadeva viramadeva radeva by nn_radeva;
+	sub tadeva viramadeva radeva by t_radeva;
+	sub thadeva viramadeva radeva by th_radeva;
+	sub dadeva viramadeva radeva by d_radeva;
+	sub dhadeva viramadeva radeva by dh_radeva;
+	sub nadeva viramadeva radeva by n_radeva;
+	sub padeva viramadeva radeva by p_radeva;
+	sub uni092B viramadeva radeva by ph_radeva;
+	sub uni092C viramadeva radeva by b_radeva;
+	sub bhadeva viramadeva radeva by bh_radeva;
+	sub madeva viramadeva radeva by m_radeva;
+	sub uni092F viramadeva radeva by y_radeva;
+	sub uni0932 viramadeva radeva by l_radeva;
+	sub vadeva viramadeva radeva by v_radeva;
+	sub shadeva viramadeva radeva by sh_radeva;
+	sub ssadeva viramadeva radeva by ss_radeva;
+	sub sadeva viramadeva radeva by s_radeva;
+	sub hadeva viramadeva radeva by h_radeva;
+	sub fadeva viramadeva radeva by f_radeva;
+	
 } rkrf;
+feature blwf {
+	sub radeva viramadeva by rashtrasigndeva;
+} blwf;
 feature half {
-	sub uni092C viramadeva by uni092C094D;
-	sub bhadeva viramadeva by uni092D094D;
-	sub cadeva viramadeva by uni091A094D;
-	sub chadeva viramadeva by uni091B094D;
-	sub dadeva viramadeva by uni0926094D;
-	sub ddadeva viramadeva by uni0921094D;
-	sub ddhadeva viramadeva by uni0922094D;
-	sub dhadeva viramadeva by uni0927094D;
+	sub kadeva viramadeva by uni0915094D;
+	sub k_ssadeva viramadeva by k_ssdeva;
+	sub uni0915094D uni0937094D by k_ssdeva;
+	sub khadeva viramadeva by uni0916094D;
 	sub gadeva viramadeva by uni0917094D;
 	sub ghadeva viramadeva by uni0918094D;
-	sub hadeva viramadeva by uni0939094D;
+	sub ngadeva viramadeva by uni0919094D;
+	sub cadeva viramadeva by uni091A094D;
+	sub chadeva viramadeva by uni091B094D;
 	sub jadeva viramadeva by uni091C094D;
 	sub jhadeva viramadeva by uni091D094D;
-	sub kadeva viramadeva by uni0915094D;
-	sub khadeva viramadeva by uni0916094D;
-	sub uni0932 viramadeva by uni0932094D;
-	sub lladeva viramadeva by uni0933094D;
-	sub madeva viramadeva by uni092E094D;
-	sub nadeva viramadeva by uni0928094D;
-	sub ngadeva viramadeva by uni0919094D;
-	sub nnadeva viramadeva by uni0923094D;
 	sub nyadeva viramadeva by uni091E094D;
-	sub padeva viramadeva by uni092A094D;
-	sub uni092B viramadeva by uni092B094D;
-	sub rradeva viramadeva by uni0931094D;
-	sub sadeva viramadeva by uni0938094D;
-	sub shadeva viramadeva by uni0936094D;
-	sub ssadeva viramadeva by uni0937094D;
-	sub tadeva viramadeva by uni0924094D;
-	sub thadeva viramadeva by uni0925094D;
 	sub ttadeva viramadeva by uni091F094D;
 	sub tthadeva viramadeva by uni0920094D;
-	sub vadeva viramadeva by uni0935094D;
+	sub ddadeva viramadeva by uni0921094D;
+	sub ddhadeva viramadeva by uni0922094D;
+	sub nnadeva viramadeva by uni0923094D;
+	sub tadeva viramadeva by uni0924094D;
+	sub t_radeva viramadeva by t_rdeva;
+	sub thadeva viramadeva by uni0925094D;
+	sub dadeva viramadeva by uni0926094D;
+	sub dhadeva viramadeva by uni0927094D;
+	sub nadeva viramadeva by uni0928094D;
+	sub padeva viramadeva by uni092A094D;
+	sub uni092B viramadeva by uni092B094D;
+	sub uni092C viramadeva by uni092C094D;
+	sub bhadeva viramadeva by uni092D094D;
+	sub madeva viramadeva by uni092E094D;
 	sub uni092F viramadeva by uni092F094D;
+	sub rradeva viramadeva by uni0931094D;
+	sub uni0932 viramadeva by uni0932094D;
+	sub lladeva viramadeva by uni0933094D;
+	sub llladeva viramadeva by uni0934094D;
+	sub vadeva viramadeva by uni0935094D;
+	sub shadeva viramadeva by uni0936094D;
+	sub ssadeva viramadeva by uni0937094D;
+	sub sadeva viramadeva by uni0938094D;
+	sub hadeva viramadeva by uni0939094D;
+	sub qadeva viramadeva by uni0958094D;
+	sub khhadeva viramadeva by uni0959094D;
+	sub ghhadeva viramadeva by uni095A094D;
+	sub zadeva viramadeva by uni095B094D;
+	sub fadeva viramadeva by uni095E094D;
 	sub jhadeva.NEP viramadeva by uni091D094D.NEP;
+	
 } half;
 feature cjct {
-	sub uni094C anusvaradeva by auMatra_anusvaradeva;
-	sub uni094C uni0930094D by auMatra_rephdeva;
-	sub uni094C uni0930094D anusvaradeva by auMatra_reph_anusvaradeva;
-	sub uni0921094D ddadeva by dd_ddadeva;
-	sub uni0921094D ddadeva uuvowelsigndeva by dd_dda_uuMatradeva;
-	sub uni093F anusvaradeva by iMatra_anusvaradeva;
-	sub uni093F uni0930094D by iMatra_rephdeva;
-	sub uni093F uni0930094D anusvaradeva by iMatra_reph_anusvaradeva;
-	sub uni0940 anusvaradeva by iiMatra_anusvaradeva;
-	sub uni0940 uni0930094D by iiMatra_rephdeva;
-	sub uni0940 uni0930094D anusvaradeva by iiMatra_reph_anusvaradeva;
-	sub uni091C094D nyadeva by j_nyadeva;
 	sub kadeva uvowelsigndeva by ka_uMatradeva;
 	sub kadeva uuvowelsigndeva by ka_uuMatradeva;
-	sub ovowelsigndeva anusvaradeva by oMatra_anusvaradeva;
-	sub ovowelsigndeva uni0930094D by oMatra_rephdeva;
-	sub ovowelsigndeva uni0930094D anusvaradeva by oMatra_reph_anusvaradeva;
+	sub uni0915094D ssadeva by k_ssadeva;
+	sub uni0915094D ss_radeva by k_ss_radeva;
+	sub uni091C094D nyadeva by j_nyadeva;
+	sub uni0921094D ddadeva by dd_ddadeva;
+	sub uni0921094D ddadeva uuvowelsigndeva by dd_dda_uuMatradeva;
 	sub uni092B uvowelsigndeva by pha_uMatradeva;
 	sub uni092B uuvowelsigndeva by pha_uuMatradeva;
-	sub aivowelsigndeva anusvaradeva by aiMatra_anusvaradeva;
-	sub aivowelsigndeva uni0930094D by aiMatra_rephdeva;
-	sub aivowelsigndeva uni0930094D anusvaradeva by aiMatra_reph_anusvaradeva;
-	sub evowelsigndeva anusvaradeva by eMatra_anusvaradeva;
-	sub evowelsigndeva uni0930094D by eMatra_rephdeva;
-	sub evowelsigndeva uni0930094D anusvaradeva by eMatra_reph_anusvaradeva;
-	sub uni0930094D anusvaradeva by reph_anusvaradeva;
+	
 } cjct;
 feature abvs {
-	sub uni093F uni0930094D by iMatra_rephdeva;
-	sub uni093F uni0930094D anusvaradeva by iMatra_reph_anusvaradeva;
-	sub uni093F anusvaradeva by iMatra_anusvaradeva;
+	sub uni093F uni0930094D by uni093F0930094D;
+	sub uni093F uni0930094D anusvaradeva by uni093F0930094D0902;
+	sub uni093F anusvaradeva by uni093F0902;
 	sub uni0940 uni0930094D by iiMatra_rephdeva;
 	sub uni0940 uni0930094D anusvaradeva by iiMatra_reph_anusvaradeva;
 	sub uni0940 anusvaradeva by iiMatra_anusvaradeva;
 	sub ovowelsigndeva anusvaradeva by oMatra_anusvaradeva;
 	sub ovowelsigndeva uni0930094D by oMatra_rephdeva;
 	sub ovowelsigndeva uni0930094D anusvaradeva by oMatra_reph_anusvaradeva;
-	sub uni094C anusvaradeva by auMatra_anusvaradeva;
+	sub uni094C anusvaradeva by uni094C_uni0902;
 	sub uni094C uni0930094D by auMatra_rephdeva;
 	sub uni094C uni0930094D anusvaradeva by auMatra_reph_anusvaradeva;
 	sub evowelsigndeva anusvaradeva by eMatra_anusvaradeva;
@@ -247,6 +277,6 @@ feature abvs {
 	sub @DevaIMatras' @DevaHalfforms @DevaFullforms reph_anusvaradeva by @DevaIMatraRephAnusvaras;
 	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras] @DevaFullforms' lookup removeReph [uni0930094D reph_anusvaradeva]';
 	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras] @DevaHalfforms @DevaFullforms' lookup removeReph [uni0930094D reph_anusvaradeva]';
+	
 } abvs;
-
 

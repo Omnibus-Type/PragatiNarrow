@@ -1,79 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssadeva" format="1">
-  <advance width="394"/>
+  <advance width="379"/>
   <unicode hex="0937"/>
   <outline>
     <contour>
-      <point x="292" y="0" type="move" name="bottom"/>
+      <point x="282" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="292" y="606" type="move" name="top"/>
+      <point x="282" y="606" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="417" y="541" type="line"/>
-      <point x="417" y="606" type="line"/>
-      <point x="-5" y="606" type="line"/>
-      <point x="-5" y="541" type="line"/>
-      <point x="49" y="541" type="line"/>
-      <point x="49" y="258" type="line" smooth="yes"/>
-      <point x="49" y="169"/>
-      <point x="93" y="119"/>
-      <point x="170" y="119" type="curve" smooth="yes"/>
-      <point x="205" y="119"/>
-      <point x="234" y="130"/>
-      <point x="255" y="151" type="curve"/>
-      <point x="255" y="0" type="line"/>
-      <point x="328" y="0" type="line"/>
-      <point x="328" y="541" type="line"/>
+      <point x="79" y="520" type="line"/>
+      <point x="250" y="207" type="line"/>
+      <point x="281" y="232" type="line"/>
+      <point x="108" y="549" type="line"/>
     </contour>
     <contour>
-      <point x="122" y="541" type="line"/>
-      <point x="255" y="541" type="line"/>
-      <point x="255" y="293" type="line"/>
-      <point x="122" y="536" type="line"/>
+      <point x="114" y="606" type="line"/>
+      <point x="51" y="606" type="line"/>
+      <point x="51" y="255" type="line" smooth="yes"/>
+      <point x="51" y="168"/>
+      <point x="91" y="120"/>
+      <point x="166" y="120" type="curve" smooth="yes"/>
+      <point x="239" y="120"/>
+      <point x="282" y="167"/>
+      <point x="282" y="255" type="curve" smooth="yes"/>
+      <point x="282" y="295" type="line"/>
+      <point x="253" y="295" type="line"/>
+      <point x="253" y="251" type="line" smooth="yes"/>
+      <point x="253" y="204"/>
+      <point x="223" y="179"/>
+      <point x="183" y="179" type="curve" smooth="yes"/>
+      <point x="138" y="179"/>
+      <point x="114" y="205"/>
+      <point x="114" y="247" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="122" y="447" type="line"/>
-      <point x="247" y="219" type="line"/>
-      <point x="236" y="197"/>
-      <point x="215" y="185"/>
-      <point x="189" y="185" type="curve" smooth="yes"/>
-      <point x="146" y="185"/>
-      <point x="122" y="212"/>
-      <point x="122" y="255" type="curve" smooth="yes"/>
+      <point x="293" y="549" type="line"/>
+      <point x="293" y="606" type="line"/>
+      <point x="-9" y="606" type="line"/>
+      <point x="-9" y="549" type="line"/>
     </contour>
+    <component base="uni093E" xOffset="186"/>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>21</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>119</integer>
-            <integer>66</integer>
-          </array>
-          <array>
-            <integer>541</integer>
-            <integer>65</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>49</integer>
-            <integer>73</integer>
-          </array>
-          <array>
-            <integer>255</integer>
-            <integer>73</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

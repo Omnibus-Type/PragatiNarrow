@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rashtrasigndeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-123" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-178" y="-32" type="line"/>
+      <point x="-261" y="-32" type="line"/>
+      <point x="-426" y="-195" type="line"/>
+      <point x="-307" y="-195" type="line"/>
+      <point x="-187" y="-65" type="line"/>
+      <point x="-253" y="-65" type="line"/>
+      <point x="-133" y="-195" type="line"/>
+      <point x="-13" y="-195" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,38 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar" format="1">
-  <advance width="188"/>
+  <advance width="184"/>
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="129" y="-153" type="line"/>
-      <point x="129" y="639" type="line"/>
-      <point x="59" y="639" type="line"/>
-      <point x="59" y="-153" type="line"/>
+      <point x="58" y="-153" type="line"/>
+      <point x="125" y="-153" type="line"/>
+      <point x="125" y="639" type="line"/>
+      <point x="58" y="639" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>-132</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>639</integer>
-            <integer>-20</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>59</integer>
-            <integer>70</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

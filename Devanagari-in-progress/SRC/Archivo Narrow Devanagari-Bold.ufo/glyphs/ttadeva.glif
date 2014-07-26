@@ -7,17 +7,11 @@
       <point x="198" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="267" y="606" type="move" name="top"/>
+      <point x="266" y="606" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="319" y="340" type="line"/>
-      <point x="319" y="513" type="line"/>
-      <point x="414" y="513" type="line"/>
-      <point x="414" y="606" type="line"/>
-      <point x="-8" y="606" type="line"/>
-      <point x="-8" y="513" type="line"/>
-      <point x="213" y="513" type="line"/>
-      <point x="213" y="434" type="line"/>
+      <point x="281" y="340" type="line"/>
+      <point x="281" y="434" type="line"/>
       <point x="201" y="434" type="line" smooth="yes"/>
       <point x="97" y="434"/>
       <point x="30" y="371"/>
@@ -43,117 +37,17 @@
       <point x="166" y="340"/>
       <point x="205" y="340" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="318" y="340" type="line"/>
+      <point x="318" y="606" type="line"/>
+      <point x="212" y="606" type="line"/>
+      <point x="212" y="340" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="513" type="line"/>
+      <point x="392" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="513" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>42</integer>
-            <integer>90</integer>
-          </array>
-          <array>
-            <integer>340</integer>
-            <integer>94</integer>
-          </array>
-          <array>
-            <integer>513</integer>
-            <integer>93</integer>
-          </array>
-        </array>
-        <key>replaceTable</key>
-        <array>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>11</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>2</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>30</integer>
-            <integer>110</integer>
-          </array>
-          <array>
-            <integer>213</integer>
-            <integer>106</integer>
-          </array>
-          <array>
-            <integer>248</integer>
-            <integer>102</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t_radeva" format="1">
+  <advance width="448"/>
+  <outline>
+    <component base="uni093E" xOffset="203"/>
+    <component base="t_rdeva"/>
+  </outline>
+</glyph>

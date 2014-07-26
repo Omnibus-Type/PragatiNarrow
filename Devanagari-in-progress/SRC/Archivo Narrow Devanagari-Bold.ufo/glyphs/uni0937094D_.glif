@@ -9,60 +9,11 @@
       <point x="98" y="465" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="155" y="513" type="line"/>
-      <point x="341" y="513" type="line"/>
-      <point x="341" y="606" type="line"/>
-      <point x="-16" y="606" type="line"/>
-      <point x="-16" y="513" type="line"/>
-      <point x="35" y="513" type="line"/>
-      <point x="35" y="267" type="line" smooth="yes"/>
-      <point x="35" y="171"/>
-      <point x="90" y="117"/>
-      <point x="176" y="117" type="curve" smooth="yes"/>
-      <point x="266" y="117"/>
-      <point x="324" y="164"/>
-      <point x="324" y="253" type="curve" smooth="yes"/>
-      <point x="324" y="301" type="line"/>
-      <point x="273" y="301" type="line"/>
+      <point x="120" y="577" type="line"/>
+      <point x="79" y="542" type="line"/>
+      <point x="267" y="203" type="line"/>
+      <point x="308" y="238" type="line"/>
     </contour>
-    <contour>
-      <point x="141" y="430" type="line"/>
-      <point x="252" y="230" type="line"/>
-      <point x="240" y="216"/>
-      <point x="220" y="207"/>
-      <point x="198" y="207" type="curve" smooth="yes"/>
-      <point x="165" y="207"/>
-      <point x="141" y="234"/>
-      <point x="141" y="276" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni092A094D"/>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>117</integer>
-            <integer>90</integer>
-          </array>
-          <array>
-            <integer>513</integer>
-            <integer>93</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>35</integer>
-            <integer>106</integer>
-          </array>
-          <array>
-            <integer>252</integer>
-            <integer>72</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

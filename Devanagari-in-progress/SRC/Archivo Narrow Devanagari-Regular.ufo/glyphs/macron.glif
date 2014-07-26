@@ -7,31 +7,10 @@
       <point x="121" y="465" type="move" name="_top"/>
     </contour>
     <contour>
+      <point x="12" y="530" type="line"/>
       <point x="232" y="530" type="line"/>
-      <point x="232" y="593" type="line"/>
-      <point x="11" y="593" type="line"/>
-      <point x="11" y="530" type="line"/>
+      <point x="232" y="589" type="line"/>
+      <point x="12" y="589" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>530</integer>
-            <integer>63</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>11</integer>
-            <integer>221</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

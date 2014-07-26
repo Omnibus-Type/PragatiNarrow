@@ -266,133 +266,191 @@
 		<string>zdotaccent</string>
 		<string>fi</string>
 		<string>fl</string>
+		<string>ordfeminine</string>
+		<string>ordmasculine</string>
 		<string>nsuperior</string>
 		<string>Delta</string>
 		<string>Omega</string>
 		<string>mu</string>
 		<string>pi</string>
-		<string>uni093E</string>
-		<string>uni094C</string>
-		<string>uni093F</string>
-		<string>uni0940</string>
-		<string>ocandravowelsigndeva</string>
-		<string>ovowelsigndeva</string>
-		<string>uni094A</string>
-		<string>adeva</string>
-		<string>uni0972</string>
-		<string>uni0904</string>
-		<string>aadeva</string>
-		<string>aideva</string>
-		<string>audeva</string>
-		<string>uni092C</string>
-		<string>uni097F</string>
-		<string>bhadeva</string>
-		<string>cadeva</string>
-		<string>chadeva</string>
-		<string>dadeva</string>
-		<string>ddadeva</string>
-		<string>uni097E</string>
-		<string>ddhadeva</string>
-		<string>dhadeva</string>
-		<string>edeva</string>
-		<string>ecandradeva</string>
-		<string>eshortdeva</string>
-		<string>gadeva</string>
-		<string>uni097B</string>
-		<string>ghadeva</string>
-		<string>hadeva</string>
-		<string>ideva</string>
-		<string>iideva</string>
-		<string>jadeva</string>
-		<string>jhadeva</string>
-		<string>uni097C</string>
 		<string>kadeva</string>
 		<string>khadeva</string>
-		<string>lvocalicdeva</string>
-		<string>uni0932</string>
-		<string>llvocalicdeva</string>
-		<string>lladeva</string>
-		<string>madeva</string>
-		<string>nadeva</string>
+		<string>gadeva</string>
+		<string>ghadeva</string>
 		<string>ngadeva</string>
-		<string>nnadeva</string>
+		<string>cadeva</string>
+		<string>chadeva</string>
+		<string>jadeva</string>
+		<string>jhadeva</string>
 		<string>nyadeva</string>
-		<string>odeva</string>
-		<string>ocandradeva</string>
-		<string>oshortdeva</string>
-		<string>padeva</string>
-		<string>uni092B</string>
-		<string>rvocalicdeva</string>
-		<string>uni0930</string>
-		<string>rrvocalicdeva</string>
-		<string>rradeva</string>
-		<string>sadeva</string>
-		<string>shadeva</string>
-		<string>ssadeva</string>
-		<string>tadeva</string>
-		<string>thadeva</string>
 		<string>ttadeva</string>
 		<string>tthadeva</string>
-		<string>udeva</string>
-		<string>vadeva</string>
+		<string>ddadeva</string>
+		<string>ddhadeva</string>
+		<string>nnadeva</string>
+		<string>tadeva</string>
+		<string>thadeva</string>
+		<string>dadeva</string>
+		<string>dhadeva</string>
+		<string>nadeva</string>
+		<string>nnnadeva</string>
+		<string>padeva</string>
+		<string>uni092B</string>
+		<string>uni092C</string>
+		<string>bhadeva</string>
+		<string>madeva</string>
 		<string>uni092F</string>
-		<string>auMatra_anusvaradeva</string>
-		<string>auMatra_rephdeva</string>
-		<string>auMatra_reph_anusvaradeva</string>
-		<string>b_radeva</string>
-		<string>bh_radeva</string>
+		<string>radeva</string>
+		<string>rradeva</string>
+		<string>uni0932</string>
+		<string>lladeva</string>
+		<string>llladeva</string>
+		<string>vadeva</string>
+		<string>shadeva</string>
+		<string>ssadeva</string>
+		<string>sadeva</string>
+		<string>hadeva</string>
+		<string>qadeva</string>
+		<string>khhadeva</string>
+		<string>ghhadeva</string>
+		<string>zadeva</string>
+		<string>dddhadeva</string>
+		<string>rhadeva</string>
+		<string>fadeva</string>
+		<string>yyadeva</string>
+		<string>uni0979</string>
+		<string>uni097B</string>
+		<string>uni097C</string>
+		<string>uni097E</string>
+		<string>uni097F</string>
+		<string>jhadeva.NEP</string>
+		<string>ka_uMatradeva</string>
+		<string>ka_uuMatradeva</string>
+		<string>k_radeva</string>
+		<string>k_ssadeva</string>
+		<string>k_ss_radeva</string>
+		<string>kh_radeva</string>
+		<string>g_radeva</string>
+		<string>gh_radeva</string>
+		<string>c_radeva</string>
+		<string>j_nyadeva</string>
+		<string>j_radeva</string>
+		<string>jh_radeva</string>
+		<string>ny_radeva</string>
 		<string>dd_ddadeva</string>
 		<string>dd_dda_uuMatradeva</string>
-		<string>iMatra_anusvaradeva</string>
-		<string>iMatra_rephdeva</string>
-		<string>iMatra_reph_anusvaradeva</string>
+		<string>nn_radeva</string>
+		<string>t_radeva</string>
+		<string>th_radeva</string>
+		<string>d_radeva</string>
+		<string>dh_radeva</string>
+		<string>n_radeva</string>
+		<string>p_radeva</string>
+		<string>pha_uMatradeva</string>
+		<string>pha_uuMatradeva</string>
+		<string>ph_radeva</string>
+		<string>b_radeva</string>
+		<string>bh_radeva</string>
+		<string>m_radeva</string>
+		<string>y_radeva</string>
+		<string>l_radeva</string>
+		<string>v_radeva</string>
+		<string>sh_radeva</string>
+		<string>ss_radeva</string>
+		<string>s_radeva</string>
+		<string>h_radeva</string>
+		<string>f_radeva</string>
+		<string>k_radeva.NEP</string>
+		<string>uni0904</string>
+		<string>uni0972</string>
+		<string>adeva</string>
+		<string>aadeva</string>
+		<string>ideva</string>
+		<string>iideva</string>
+		<string>udeva</string>
+		<string>uudeva</string>
+		<string>rvocalicdeva</string>
+		<string>rrvocalicdeva</string>
+		<string>lvocalicdeva</string>
+		<string>llvocalicdeva</string>
+		<string>ecandradeva</string>
+		<string>eshortdeva</string>
+		<string>edeva</string>
+		<string>aideva</string>
+		<string>ocandradeva</string>
+		<string>oshortdeva</string>
+		<string>odeva</string>
+		<string>audeva</string>
+		<string>uni0973</string>
+		<string>uni0974</string>
+		<string>uni0975</string>
+		<string>uni0976</string>
+		<string>uni0977</string>
+		<string>uni0915094D</string>
+		<string>k_ssdeva</string>
+		<string>uni0916094D</string>
+		<string>uni0917094D</string>
+		<string>uni0918094D</string>
+		<string>uni0919094D</string>
+		<string>uni091A094D</string>
+		<string>uni091B094D</string>
+		<string>uni091C094D</string>
+		<string>uni091D094D</string>
+		<string>uni091E094D</string>
+		<string>uni091F094D</string>
+		<string>uni0920094D</string>
+		<string>uni0921094D</string>
+		<string>uni0922094D</string>
+		<string>uni0923094D</string>
+		<string>uni0924094D</string>
+		<string>t_rdeva</string>
+		<string>uni0925094D</string>
+		<string>uni0926094D</string>
+		<string>uni0927094D</string>
+		<string>uni0928094D</string>
+		<string>uni092A094D</string>
+		<string>uni092B094D</string>
+		<string>uni092C094D</string>
+		<string>uni092D094D</string>
+		<string>uni092E094D</string>
+		<string>uni092F094D</string>
+		<string>uni0931094D</string>
+		<string>uni0932094D</string>
+		<string>uni0933094D</string>
+		<string>uni0934094D</string>
+		<string>uni0935094D</string>
+		<string>uni0936094D</string>
+		<string>uni0937094D</string>
+		<string>uni0938094D</string>
+		<string>uni0939094D</string>
+		<string>uni0958094D</string>
+		<string>uni0959094D</string>
+		<string>uni095A094D</string>
+		<string>uni095B094D</string>
+		<string>uni095E094D</string>
+		<string>uni093E</string>
+		<string>uni093F0902</string>
+		<string>uni093F0930094D</string>
+		<string>uni093F0930094D0902</string>
+		<string>uni093F</string>
 		<string>iiMatra_anusvaradeva</string>
 		<string>iiMatra_rephdeva</string>
 		<string>iiMatra_reph_anusvaradeva</string>
-		<string>j_nyadeva</string>
-		<string>ka_uMatradeva</string>
-		<string>ka_uuMatradeva</string>
+		<string>uni0940</string>
+		<string>ocandravowelsigndeva</string>
+		<string>uni094A</string>
 		<string>oMatra_anusvaradeva</string>
 		<string>oMatra_rephdeva</string>
 		<string>oMatra_reph_anusvaradeva</string>
-		<string>pha_uMatradeva</string>
-		<string>pha_uuMatradeva</string>
-		<string>uni092C094D</string>
-		<string>uni092D094D</string>
-		<string>uni091A094D</string>
-		<string>uni091B094D</string>
-		<string>uni0926094D</string>
-		<string>uni0921094D</string>
-		<string>uni0922094D</string>
-		<string>uni0927094D</string>
-		<string>uni0917094D</string>
-		<string>uni0918094D</string>
-		<string>uni0939094D</string>
-		<string>uni091C094D</string>
-		<string>uni091D094D</string>
-		<string>uni0915094D</string>
-		<string>uni0916094D</string>
-		<string>uni0932094D</string>
-		<string>uni0933094D</string>
-		<string>uni092E094D</string>
-		<string>uni0928094D</string>
-		<string>uni0919094D</string>
-		<string>uni0923094D</string>
-		<string>uni091E094D</string>
-		<string>uni092A094D</string>
-		<string>uni092B094D</string>
-		<string>uni0931094D</string>
-		<string>uni0938094D</string>
-		<string>uni0936094D</string>
-		<string>uni0937094D</string>
-		<string>uni0924094D</string>
-		<string>uni0925094D</string>
-		<string>uni091F094D</string>
-		<string>uni0920094D</string>
-		<string>uni0935094D</string>
-		<string>uni092F094D</string>
+		<string>ovowelsigndeva</string>
+		<string>uni094C_uni0902</string>
+		<string>auMatra_rephdeva</string>
+		<string>auMatra_reph_anusvaradeva</string>
+		<string>uni094C</string>
+		<string>uni094E</string>
+		<string>uni093B</string>
+		<string>uni094F</string>
 		<string>uni091D094D.NEP</string>
-		<string>jhadeva.NEP</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -411,13 +469,12 @@
 		<string>threeeighths</string>
 		<string>fiveeighths</string>
 		<string>seveneighths</string>
-		<string>ordfeminine</string>
-		<string>ordmasculine</string>
 		<string>onesuperior</string>
 		<string>twosuperior</string>
 		<string>threesuperior</string>
 		<string>asterisk</string>
 		<string>backslash</string>
+		<string>periodcentered</string>
 		<string>bullet</string>
 		<string>colon</string>
 		<string>comma</string>
@@ -428,7 +485,6 @@
 		<string>numbersign</string>
 		<string>overline</string>
 		<string>period</string>
-		<string>periodcentered</string>
 		<string>question</string>
 		<string>questiondown</string>
 		<string>quotedbl</string>
@@ -459,18 +515,23 @@
 		<string>quotereversed</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
+		<string>uni097D</string>
+		<string>dandadeva</string>
+		<string>dbldandadeva</string>
+		<string>abbreviationsigndeva</string>
 		<string>space</string>
 		<string>uni00A0</string>
 		<string>CR</string>
 		<string>.notdef</string>
-		<string>florin</string>
 		<string>cent</string>
 		<string>currency</string>
 		<string>dollar</string>
 		<string>Euro</string>
+		<string>florin</string>
 		<string>franc</string>
 		<string>lira</string>
 		<string>peseta</string>
+		<string>uni20B9</string>
 		<string>sterling</string>
 		<string>yen</string>
 		<string>Ohm</string>
@@ -506,49 +567,37 @@
 		<string>product</string>
 		<string>radical</string>
 		<string>summation</string>
-		<string>ampersand</string>
-		<string>at</string>
-		<string>bar</string>
-		<string>brokenbar</string>
-		<string>afii61248</string>
-		<string>copyright</string>
-		<string>dagger</string>
-		<string>daggerdbl</string>
-		<string>degree</string>
-		<string>estimated</string>
-		<string>house</string>
-		<string>afii61289</string>
-		<string>minute</string>
-		<string>afii61352</string>
-		<string>paragraph</string>
-		<string>registered</string>
-		<string>second</string>
-		<string>section</string>
-		<string>trademark</string>
-		<string>asciicircum</string>
-		<string>arrowboth</string>
+		<string>arrowup</string>
+		<string>arrowright</string>
 		<string>arrowdown</string>
 		<string>arrowleft</string>
-		<string>arrowright</string>
-		<string>arrowup</string>
+		<string>arrowboth</string>
 		<string>arrowupdn</string>
 		<string>arrowupdownbase</string>
 		<string>dottedcircle</string>
 		<string>lozenge</string>
-		<string>aivowelsigndeva</string>
-		<string>candrabindudeva</string>
-		<string>commaaccentcomb</string>
-		<string>ecandravowelsigndeva</string>
-		<string>evowelsigndeva</string>
-		<string>eshortvowelsigndeva</string>
-		<string>viramadeva</string>
-		<string>nuktadeva</string>
-		<string>rvocalicvowelsigndeva</string>
-		<string>uni0930094D</string>
-		<string>rrvocalicvowelsigndeva</string>
-		<string>uvowelsigndeva</string>
-		<string>uuvowelsigndeva</string>
-		<string>firsttonechinese</string>
+		<string>bar</string>
+		<string>brokenbar</string>
+		<string>at</string>
+		<string>ampersand</string>
+		<string>paragraph</string>
+		<string>afii61248</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>section</string>
+		<string>trademark</string>
+		<string>degree</string>
+		<string>estimated</string>
+		<string>afii61289</string>
+		<string>afii61352</string>
+		<string>asciicircum</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
+		<string>house</string>
+		<string>minute</string>
+		<string>second</string>
+		<string>avagrahadeva</string>
+		<string>omdeva</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -562,25 +611,39 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>aiMatra_anusvaradeva</string>
-		<string>aiMatra_rephdeva</string>
-		<string>aiMatra_reph_anusvaradeva</string>
+		<string>uni0326</string>
+		<string>firsttonechinese</string>
+		<string>visargadeva</string>
+		<string>uvowelsigndeva</string>
+		<string>uuvowelsigndeva</string>
+		<string>rvocalicvowelsigndeva</string>
+		<string>rrvocalicvowelsigndeva</string>
+		<string>ecandravowelsigndeva</string>
+		<string>candrabindudeva</string>
+		<string>eshortvowelsigndeva</string>
+		<string>evowelsigndeva</string>
 		<string>eMatra_anusvaradeva</string>
 		<string>eMatra_rephdeva</string>
 		<string>eMatra_reph_anusvaradeva</string>
-		<string>reph_anusvaradeva</string>
-		<string>NULL</string>
+		<string>aivowelsigndeva</string>
+		<string>aiMatra_anusvaradeva</string>
+		<string>aiMatra_rephdeva</string>
+		<string>aiMatra_reph_anusvaradeva</string>
 		<string>anusvaradeva</string>
-		<string>dddhadeva</string>
-		<string>fadeva</string>
-		<string>ghhadeva</string>
-		<string>khhadeva</string>
-		<string>llladeva</string>
-		<string>nnnadeva</string>
-		<string>qadeva</string>
-		<string>rhadeva</string>
-		<string>yyadeva</string>
-		<string>zadeva</string>
+		<string>viramadeva</string>
+		<string>nuktadeva</string>
+		<string>uni0930094D</string>
+		<string>reph_anusvaradeva</string>
+		<string>uni0900</string>
+		<string>uni093A</string>
+		<string>uni0956</string>
+		<string>uni0957</string>
+		<string>udattadeva</string>
+		<string>NULL</string>
+		<string>uni000C</string>
+		<string>rashtrasigndeva</string>
+		<string>rashtrasign_uMatradeva</string>
+		<string>rashtrasign_uuMatradeva</string>
 	</array>
 </dict>
 </plist>

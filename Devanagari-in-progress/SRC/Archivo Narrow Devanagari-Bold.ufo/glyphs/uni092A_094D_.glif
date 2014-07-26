@@ -9,12 +9,8 @@
       <point x="178" y="606" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="141" y="513" type="line"/>
-      <point x="341" y="513" type="line"/>
-      <point x="341" y="606" type="line"/>
-      <point x="-16" y="606" type="line"/>
-      <point x="-16" y="513" type="line"/>
-      <point x="35" y="513" type="line"/>
+      <point x="141" y="606" type="line"/>
+      <point x="35" y="606" type="line"/>
       <point x="35" y="267" type="line" smooth="yes"/>
       <point x="35" y="171"/>
       <point x="90" y="117"/>
@@ -32,34 +28,11 @@
       <point x="141" y="234"/>
       <point x="141" y="276" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="341" y="513" type="line"/>
+      <point x="341" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="513" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>117</integer>
-            <integer>90</integer>
-          </array>
-          <array>
-            <integer>513</integer>
-            <integer>93</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>35</integer>
-            <integer>106</integer>
-          </array>
-          <array>
-            <integer>266</integer>
-            <integer>58</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

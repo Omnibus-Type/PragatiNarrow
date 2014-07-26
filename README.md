@@ -37,6 +37,29 @@ Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.c
 
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); you may not use this file except in compliance with the License.
 
+### Devanagari Unicode Character Map
+
+*uni*|090   |091|092|093|094 |095	|096	|097
+-----|------|---|---|---|----|------|-------|-----
+**0**| ◌ऀ	| ऐ	| ठ	| र	| ◌ी | ॐ	| ॠ		|	॰
+**1**| ◌ँ	| ऑ	| ड	| ऱ	| ◌ु	 | ◌॑	| ॡ		|	ॱ(*)
+**2**| ◌ं	| ऒ	| ढ	| ल	| ◌ू	 | ◌॒(*)	| ◌ॢ(*)	|	ॲ
+**3**| ◌ः	| ओ	| ण	| ळ	| ◌ृ	 | ◌॓(*)	| ◌ॣ(*)	|	ॳ
+**4**| ऄ	| औ	| त	| ऴ	| ◌ॄ	 | ◌॔(*)	| ।		|	ॴ
+**5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ(*)	| ॥		|	ॵ
+**6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०(*)	|	ॶ
+**7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १(*)	|	ॷ
+**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २(*)	|	--
+**9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३(*)	|	ॹ
+**A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४(*)	|	ॺ(*)
+**B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५(*)	|	ॻ
+**C**| ऌ 	| ज	| ब	| ◌़	| ◌ौ	 | ड़	| ६(*)	|	ॼ
+**D**| ऍ		| झ	| भ	| ऽ	| ◌्	 | ढ़	| ७(*)	|	ॽ
+**E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८(*)	|	ॾ
+**F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९(*)	|	ॿ
+
+**(*)** No suported yet
+
 ======
 ## FONTLOG for the Archivo Narrow fonts
 
@@ -87,7 +110,7 @@ If you make modifications be sure to add your name (N), email (E), web-address
 **N:** **Hector Gatti**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
-**D:** Designer
+**D:** Designer of Latin version
 
 **N:** **Marcela Romero**  
 **E:** omnibus.type@gmail.com  
@@ -102,4 +125,4 @@ If you make modifications be sure to add your name (N), email (E), web-address
 **N:** **Pablo Cosgaya**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
-**D:** Designer
+**D:** Designer of Devanagari version

@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="second" format="1">
-  <advance width="257"/>
+  <advance width="231"/>
   <unicode hex="2033"/>
   <outline>
     <contour>
-      <point x="123" y="604" type="line"/>
-      <point x="122" y="606" type="line"/>
-      <point x="42" y="606" type="line"/>
-      <point x="20" y="465" type="line"/>
-      <point x="81" y="465" type="line"/>
+      <point x="183" y="470" type="line"/>
+      <point x="224" y="604" type="line"/>
+      <point x="223" y="606" type="line"/>
+      <point x="149" y="606" type="line"/>
+      <point x="127" y="470" type="line"/>
     </contour>
     <contour>
-      <point x="235" y="604" type="line"/>
-      <point x="234" y="606" type="line"/>
-      <point x="155" y="606" type="line"/>
-      <point x="133" y="465" type="line"/>
-      <point x="194" y="465" type="line"/>
+      <point x="76" y="470" type="line"/>
+      <point x="118" y="604" type="line"/>
+      <point x="117" y="606" type="line"/>
+      <point x="42" y="606" type="line"/>
+      <point x="20" y="470" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>465</integer>
-            <integer>141</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>20</integer>
-            <integer>215</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

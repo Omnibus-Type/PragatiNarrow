@@ -3,37 +3,16 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-9" y="606" type="move" name="_anusvara"/>
+      <point x="-121" y="606" type="move" name="_anusvara"/>
     </contour>
     <contour>
-      <point x="-114" y="606" type="move" name="_top"/>
+      <point x="-229" y="606" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-58" y="717" type="line"/>
-      <point x="-58" y="634" type="line"/>
-      <point x="41" y="634" type="line"/>
-      <point x="41" y="717" type="line"/>
+      <point x="-164" y="660" type="line"/>
+      <point x="-81" y="659" type="line"/>
+      <point x="-82" y="742" type="line"/>
+      <point x="-164" y="742" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>634</integer>
-            <integer>83</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>-58</integer>
-            <integer>99</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

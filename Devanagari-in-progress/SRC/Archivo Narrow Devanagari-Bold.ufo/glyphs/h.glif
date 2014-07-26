@@ -33,37 +33,4 @@
       <point x="158" y="415" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>21</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>379</integer>
-            <integer>97</integer>
-          </array>
-          <array>
-            <integer>639</integer>
-            <integer>-20</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>49</integer>
-            <integer>106</integer>
-          </array>
-          <array>
-            <integer>288</integer>
-            <integer>106</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

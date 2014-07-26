@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abbreviationsigndeva" format="1">
+  <advance width="392"/>
+  <unicode hex="0970"/>
+  <outline>
+    <component base="degree" xScale="1.20000004768" yScale="1.20000004768" xOffset="-14" yOffset="-124"/>
+  </outline>
+</glyph>

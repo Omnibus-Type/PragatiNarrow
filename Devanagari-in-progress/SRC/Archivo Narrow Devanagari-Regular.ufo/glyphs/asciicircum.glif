@@ -1,80 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciicircum" format="1">
-  <advance width="340"/>
+  <advance width="316"/>
   <unicode hex="005E"/>
   <outline>
     <contour>
-      <point x="339" y="260" type="line"/>
-      <point x="218" y="606" type="line"/>
-      <point x="124" y="606" type="line"/>
-      <point x="4" y="260" type="line"/>
-      <point x="83" y="260" type="line"/>
-      <point x="171" y="538" type="line"/>
-      <point x="260" y="260" type="line"/>
+      <point x="248" y="260" type="line"/>
+      <point x="321" y="260" type="line"/>
+      <point x="205" y="606" type="line"/>
+      <point x="112" y="606" type="line"/>
+      <point x="-3" y="260" type="line"/>
+      <point x="70" y="260" type="line"/>
+      <point x="159" y="549" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>606</integer>
-            <integer>-20</integer>
-          </array>
-          <array>
-            <integer>538</integer>
-            <integer>68</integer>
-          </array>
-        </array>
-        <key>replaceTable</key>
-        <array>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>5</integer>
-            <key>type</key>
-            <integer>255</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>0</integer>
-            <key>type</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>index</key>
-            <integer>1</integer>
-            <key>type</key>
-            <integer>1</integer>
-          </dict>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>4</integer>
-            <integer>335</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

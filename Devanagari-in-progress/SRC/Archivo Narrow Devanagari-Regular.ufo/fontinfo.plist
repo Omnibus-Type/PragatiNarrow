@@ -17,40 +17,29 @@
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
-	<string>Archivo Narrow Devanagari</string>
+	<string>ArchivoNarrowDevanagari-Regular</string>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeHheaAscender</key>
-	<integer>827</integer>
+	<integer>750</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-404</integer>
+	<integer>-250</integer>
 	<key>openTypeHheaLineGap</key>
-	<integer>0</integer>
-	<key>openTypeNameCompatibleFullName</key>
-	<string>Archivo Narrow Devanagari Regular</string>
+	<integer>9</integer>
 	<key>openTypeNameDesigner</key>
 	<string>Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva</string>
 	<key>openTypeNameLicense</key>
 	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
-	<key>openTypeNameManufacturer</key>
-	<string>Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.omnibus-type.com</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Archivo Narrow Devanagari</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
-	<key>openTypeNameVersion</key>
-	<string>Version 1.004</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
-		<integer>0</integer>
-		<integer>1</integer>
-		<integer>4</integer>
-		<integer>7</integer>
-		<integer>29</integer>
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
@@ -94,42 +83,24 @@
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>827</integer>
+	<integer>750</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-404</integer>
+	<integer>-250</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
-		<integer>0</integer>
-		<integer>1</integer>
-		<integer>2</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-		<integer>6</integer>
-		<integer>15</integer>
-		<integer>29</integer>
-		<integer>31</integer>
-		<integer>32</integer>
-		<integer>33</integer>
-		<integer>35</integer>
-		<integer>36</integer>
-		<integer>37</integer>
-		<integer>38</integer>
-		<integer>39</integer>
-		<integer>45</integer>
-		<integer>62</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>Omni</string>
+	<string>pyrs</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>827</integer>
+	<integer>0</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>404</integer>
+	<integer>0</integer>
 	<key>postscriptBlueFuzz</key>
 	<integer>1</integer>
 	<key>postscriptBlueScale</key>
@@ -138,8 +109,10 @@
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-6</integer>
-		<integer>0</integer>
+		<integer>-159</integer>
+		<integer>-157</integer>
+		<integer>-7</integer>
+		<integer>-4</integer>
 		<integer>465</integer>
 		<integer>476</integer>
 		<integer>606</integer>
@@ -151,19 +124,9 @@
 	<integer>500</integer>
 	<key>postscriptFamilyBlues</key>
 	<array>
-		<integer>-11</integer>
-		<integer>0</integer>
-		<integer>465</integer>
-		<integer>476</integer>
-		<integer>606</integer>
-		<integer>617</integer>
-		<integer>639</integer>
-		<integer>646</integer>
 	</array>
 	<key>postscriptFamilyOtherBlues</key>
 	<array>
-		<integer>-161</integer>
-		<integer>-148</integer>
 	</array>
 	<key>postscriptFontName</key>
 	<string>ArchivoNarrowDevanagari-Regular</string>
@@ -175,23 +138,21 @@
 	<false/>
 	<key>postscriptOtherBlues</key>
 	<array>
-		<integer>-158</integer>
-		<integer>-148</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
 	<real>-0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
+		<integer>58</integer>
 		<integer>65</integer>
-		<integer>72</integer>
-		<integer>74</integer>
+		<integer>66</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
-		<integer>72</integer>
-		<integer>76</integer>
-		<integer>78</integer>
-		<integer>81</integer>
+		<integer>62</integer>
+		<integer>66</integer>
+		<integer>68</integer>
+		<integer>70</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-100</integer>
@@ -203,8 +164,6 @@
 	<string>Regular</string>
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
-	<key>styleMapFamilyName</key>
-	<string>Archivo Narrow Devanagari</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>

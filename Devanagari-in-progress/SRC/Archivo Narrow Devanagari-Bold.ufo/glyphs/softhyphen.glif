@@ -3,32 +3,6 @@
   <advance width="241"/>
   <unicode hex="00AD"/>
   <outline>
-    <contour>
-      <point x="14" y="291" type="line"/>
-      <point x="14" y="187" type="line"/>
-      <point x="227" y="187" type="line"/>
-      <point x="227" y="291" type="line"/>
-    </contour>
+    <component base="hyphen"/>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>187</integer>
-            <integer>104</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>14</integer>
-            <integer>213</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

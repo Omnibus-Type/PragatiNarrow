@@ -4,13 +4,16 @@
   <unicode hex="0106"/>
   <outline>
     <contour>
-      <point x="298" y="664" type="line"/>
-      <point x="393" y="778" type="line"/>
-      <point x="392" y="781" type="line"/>
-      <point x="286" y="781" type="line"/>
-      <point x="210" y="664" type="line"/>
-    </contour>
-    <contour>
+      <point x="271" y="617" type="curve" smooth="yes"/>
+      <point x="119" y="617"/>
+      <point x="30" y="517"/>
+      <point x="30" y="303" type="curve" smooth="yes"/>
+      <point x="30" y="89"/>
+      <point x="119" y="-11"/>
+      <point x="271" y="-11" type="curve" smooth="yes"/>
+      <point x="400" y="-11"/>
+      <point x="494" y="65"/>
+      <point x="494" y="225" type="curve"/>
       <point x="384" y="225" type="line"/>
       <point x="384" y="131"/>
       <point x="340" y="87"/>
@@ -28,49 +31,13 @@
       <point x="494" y="381" type="line"/>
       <point x="494" y="545"/>
       <point x="398" y="617"/>
-      <point x="271" y="617" type="curve" smooth="yes"/>
-      <point x="119" y="617"/>
-      <point x="30" y="517"/>
-      <point x="30" y="303" type="curve" smooth="yes"/>
-      <point x="30" y="89"/>
-      <point x="119" y="-11"/>
-      <point x="271" y="-11" type="curve" smooth="yes"/>
-      <point x="400" y="-11"/>
-      <point x="494" y="65"/>
-      <point x="494" y="225" type="curve"/>
+    </contour>
+    <contour>
+      <point x="393" y="778" type="line"/>
+      <point x="392" y="781" type="line"/>
+      <point x="286" y="781" type="line"/>
+      <point x="210" y="664" type="line"/>
+      <point x="298" y="664" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>-11</integer>
-            <integer>98</integer>
-          </array>
-          <array>
-            <integer>520</integer>
-            <integer>97</integer>
-          </array>
-          <array>
-            <integer>664</integer>
-            <integer>117</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>30</integer>
-            <integer>117</integer>
-          </array>
-          <array>
-            <integer>384</integer>
-            <integer>110</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

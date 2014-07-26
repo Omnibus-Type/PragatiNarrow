@@ -276,6 +276,8 @@
 	<string>aacute.glif</string>
 	<key>aadeva</key>
 	<string>aadeva.glif</string>
+	<key>abbreviationsigndeva</key>
+	<string>abbreviationsigndeva.glif</string>
 	<key>abreve</key>
 	<string>abreve.glif</string>
 	<key>acircumflex</key>
@@ -348,14 +350,14 @@
 	<string>at.glif</string>
 	<key>atilde</key>
 	<string>atilde.glif</string>
-	<key>auMatra_anusvaradeva</key>
-	<string>auM_atra_anusvaradeva.glif</string>
 	<key>auMatra_reph_anusvaradeva</key>
 	<string>auM_atra_reph_anus32c08e12.glif</string>
 	<key>auMatra_rephdeva</key>
 	<string>auM_atra_rephdeva.glif</string>
 	<key>audeva</key>
 	<string>audeva.glif</string>
+	<key>avagrahadeva</key>
+	<string>avagrahadeva.glif</string>
 	<key>b</key>
 	<string>b.glif</string>
 	<key>b_radeva</key>
@@ -386,6 +388,8 @@
 	<string>bulletoperator.glif</string>
 	<key>c</key>
 	<string>c.glif</string>
+	<key>c_radeva</key>
+	<string>c_radeva.glif</string>
 	<key>cacute</key>
 	<string>cacute.glif</string>
 	<key>cadeva</key>
@@ -414,20 +418,24 @@
 	<string>colon.glif</string>
 	<key>comma</key>
 	<string>comma.glif</string>
-	<key>commaaccentcomb</key>
-	<string>commaaccentcomb.glif</string>
 	<key>copyright</key>
 	<string>copyright.glif</string>
 	<key>currency</key>
 	<string>currency.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
+	<key>d_radeva</key>
+	<string>d_radeva.glif</string>
 	<key>dadeva</key>
 	<string>dadeva.glif</string>
 	<key>dagger</key>
 	<string>dagger.glif</string>
 	<key>daggerdbl</key>
 	<string>daggerdbl.glif</string>
+	<key>dandadeva</key>
+	<string>dandadeva.glif</string>
+	<key>dbldandadeva</key>
+	<string>dbldandadeva.glif</string>
 	<key>dcaron</key>
 	<string>dcaron.glif</string>
 	<key>dcroat</key>
@@ -444,6 +452,8 @@
 	<string>ddhadeva.glif</string>
 	<key>degree</key>
 	<string>degree.glif</string>
+	<key>dh_radeva</key>
+	<string>dh_radeva.glif</string>
 	<key>dhadeva</key>
 	<string>dhadeva.glif</string>
 	<key>dieresis</key>
@@ -524,6 +534,8 @@
 	<string>exclamdown.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
+	<key>f_radeva</key>
+	<string>f_radeva.glif</string>
 	<key>fadeva</key>
 	<string>fadeva.glif</string>
 	<key>fi</key>
@@ -546,6 +558,8 @@
 	<string>franc.glif</string>
 	<key>g</key>
 	<string>g.glif</string>
+	<key>g_radeva</key>
+	<string>g_radeva.glif</string>
 	<key>gadeva</key>
 	<string>gadeva.glif</string>
 	<key>gbreve</key>
@@ -558,6 +572,8 @@
 	<string>gdotaccent.glif</string>
 	<key>germandbls</key>
 	<string>germandbls.glif</string>
+	<key>gh_radeva</key>
+	<string>gh_radeva.glif</string>
 	<key>ghadeva</key>
 	<string>ghadeva.glif</string>
 	<key>ghhadeva</key>
@@ -578,6 +594,8 @@
 	<string>guilsinglright.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>h_radeva</key>
+	<string>h_radeva.glif</string>
 	<key>hadeva</key>
 	<string>hadeva.glif</string>
 	<key>hbar</key>
@@ -592,12 +610,6 @@
 	<string>hyphen.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
-	<key>iMatra_anusvaradeva</key>
-	<string>iM_atra_anusvaradeva.glif</string>
-	<key>iMatra_reph_anusvaradeva</key>
-	<string>iM_atra_reph_anusvaradeva.glif</string>
-	<key>iMatra_rephdeva</key>
-	<string>iM_atra_rephdeva.glif</string>
 	<key>iacute</key>
 	<string>iacute.glif</string>
 	<key>ibreve</key>
@@ -642,16 +654,30 @@
 	<string>j.glif</string>
 	<key>j_nyadeva</key>
 	<string>j_nyadeva.glif</string>
+	<key>j_radeva</key>
+	<string>j_radeva.glif</string>
 	<key>jadeva</key>
 	<string>jadeva.glif</string>
 	<key>jcircumflex</key>
 	<string>jcircumflex.glif</string>
+	<key>jh_radeva</key>
+	<string>jh_radeva.glif</string>
 	<key>jhadeva</key>
 	<string>jhadeva.glif</string>
 	<key>jhadeva.NEP</key>
 	<string>jhadeva_N_E_P_.glif</string>
 	<key>k</key>
 	<string>k.glif</string>
+	<key>k_radeva</key>
+	<string>k_radeva.glif</string>
+	<key>k_radeva.NEP</key>
+	<string>k_radeva_N_E_P_.glif</string>
+	<key>k_ss_radeva</key>
+	<string>k_ss_radeva.glif</string>
+	<key>k_ssadeva</key>
+	<string>k_ssadeva.glif</string>
+	<key>k_ssdeva</key>
+	<string>k_ssdeva.glif</string>
 	<key>ka_uMatradeva</key>
 	<string>ka_uM_atradeva.glif</string>
 	<key>ka_uuMatradeva</key>
@@ -662,12 +688,16 @@
 	<string>kcommaaccent.glif</string>
 	<key>kgreenlandic</key>
 	<string>kgreenlandic.glif</string>
+	<key>kh_radeva</key>
+	<string>kh_radeva.glif</string>
 	<key>khadeva</key>
 	<string>khadeva.glif</string>
 	<key>khhadeva</key>
 	<string>khhadeva.glif</string>
 	<key>l</key>
 	<string>l.glif</string>
+	<key>l_radeva</key>
+	<string>l_radeva.glif</string>
 	<key>lacute</key>
 	<string>lacute.glif</string>
 	<key>lcaron</key>
@@ -702,6 +732,8 @@
 	<string>lvocalicdeva.glif</string>
 	<key>m</key>
 	<string>m.glif</string>
+	<key>m_radeva</key>
+	<string>m_radeva.glif</string>
 	<key>macron</key>
 	<string>macron.glif</string>
 	<key>madeva</key>
@@ -716,6 +748,8 @@
 	<string>multiply.glif</string>
 	<key>n</key>
 	<string>n.glif</string>
+	<key>n_radeva</key>
+	<string>n_radeva.glif</string>
 	<key>nacute</key>
 	<string>nacute.glif</string>
 	<key>nadeva</key>
@@ -730,6 +764,8 @@
 	<string>ngadeva.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
+	<key>nn_radeva</key>
+	<string>nn_radeva.glif</string>
 	<key>nnadeva</key>
 	<string>nnadeva.glif</string>
 	<key>nnnadeva</key>
@@ -744,6 +780,8 @@
 	<string>nuktadeva.glif</string>
 	<key>numbersign</key>
 	<string>numbersign.glif</string>
+	<key>ny_radeva</key>
+	<string>ny_radeva.glif</string>
 	<key>nyadeva</key>
 	<string>nyadeva.glif</string>
 	<key>o</key>
@@ -778,6 +816,8 @@
 	<string>ohungarumlaut.glif</string>
 	<key>omacron</key>
 	<string>omacron.glif</string>
+	<key>omdeva</key>
+	<string>omdeva.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
 	<key>oneeighth</key>
@@ -808,6 +848,8 @@
 	<string>ovowelsigndeva.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
+	<key>p_radeva</key>
+	<string>p_radeva.glif</string>
 	<key>padeva</key>
 	<string>padeva.glif</string>
 	<key>paragraph</key>
@@ -828,6 +870,8 @@
 	<string>perthousand.glif</string>
 	<key>peseta</key>
 	<string>peseta.glif</string>
+	<key>ph_radeva</key>
+	<string>ph_radeva.glif</string>
 	<key>pha_uMatradeva</key>
 	<string>pha_uM_atradeva.glif</string>
 	<key>pha_uuMatradeva</key>
@@ -870,8 +914,16 @@
 	<string>r.glif</string>
 	<key>racute</key>
 	<string>racute.glif</string>
+	<key>radeva</key>
+	<string>radeva.glif</string>
 	<key>radical</key>
 	<string>radical.glif</string>
+	<key>rashtrasign_uMatradeva</key>
+	<string>rashtrasign_uM_atradeva.glif</string>
+	<key>rashtrasign_uuMatradeva</key>
+	<string>rashtrasign_uuM_atradeva.glif</string>
+	<key>rashtrasigndeva</key>
+	<string>rashtrasigndeva.glif</string>
 	<key>rcaron</key>
 	<string>rcaron.glif</string>
 	<key>rcommaaccent</key>
@@ -896,6 +948,8 @@
 	<string>rvocalicvowelsigndeva.glif</string>
 	<key>s</key>
 	<string>s.glif</string>
+	<key>s_radeva</key>
+	<string>s_radeva.glif</string>
 	<key>sacute</key>
 	<string>sacute.glif</string>
 	<key>sadeva</key>
@@ -918,6 +972,8 @@
 	<string>seven.glif</string>
 	<key>seveneighths</key>
 	<string>seveneighths.glif</string>
+	<key>sh_radeva</key>
+	<string>sh_radeva.glif</string>
 	<key>shadeva</key>
 	<string>shadeva.glif</string>
 	<key>six</key>
@@ -928,6 +984,8 @@
 	<string>softhyphen.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
+	<key>ss_radeva</key>
+	<string>ss_radeva.glif</string>
 	<key>ssadeva</key>
 	<string>ssadeva.glif</string>
 	<key>sterling</key>
@@ -936,6 +994,10 @@
 	<string>summation.glif</string>
 	<key>t</key>
 	<string>t.glif</string>
+	<key>t_radeva</key>
+	<string>t_radeva.glif</string>
+	<key>t_rdeva</key>
+	<string>t_rdeva.glif</string>
 	<key>tadeva</key>
 	<string>tadeva.glif</string>
 	<key>tbar</key>
@@ -944,6 +1006,8 @@
 	<string>tcaron.glif</string>
 	<key>tcedilla</key>
 	<string>tcedilla.glif</string>
+	<key>th_radeva</key>
+	<string>th_radeva.glif</string>
 	<key>thadeva</key>
 	<string>thadeva.glif</string>
 	<key>thorn</key>
@@ -976,6 +1040,8 @@
 	<string>ubreve.glif</string>
 	<key>ucircumflex</key>
 	<string>ucircumflex.glif</string>
+	<key>udattadeva</key>
+	<string>udattadeva.glif</string>
 	<key>udeva</key>
 	<string>udeva.glif</string>
 	<key>udieresis</key>
@@ -990,6 +1056,8 @@
 	<string>underscore.glif</string>
 	<key>underscoredbl</key>
 	<string>underscoredbl.glif</string>
+	<key>uni000C</key>
+	<string>uni000C_.glif</string>
 	<key>uni00A0</key>
 	<string>uni00A_0.glif</string>
 	<key>uni00B5</key>
@@ -998,6 +1066,10 @@
 	<string>uni021A_.glif</string>
 	<key>uni021B</key>
 	<string>uni021B_.glif</string>
+	<key>uni0326</key>
+	<string>uni0326.glif</string>
+	<key>uni0900</key>
+	<string>uni0900.glif</string>
 	<key>uni0904</key>
 	<string>uni0904.glif</string>
 	<key>uni0915094D</key>
@@ -1060,8 +1132,6 @@
 	<string>uni092F_.glif</string>
 	<key>uni092F094D</key>
 	<string>uni092F_094D_.glif</string>
-	<key>uni0930</key>
-	<string>uni0930.glif</string>
 	<key>uni0930094D</key>
 	<string>uni0930094D_.glif</string>
 	<key>uni0931094D</key>
@@ -1072,6 +1142,8 @@
 	<string>uni0932094D_.glif</string>
 	<key>uni0933094D</key>
 	<string>uni0933094D_.glif</string>
+	<key>uni0934094D</key>
+	<string>uni0934094D_.glif</string>
 	<key>uni0935094D</key>
 	<string>uni0935094D_.glif</string>
 	<key>uni0936094D</key>
@@ -1082,42 +1154,94 @@
 	<string>uni0938094D_.glif</string>
 	<key>uni0939094D</key>
 	<string>uni0939094D_.glif</string>
+	<key>uni093A</key>
+	<string>uni093A_.glif</string>
+	<key>uni093B</key>
+	<string>uni093B_.glif</string>
 	<key>uni093E</key>
 	<string>uni093E_.glif</string>
 	<key>uni093F</key>
 	<string>uni093F_.glif</string>
+	<key>uni093F0902</key>
+	<string>uni093F_0902.glif</string>
+	<key>uni093F0930094D</key>
+	<string>uni093F_0930094D_.glif</string>
+	<key>uni093F0930094D0902</key>
+	<string>uni093F_0930094D_0902.glif</string>
 	<key>uni0940</key>
 	<string>uni0940.glif</string>
 	<key>uni094A</key>
 	<string>uni094A_.glif</string>
 	<key>uni094C</key>
 	<string>uni094C_.glif</string>
+	<key>uni094C_uni0902</key>
+	<string>uni094C__uni0902.glif</string>
+	<key>uni094E</key>
+	<string>uni094E_.glif</string>
+	<key>uni094F</key>
+	<string>uni094F_.glif</string>
+	<key>uni0956</key>
+	<string>uni0956.glif</string>
+	<key>uni0957</key>
+	<string>uni0957.glif</string>
+	<key>uni0958094D</key>
+	<string>uni0958094D_.glif</string>
+	<key>uni0959094D</key>
+	<string>uni0959094D_.glif</string>
+	<key>uni095A094D</key>
+	<string>uni095A_094D_.glif</string>
+	<key>uni095B094D</key>
+	<string>uni095B_094D_.glif</string>
+	<key>uni095E094D</key>
+	<string>uni095E_094D_.glif</string>
 	<key>uni0972</key>
 	<string>uni0972.glif</string>
+	<key>uni0973</key>
+	<string>uni0973.glif</string>
+	<key>uni0974</key>
+	<string>uni0974.glif</string>
+	<key>uni0975</key>
+	<string>uni0975.glif</string>
+	<key>uni0976</key>
+	<string>uni0976.glif</string>
+	<key>uni0977</key>
+	<string>uni0977.glif</string>
+	<key>uni0979</key>
+	<string>uni0979.glif</string>
 	<key>uni097B</key>
 	<string>uni097B_.glif</string>
 	<key>uni097C</key>
 	<string>uni097C_.glif</string>
+	<key>uni097D</key>
+	<string>uni097D_.glif</string>
 	<key>uni097E</key>
 	<string>uni097E_.glif</string>
 	<key>uni097F</key>
 	<string>uni097F_.glif</string>
+	<key>uni20B9</key>
+	<string>uni20B_9.glif</string>
 	<key>uogonek</key>
 	<string>uogonek.glif</string>
 	<key>uring</key>
 	<string>uring.glif</string>
 	<key>utilde</key>
 	<string>utilde.glif</string>
+	<key>uudeva</key>
+	<string>uudeva.glif</string>
 	<key>uuvowelsigndeva</key>
 	<string>uuvowelsigndeva.glif</string>
 	<key>uvowelsigndeva</key>
 	<string>uvowelsigndeva.glif</string>
 	<key>v</key>
 	<string>v.glif</string>
+	<key>v_radeva</key>
+	<string>v_radeva.glif</string>
 	<key>vadeva</key>
 	<string>vadeva.glif</string>
 	<key>viramadeva</key>
 	<string>viramadeva.glif</string>
+	<key>visargadeva</key>
+	<string>visargadeva.glif</string>
 	<key>w</key>
 	<string>w.glif</string>
 	<key>wacute</key>
@@ -1132,6 +1256,8 @@
 	<string>x.glif</string>
 	<key>y</key>
 	<string>y.glif</string>
+	<key>y_radeva</key>
+	<string>y_radeva.glif</string>
 	<key>yacute</key>
 	<string>yacute.glif</string>
 	<key>ycircumflex</key>

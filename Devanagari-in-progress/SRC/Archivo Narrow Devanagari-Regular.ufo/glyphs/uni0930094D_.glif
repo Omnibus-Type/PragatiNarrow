@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-102" y="606" type="move" name="_top"/>
+      <point x="-96" y="606" type="move" name="_top"/>
     </contour>
     <contour>
       <point x="0" y="0" type="move" name="bottom"/>
@@ -12,45 +12,24 @@
       <point x="0" y="465" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="-57" y="568" type="line"/>
-      <point x="-91" y="616"/>
-      <point x="-107" y="654"/>
-      <point x="-107" y="689" type="curve" smooth="yes"/>
-      <point x="-107" y="734"/>
-      <point x="-76" y="761"/>
-      <point x="-21" y="762" type="curve" smooth="yes"/>
-      <point x="-17" y="762" type="line"/>
-      <point x="-17" y="826" type="line"/>
-      <point x="-21" y="827"/>
-      <point x="-31" y="827"/>
-      <point x="-37" y="827" type="curve" smooth="yes"/>
-      <point x="-119" y="827"/>
-      <point x="-180" y="777"/>
-      <point x="-180" y="705" type="curve" smooth="yes"/>
-      <point x="-180" y="659"/>
-      <point x="-158" y="608"/>
-      <point x="-111" y="554" type="curve"/>
+      <point x="-39" y="827" type="curve" smooth="yes"/>
+      <point x="-114" y="827"/>
+      <point x="-171" y="777"/>
+      <point x="-171" y="707" type="curve" smooth="yes"/>
+      <point x="-171" y="661"/>
+      <point x="-150" y="612"/>
+      <point x="-103" y="560" type="curve"/>
+      <point x="-58" y="570" type="line"/>
+      <point x="-92" y="620"/>
+      <point x="-108" y="659"/>
+      <point x="-108" y="695" type="curve" smooth="yes"/>
+      <point x="-108" y="741"/>
+      <point x="-77" y="769"/>
+      <point x="-23" y="770" type="curve"/>
+      <point x="-21" y="770" type="line"/>
+      <point x="-21" y="826" type="line"/>
+      <point x="-23" y="827"/>
+      <point x="-33" y="827"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>762</integer>
-            <integer>65</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>-180</integer>
-            <integer>73</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

@@ -4,51 +4,22 @@
   <unicode hex="2261"/>
   <outline>
     <contour>
-      <point x="29" y="483" type="line"/>
       <point x="29" y="391" type="line"/>
       <point x="393" y="391" type="line"/>
       <point x="393" y="483" type="line"/>
+      <point x="29" y="483" type="line"/>
     </contour>
     <contour>
-      <point x="29" y="294" type="line"/>
-      <point x="29" y="202" type="line"/>
-      <point x="393" y="202" type="line"/>
-      <point x="393" y="294" type="line"/>
-    </contour>
-    <contour>
-      <point x="29" y="106" type="line"/>
       <point x="29" y="15" type="line"/>
       <point x="393" y="15" type="line"/>
       <point x="393" y="106" type="line"/>
+      <point x="29" y="106" type="line"/>
+    </contour>
+    <contour>
+      <point x="29" y="202" type="line"/>
+      <point x="393" y="202" type="line"/>
+      <point x="393" y="294" type="line"/>
+      <point x="29" y="294" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>15</integer>
-            <integer>91</integer>
-          </array>
-          <array>
-            <integer>202</integer>
-            <integer>92</integer>
-          </array>
-          <array>
-            <integer>391</integer>
-            <integer>92</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>29</integer>
-            <integer>364</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

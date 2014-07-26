@@ -7,42 +7,25 @@
       <point x="-123" y="606" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-64" y="606" type="line"/>
-      <point x="-72" y="606" type="line"/>
-      <point x="-72" y="821" type="line"/>
-      <point x="-179" y="821" type="line"/>
-      <point x="-179" y="743" type="line" smooth="yes"/>
-      <point x="-179" y="697"/>
-      <point x="-176" y="652"/>
-      <point x="-171" y="606" type="curve"/>
       <point x="-188" y="606" type="line"/>
       <point x="-247" y="821" type="line"/>
       <point x="-354" y="821" type="line"/>
       <point x="-286" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="513" type="line"/>
+      <point x="-64" y="606" type="line"/>
       <point x="-295" y="606" type="line"/>
       <point x="-295" y="513" type="line"/>
-      <point x="-64" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="-72" y="606" type="line"/>
+      <point x="-72" y="821" type="line"/>
+      <point x="-179" y="821" type="line"/>
+      <point x="-179" y="743" type="line"/>
+      <point x="-179" y="697"/>
+      <point x="-176" y="652"/>
+      <point x="-171" y="606" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>513</integer>
-            <integer>93</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>-179</integer>
-            <integer>107</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

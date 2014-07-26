@@ -3,59 +3,30 @@
   <advance width="442"/>
   <outline>
     <contour>
-      <point x="0" y="619" type="line"/>
       <point x="0" y="0" type="line"/>
       <point x="442" y="0" type="line"/>
       <point x="442" y="619" type="line"/>
+      <point x="0" y="619" type="line"/>
     </contour>
     <contour>
-      <point x="371" y="575" type="line"/>
-      <point x="221" y="349" type="line"/>
-      <point x="71" y="575" type="line"/>
-    </contour>
-    <contour>
-      <point x="44" y="535" type="line"/>
-      <point x="194" y="309" type="line"/>
-      <point x="44" y="84" type="line"/>
-    </contour>
-    <contour>
-      <point x="398" y="535" type="line"/>
-      <point x="398" y="84" type="line"/>
-      <point x="248" y="309" type="line"/>
-    </contour>
-    <contour>
-      <point x="221" y="270" type="line"/>
       <point x="371" y="44" type="line"/>
       <point x="71" y="44" type="line"/>
+      <point x="221" y="270" type="line"/>
+    </contour>
+    <contour>
+      <point x="194" y="309" type="line"/>
+      <point x="44" y="84" type="line"/>
+      <point x="44" y="535" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="84" type="line"/>
+      <point x="248" y="309" type="line"/>
+      <point x="398" y="535" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="349" type="line"/>
+      <point x="71" y="575" type="line"/>
+      <point x="371" y="575" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>0</integer>
-            <integer>44</integer>
-          </array>
-          <array>
-            <integer>575</integer>
-            <integer>44</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>0</integer>
-            <integer>44</integer>
-          </array>
-          <array>
-            <integer>398</integer>
-            <integer>44</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

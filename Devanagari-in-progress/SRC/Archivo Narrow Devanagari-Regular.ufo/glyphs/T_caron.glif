@@ -4,52 +4,23 @@
   <unicode hex="0164"/>
   <outline>
     <contour>
-      <point x="255" y="661" type="line"/>
-      <point x="331" y="781" type="line"/>
-      <point x="261" y="781" type="line"/>
-      <point x="221" y="711" type="line"/>
-      <point x="182" y="781" type="line"/>
-      <point x="111" y="781" type="line"/>
-      <point x="187" y="661" type="line"/>
+      <point x="424" y="545" type="line"/>
+      <point x="424" y="606" type="line"/>
+      <point x="18" y="606" type="line"/>
+      <point x="18" y="545" type="line"/>
+      <point x="187" y="545" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="255" y="545" type="line"/>
     </contour>
     <contour>
-      <point x="425" y="536" type="line"/>
-      <point x="425" y="606" type="line"/>
-      <point x="17" y="606" type="line"/>
-      <point x="17" y="536" type="line"/>
-      <point x="182" y="536" type="line"/>
-      <point x="182" y="0" type="line"/>
-      <point x="260" y="0" type="line"/>
-      <point x="260" y="536" type="line"/>
+      <point x="252" y="661" type="line"/>
+      <point x="328" y="781" type="line"/>
+      <point x="261" y="781" type="line"/>
+      <point x="220" y="708" type="line"/>
+      <point x="182" y="781" type="line"/>
+      <point x="113" y="781" type="line"/>
+      <point x="189" y="661" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>21</integer>
-            <integer>-21</integer>
-          </array>
-          <array>
-            <integer>536</integer>
-            <integer>70</integer>
-          </array>
-          <array>
-            <integer>661</integer>
-            <integer>120</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>182</integer>
-            <integer>78</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

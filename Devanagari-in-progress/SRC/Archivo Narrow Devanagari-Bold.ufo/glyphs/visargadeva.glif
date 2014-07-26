@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="visargadeva" format="1">
+  <advance width="208"/>
+  <unicode hex="0903"/>
+  <outline>
+    <contour>
+      <point x="55" y="465" type="line"/>
+      <point x="55" y="367" type="line"/>
+      <point x="153" y="367" type="line"/>
+      <point x="153" y="465" type="line"/>
+    </contour>
+    <contour>
+      <point x="55" y="181" type="line"/>
+      <point x="55" y="83" type="line"/>
+      <point x="153" y="83" type="line"/>
+      <point x="153" y="181" type="line"/>
+    </contour>
+  </outline>
+</glyph>

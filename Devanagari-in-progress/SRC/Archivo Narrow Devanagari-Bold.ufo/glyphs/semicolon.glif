@@ -4,44 +4,19 @@
   <unicode hex="003B"/>
   <outline>
     <contour>
-      <point x="49" y="465" type="line"/>
-      <point x="49" y="344" type="line"/>
-      <point x="171" y="344" type="line"/>
-      <point x="171" y="465" type="line"/>
-    </contour>
-    <contour>
-      <point x="48" y="-138" type="line"/>
       <point x="111" y="-138" type="line"/>
       <point x="170" y="11" type="line"/>
       <point x="170" y="121" type="line"/>
       <point x="48" y="121" type="line"/>
       <point x="48" y="0" type="line"/>
       <point x="96" y="0" type="line"/>
+      <point x="48" y="-138" type="line"/>
+    </contour>
+    <contour>
+      <point x="49" y="344" type="line"/>
+      <point x="171" y="344" type="line"/>
+      <point x="171" y="465" type="line"/>
+      <point x="49" y="465" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-        <key>hHints</key>
-        <array>
-          <array>
-            <integer>0</integer>
-            <integer>121</integer>
-          </array>
-          <array>
-            <integer>344</integer>
-            <integer>121</integer>
-          </array>
-        </array>
-        <key>vHints</key>
-        <array>
-          <array>
-            <integer>49</integer>
-            <integer>122</integer>
-          </array>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
