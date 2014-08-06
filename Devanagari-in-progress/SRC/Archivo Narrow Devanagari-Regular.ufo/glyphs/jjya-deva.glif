@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni097A" format="1">
+  <advance width="417"/>
+  <unicode hex="097A"/>
+  <outline>
+    <contour>
+      <point x="300" y="207" type="line"/>
+      <point x="331" y="232" type="line"/>
+      <point x="158" y="549" type="line"/>
+      <point x="129" y="520" type="line"/>
+    </contour>
+    <component base="uni092F"/>
+    <contour>
+      <point x="74" y="127" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="319" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="319" y="606" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

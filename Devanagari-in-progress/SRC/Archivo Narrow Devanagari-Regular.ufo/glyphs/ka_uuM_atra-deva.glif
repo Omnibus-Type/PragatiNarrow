@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kadeva_uuvowelsigndeva" format="1">
+  <advance width="541"/>
+  <outline>
+    <component base="kadeva"/>
+    <component base="uuvowelsigndeva" xOffset="373"/>
+    <contour>
+      <point x="270" y="606" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="270" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

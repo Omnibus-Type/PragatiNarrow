@@ -4,16 +4,16 @@
   <unicode hex="0131"/>
   <outline>
     <contour>
+      <point x="154" y="0" type="line"/>
+      <point x="154" y="465" type="line"/>
+      <point x="48" y="465" type="line"/>
+      <point x="48" y="0" type="line"/>
+    </contour>
+    <contour>
       <point x="181" y="9" type="move" name="ogonek"/>
     </contour>
     <contour>
       <point x="101" y="465" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="48" y="0" type="line"/>
-      <point x="154" y="0" type="line"/>
-      <point x="154" y="465" type="line"/>
-      <point x="48" y="465" type="line"/>
     </contour>
   </outline>
 </glyph>

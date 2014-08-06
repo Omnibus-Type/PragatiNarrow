@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aivowelsigndeva_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-300" y="821" type="line"/>
+      <point x="-407" y="821" type="line"/>
+      <point x="-286" y="606" type="line"/>
+      <point x="-188" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="606" type="line"/>
+      <point x="-295" y="606" type="line"/>
+      <point x="-295" y="513" type="line"/>
+      <point x="-64" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="-132" y="821" type="line"/>
+      <point x="-239" y="821" type="line"/>
+      <point x="-171" y="606" type="line"/>
+      <point x="-73" y="606" type="line"/>
+    </contour>
+    <component base="anusvaradeva" xOffset="102" yOffset="40"/>
+    <contour>
+      <point x="-122" y="606" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

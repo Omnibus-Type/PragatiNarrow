@@ -24,18 +24,18 @@
       <point x="470" y="190" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="306" y="778" type="line"/>
       <point x="305" y="781" type="line"/>
       <point x="217" y="781" type="line"/>
       <point x="162" y="664" type="line"/>
       <point x="232" y="664" type="line"/>
+      <point x="306" y="778" type="line"/>
     </contour>
     <contour>
-      <point x="430" y="778" type="line"/>
       <point x="429" y="781" type="line"/>
       <point x="340" y="781" type="line"/>
       <point x="286" y="664" type="line"/>
       <point x="355" y="664" type="line"/>
+      <point x="430" y="778" type="line"/>
     </contour>
   </outline>
 </glyph>

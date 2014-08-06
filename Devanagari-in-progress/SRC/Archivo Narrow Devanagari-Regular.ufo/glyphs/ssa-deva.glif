@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ssadeva" format="1">
+  <advance width="379"/>
+  <unicode hex="0937"/>
+  <outline>
+    <contour>
+      <point x="250" y="207" type="line"/>
+      <point x="281" y="232" type="line"/>
+      <point x="108" y="549" type="line"/>
+      <point x="79" y="520" type="line"/>
+    </contour>
+    <component base="padeva" xOffset="1"/>
+    <contour>
+      <point x="282" y="606" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="282" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

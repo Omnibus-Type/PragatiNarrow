@@ -24,10 +24,10 @@
       <point x="552" y="144" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="157" y="0" type="line"/>
       <point x="157" y="606" type="line"/>
       <point x="44" y="606" type="line"/>
       <point x="44" y="0" type="line"/>
+      <point x="157" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

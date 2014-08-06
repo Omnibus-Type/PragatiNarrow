@@ -313,29 +313,60 @@ rhadeva	rha-deva
 fadeva	fa-deva
 yyadeva	yya-deva
 uni0979	zha-deva	uni0979
+uni097A	jjya-deva	uni097A
 uni097B	gga-deva	uni097B
 uni097C	jja-deva	uni097C
 uni097E	ddda-deva	uni097E
 uni097F	bba-deva	uni097F
 jhadeva.NEP	jha-deva.NEP
+uni0932.loclMAR	la-deva.loclMAR
+shadeva.loclMAR	sha-deva.loclMAR
+uni092F.post	ya-deva.post
+vadeva.post	va-deva.post
 kadeva_uvowelsigndeva	ka_uMatra-deva
 kadeva_uuvowelsigndeva	ka_uuMatra-deva
+uni0915094D_kadeva	k_ka-deva
+uni0915094D_tadeva	k_ta-deva
 uni0915094D_radeva	k_ra-deva
+uni0915094D_vadeva	k_va-deva
 uni0915094D_ssadeva	k_ssa-deva
 uni0915094D0937094D_radeva	k_ss_ra-deva
 uni0916094D_radeva	kh_ra-deva
 uni0917094D_radeva	g_ra-deva
 uni0918094D_radeva	gh_ra-deva
+uni0919094D_kadeva	ng_ka-deva
+uni0919094D0915094D_ssadeva	ng_k_ssa-deva
+uni0919094D_khadeva	ng_kha-deva
+uni0919094D_gadeva	ng_ga-deva
+uni0919094D_ghadeva	ng_gha-deva
+uni0919094D_madeva	ng_ma-deva
 uni091A094D_radeva	c_ra-deva
 uni091C094D_nyadeva	j_nya-deva
+uni091C094D091E094D_radeva	j_ny_ra-deva
 uni091C094D_radeva	j_ra-deva
 uni091D094D_radeva	jh_ra-deva
 uni091E094D_radeva	ny_ra-deva
+uni091F094D_ttadeva	tt_tta-deva
+uni091F094D_tthadeva	tt_ttha-deva
+uni091F094D_ddhadeva	tt_ddha-deva
+uni091F094D092F	tt_ya-deva
+uni091F094D_vadeva	tt_va-deva
+uni0920094D_tthadeva	tth_ttha-deva
+uni0920094D092F	tth_ya-deva
+uni0921094D_ttadeva	dd_tta-deva
 uni0921094D_ddadeva	dd_dda-deva
 uni0921094D_ddadeva_uuvowelsign	dd_dda_uuMatra-deva
+uni0921094D_ddhadeva	dd_ddha-deva
+uni0921094D092F	dd_ya-deva
+uni0922094D_ddhadeva	ddh_ddha-deva
+uni0922094D092F	ddh_ya-deva
 uni0923094D_radeva	nn_ra-deva
+uni0924094D_tadeva	t_ta-deva
 uni0924094D_radeva	t_ra-deva
 uni0925094D_radeva	th_ra-deva
+uni0926094D_dadeva	d_da-deva
+uni0926094D0926094D092F	d_d_ya-deva
+uni0926094D092F	d_ya-deva
 uni0926094D_radeva	d_ra-deva
 uni0927094D_radeva	dh_ra-deva
 uni0928094D_radeva	n_ra-deva
@@ -347,14 +378,20 @@ uni092C094D_radeva	b_ra-deva
 uni092D094D_radeva	bh_ra-deva
 uni092E094D_radeva	m_ra-deva
 uni092F094D_radeva	y_ra-deva
+radeva_uvowelsigndeva	ra_uMatra-deva
+radeva_uuvowelsigndeva	ra_uuMatra-deva
 uni0932094D_radeva	l_ra-deva
 uni0935094D_radeva	v_ra-deva
+uni0936094D_rvocalicdeva	sh_rVocalic-deva
 uni0936094D_radeva	sh_ra-deva
 uni0937094D_radeva	ss_ra-deva
+uni0938094D0924094D_radeva	s_t_ra-deva
 uni0938094D_radeva	s_ra-deva
+uni0939094D092F	h_ya-deva
 uni0939094D_radeva	h_ra-deva
 uni095E094D_radeva	f_ra-deva
 uni0915094D_radeva.NEP	k_ra-deva.NEP
+uni091C094D_nyadeva.alt	j_nya-deva.alt
 uni0904	aShort-deva	uni0904
 uni0972	aCandra-deva	uni0972
 adeva	a-deva	uni0905
@@ -386,9 +423,11 @@ uni0916094D	kh-deva
 uni0917094D	g-deva
 uni0918094D	gh-deva
 uni0919094D	ng-deva
+uni0919094D0915094D	ng_k-deva
 uni091A094D	c-deva
 uni091B094D	ch-deva
 uni091C094D	j-deva
+uni091C094D091E094D	j_ny-deva
 uni091D094D	jh-deva
 uni091E094D	ny-deva
 uni091F094D	tt-deva
@@ -397,14 +436,17 @@ uni0921094D	dd-deva
 uni0922094D	ddh-deva
 uni0923094D	nn-deva
 uni0924094D	t-deva
+uni0924094D0924094D	t_t-deva
 uni0924094D0930094D	t_r-deva
 uni0925094D	th-deva
 uni0926094D	d-deva
 uni0927094D	dh-deva
 uni0928094D	n-deva
+uni0929094D	nnn-deva
 uni092A094D	p-deva
 uni092B094D	ph-deva
 uni092C094D	b-deva
+uni092C094D0930094D	b_r-deva
 uni092D094D	bh-deva
 uni092E094D	m-deva
 uni092F094D	y-deva
@@ -445,6 +487,7 @@ uni094E	prishthaMatraE-deva	uni094E
 uni093B	ooeMatra-deva	uni093B
 uni094F	awMatra-deva	uni094F
 uni091D094D.NEP	jh-deva.NEP
+uni0936094D.loclMAR	sh-deva.loclMAR
 zero	zero	uni0030
 one	one	uni0031
 two	two	uni0032
@@ -466,6 +509,18 @@ seveneighths	seveneighths	uni215E
 onesuperior	onesuperior	uni00B9
 twosuperior	twosuperior	uni00B2
 threesuperior	threesuperior	uni00B3
+zerodeva	zero-deva	uni0966
+onedeva	one-deva	uni0967
+twodeva	two-deva	uni0968
+threedeva	three-deva	uni0969
+fourdeva	four-deva	uni096A
+fivedeva	five-deva	uni096B
+sixdeva	six-deva	uni096C
+sevendeva	seven-deva	uni096D
+eightdeva	eight-deva	uni096E
+ninedeva	nine-deva	uni096F
+fivedeva.loclNEP	five-deva.loclNEP
+eightdeva.loclNEP	eight-deva.loclNEP
 asterisk	asterisk	uni002A
 backslash	backslash	uni005C
 periodcentered	periodcentered	uni00B7
@@ -623,18 +678,26 @@ aivowelsigndeva	aiMatra-deva	uni0948
 aivowelsigndeva_anusvaradeva	aiMatra_anusvara-deva
 aivowelsigndeva_uni0930094D	aiMatra_reph-deva
 aivowelsigndeva_uni0930094D_anu	aiMatra_reph_anusvara-deva
-anusvaradeva	anusvara-deva
+anusvaradeva	anusvara-deva	uni0902
 viramadeva	halant-deva	uni094D
 nuktadeva	nukta-deva	uni093C
 uni0930094D	reph-deva
 uni0930094D_anusvaradeva	reph_anusvara-deva
+rakardeva	rakar-deva
+rakardeva_uvowelsigndeva	rakar_uMatra-deva
+rakardeva_uuvowelsigndeva	rakar_uuMatra-deva
 uni0900	invertedCandraBindu-deva	uni0900
 uni093A	oeMatra-deva	uni093A
 uni0956	ueMatra-deva	uni0956
 uni0957	uueMatra-deva	uni0957
 udattadeva	udatta-deva	uni0951
+uni0930094D.loclMAR	reph-deva.loclMAR
+rupeeIndiandeva	rupeeIndian-deva
 NULL	NULL
 uni000C	uni000C	uni000C
-rashtrasigndeva	rashtrasign-deva
-rashtrasign_uMatradeva	rashtrasign_uMatra-deva
-rashtrasign_uuMatradeva	rashtrasign_uuMatra-deva
+uniA8F8	uniA8F8	uniA8F8
+uniA8F9	uniA8F9	uniA8F9
+uniA8F2	uniA8F2	uniA8F2
+uniA8F7	uniA8F7	uniA8F7
+uniA8F4	uniA8F4	uniA8F4
+uniA8F3	uniA8F3	uniA8F3

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA8F3" format="1">
+  <advance width="397"/>
+  <unicode hex="A8F3"/>
+  <outline>
+    <component base="candrabindudeva" xOffset="319" yOffset="-221"/>
+    <component base="viramadeva" xOffset="319" yOffset="427"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

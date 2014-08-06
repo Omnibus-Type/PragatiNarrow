@@ -16,9 +16,9 @@ Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://o
 - [x] Sketching and Key design
 - [x] Metrics and Key design
 - [x] Letters
-- [ ] half forms
+- [x] half forms
 - [ ] Marks
-- [ ] Numbers
+- [x] Numbers
 - [ ] Conjuncts
 - [x] Latin3
 - [ ] OpenType features
@@ -47,16 +47,16 @@ Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); y
 **3**| ◌ः	| ओ	| ण	| ळ	| ◌ृ	 | ◌॓(*)	| ◌ॣ(*)	|	ॳ
 **4**| ऄ	| औ	| त	| ऴ	| ◌ॄ	 | ◌॔(*)	| ।		|	ॴ
 **5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ(*)	| ॥		|	ॵ
-**6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०(*)	|	ॶ
-**7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १(*)	|	ॷ
-**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २(*)	|	--
-**9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३(*)	|	ॹ
-**A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४(*)	|	ॺ(*)
-**B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५(*)	|	ॻ
-**C**| ऌ 	| ज	| ब	| ◌़	| ◌ौ	 | ड़	| ६(*)	|	ॼ
-**D**| ऍ		| झ	| भ	| ऽ	| ◌्	 | ढ़	| ७(*)	|	ॽ
-**E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८(*)	|	ॾ
-**F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९(*)	|	ॿ
+**6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०		|	ॶ
+**7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १		|	ॷ
+**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	--
+**9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३		|	ॹ
+**A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४		|	ॺ
+**B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५		|	ॻ
+**C**| ऌ 	| ज	| ब	| ◌़	| ◌ौ	 | ड़	| ६		|	ॼ
+**D**| ऍ		| झ	| भ	| ऽ	| ◌्	 | ढ़	| ७		|	ॽ
+**E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८		|	ॾ
+**F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९		|	ॿ
 
 **(*)** No suported yet
 
@@ -68,7 +68,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 ### Archivo is a typeface family that supports Unicode language range: 
 
-* Devanagari (153 glyphs) *work in progress*
+* Devanagari (269 glyphs) *work in progress*
 * Basic Latin (95 glyphs),
 * Latin-1 Supplement (96 glyphs),
 * Latin Extended-A (128 glyphs),

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="evowelsigndeva_uni0930094D_anus" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-178" y="821" type="line"/>
+      <point x="-285" y="821" type="line"/>
+      <point x="-182" y="606" type="line"/>
+      <point x="-99" y="606" type="line"/>
+      <point x="-132" y="685" type="line"/>
+    </contour>
+    <contour>
+      <point x="-62" y="606" type="line"/>
+      <point x="-191" y="606" type="line"/>
+      <point x="-191" y="513" type="line"/>
+      <point x="-62" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="-99" y="827"/>
+      <point x="-145" y="790"/>
+      <point x="-145" y="720" type="curve" smooth="yes"/>
+      <point x="-145" y="687"/>
+      <point x="-135" y="637"/>
+      <point x="-105" y="586" type="curve"/>
+      <point x="-80" y="593" type="line"/>
+      <point x="-92" y="622"/>
+      <point x="-101" y="651"/>
+      <point x="-101" y="675" type="curve" smooth="yes"/>
+      <point x="-101" y="725"/>
+      <point x="-74" y="747"/>
+      <point x="-12" y="747" type="curve" smooth="yes"/>
+      <point x="-1" y="747" type="line"/>
+      <point x="-1" y="827" type="line"/>
+      <point x="-11" y="827"/>
+      <point x="-21" y="827"/>
+      <point x="-31" y="827" type="curve" smooth="yes"/>
+    </contour>
+    <component base="anusvaradeva" xOffset="107" yOffset="-25"/>
+    <contour>
+      <point x="-122" y="606" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
