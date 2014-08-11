@@ -181,7 +181,8 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="avagrahacombiningsigndeva"
-	 Description="COMBINING DEVANAGARI LETTER AVAGRAHA" />
+	 Description="COMBINING DEVANAGARI LETTER AVAGRAHA"
+	 anchors="_top" />
 	<glyph unicode="A8F2" 
 	 name="spacingCandraBindu-deva"
 	 sortName="deva330"
