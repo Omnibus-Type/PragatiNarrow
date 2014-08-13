@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nyadeva" format="1">
-  <advance width="555"/>
-  <unicode hex="091E"/>
-  <outline>
-    <component base="uni091E094D"/>
-    <component base="uni093E" xOffset="309"/>
-  </outline>
-</glyph>

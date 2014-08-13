@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oMatradeva" format="1">
+  <advance width="195"/>
+  <unicode hex="094B"/>
+  <outline>
+    <contour>
+      <point x="97" y="0" type="move" name="Anchor-3"/>
+    </contour>
+    <contour>
+      <point x="97" y="606" type="move" name="Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="120" y="606" type="line"/>
+      <point x="205" y="606" type="line"/>
+      <point x="205" y="549" type="line"/>
+      <point x="129" y="549" type="line"/>
+      <point x="129" y="0" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="66" y="549" type="line"/>
+      <point x="-10" y="549" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="66" y="606" type="line"/>
+      <point x="-2" y="821" type="line"/>
+      <point x="61" y="821" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>549</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>66</integer>
+            <key>width</key>
+            <integer>63</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

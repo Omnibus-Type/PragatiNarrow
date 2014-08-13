@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ueMatradeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0956"/>
+  <outline>
+    <contour>
+      <point x="-115" y="-30" type="curve"/>
+      <point x="-30" y="-30" type="line"/>
+      <point x="-37" y="-89"/>
+      <point x="-97" y="-154"/>
+      <point x="-204" y="-154" type="curve" smooth="yes"/>
+      <point x="-310" y="-154"/>
+      <point x="-370" y="-89"/>
+      <point x="-377" y="-30" type="curve"/>
+      <point x="-293" y="-30" type="line"/>
+      <point x="-285" y="-53"/>
+      <point x="-253" y="-79"/>
+      <point x="-204" y="-79" type="curve" smooth="yes"/>
+      <point x="-158" y="-79"/>
+      <point x="-124" y="-53"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-154</integer>
+            <key>width</key>
+            <integer>75</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-377</integer>
+            <key>width</key>
+            <integer>347</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

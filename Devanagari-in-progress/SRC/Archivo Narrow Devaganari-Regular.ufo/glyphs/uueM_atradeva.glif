@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uueMatradeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0957"/>
+  <outline>
+    <contour>
+      <point x="-108" y="-30" type="curve"/>
+      <point x="-56" y="-30" type="line"/>
+      <point x="-60" y="-84"/>
+      <point x="-107" y="-144"/>
+      <point x="-206" y="-144" type="curve" smooth="yes"/>
+      <point x="-307" y="-144"/>
+      <point x="-353" y="-84"/>
+      <point x="-357" y="-30" type="curve"/>
+      <point x="-305" y="-30" type="line"/>
+      <point x="-295" y="-54"/>
+      <point x="-270" y="-92"/>
+      <point x="-206" y="-92" type="curve" smooth="yes"/>
+      <point x="-143" y="-92"/>
+      <point x="-118" y="-54"/>
+    </contour>
+    <contour>
+      <point x="-108" y="-160" type="curve"/>
+      <point x="-56" y="-160" type="line"/>
+      <point x="-60" y="-214"/>
+      <point x="-107" y="-274"/>
+      <point x="-206" y="-274" type="curve" smooth="yes"/>
+      <point x="-307" y="-274"/>
+      <point x="-353" y="-214"/>
+      <point x="-357" y="-160" type="curve"/>
+      <point x="-305" y="-160" type="line"/>
+      <point x="-295" y="-184"/>
+      <point x="-270" y="-222"/>
+      <point x="-206" y="-222" type="curve" smooth="yes"/>
+      <point x="-143" y="-222"/>
+      <point x="-118" y="-184"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-274</integer>
+            <key>width</key>
+            <integer>52</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-274</integer>
+            <key>width</key>
+            <integer>114</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-144</integer>
+            <key>width</key>
+            <integer>52</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-357</integer>
+            <key>width</key>
+            <integer>301</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

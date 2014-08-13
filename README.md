@@ -17,7 +17,7 @@ Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://o
 - [x] Metrics and Key design
 - [x] Letters
 - [x] half forms
-- [ ] Marks
+- [x] Marks
 - [x] Numbers
 - [ ] Conjuncts
 - [x] Latin3
@@ -42,11 +42,11 @@ Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); y
 *uni*|090   |091|092|093|094 |095	|096	|097
 -----|------|---|---|---|----|------|-------|-----
 **0**| ◌ऀ	| ऐ	| ठ	| र	| ◌ी | ॐ	| ॠ		|	॰
-**1**| ◌ँ	| ऑ	| ड	| ऱ	| ◌ु	 | ◌॑	| ॡ		|	ॱ(*)
-**2**| ◌ं	| ऒ	| ढ	| ल	| ◌ू	 | ◌॒(*)	| ◌ॢ(*)	|	ॲ
-**3**| ◌ः	| ओ	| ण	| ळ	| ◌ृ	 | ◌॓(*)	| ◌ॣ(*)	|	ॳ
-**4**| ऄ	| औ	| त	| ऴ	| ◌ॄ	 | ◌॔(*)	| ।		|	ॴ
-**5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ(*)	| ॥		|	ॵ
+**1**| ◌ँ	| ऑ	| ड	| ऱ	| ◌ु	 | ◌॑	| ॡ		|	ॱ
+**2**| ◌ं	| ऒ	| ढ	| ल	| ◌ू	 | ◌॒	| ◌ॢ		|	ॲ
+**3**| ◌ः	| ओ	| ण	| ळ	| ◌ृ	 | ◌॓	| ◌ॣ		|	ॳ
+**4**| ऄ	| औ	| त	| ऴ	| ◌ॄ	 | ◌॔	| ।		|	ॴ
+**5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ	| ॥		|	ॵ
 **6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०		|	ॶ
 **7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १		|	ॷ
 **8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	--
@@ -58,7 +58,27 @@ Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); y
 **E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८		|	ॾ
 **F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९		|	ॿ
 
-**(*)** No suported yet
+### Devanagari Extended Unicode Character Map
+
+*uni*|A8E   |A8F
+-----|------|---
+**0**| ◌꣠	| ◌꣰	
+**1**| ◌꣡	| ◌꣱	
+**2**| ◌꣢	| ꣲ	
+**3**| ◌꣣	| ꣳ	
+**4**| ◌꣤	| ꣴ	
+**5**| ◌꣥	| ꣵ	
+**6**| ◌꣦	| ꣶ	
+**7**| ◌꣧	| ꣷ	
+**8**| ◌꣨	| ꣸	
+**9**| ◌꣩	| ꣹	
+**A**| ◌꣪	| ꣺	
+**B**| ◌꣫	| ꣻ	
+**C**| ◌꣬	| --
+**D**| ◌꣭	| --
+**E**| ◌꣮	| --
+**F**| ◌꣯	| --
+
 
 ======
 ## FONTLOG for the Archivo Narrow fonts
@@ -68,7 +88,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 ### Archivo is a typeface family that supports Unicode language range: 
 
-* Devanagari (269 glyphs) *work in progress*
+* Devanagari (333 glyphs) *work in progress*
 * Basic Latin (95 glyphs),
 * Latin-1 Supplement (96 glyphs),
 * Latin Extended-A (128 glyphs),
@@ -89,7 +109,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 **20 June 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*work in progress*)**
 - New vertical metrics in Latin glyphs to match Devanagari writing system
-- New Devanagari glyphs (partial range: 0900-097F)
+- New Devanagari glyphs (range: 0900-097F and A8E0-A8FF)
 
 **23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
 - Fixed Name Table (Thanks to Dave Crossland @davelab6 for his technical input.)

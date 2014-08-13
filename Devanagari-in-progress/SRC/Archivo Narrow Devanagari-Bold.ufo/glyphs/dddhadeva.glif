@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dddhadeva" format="1">
-  <advance width="402"/>
-  <outline>
-    <component base="ddadeva"/>
-    <component base="anusvaradeva" xOffset="320" yOffset="-780"/>
-  </outline>
-</glyph>

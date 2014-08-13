@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nuktadeva" format="1">
-  <advance width="0"/>
-  <unicode hex="093C"/>
-  <outline>
-    <component base="anusvaradeva" xOffset="2" yOffset="-794"/>
-  </outline>
-</glyph>
