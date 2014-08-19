@@ -118,7 +118,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="acombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER A"
+	 description="COMBINING DEVANAGARI LETTER A"
 	 anchors="_top" />
 	<glyph unicode="A8EB" 
 	 name="combiningU-deva"
@@ -127,7 +127,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="ucombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER U"
+	 description="COMBINING DEVANAGARI LETTER U"
 	 anchors="_top" />
 	<glyph unicode="A8EC" 
 	 name="combiningKa-deva"
@@ -136,7 +136,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="kacombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER KA"
+	 description="COMBINING DEVANAGARI LETTER KA"
 	 anchors="_top" />
 	<glyph unicode="A8ED" 
 	 name="combiningNa-deva"
@@ -145,7 +145,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="nacombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER NA"
+	 description="COMBINING DEVANAGARI LETTER NA"
 	 anchors="_top" />
 	<glyph unicode="A8EE" 
 	 name="combiningPa-deva"
@@ -154,7 +154,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="pacombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER PA"
+	 description="COMBINING DEVANAGARI LETTER PA"
 	 anchors="_top" />
 	<glyph unicode="A8EF" 
 	 name="combiningRa-deva"
@@ -163,7 +163,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="racombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER RA"
+	 description="COMBINING DEVANAGARI LETTER RA"
 	 anchors="_top" />
 	<glyph unicode="A8F0" 
 	 name="combiningVi-deva"
@@ -172,7 +172,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="vicombiningletterdeva"
-	 Description="COMBINING DEVANAGARI LETTER VI"
+	 description="COMBINING DEVANAGARI LETTER VI"
 	 anchors="_top" />
 	<glyph unicode="A8F1" 
 	 name="combiningAvagraha-deva"
@@ -181,7 +181,7 @@
 	 subCategory="Nonspacing"
 	 script="devanagari"
 	 legacy="avagrahacombiningsigndeva"
-	 Description="COMBINING DEVANAGARI LETTER AVAGRAHA"
+	 description="COMBINING DEVANAGARI LETTER AVAGRAHA"
 	 anchors="_top" />
 	<glyph unicode="A8F2" 
 	 name="spacingCandraBindu-deva"
@@ -191,7 +191,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="spacingcandrabindudeva"
-	 Description="DEVANAGARI SIGN SPACING CANDRABINDU" />
+	 description="DEVANAGARI SIGN SPACING CANDRABINDU" />
 	<glyph unicode="A8F3" 
 	 name="candraBinduHalant-deva"
 	 sortName="deva332"
@@ -200,7 +200,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="candrabinduviramadeva"
-	 Description="DEVANAGARI SIGN CANDRABINDU VIRAMA" />
+	 description="DEVANAGARI SIGN CANDRABINDU VIRAMA" />
 	<glyph unicode="A8F4" 
 	 name="dblcandraBinduHalant-deva"
 	 sortName="deva334"
@@ -209,7 +209,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="doublecandrabinduviramadeva"
-	 Description="DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA" />
+	 description="DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA" />
 	<glyph unicode="A8F5" 
 	 name="candraBinduTwo-deva"
 	 sortName="deva336"
@@ -217,7 +217,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="candrabindudigittwodeva"
-	 Description="DEVANAGARI SIGN CANDRABINDU TWO" />
+	 description="DEVANAGARI SIGN CANDRABINDU TWO" />
 	<glyph unicode="A8F6" 
 	 name="candraBinduThree-deva"
 	 sortName="deva338"
@@ -225,7 +225,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="candrabindudigitthreedeva"
-	 Description="DEVANAGARI SIGN CANDRABINDU THREE" />
+	 description="DEVANAGARI SIGN CANDRABINDU THREE" />
 	<glyph unicode="A8F7" 
 	 name="candraBinduAvagraha-deva"
 	 sortName="deva340"
@@ -233,7 +233,7 @@
 	 subCategory="Spacing"
 	 script="devanagari"
 	 legacy="candrabinduavagrahadeva"
-	 Description="DEVANAGARI SIGN CANDRABINDU AVAGRAHA" />
+	 description="DEVANAGARI SIGN CANDRABINDU AVAGRAHA" />
 	<glyph unicode="A8F8" 
 	 name="pushpika-deva"
 	 sortName="Symbol.deva.000"
@@ -241,7 +241,7 @@
 	 subCategory="Modifier"
 	 script="devanagari"
 	 legacy="pushpikadeva"
-	 Description="DEVANAGARI SIGN PUSHPIKA" />
+	 description="DEVANAGARI SIGN PUSHPIKA" />
 	<glyph unicode="A8F9" 
 	 name="gapfiller-deva"
 	 sortName="Symbol.deva.001"
@@ -249,7 +249,7 @@
 	 subCategory="Modifier"
 	 script="devanagari"
 	 legacy="gapfillerdeva"
-	 Description="DEVANAGARI GAP FILLER" />
+	 description="DEVANAGARI GAP FILLER" />
 	<glyph unicode="A8FA"
 	 name="caret-deva"
 	 sortName="deva342"
@@ -257,7 +257,7 @@
 	 subCategory="Modifier"
 	 script="devanagari" 
 	 legacy="caretdeva"
-	 Description="DEVANAGARI CARET" />
+	 description="DEVANAGARI CARET" />
 	<glyph unicode="A8FB"
 	 name="headstroked-deva"
 	 sortName="deva344"
@@ -265,6 +265,6 @@
 	 subCategory="Modifier"
 	 script="devanagari"
 	 legacy="headstroked"
-	 Description="DEVANAGARI HEADSTROKE" />
+	 description="DEVANAGARI HEADSTROKE" />
 	<!-- /Devanagari Extended -->
 </glyphData>
