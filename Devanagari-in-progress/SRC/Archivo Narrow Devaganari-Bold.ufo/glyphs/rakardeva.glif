@@ -15,13 +15,13 @@
       <point x="-123" y="0" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
+      <point x="-37" y="-151" type="line"/>
       <point x="-124" y="-57" type="line"/>
       <point x="-211" y="-151" type="line"/>
       <point x="-330" y="-151" type="line"/>
       <point x="-165" y="13" type="line"/>
       <point x="-82" y="13" type="line"/>
       <point x="83" y="-151" type="line"/>
-      <point x="-37" y="-151" type="line"/>
     </contour>
   </outline>
   <lib>

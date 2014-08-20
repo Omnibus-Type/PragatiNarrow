@@ -19,7 +19,7 @@ Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://o
 - [x] half forms
 - [x] Marks
 - [x] Numbers
-- [ ] Conjuncts
+- [x] Conjuncts
 - [x] Latin3
 - [ ] OpenType features
 

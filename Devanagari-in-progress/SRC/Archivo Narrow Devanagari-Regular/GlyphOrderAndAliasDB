@@ -318,13 +318,14 @@ ggadeva	gga-deva	uni097B
 jjadeva	jja-deva	uni097C
 dddadeva	ddda-deva	uni097E
 bbadeva	bba-deva	uni097F
-jhadeva.NEP	jha-deva.NEP
 ladeva.loclMAR	la-deva.loclMAR
 shadeva.loclMAR	sha-deva.loclMAR
+jhadeva.loclNEP	jha-deva.loclNEP
+zhadeva.loclNEP	zha-deva.loclNEP
 yadeva.post	ya-deva.post
 vadeva.post	va-deva.post
-ka_uMatradeva	ka_uMatra-deva
-ka_uuMatradeva	ka_uuMatra-deva
+nadeva.post2	na-deva.post2
+radeva.post2	ra-deva.post2
 k_kadeva	k_ka-deva
 k_tadeva	k_ta-deva
 k_radeva	k_ra-deva
@@ -342,11 +343,20 @@ ng_khadeva	ng_kha-deva
 ng_gadeva	ng_ga-deva
 ng_ghadeva	ng_gha-deva
 ng_madeva	ng_ma-deva
+c_cadeva	c_ca-deva
+c_ch_vadeva	c_ch_va-deva
 c_radeva	c_ra-deva
+c_ladeva	c_la-deva
+ch_nadeva	ch_na-deva
+ch_ladeva	ch_la-deva
+ch_vadeva	ch_va-deva
+j_jadeva	j_ja-deva
 j_nyadeva	j_nya-deva
 j_ny_radeva	j_ny_ra-deva
 j_radeva	j_ra-deva
 jh_radeva	jh_ra-deva
+ny_cadeva	ny_ca-deva
+ny_jadeva	ny_ja-deva
 ny_radeva	ny_ra-deva
 tt_ttadeva	tt_tta-deva
 tt_tthadeva	tt_ttha-deva
@@ -354,6 +364,7 @@ tt_ddhadeva	tt_ddha-deva
 tt_yadeva	tt_ya-deva
 tt_vadeva	tt_va-deva
 tth_tthadeva	tth_ttha-deva
+tth_nadeva	tth_na-deva
 tth_yadeva	tth_ya-deva
 dd_ttadeva	dd_tta-deva
 dd_ddadeva	dd_dda-deva
@@ -366,12 +377,33 @@ t_tadeva	t_ta-deva
 t_radeva	t_ra-deva
 th_radeva	th_ra-deva
 d_gadeva	d_ga-deva
+d_ga_uMatradeva	d_ga_uMatra-deva
+d_ga_uuMatradeva	d_ga_uuMatra-deva
+d_ghadeva	d_gha-deva
+d_gha_uMatradeva	d_gha_uMatra-deva
+d_gha_uuMatradeva	d_gha_uuMatra-deva
 d_dadeva	d_da-deva
 d_d_yadeva	d_d_ya-deva
+d_dhadeva	d_dha-deva
+d_dha_uMatradeva	d_dha_uMatra-deva
+d_dha_uuMatradeva	d_dha_uuMatra-deva
+d_dh_yadeva	d_dh_ya-deva
+d_dh_r_yadeva	d_dh_r_ya-deva
 d_nadeva	d_na-deva
+d_na_uMatradeva	d_na_uMatra-deva
+d_na_uuMatradeva	d_na_uuMatra-deva
+d_badeva	d_ba-deva
+d_ba_uMatradeva	d_ba_uMatra-deva
+d_ba_uuMatradeva	d_ba_uuMatra-deva
+d_bhadeva	d_bha-deva
 d_madeva	d_ma-deva
 d_yadeva	d_ya-deva
 d_radeva	d_ra-deva
+d_ra_uMatradeva	d_ra_uMatra-deva
+d_ra_uuMatradeva	d_ra_uuMatra-deva
+d_vadeva	d_va-deva
+d_va_uMatradeva	d_va_uMatra-deva
+d_va_uuMatradeva	d_va_uuMatra-deva
 d_rVocalicMatradeva	d_rVocalicMatra-deva
 dh_radeva	dh_ra-deva
 n_nadeva	n_na-deva
@@ -391,6 +423,7 @@ l_radeva	l_ra-deva
 l_ladeva	l_la-deva
 v_radeva	v_ra-deva
 sh_rVocalicdeva	sh_rVocalic-deva
+sh_cadeva	sh_ca-deva
 sh_nadeva	sh_na-deva
 sh_radeva	sh_ra-deva
 sh_ladeva	sh_la-deva
@@ -402,6 +435,8 @@ ss_tth_yadeva	ss_tth_ya-deva
 ss_radeva	ss_ra-deva
 s_t_radeva	s_t_ra-deva
 s_radeva	s_ra-deva
+ha_uMatradeva	ha_uMatra-deva
+ha_uuMatradeva	ha_uuMatra-deva
 ha_rVocalicMatradeva	ha_rVocalicMatra-deva
 h_nnadeva	h_nna-deva
 h_nadeva	h_na-deva
@@ -411,14 +446,19 @@ h_radeva	h_ra-deva
 h_ladeva	h_la-deva
 h_vadeva	h_va-deva
 f_radeva	f_ra-deva
-k_radeva.NEP	k_ra-deva.NEP
-j_nyadeva.alt	j_nya-deva.alt
+oMatra_candraBindudeva	oMatra_candraBindu-deva
+oMatra_reph_candraBindudeva	oMatra_reph_candraBindu-deva
+auMatra_candraBindudeva	auMatra_candraBindu-deva
+auMatra_reph_candraBindudeva	auMatra_reph_candraBindu-deva
+c_cadeva.alt	c_ca-deva.alt
 k_ladeva.loclMAR	k_la-deva.loclMAR
+c_ladeva.loclMAR	c_la-deva.loclMAR
+ch_ladeva.loclMAR	ch_la-deva.loclMAR
 p_ladeva.loclMAR	p_la-deva.loclMAR
 ph_ladeva.loclMAR	ph_la-deva.loclMAR
 l_ladeva.loclMAR	l_la-deva.loclMAR
 sh_ladeva.loclMAR	sh_la-deva.loclMAR
-d_gadeva.ss02	d_ga-deva.ss02
+k_radeva.loclNEP	k_ra-deva.loclNEP
 aShortdeva	aShort-deva	uni0904
 aCandradeva	aCandra-deva	uni0972
 adeva	a-deva	uni0905
@@ -448,13 +488,19 @@ kdeva	k-deva
 k_ssdeva	k_ss-deva
 khdeva	kh-deva
 gdeva	g-deva
+g_ndeva	g_n-deva
+g_rdeva	g_r-deva
 ghdeva	gh-deva
+gh_rdeva	gh_r-deva
 ngdeva	ng-deva
 ng_kdeva	ng_k-deva
 cdeva	c-deva
 chdeva	ch-deva
 jdeva	j-deva
+j_jdeva	j_j-deva
 j_nydeva	j_ny-deva
+j_ny_rdeva	j_ny_r-deva
+j_rdeva	j_r-deva
 jhdeva	jh-deva
 nydeva	ny-deva
 ttdeva	tt-deva
@@ -468,6 +514,7 @@ t_rdeva	t_r-deva
 thdeva	th-deva
 ddeva	d-deva
 dhdeva	dh-deva
+dh_rdeva	dh_r-deva
 ndeva	n-deva
 n_ndeva	n_n-deva
 nnndeva	nnn-deva
@@ -476,14 +523,19 @@ phdeva	ph-deva
 bdeva	b-deva
 b_rdeva	b_r-deva
 bhdeva	bh-deva
+bh_rdeva	bh_r-deva
 mdeva	m-deva
+m_rdeva	m_r-deva
 ydeva	y-deva
+y_rdeva	y_r-deva
 rrdeva	rr-deva
 ldeva	l-deva
 lldeva	ll-deva
 llldeva	lll-deva
 vdeva	v-deva
+v_rdeva	v_r-deva
 shdeva	sh-deva
+sh_rdeva	sh_r-deva
 ssdeva	ss-deva
 sdeva	s-deva
 hdeva	h-deva
@@ -514,8 +566,11 @@ auMatradeva	auMatra-deva	uni094C
 prishthaMatraEdeva	prishthaMatraE-deva	uni094E
 ooeMatradeva	ooeMatra-deva	uni093B
 awMatradeva	awMatra-deva	uni094F
-jhdeva.NEP	jh-deva.NEP
+iMatradeva.0	iMatra-deva.0
+iMatradeva.1	iMatra-deva.1
 shdeva.loclMAR	sh-deva.loclMAR
+jhdeva.loclNEP	jh-deva.loclNEP
+chdeva.post	ch-deva.post
 shdeva.ss02	sh-deva.ss02
 zero	zero	uni0030
 one	one	uni0031
@@ -716,17 +771,22 @@ eCandraMatradeva	eCandraMatra-deva	uni0945
 candraBindudeva	candraBindu-deva	uni0901
 eShortMatradeva	eShortMatra-deva	uni0946
 eMatradeva	eMatra-deva	uni0947
+eMatra_candraBindudeva	eMatra_candraBindu-deva
 eMatra_anusvaradeva	eMatra_anusvara-deva
 eMatra_rephdeva	eMatra_reph-deva
+eMatra_reph_candraBindudeva	eMatra_reph_candraBindu-deva
 eMatra_reph_anusvaradeva	eMatra_reph_anusvara-deva
 aiMatradeva	aiMatra-deva	uni0948
+aiMatra_candraBindudeva	aiMatra_candraBindu-deva
 aiMatra_anusvaradeva	aiMatra_anusvara-deva
 aiMatra_rephdeva	aiMatra_reph-deva
+aiMatra_reph_candraBindudeva	aiMatra_reph_candraBindu-deva
 aiMatra_reph_anusvaradeva	aiMatra_reph_anusvara-deva
 anusvaradeva	anusvara-deva	uni0902
 halantdeva	halant-deva	uni094D
 nuktadeva	nukta-deva	uni093C
 rephdeva	reph-deva
+reph_candraBindudeva	reph_candraBindu-deva
 reph_anusvaradeva	reph_anusvara-deva
 rakardeva	rakar-deva
 rakar_uMatradeva	rakar_uMatra-deva

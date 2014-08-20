@@ -9,6 +9,7 @@
       <point x="714" y="606" type="move" name="Anchor-2"/>
     </contour>
     <contour>
+      <point x="822" y="549" type="line"/>
       <point x="746" y="549" type="line"/>
       <point x="746" y="0" type="line"/>
       <point x="683" y="0" type="line"/>
@@ -16,9 +17,10 @@
       <point x="659" y="65"/>
       <point x="620" y="54"/>
       <point x="579" y="54" type="curve" smooth="yes"/>
-      <point x="482" y="54"/>
-      <point x="426" y="124"/>
-      <point x="424" y="268" type="curve"/>
+      <point x="484" y="54"/>
+      <point x="426" y="126"/>
+      <point x="425" y="265" type="curve"/>
+      <point x="424" y="268" type="line"/>
       <point x="464" y="270"/>
       <point x="518" y="284"/>
       <point x="518" y="324" type="curve" smooth="yes"/>
@@ -46,12 +48,11 @@
       <point x="-10" y="549" type="line"/>
       <point x="-10" y="606" type="line"/>
       <point x="822" y="606" type="line"/>
-      <point x="822" y="549" type="line"/>
     </contour>
     <contour>
+      <point x="277" y="549" type="line"/>
       <point x="135" y="549" type="line"/>
       <point x="277" y="346" type="line"/>
-      <point x="277" y="549" type="line"/>
     </contour>
     <contour>
       <point x="590" y="109" type="curve" smooth="yes"/>
@@ -77,7 +78,9 @@
       <point x="127" y="311"/>
       <point x="151" y="285"/>
       <point x="196" y="285" type="curve" smooth="yes"/>
+      <point x="198" y="285" type="line"/>
       <point x="277" y="285" type="line"/>
+      <point x="277" y="287" type="line"/>
     </contour>
     <contour>
       <point x="221" y="58" type="curve" smooth="yes"/>
@@ -160,9 +163,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>424</integer>
+            <integer>425</integer>
             <key>width</key>
-            <integer>70</integer>
+            <integer>69</integer>
           </dict>
           <dict>
             <key>position</key>

@@ -644,20 +644,22 @@
     <string>dddadeva.glif</string>
     <key>bbadeva</key>
     <string>bbadeva.glif</string>
-    <key>jhadeva.NEP</key>
-    <string>jhadeva.N_E_P_.glif</string>
     <key>ladeva.loclMAR</key>
     <string>ladeva.loclM_A_R_.glif</string>
     <key>shadeva.loclMAR</key>
     <string>shadeva.loclM_A_R_.glif</string>
+    <key>jhadeva.loclNEP</key>
+    <string>jhadeva.loclN_E_P_.glif</string>
+    <key>zhadeva.loclNEP</key>
+    <string>zhadeva.loclN_E_P_.glif</string>
     <key>yadeva.post</key>
     <string>yadeva.post.glif</string>
     <key>vadeva.post</key>
     <string>vadeva.post.glif</string>
-    <key>ka_uMatradeva</key>
-    <string>ka_uM_atradeva.glif</string>
-    <key>ka_uuMatradeva</key>
-    <string>ka_uuM_atradeva.glif</string>
+    <key>nadeva.post2</key>
+    <string>nadeva.post2.glif</string>
+    <key>radeva.post2</key>
+    <string>radeva.post2.glif</string>
     <key>k_kadeva</key>
     <string>k_kadeva.glif</string>
     <key>k_tadeva</key>
@@ -692,8 +694,22 @@
     <string>ng_ghadeva.glif</string>
     <key>ng_madeva</key>
     <string>ng_madeva.glif</string>
+    <key>c_cadeva</key>
+    <string>c_cadeva.glif</string>
+    <key>c_ch_vadeva</key>
+    <string>c_ch_vadeva.glif</string>
     <key>c_radeva</key>
     <string>c_radeva.glif</string>
+    <key>c_ladeva</key>
+    <string>c_ladeva.glif</string>
+    <key>ch_nadeva</key>
+    <string>ch_nadeva.glif</string>
+    <key>ch_ladeva</key>
+    <string>ch_ladeva.glif</string>
+    <key>ch_vadeva</key>
+    <string>ch_vadeva.glif</string>
+    <key>j_jadeva</key>
+    <string>j_jadeva.glif</string>
     <key>j_nyadeva</key>
     <string>j_nyadeva.glif</string>
     <key>j_ny_radeva</key>
@@ -702,6 +718,10 @@
     <string>j_radeva.glif</string>
     <key>jh_radeva</key>
     <string>jh_radeva.glif</string>
+    <key>ny_cadeva</key>
+    <string>ny_cadeva.glif</string>
+    <key>ny_jadeva</key>
+    <string>ny_jadeva.glif</string>
     <key>ny_radeva</key>
     <string>ny_radeva.glif</string>
     <key>tt_ttadeva</key>
@@ -716,6 +736,8 @@
     <string>tt_vadeva.glif</string>
     <key>tth_tthadeva</key>
     <string>tth_tthadeva.glif</string>
+    <key>tth_nadeva</key>
+    <string>tth_nadeva.glif</string>
     <key>tth_yadeva</key>
     <string>tth_yadeva.glif</string>
     <key>dd_ttadeva</key>
@@ -740,18 +762,60 @@
     <string>th_radeva.glif</string>
     <key>d_gadeva</key>
     <string>d_gadeva.glif</string>
+    <key>d_ga_uMatradeva</key>
+    <string>d_ga_uM_atradeva.glif</string>
+    <key>d_ga_uuMatradeva</key>
+    <string>d_ga_uuM_atradeva.glif</string>
+    <key>d_ghadeva</key>
+    <string>d_ghadeva.glif</string>
+    <key>d_gha_uMatradeva</key>
+    <string>d_gha_uM_atradeva.glif</string>
+    <key>d_gha_uuMatradeva</key>
+    <string>d_gha_uuM_atradeva.glif</string>
     <key>d_dadeva</key>
     <string>d_dadeva.glif</string>
     <key>d_d_yadeva</key>
     <string>d_d_yadeva.glif</string>
+    <key>d_dhadeva</key>
+    <string>d_dhadeva.glif</string>
+    <key>d_dha_uMatradeva</key>
+    <string>d_dha_uM_atradeva.glif</string>
+    <key>d_dha_uuMatradeva</key>
+    <string>d_dha_uuM_atradeva.glif</string>
+    <key>d_dh_yadeva</key>
+    <string>d_dh_yadeva.glif</string>
+    <key>d_dh_r_yadeva</key>
+    <string>d_dh_r_yadeva.glif</string>
     <key>d_nadeva</key>
     <string>d_nadeva.glif</string>
+    <key>d_na_uMatradeva</key>
+    <string>d_na_uM_atradeva.glif</string>
+    <key>d_na_uuMatradeva</key>
+    <string>d_na_uuM_atradeva.glif</string>
+    <key>d_badeva</key>
+    <string>d_badeva.glif</string>
+    <key>d_ba_uMatradeva</key>
+    <string>d_ba_uM_atradeva.glif</string>
+    <key>d_ba_uuMatradeva</key>
+    <string>d_ba_uuM_atradeva.glif</string>
+    <key>d_bhadeva</key>
+    <string>d_bhadeva.glif</string>
     <key>d_madeva</key>
     <string>d_madeva.glif</string>
     <key>d_yadeva</key>
     <string>d_yadeva.glif</string>
     <key>d_radeva</key>
     <string>d_radeva.glif</string>
+    <key>d_ra_uMatradeva</key>
+    <string>d_ra_uM_atradeva.glif</string>
+    <key>d_ra_uuMatradeva</key>
+    <string>d_ra_uuM_atradeva.glif</string>
+    <key>d_vadeva</key>
+    <string>d_vadeva.glif</string>
+    <key>d_va_uMatradeva</key>
+    <string>d_va_uM_atradeva.glif</string>
+    <key>d_va_uuMatradeva</key>
+    <string>d_va_uuM_atradeva.glif</string>
     <key>d_rVocalicMatradeva</key>
     <string>d_rV_ocalicM_atradeva.glif</string>
     <key>dh_radeva</key>
@@ -790,6 +854,8 @@
     <string>v_radeva.glif</string>
     <key>sh_rVocalicdeva</key>
     <string>sh_rV_ocalicdeva.glif</string>
+    <key>sh_cadeva</key>
+    <string>sh_cadeva.glif</string>
     <key>sh_nadeva</key>
     <string>sh_nadeva.glif</string>
     <key>sh_radeva</key>
@@ -812,6 +878,10 @@
     <string>s_t_radeva.glif</string>
     <key>s_radeva</key>
     <string>s_radeva.glif</string>
+    <key>ha_uMatradeva</key>
+    <string>ha_uM_atradeva.glif</string>
+    <key>ha_uuMatradeva</key>
+    <string>ha_uuM_atradeva.glif</string>
     <key>ha_rVocalicMatradeva</key>
     <string>ha_rV_ocalicM_atradeva.glif</string>
     <key>h_nnadeva</key>
@@ -830,12 +900,22 @@
     <string>h_vadeva.glif</string>
     <key>f_radeva</key>
     <string>f_radeva.glif</string>
-    <key>k_radeva.NEP</key>
-    <string>k_radeva.N_E_P_.glif</string>
-    <key>j_nyadeva.alt</key>
-    <string>j_nyadeva.alt.glif</string>
+    <key>oMatra_candraBindudeva</key>
+    <string>oM_atra_candraB_indudeva.glif</string>
+    <key>oMatra_reph_candraBindudeva</key>
+    <string>oM_atra_reph_candraB_indudeva.glif</string>
+    <key>auMatra_candraBindudeva</key>
+    <string>auM_atra_candraB_indudeva.glif</string>
+    <key>auMatra_reph_candraBindudeva</key>
+    <string>auM_atra_reph_candraB_indudeva.glif</string>
+    <key>c_cadeva.alt</key>
+    <string>c_cadeva.alt.glif</string>
     <key>k_ladeva.loclMAR</key>
     <string>k_ladeva.loclM_A_R_.glif</string>
+    <key>c_ladeva.loclMAR</key>
+    <string>c_ladeva.loclM_A_R_.glif</string>
+    <key>ch_ladeva.loclMAR</key>
+    <string>ch_ladeva.loclM_A_R_.glif</string>
     <key>p_ladeva.loclMAR</key>
     <string>p_ladeva.loclM_A_R_.glif</string>
     <key>ph_ladeva.loclMAR</key>
@@ -844,8 +924,8 @@
     <string>l_ladeva.loclM_A_R_.glif</string>
     <key>sh_ladeva.loclMAR</key>
     <string>sh_ladeva.loclM_A_R_.glif</string>
-    <key>d_gadeva.ss02</key>
-    <string>d_gadeva.ss02.glif</string>
+    <key>k_radeva.loclNEP</key>
+    <string>k_radeva.loclN_E_P_.glif</string>
     <key>aShortdeva</key>
     <string>aS_hortdeva.glif</string>
     <key>aCandradeva</key>
@@ -904,8 +984,14 @@
     <string>khdeva.glif</string>
     <key>gdeva</key>
     <string>gdeva.glif</string>
+    <key>g_ndeva</key>
+    <string>g_ndeva.glif</string>
+    <key>g_rdeva</key>
+    <string>g_rdeva.glif</string>
     <key>ghdeva</key>
     <string>ghdeva.glif</string>
+    <key>gh_rdeva</key>
+    <string>gh_rdeva.glif</string>
     <key>ngdeva</key>
     <string>ngdeva.glif</string>
     <key>ng_kdeva</key>
@@ -916,8 +1002,14 @@
     <string>chdeva.glif</string>
     <key>jdeva</key>
     <string>jdeva.glif</string>
+    <key>j_jdeva</key>
+    <string>j_jdeva.glif</string>
     <key>j_nydeva</key>
     <string>j_nydeva.glif</string>
+    <key>j_ny_rdeva</key>
+    <string>j_ny_rdeva.glif</string>
+    <key>j_rdeva</key>
+    <string>j_rdeva.glif</string>
     <key>jhdeva</key>
     <string>jhdeva.glif</string>
     <key>nydeva</key>
@@ -944,6 +1036,8 @@
     <string>ddeva.glif</string>
     <key>dhdeva</key>
     <string>dhdeva.glif</string>
+    <key>dh_rdeva</key>
+    <string>dh_rdeva.glif</string>
     <key>ndeva</key>
     <string>ndeva.glif</string>
     <key>n_ndeva</key>
@@ -960,10 +1054,16 @@
     <string>b_rdeva.glif</string>
     <key>bhdeva</key>
     <string>bhdeva.glif</string>
+    <key>bh_rdeva</key>
+    <string>bh_rdeva.glif</string>
     <key>mdeva</key>
     <string>mdeva.glif</string>
+    <key>m_rdeva</key>
+    <string>m_rdeva.glif</string>
     <key>ydeva</key>
     <string>ydeva.glif</string>
+    <key>y_rdeva</key>
+    <string>y_rdeva.glif</string>
     <key>rrdeva</key>
     <string>rrdeva.glif</string>
     <key>ldeva</key>
@@ -974,8 +1074,12 @@
     <string>llldeva.glif</string>
     <key>vdeva</key>
     <string>vdeva.glif</string>
+    <key>v_rdeva</key>
+    <string>v_rdeva.glif</string>
     <key>shdeva</key>
     <string>shdeva.glif</string>
+    <key>sh_rdeva</key>
+    <string>sh_rdeva.glif</string>
     <key>ssdeva</key>
     <string>ssdeva.glif</string>
     <key>sdeva</key>
@@ -1036,10 +1140,16 @@
     <string>ooeM_atradeva.glif</string>
     <key>awMatradeva</key>
     <string>awM_atradeva.glif</string>
-    <key>jhdeva.NEP</key>
-    <string>jhdeva.N_E_P_.glif</string>
+    <key>iMatradeva.0</key>
+    <string>iM_atradeva.0.glif</string>
+    <key>iMatradeva.1</key>
+    <string>iM_atradeva.1.glif</string>
     <key>shdeva.loclMAR</key>
     <string>shdeva.loclM_A_R_.glif</string>
+    <key>jhdeva.loclNEP</key>
+    <string>jhdeva.loclN_E_P_.glif</string>
+    <key>chdeva.post</key>
+    <string>chdeva.post.glif</string>
     <key>shdeva.ss02</key>
     <string>shdeva.ss02.glif</string>
     <key>zero</key>
@@ -1438,18 +1548,26 @@
     <string>eS_hortM_atradeva.glif</string>
     <key>eMatradeva</key>
     <string>eM_atradeva.glif</string>
+    <key>eMatra_candraBindudeva</key>
+    <string>eM_atra_candraB_indudeva.glif</string>
     <key>eMatra_anusvaradeva</key>
     <string>eM_atra_anusvaradeva.glif</string>
     <key>eMatra_rephdeva</key>
     <string>eM_atra_rephdeva.glif</string>
+    <key>eMatra_reph_candraBindudeva</key>
+    <string>eM_atra_reph_candraB_indudeva.glif</string>
     <key>eMatra_reph_anusvaradeva</key>
     <string>eM_atra_reph_anusvaradeva.glif</string>
     <key>aiMatradeva</key>
     <string>aiM_atradeva.glif</string>
+    <key>aiMatra_candraBindudeva</key>
+    <string>aiM_atra_candraB_indudeva.glif</string>
     <key>aiMatra_anusvaradeva</key>
     <string>aiM_atra_anusvaradeva.glif</string>
     <key>aiMatra_rephdeva</key>
     <string>aiM_atra_rephdeva.glif</string>
+    <key>aiMatra_reph_candraBindudeva</key>
+    <string>aiM_atra_reph_candraB_indudeva.glif</string>
     <key>aiMatra_reph_anusvaradeva</key>
     <string>aiM_atra_reph_anusvaradeva.glif</string>
     <key>anusvaradeva</key>
@@ -1460,6 +1578,8 @@
     <string>nuktadeva.glif</string>
     <key>rephdeva</key>
     <string>rephdeva.glif</string>
+    <key>reph_candraBindudeva</key>
+    <string>reph_candraB_indudeva.glif</string>
     <key>reph_anusvaradeva</key>
     <string>reph_anusvaradeva.glif</string>
     <key>rakardeva</key>

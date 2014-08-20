@@ -269,7 +269,11 @@
     </dict>
     <key>kdeva</key>
     <dict>
-      <ladeva>38</ladeva>
+      <ladeva>2</ladeva>
+    </dict>
+    <key>jdeva</key>
+    <dict>
+      <jadeva>30</jadeva>
     </dict>
     <key>pdeva</key>
     <dict>

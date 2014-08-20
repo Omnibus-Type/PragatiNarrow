@@ -3,12 +3,13 @@
   <advance width="237"/>
   <outline>
     <contour>
+      <point x="307" y="513" type="line"/>
       <point x="-10" y="513" type="line"/>
       <point x="-10" y="606" type="line"/>
       <point x="307" y="606" type="line"/>
-      <point x="307" y="513" type="line"/>
     </contour>
     <contour>
+      <point x="329" y="263" type="line"/>
       <point x="329" y="124" type="line"/>
       <point x="320" y="124" type="line"/>
       <point x="320" y="102"/>
@@ -36,7 +37,6 @@
       <point x="307" y="197"/>
       <point x="307" y="247" type="curve" smooth="yes"/>
       <point x="307" y="263" type="line"/>
-      <point x="329" y="263" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -50,12 +50,6 @@
             <integer>72</integer>
             <key>width</key>
             <integer>97</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>124</integer>
-            <key>width</key>
-            <integer>139</integer>
           </dict>
           <dict>
             <key>position</key>

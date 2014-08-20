@@ -4,10 +4,10 @@
   <unicode hex="A8F4"/>
   <outline>
     <contour>
+      <point x="138" y="606" type="line"/>
       <point x="202" y="606" type="line"/>
       <point x="202" y="542" type="line"/>
       <point x="138" y="542" type="line"/>
-      <point x="138" y="606" type="line"/>
     </contour>
     <contour>
       <point x="253" y="577" type="curve"/>
@@ -26,10 +26,10 @@
       <point x="253" y="519"/>
     </contour>
     <contour>
+      <point x="138" y="371" type="line"/>
       <point x="202" y="371" type="line"/>
       <point x="202" y="307" type="line"/>
       <point x="138" y="307" type="line"/>
-      <point x="138" y="371" type="line"/>
     </contour>
     <contour>
       <point x="253" y="342" type="curve"/>
@@ -48,10 +48,10 @@
       <point x="253" y="284"/>
     </contour>
     <contour>
+      <point x="75" y="146" type="line"/>
       <point x="293" y="51" type="line"/>
       <point x="293" y="-5" type="line"/>
       <point x="75" y="84" type="line"/>
-      <point x="75" y="146" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -104,12 +104,6 @@
             <integer>26</integer>
             <key>width</key>
             <integer>68</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>75</integer>
-            <key>width</key>
-            <integer>218</integer>
           </dict>
           <dict>
             <key>position</key>

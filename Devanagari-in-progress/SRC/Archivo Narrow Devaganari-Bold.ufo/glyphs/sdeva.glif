@@ -9,27 +9,27 @@
       <point x="281" y="465" type="move" name="Anchor-2"/>
     </contour>
     <contour>
-      <point x="177" y="213" type="line"/>
-      <point x="304" y="0" type="line"/>
-      <point x="193" y="0" type="line"/>
-      <point x="39" y="274" type="line"/>
-      <point x="39" y="344" type="line"/>
-      <point x="100" y="344" type="line" smooth="yes"/>
-      <point x="143" y="344"/>
-      <point x="166" y="373"/>
-      <point x="166" y="429" type="curve" smooth="yes"/>
+      <point x="432" y="173" type="line"/>
+      <point x="197" y="173" type="line"/>
+      <point x="284" y="0" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="59" y="254" type="line"/>
+      <point x="59" y="324" type="line"/>
+      <point x="120" y="324" type="line" smooth="yes"/>
+      <point x="150" y="324"/>
+      <point x="166" y="350"/>
+      <point x="166" y="399" type="curve" smooth="yes"/>
       <point x="166" y="513" type="line"/>
       <point x="-10" y="513" type="line"/>
       <point x="-10" y="606" type="line"/>
       <point x="386" y="606" type="line"/>
       <point x="386" y="513" type="line"/>
       <point x="272" y="513" type="line"/>
-      <point x="272" y="439" type="line" smooth="yes"/>
-      <point x="272" y="376"/>
-      <point x="257" y="329"/>
-      <point x="229" y="299" type="curve"/>
-      <point x="442" y="299" type="line"/>
-      <point x="442" y="213" type="line"/>
+      <point x="272" y="409" type="line" smooth="yes"/>
+      <point x="272" y="335"/>
+      <point x="252" y="285"/>
+      <point x="215" y="259" type="curve"/>
+      <point x="432" y="259" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -46,7 +46,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>213</integer>
+            <integer>173</integer>
             <key>width</key>
             <integer>86</integer>
           </dict>

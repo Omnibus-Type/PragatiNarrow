@@ -9,8 +9,6 @@
       <point x="275" y="606" type="move" name="Anchor-2"/>
     </contour>
     <contour>
-      <point x="551" y="549" type="line"/>
-      <point x="307" y="549" type="line"/>
       <point x="307" y="439" type="line"/>
       <point x="310" y="439" type="line"/>
       <point x="327" y="459"/>
@@ -36,7 +34,9 @@
       <point x="382" y="419" type="curve" smooth="yes"/>
       <point x="332" y="419"/>
       <point x="307" y="382"/>
-      <point x="306" y="307" type="curve" smooth="yes"/>
+      <point x="307" y="307" type="curve" smooth="yes"/>
+      <point x="307" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
       <point x="306" y="-50" type="line"/>
       <point x="244" y="-50" type="line"/>
       <point x="244" y="5" type="line"/>
@@ -64,6 +64,8 @@
       <point x="-10" y="549" type="line"/>
       <point x="-10" y="606" type="line"/>
       <point x="551" y="606" type="line"/>
+      <point x="551" y="549" type="line"/>
+      <point x="307" y="549" type="line"/>
     </contour>
     <contour>
       <point x="169" y="415" type="curve" smooth="yes"/>
@@ -81,6 +83,10 @@
       <point x="220" y="415"/>
     </contour>
     <contour>
+      <point x="166" y="32" type="curve" smooth="yes"/>
+      <point x="216" y="32"/>
+      <point x="244" y="67"/>
+      <point x="244" y="123" type="curve" smooth="yes"/>
       <point x="244" y="219" type="line"/>
       <point x="240" y="219" type="line"/>
       <point x="219" y="199"/>
@@ -91,10 +97,6 @@
       <point x="94" y="114" type="curve" smooth="yes"/>
       <point x="94" y="59"/>
       <point x="123" y="32"/>
-      <point x="166" y="32" type="curve" smooth="yes"/>
-      <point x="216" y="32"/>
-      <point x="244" y="67"/>
-      <point x="244" y="123" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -158,7 +160,7 @@
             <key>position</key>
             <integer>244</integer>
             <key>width</key>
-            <integer>62</integer>
+            <integer>63</integer>
           </dict>
           <dict>
             <key>position</key>

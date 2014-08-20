@@ -77,10 +77,10 @@
       <point x="260" y="214"/>
     </contour>
     <contour>
-      <point x="194" y="42" type="line"/>
-      <point x="194" y="-41" type="line"/>
-      <point x="111" y="-41" type="line"/>
-      <point x="111" y="42" type="line"/>
+      <point x="41" y="67" type="line"/>
+      <point x="124" y="67" type="line"/>
+      <point x="124" y="-16" type="line"/>
+      <point x="41" y="-16" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -91,7 +91,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-41</integer>
+            <integer>-16</integer>
             <key>width</key>
             <integer>83</integer>
           </dict>
@@ -99,7 +99,7 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>42</integer>
+            <integer>186</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -130,7 +130,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>111</integer>
+            <integer>41</integer>
             <key>width</key>
             <integer>83</integer>
           </dict>

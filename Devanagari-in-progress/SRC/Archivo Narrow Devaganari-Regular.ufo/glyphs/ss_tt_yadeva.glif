@@ -17,9 +17,10 @@
       <point x="660" y="65"/>
       <point x="621" y="54"/>
       <point x="580" y="54" type="curve" smooth="yes"/>
-      <point x="483" y="54"/>
-      <point x="427" y="124"/>
-      <point x="425" y="268" type="curve"/>
+      <point x="485" y="54"/>
+      <point x="427" y="126"/>
+      <point x="426" y="265" type="curve"/>
+      <point x="425" y="268" type="line"/>
       <point x="465" y="270"/>
       <point x="519" y="284"/>
       <point x="519" y="324" type="curve" smooth="yes"/>
@@ -61,11 +62,16 @@
       <point x="823" y="606" type="line"/>
     </contour>
     <contour>
+      <point x="277" y="549" type="line"/>
       <point x="135" y="549" type="line"/>
       <point x="277" y="346" type="line"/>
-      <point x="277" y="549" type="line"/>
     </contour>
     <contour>
+      <point x="591" y="109" type="curve" smooth="yes"/>
+      <point x="649" y="109"/>
+      <point x="684" y="144"/>
+      <point x="684" y="240" type="curve" smooth="yes"/>
+      <point x="684" y="549" type="line"/>
       <point x="340" y="549" type="line"/>
       <point x="340" y="427" type="line"/>
       <point x="455" y="427" type="line" smooth="yes"/>
@@ -77,19 +83,16 @@
       <point x="495" y="222" type="curve"/>
       <point x="505" y="138"/>
       <point x="544" y="109"/>
-      <point x="591" y="109" type="curve" smooth="yes"/>
-      <point x="649" y="109"/>
-      <point x="684" y="144"/>
-      <point x="684" y="240" type="curve" smooth="yes"/>
-      <point x="684" y="549" type="line"/>
     </contour>
     <contour>
+      <point x="277" y="285" type="line"/>
+      <point x="277" y="287" type="line"/>
       <point x="127" y="498" type="line"/>
       <point x="127" y="354" type="line" smooth="yes"/>
       <point x="127" y="311"/>
       <point x="151" y="285"/>
       <point x="196" y="285" type="curve" smooth="yes"/>
-      <point x="277" y="285" type="line"/>
+      <point x="197" y="285" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -157,9 +160,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>425</integer>
+            <integer>426</integer>
             <key>width</key>
-            <integer>70</integer>
+            <integer>69</integer>
           </dict>
           <dict>
             <key>position</key>

@@ -46,10 +46,10 @@
       <point x="159" y="132"/>
     </contour>
     <contour>
+      <point x="80" y="-46" type="line"/>
       <point x="328" y="-124" type="line"/>
       <point x="328" y="-218" type="line"/>
       <point x="80" y="-141" type="line"/>
-      <point x="80" y="-46" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -84,12 +84,6 @@
             <integer>30</integer>
             <key>width</key>
             <integer>110</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>80</integer>
-            <key>width</key>
-            <integer>248</integer>
           </dict>
           <dict>
             <key>position</key>

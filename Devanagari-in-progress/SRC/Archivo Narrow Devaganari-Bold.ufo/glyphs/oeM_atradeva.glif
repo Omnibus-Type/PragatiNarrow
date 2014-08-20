@@ -13,10 +13,10 @@
       <point x="-123" y="606" type="move" name="_Anchor-0"/>
     </contour>
     <contour>
+      <point x="-70" y="596" type="line"/>
       <point x="-176" y="596" type="line"/>
       <point x="-176" y="791" type="line"/>
       <point x="-70" y="791" type="line"/>
-      <point x="-70" y="596" type="line"/>
     </contour>
   </outline>
   <lib>

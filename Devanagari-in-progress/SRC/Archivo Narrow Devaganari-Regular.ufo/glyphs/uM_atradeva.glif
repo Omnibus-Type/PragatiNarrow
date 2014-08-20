@@ -4,13 +4,13 @@
   <unicode hex="0941"/>
   <outline>
     <contour>
-      <point x="-97" y="0" type="move" name="_Anchor-4"/>
+      <point x="-96" y="0" type="move" name="_Anchor-4"/>
     </contour>
     <contour>
-      <point x="-97" y="0" type="move" name="_Anchor-3"/>
+      <point x="-96" y="0" type="move" name="_Anchor-3"/>
     </contour>
     <contour>
-      <point x="-97" y="0" type="move" name="_Anchor-1"/>
+      <point x="-96" y="0" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
       <point x="-289" y="-116" type="curve"/>

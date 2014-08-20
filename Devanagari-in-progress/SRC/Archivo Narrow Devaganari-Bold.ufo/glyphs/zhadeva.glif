@@ -4,12 +4,13 @@
   <unicode hex="0979"/>
   <outline>
     <contour>
-      <point x="432" y="0" type="move" name="Anchor-3"/>
+      <point x="449" y="0" type="move" name="Anchor-3"/>
     </contour>
     <contour>
-      <point x="432" y="606" type="move" name="Anchor-2"/>
+      <point x="449" y="606" type="move" name="Anchor-2"/>
     </contour>
     <contour>
+      <point x="582" y="513" type="line"/>
       <point x="502" y="513" type="line"/>
       <point x="502" y="0" type="line"/>
       <point x="396" y="0" type="line"/>
@@ -37,25 +38,24 @@
       <point x="-10" y="513" type="line"/>
       <point x="-10" y="606" type="line"/>
       <point x="582" y="606" type="line"/>
-      <point x="582" y="513" type="line"/>
     </contour>
     <contour>
+      <point x="58" y="25" type="line"/>
       <point x="141" y="25" type="line"/>
       <point x="141" y="-58" type="line"/>
       <point x="58" y="-58" type="line"/>
-      <point x="58" y="25" type="line"/>
     </contour>
     <contour>
+      <point x="242" y="25" type="line"/>
       <point x="325" y="25" type="line"/>
       <point x="325" y="-58" type="line"/>
       <point x="242" y="-58" type="line"/>
-      <point x="242" y="25" type="line"/>
     </contour>
     <contour>
+      <point x="149" y="-62" type="line"/>
       <point x="232" y="-62" type="line"/>
       <point x="232" y="-145" type="line"/>
       <point x="149" y="-145" type="line"/>
-      <point x="149" y="-62" type="line"/>
     </contour>
   </outline>
   <lib>

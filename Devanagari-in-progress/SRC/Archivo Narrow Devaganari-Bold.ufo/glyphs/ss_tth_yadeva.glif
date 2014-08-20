@@ -9,6 +9,7 @@
       <point x="822" y="606" type="move" name="Anchor-2"/>
     </contour>
     <contour>
+      <point x="955" y="513" type="line"/>
       <point x="875" y="513" type="line"/>
       <point x="875" y="0" type="line"/>
       <point x="769" y="0" type="line"/>
@@ -46,12 +47,11 @@
       <point x="-12" y="513" type="line"/>
       <point x="-12" y="606" type="line"/>
       <point x="955" y="606" type="line"/>
-      <point x="955" y="513" type="line"/>
     </contour>
     <contour>
+      <point x="296" y="513" type="line"/>
       <point x="182" y="513" type="line"/>
       <point x="296" y="371" type="line"/>
-      <point x="296" y="513" type="line"/>
     </contour>
     <contour>
       <point x="681" y="130" type="curve" smooth="yes"/>

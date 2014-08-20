@@ -3,8 +3,10 @@
 	\lVocalicMatradeva \llVocalicMatradeva \halantdeva \rakardeva 
 	\rakar_uMatradeva \rakar_uuMatradeva ];
 @MarkClass2=[\eCandraMatradeva \candraBindudeva \eShortMatradeva \eMatradeva 
-	\eMatra_anusvaradeva \eMatra_rephdeva \eMatra_reph_anusvaradeva 
-	\aiMatradeva \aiMatra_anusvaradeva \aiMatra_rephdeva 
+	\eMatra_candraBindudeva \eMatra_anusvaradeva \eMatra_rephdeva 
+	\eMatra_reph_candraBindudeva \eMatra_reph_anusvaradeva 
+	\aiMatradeva \aiMatra_candraBindudeva \aiMatra_anusvaradeva 
+	\aiMatra_rephdeva \aiMatra_reph_candraBindudeva 
 	\aiMatra_reph_anusvaradeva \anusvaradeva \rephdeva 
 	\reph_anusvaradeva \eLongCandradeva \oeMatradeva \udattadeva 
 	\gravedeva \acutedeva \combiningAdeva \combiningUdeva 
@@ -39,14 +41,19 @@ lookup aaltAccessAllAlternateslookup0 {
     sub \o by \ordmasculine ;
     sub \scedilla by \scommaaccent ;
     sub \tcedilla by \tcommaaccent ;
+    sub \jhadeva by \jhadeva.loclNEP ;
     sub \ladeva by \ladeva.loclMAR ;
     sub \shadeva by \shadeva.loclMAR ;
+    sub \zhadeva by \zhadeva.loclNEP ;
+    sub \k_radeva by \k_radeva.loclNEP ;
     sub \k_ladeva by \k_ladeva.loclMAR ;
-    sub \d_gadeva by \d_gadeva.ss02 ;
+    sub \c_ladeva by \c_ladeva.loclMAR ;
+    sub \ch_ladeva by \ch_ladeva.loclMAR ;
     sub \p_ladeva by \p_ladeva.loclMAR ;
     sub \ph_ladeva by \ph_ladeva.loclMAR ;
     sub \l_ladeva by \l_ladeva.loclMAR ;
     sub \sh_ladeva by \sh_ladeva.loclMAR ;
+    sub \jhdeva by \jhdeva.loclNEP ;
     sub \one by \onesuperior ;
     sub \two by \twosuperior ;
     sub \three by \threesuperior ;
@@ -59,7 +66,7 @@ lookup aaltAccessAllAlternateslookup0 {
 lookup aaltAccessAllAlternateslookup1 {
   lookupflag 0;
     sub \shdeva from [\shdeva.loclMAR \shdeva.ss02 ];
-    sub \iMatradeva from [\iMatra_rephdeva \iMatra_reph_anusvaradeva ];
+    sub \iMatradeva from [\iMatra_rephdeva \iMatra_reph_anusvaradeva \iMatradeva.0 \iMatradeva.1 ];
 } aaltAccessAllAlternateslookup1;
 
 lookup ccmpGlyphCompositionDecompositi {
@@ -289,17 +296,17 @@ lookup sub_single_locllatn_0 {
     sub \tcedilla by \tcommaaccent ;
 } sub_single_locllatn_0;
 
-lookup LigatureSubstitutionlookup28 {
+lookup LigatureSubstitutionlookup30 {
   lookupflag 0;
     sub \L \periodcentered  by \Ldot;
     sub \l \periodcentered  by \ldot;
-} LigatureSubstitutionlookup28;
+} LigatureSubstitutionlookup30;
 
 lookup sub_chain_locllatn_0 {
   lookupflag 0;
-    sub [\l ]'lookup LigatureSubstitutionlookup28  [\periodcentered ]'lookup LigatureSubstitutionlookup28  [\l ] ;
+    sub [\l ]'lookup LigatureSubstitutionlookup30  [\periodcentered ]'lookup LigatureSubstitutionlookup30  [\l ] ;
   subtable;
-    sub [\L ]'lookup LigatureSubstitutionlookup28  [\periodcentered ]'lookup LigatureSubstitutionlookup28  [\L ] ;
+    sub [\L ]'lookup LigatureSubstitutionlookup30  [\periodcentered ]'lookup LigatureSubstitutionlookup30  [\L ] ;
 } sub_chain_locllatn_0;
 
 lookup loclLocalizedFormsinDevanagari2 {
@@ -312,6 +319,8 @@ lookup sub_single_locldev2_0 {
     sub \ladeva by \ladeva.loclMAR ;
     sub \shadeva by \shadeva.loclMAR ;
     sub \k_ladeva by \k_ladeva.loclMAR ;
+    sub \c_ladeva by \c_ladeva.loclMAR ;
+    sub \ch_ladeva by \ch_ladeva.loclMAR ;
     sub \p_ladeva by \p_ladeva.loclMAR ;
     sub \ph_ladeva by \ph_ladeva.loclMAR ;
     sub \l_ladeva by \l_ladeva.loclMAR ;
@@ -322,6 +331,10 @@ lookup sub_single_locldev2_0 {
 
 lookup sub_single_locldev2_2 {
   lookupflag 0;
+    sub \jhadeva by \jhadeva.loclNEP ;
+    sub \zhadeva by \zhadeva.loclNEP ;
+    sub \k_radeva by \k_radeva.loclNEP ;
+    sub \jhdeva by \jhdeva.loclNEP ;
     sub \fivedeva by \fivedeva.loclNEP ;
     sub \eightdeva by \eightdeva.loclNEP ;
 } sub_single_locldev2_2;
@@ -345,20 +358,20 @@ lookup fracDiagonalFractionslookup12 {
     sub \seven \slash \eight  by \seveneighths;
 } fracDiagonalFractionslookup12;
 
-lookup SingleSubstitutionlookup29 {
+lookup SingleSubstitutionlookup31 {
   lookupflag 0;
     sub \A by \ordfeminine ;
     sub \O by \ordmasculine ;
     sub \a by \ordfeminine ;
     sub \o by \ordmasculine ;
     sub \iMatradeva by \iMatra_rephdeva ;
-} SingleSubstitutionlookup29;
+} SingleSubstitutionlookup31;
 
 lookup ordnOrdinalslookup13 {
   lookupflag 0;
-    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'lookup SingleSubstitutionlookup29  ;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'lookup SingleSubstitutionlookup31  ;
   subtable;
-    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'lookup SingleSubstitutionlookup29  ;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'lookup SingleSubstitutionlookup31  ;
 } ordnOrdinalslookup13;
 
 lookup ligaStandardLigatureslookup14 {
@@ -369,7 +382,6 @@ lookup ligaStandardLigatureslookup14 {
 
 lookup ss02StyleSet2lookup15 {
   lookupflag 0;
-    sub \d_gadeva by \d_gadeva.ss02 ;
     sub \shdeva by \shdeva.ss02 ;
 } ss02StyleSet2lookup15;
 
@@ -437,15 +449,23 @@ lookup halfHalfFormslookup20 {
     sub \k_ssadeva \halantdeva  by \k_ssdeva;
     sub \khadeva \halantdeva  by \khdeva;
     sub \gadeva \halantdeva  by \gdeva;
+    sub \gdeva \ndeva  by \g_ndeva;
+    sub \g_nadeva \halantdeva  by \g_ndeva;
+    sub \g_radeva \halantdeva  by \g_rdeva;
     sub \ghadeva \halantdeva  by \ghdeva;
+    sub \gh_radeva \halantdeva  by \gh_rdeva;
     sub \ngadeva \halantdeva  by \ngdeva;
     sub \ngdeva \kdeva  by \ng_kdeva;
     sub \ng_kadeva \halantdeva  by \ng_kdeva;
     sub \cadeva \halantdeva  by \cdeva;
     sub \chadeva \halantdeva  by \chdeva;
     sub \jadeva \halantdeva  by \jdeva;
+    sub \jdeva \jdeva  by \j_jdeva;
+    sub \j_jadeva \halantdeva  by \j_jdeva;
     sub \jdeva \nydeva  by \j_nydeva;
     sub \j_nyadeva \halantdeva  by \j_nydeva;
+    sub \j_ny_radeva \halantdeva  by \j_ny_rdeva;
+    sub \j_radeva \halantdeva  by \j_rdeva;
     sub \jhadeva \halantdeva  by \jhdeva;
     sub \nyadeva \halantdeva  by \nydeva;
     sub \ttadeva \halantdeva  by \ttdeva;
@@ -460,6 +480,7 @@ lookup halfHalfFormslookup20 {
     sub \thadeva \halantdeva  by \thdeva;
     sub \dadeva \halantdeva  by \ddeva;
     sub \dhadeva \halantdeva  by \dhdeva;
+    sub \dh_radeva \halantdeva  by \dh_rdeva;
     sub \nadeva \halantdeva  by \ndeva;
     sub \ndeva \ndeva  by \n_ndeva;
     sub \n_nadeva \halantdeva  by \n_ndeva;
@@ -469,14 +490,19 @@ lookup halfHalfFormslookup20 {
     sub \badeva \halantdeva  by \bdeva;
     sub \b_radeva \halantdeva  by \b_rdeva;
     sub \bhadeva \halantdeva  by \bhdeva;
+    sub \bh_radeva \halantdeva  by \bh_rdeva;
     sub \madeva \halantdeva  by \mdeva;
+    sub \m_radeva \halantdeva  by \m_rdeva;
     sub \yadeva \halantdeva  by \ydeva;
+    sub \y_radeva \halantdeva  by \y_rdeva;
     sub \rradeva \halantdeva  by \rrdeva;
     sub \ladeva \halantdeva  by \ldeva;
     sub \lladeva \halantdeva  by \lldeva;
     sub \llladeva \halantdeva  by \llldeva;
     sub \vadeva \halantdeva  by \vdeva;
+    sub \v_radeva \halantdeva  by \v_rdeva;
     sub \shadeva \halantdeva  by \shdeva;
+    sub \sh_radeva \halantdeva  by \sh_rdeva;
     sub \ssadeva \halantdeva  by \ssdeva;
     sub \sadeva \halantdeva  by \sdeva;
     sub \hadeva \halantdeva  by \hdeva;
@@ -485,14 +511,12 @@ lookup halfHalfFormslookup20 {
     sub \ghhadeva \halantdeva  by \ghhdeva;
     sub \zadeva \halantdeva  by \zdeva;
     sub \fadeva \halantdeva  by \fdeva;
-    sub \jhadeva.NEP \halantdeva  by \jhdeva.NEP;
     sub \shadeva.loclMAR \halantdeva  by \shdeva.loclMAR;
+    sub \jhadeva.loclNEP \halantdeva  by \jhdeva.loclNEP;
 } halfHalfFormslookup20;
 
 lookup cjctConjunctFormslookup21 {
   lookupflag 0;
-    sub \kadeva \uMatradeva  by \ka_uMatradeva;
-    sub \kadeva \uuMatradeva  by \ka_uuMatradeva;
     sub \kdeva \kadeva  by \k_kadeva;
     sub \kdeva \tadeva  by \k_tadeva;
     sub \kdeva \ladeva  by \k_ladeva;
@@ -506,14 +530,24 @@ lookup cjctConjunctFormslookup21 {
     sub \ngdeva \gadeva  by \ng_gadeva;
     sub \ngdeva \ghadeva  by \ng_ghadeva;
     sub \ngdeva \madeva  by \ng_madeva;
+    sub \cdeva \cadeva  by \c_cadeva;
+    sub \cdeva \chdeva \vadeva  by \c_ch_vadeva;
+    sub \cdeva \ladeva  by \c_ladeva;
+    sub \chdeva \nadeva  by \ch_nadeva;
+    sub \chdeva \ladeva  by \ch_ladeva;
+    sub \chdeva \vadeva  by \ch_vadeva;
+    sub \jdeva \jadeva  by \j_jadeva;
     sub \jdeva \nyadeva  by \j_nyadeva;
     sub \jdeva \ny_radeva  by \j_ny_radeva;
+    sub \nydeva \cadeva  by \ny_cadeva;
+    sub \nydeva \jadeva  by \ny_jadeva;
     sub \ttdeva \ttadeva  by \tt_ttadeva;
     sub \ttdeva \tthadeva  by \tt_tthadeva;
     sub \ttdeva \ddhadeva  by \tt_ddhadeva;
     sub \ttdeva \yadeva  by \tt_yadeva;
     sub \ttdeva \vadeva  by \tt_vadeva;
     sub \tthdeva \tthadeva  by \tth_tthadeva;
+    sub \tthdeva \nadeva  by \tth_nadeva;
     sub \tthdeva \yadeva  by \tth_yadeva;
     sub \dddeva \ttadeva  by \dd_ttadeva;
     sub \dddeva \ddadeva  by \dd_ddadeva;
@@ -523,11 +557,31 @@ lookup cjctConjunctFormslookup21 {
     sub \ddhdeva \yadeva  by \ddh_yadeva;
     sub \tdeva \tadeva  by \t_tadeva;
     sub \ddeva \gadeva  by \d_gadeva;
+    sub \ddeva \gadeva \uMatradeva  by \d_ga_uMatradeva;
+    sub \ddeva \gadeva \uuMatradeva  by \d_ga_uuMatradeva;
+    sub \ddeva \ghadeva  by \d_ghadeva;
+    sub \ddeva \ghadeva \uMatradeva  by \d_gha_uMatradeva;
+    sub \ddeva \ghadeva \uuMatradeva  by \d_gha_uuMatradeva;
     sub \ddeva \dadeva  by \d_dadeva;
     sub \ddeva \ddeva \yadeva  by \d_d_yadeva;
+    sub \ddeva \dhadeva  by \d_dhadeva;
+    sub \ddeva \dhadeva \uMatradeva  by \d_dha_uMatradeva;
+    sub \ddeva \dhadeva \uuMatradeva  by \d_dha_uuMatradeva;
+    sub \ddeva \dhdeva \yadeva  by \d_dh_yadeva;
     sub \ddeva \nadeva  by \d_nadeva;
+    sub \ddeva \nadeva \uMatradeva  by \d_na_uMatradeva;
+    sub \ddeva \nadeva \uuMatradeva  by \d_na_uuMatradeva;
+    sub \ddeva \badeva  by \d_badeva;
+    sub \ddeva \badeva \uMatradeva  by \d_ba_uMatradeva;
+    sub \ddeva \badeva \uuMatradeva  by \d_ba_uuMatradeva;
+    sub \ddeva \bhadeva  by \d_bhadeva;
     sub \ddeva \madeva  by \d_madeva;
     sub \ddeva \yadeva  by \d_yadeva;
+    sub \ddeva \radeva \uMatradeva  by \d_ra_uMatradeva;
+    sub \ddeva \radeva \uuMatradeva  by \d_ra_uuMatradeva;
+    sub \ddeva \vadeva  by \d_vadeva;
+    sub \ddeva \vadeva \uMatradeva  by \d_va_uMatradeva;
+    sub \ddeva \vadeva \uuMatradeva  by \d_va_uuMatradeva;
     sub \ddeva \rVocalicMatradeva  by \d_rVocalicMatradeva;
     sub \ndeva \nadeva  by \n_nadeva;
     sub \pdeva \tadeva  by \p_tadeva;
@@ -537,6 +591,7 @@ lookup cjctConjunctFormslookup21 {
     sub \radeva \uuMatradeva  by \ra_uuMatradeva;
     sub \ldeva \ladeva  by \l_ladeva;
     sub \shdeva \rVocalicdeva  by \sh_rVocalicdeva;
+    sub \shdeva \cadeva  by \sh_cadeva;
     sub \shdeva \nadeva  by \sh_nadeva;
     sub \shdeva \ladeva  by \sh_ladeva;
     sub \shdeva \vadeva  by \sh_vadeva;
@@ -545,6 +600,8 @@ lookup cjctConjunctFormslookup21 {
     sub \ssdeva \tthadeva  by \ss_tthadeva;
     sub \ssdeva \tthdeva \yadeva  by \ss_tth_yadeva;
     sub \sdeva \t_radeva  by \s_t_radeva;
+    sub \hadeva \uMatradeva  by \ha_uMatradeva;
+    sub \hadeva \uuMatradeva  by \ha_uuMatradeva;
     sub \hadeva \rVocalicMatradeva  by \ha_rVocalicMatradeva;
     sub \hdeva \nnadeva  by \h_nnadeva;
     sub \hdeva \nadeva  by \h_nadeva;
@@ -552,10 +609,18 @@ lookup cjctConjunctFormslookup21 {
     sub \hdeva \yadeva  by \h_yadeva;
     sub \hdeva \ladeva  by \h_ladeva;
     sub \hdeva \vadeva  by \h_vadeva;
+    sub \oMatradeva \candraBindudeva  by \oMatra_candraBindudeva;
+    sub \oMatradeva \rephdeva \candraBindudeva  by \oMatra_reph_candraBindudeva;
+    sub \auMatradeva \candraBindudeva  by \auMatra_candraBindudeva;
+    sub \auMatradeva \rephdeva \candraBindudeva  by \auMatra_reph_candraBindudeva;
 } cjctConjunctFormslookup21;
 
 lookup abvsAboveBaseSubstitutionslooku {
   lookupflag 0;
+    sub \oMatradeva \candraBindudeva  by \oMatra_candraBindudeva;
+    sub \oMatradeva \rephdeva \candraBindudeva  by \oMatra_reph_candraBindudeva;
+    sub \auMatradeva \candraBindudeva  by \auMatra_candraBindudeva;
+    sub \auMatradeva \rephdeva \candraBindudeva  by \auMatra_reph_candraBindudeva;
     sub \iMatradeva \anusvaradeva  by \iMatra_anusvaradeva;
     sub \iMatradeva \rephdeva  by \iMatra_rephdeva;
     sub \iMatradeva \rephdeva \anusvaradeva  by \iMatra_reph_anusvaradeva;
@@ -568,20 +633,22 @@ lookup abvsAboveBaseSubstitutionslooku {
     sub \auMatradeva \anusvaradeva  by \auMatra_anusvaradeva;
     sub \auMatradeva \rephdeva  by \auMatra_rephdeva;
     sub \auMatradeva \rephdeva \anusvaradeva  by \auMatra_reph_anusvaradeva;
+    sub \eMatradeva \candraBindudeva  by \eMatra_candraBindudeva;
     sub \eMatradeva \anusvaradeva  by \eMatra_anusvaradeva;
     sub \eMatradeva \rephdeva  by \eMatra_rephdeva;
+    sub \eMatradeva \rephdeva \candraBindudeva  by \eMatra_reph_candraBindudeva;
     sub \eMatradeva \rephdeva \anusvaradeva  by \eMatra_reph_anusvaradeva;
     sub \aiMatradeva \anusvaradeva  by \aiMatra_anusvaradeva;
     sub \aiMatradeva \rephdeva  by \aiMatra_rephdeva;
+    sub \aiMatradeva \rephdeva \candraBindudeva  by \aiMatra_reph_candraBindudeva;
     sub \aiMatradeva \rephdeva \anusvaradeva  by \aiMatra_reph_anusvaradeva;
+    sub \rephdeva \candraBindudeva  by \reph_candraBindudeva;
     sub \rephdeva \anusvaradeva  by \reph_anusvaradeva;
-    sub \rakardeva \uMatradeva  by \rakar_uMatradeva;
-    sub \rakardeva \uuMatradeva  by \rakar_uuMatradeva;
 } abvsAboveBaseSubstitutionslooku;
 
 lookup sub_chain_abvsdev2_0 {
   lookupflag 0;
-    sub [\iMatradeva ]'lookup SingleSubstitutionlookup29  [\kadeva \khadeva \gadeva \ghadeva \ngadeva \cadeva \chadeva \jadeva \jhadeva 
+    sub [\iMatradeva ]'lookup SingleSubstitutionlookup31  [\kadeva \khadeva \gadeva \ghadeva \ngadeva \cadeva \chadeva \jadeva \jhadeva 
 	\nyadeva \ttadeva \tthadeva \ddadeva \ddhadeva \nnadeva \tadeva 
 	\thadeva \dadeva \dhadeva \nadeva \nnnadeva \padeva \phadeva \badeva 
 	\bhadeva \madeva \yadeva \radeva \rradeva \ladeva \lladeva \llladeva 
@@ -650,6 +717,22 @@ lookup sub_chain_abvsdev2_0 {
 	\ggadeva \jjadeva \dddadeva \bbadeva \ladeva.loclMAR \shadeva.loclMAR 
 	\yadeva.post \vadeva.post ]'lookup LigatureSubstitutionlookup2  [\rephdeva \reph_anusvaradeva ]'lookup LigatureSubstitutionlookup2  ;
 } sub_chain_abvsdev2_0;
+
+lookup presPreBaseSubstitutionslookup2 {
+  lookupflag 0;
+    sub [\iMatradeva ]' [\radeva \ra_uMatradeva \ra_uuMatradeva ]  by [\iMatradeva.0 ];
+  subtable;
+    sub [\iMatradeva ]' [\tth_nadeva \d_dadeva \ha_rVocalicMatradeva \h_nnadeva \h_nadeva \h_radeva ]  by [\iMatradeva.1 ];
+} presPreBaseSubstitutionslookup2;
+
+lookup blwfBelowBaseFormslookup25 {
+  lookupflag 0;
+    sub \hadeva \rakardeva  by \h_radeva;
+    sub \halantdeva \radeva  by \rakardeva;
+    sub \radeva \halantdeva  by \rakardeva;
+    sub \rakardeva \uMatradeva  by \rakar_uMatradeva;
+    sub \rakardeva \uuMatradeva  by \rakar_uuMatradeva;
+} blwfBelowBaseFormslookup25;
 
 feature aalt {
 
@@ -1105,6 +1188,64 @@ feature abvs {
       lookup sub_chain_abvsdev2_0;
 } abvs;
 
+feature pres {
+
+ script DFLT;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup2;
+
+ script dev2;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup2;
+     language MAR  exclude_dflt;
+      lookup presPreBaseSubstitutionslookup2;
+     language NEP  exclude_dflt;
+      lookup presPreBaseSubstitutionslookup2;
+
+ script grek;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup2;
+
+ script latn;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup2;
+     language CAT  exclude_dflt;
+      lookup presPreBaseSubstitutionslookup2;
+     language MOL  exclude_dflt;
+      lookup presPreBaseSubstitutionslookup2;
+     language ROM  exclude_dflt;
+      lookup presPreBaseSubstitutionslookup2;
+} pres;
+
+feature blwf {
+
+ script DFLT;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup25;
+
+ script dev2;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup25;
+     language MAR  exclude_dflt;
+      lookup blwfBelowBaseFormslookup25;
+     language NEP  exclude_dflt;
+      lookup blwfBelowBaseFormslookup25;
+
+ script grek;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup25;
+
+ script latn;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup25;
+     language CAT  exclude_dflt;
+      lookup blwfBelowBaseFormslookup25;
+     language MOL  exclude_dflt;
+      lookup blwfBelowBaseFormslookup25;
+     language ROM  exclude_dflt;
+      lookup blwfBelowBaseFormslookup25;
+} blwf;
+
 # GPOS 
 
 
@@ -1443,7 +1584,8 @@ lookup kernHorizontalKerninglookup1 {
     pos \w \comma -44;
     pos \y \period -52;
     pos \y \comma -52;
-    pos \kdeva \ladeva 33;
+    pos \kdeva \ladeva -1;
+    pos \jdeva \jadeva 30;
     pos \pdeva \ladeva 34;
     pos \phdeva \ladeva 32;
     pos \ldeva \ladeva 38;
@@ -1463,19 +1605,69 @@ lookup kernHorizontalKerninglookup1 {
 
 lookup distDistanceinDevanagari2lookup {
   lookupflag IgnoreMarks;
-    pos \kdeva <0 0 33 0> \ladeva  <0 0 33 0>;
+    pos \kdeva <0 0 -1 0> \ladeva  <0 0 -1 0>;
+    pos \jdeva <0 0 30 0> \jadeva  <0 0 30 0>;
     pos \pdeva <0 0 34 0> \ladeva  <0 0 34 0>;
     pos \phdeva <0 0 32 0> \ladeva  <0 0 32 0>;
     pos \ldeva <0 0 38 0> \ladeva  <0 0 38 0>;
     pos \shdeva <0 0 6 0> \ladeva  <0 0 6 0>;
+  subtable;
+    @kc53_first_0 = [\kdeva \phdeva \qdeva \fdeva ];
+    @kc53_second_1 = [\rradeva ];
+    @kc53_second_2 = [\shadeva ];
+    @kc53_second_3 = [\tadeva \tdeva ];
+    @kc53_second_4 = [\thadeva \th_radeva \thdeva ];
+    @kc53_second_5 = [\nadeva \nnnadeva \n_radeva \ndeva \nnndeva ];
+    @kc53_second_6 = [\ngadeva \jhadeva \ddadeva \dddhadeva \dddadeva \ideva \iideva \ngdeva \jhdeva 
+	\dddeva ];
+    @kc53_second_7 = [\dhadeva \dhdeva ];
+    @kc53_second_8 = [\ttadeva \tthadeva \ddhadeva \dadeva \rhadeva \tt_yadeva \tth_yadeva 
+	\ddh_yadeva \d_gadeva \d_ga_uMatradeva \d_ga_uuMatradeva \d_nadeva 
+	\d_na_uMatradeva \d_na_uuMatradeva \d_radeva \d_ra_uMatradeva 
+	\d_ra_uuMatradeva \d_rVocalicMatradeva \ttdeva \tthdeva \ddhdeva ];
+    @kc53_second_9 = [\yadeva \yyadeva \jjyadeva \ydeva ];
+    @kc53_second_10 = [\sadeva \s_t_radeva \s_radeva \sdeva ];
+    @kc53_second_11 = [\nnadeva \padeva \phadeva \ssadeva \fadeva \zhadeva \jjadeva \p_tadeva \p_radeva 
+	\p_ladeva \ph_radeva \ph_ladeva \ss_ttadeva \ss_tt_yadeva 
+	\ss_tthadeva \ss_tth_yadeva \ss_radeva \f_radeva \nndeva \pdeva 
+	\phdeva \ssdeva \zdeva \fdeva ];
+    @kc53_second_12 = [\madeva \mdeva ];
+    @kc53_second_13 = [\khadeva \khhadeva \kh_radeva \khdeva \khhdeva ];
+    @kc53_second_14 = [\gadeva \ghhadeva \ggadeva \g_radeva \gdeva \ghhdeva ];
+    @kc53_second_15 = [\lladeva \llladeva \lldeva \llldeva ];
+    @kc53_second_16 = [\jadeva \j_radeva \jdeva \j_rdeva ];
+    @kc53_second_17 = [\ghadeva \ghdeva ];
+    @kc53_second_18 = [\radeva ];
+    pos @kc53_first_0 @kc53_second_1 -20;
+    pos @kc53_first_0 @kc53_second_2 -17;
+    pos @kc53_first_0 @kc53_second_3 -12;
+    pos @kc53_first_0 @kc53_second_4 -28;
+    pos @kc53_first_0 @kc53_second_5 29;
+    pos @kc53_first_0 @kc53_second_6 -40;
+    pos @kc53_first_0 @kc53_second_7 -11;
+    pos @kc53_first_0 @kc53_second_8 -3;
+    pos @kc53_first_0 @kc53_second_9 -4;
+    pos @kc53_first_0 @kc53_second_10 -21;
+    pos @kc53_first_0 @kc53_second_11 -22;
+    pos @kc53_first_0 @kc53_second_12 -14;
+    pos @kc53_first_0 @kc53_second_13 2;
+    pos @kc53_first_0 @kc53_second_14 -13;
+    pos @kc53_first_0 @kc53_second_15 2;
+    pos @kc53_first_0 @kc53_second_16 1;
+    pos @kc53_first_0 @kc53_second_17 -12;
+    pos @kc53_first_0 @kc53_second_18 -21;
 } distDistanceinDevanagari2lookup;
 
 lookup markMarkPositioninglookup3 {
   lookupflag 0;
   markClass [\eCandraMatradeva \candraBindudeva \eMatradeva \eMatra_rephdeva \eLongCandradeva ] <anchor -97 606> @Anchor0;
   markClass [\eShortMatradeva \eMatra_reph_anusvaradeva \oeMatradeva \udattadeva \gravedeva \acutedeva \combiningAvagrahadeva ] <anchor -98 606> @Anchor0;
+  markClass [\eMatra_candraBindudeva \combiningZerodeva ] <anchor -94 606> @Anchor0;
   markClass [\eMatra_anusvaradeva \aiMatradeva \aiMatra_anusvaradeva \combiningOnedeva ] <anchor -95 606> @Anchor0;
+  markClass [\eMatra_reph_candraBindudeva ] <anchor -93 606> @Anchor0;
+  markClass [\aiMatra_candraBindudeva ] <anchor -88 606> @Anchor0;
   markClass [\aiMatra_rephdeva \aiMatra_reph_anusvaradeva \combiningUdeva ] <anchor -102 606> @Anchor0;
+  markClass [\aiMatra_reph_candraBindudeva ] <anchor -84 606> @Anchor0;
   markClass [\anusvaradeva \combiningSixdeva ] <anchor -99 606> @Anchor0;
   markClass [\rephdeva \reph_anusvaradeva \combiningFourdeva ] <anchor -96 606> @Anchor0;
   markClass [\combiningAdeva ] <anchor -154 606> @Anchor0;
@@ -1484,14 +1676,14 @@ lookup markMarkPositioninglookup3 {
   markClass [\combiningPadeva ] <anchor -133 606> @Anchor0;
   markClass [\combiningRadeva \combiningSevendeva ] <anchor -104 606> @Anchor0;
   markClass [\combiningVideva ] <anchor -169 606> @Anchor0;
-  markClass [\combiningZerodeva ] <anchor -94 606> @Anchor0;
   markClass [\combiningTwodeva ] <anchor -92 606> @Anchor0;
   markClass [\combiningThreedeva ] <anchor -90 606> @Anchor0;
   markClass [\combiningFivedeva ] <anchor -108 606> @Anchor0;
   markClass [\combiningNinedeva ] <anchor -107 606> @Anchor0;
   markClass [\commaaccent ] <anchor -117 0> @Anchor1;
-  markClass [\uMatradeva \rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor1;
+  markClass [\uMatradeva ] <anchor -96 0> @Anchor1;
   markClass [\uuMatradeva \lVocalicMatradeva \llVocalicMatradeva \rakardeva \rakar_uMatradeva \rakar_uuMatradeva ] <anchor -98 0> @Anchor1;
+  markClass [\rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor1;
   markClass [\halantdeva ] <anchor -77 0> @Anchor1;
   pos base [\A \AE \D \H \I \J \O \Oslash \OE \U \W \Y \Z \a \ae \g \h \dotlessi \o \oslash \oe \u \w \y \z ] <anchor 0 0> mark @Anchor1
 	<anchor 236 606> mark @Anchor0;
@@ -1523,8 +1715,12 @@ lookup abvmAboveBaseMarklookup4 {
   lookupflag 0;
   markClass [\eCandraMatradeva \candraBindudeva \eMatradeva \eMatra_rephdeva \eLongCandradeva ] <anchor -97 606> @Anchor2;
   markClass [\eShortMatradeva \eMatra_reph_anusvaradeva \oeMatradeva \udattadeva \gravedeva \acutedeva \combiningAvagrahadeva ] <anchor -98 606> @Anchor2;
+  markClass [\eMatra_candraBindudeva \combiningZerodeva ] <anchor -94 606> @Anchor2;
   markClass [\eMatra_anusvaradeva \aiMatradeva \aiMatra_anusvaradeva \combiningOnedeva ] <anchor -95 606> @Anchor2;
+  markClass [\eMatra_reph_candraBindudeva ] <anchor -93 606> @Anchor2;
+  markClass [\aiMatra_candraBindudeva ] <anchor -88 606> @Anchor2;
   markClass [\aiMatra_rephdeva \aiMatra_reph_anusvaradeva \combiningUdeva ] <anchor -102 606> @Anchor2;
+  markClass [\aiMatra_reph_candraBindudeva ] <anchor -84 606> @Anchor2;
   markClass [\anusvaradeva \combiningSixdeva ] <anchor -99 606> @Anchor2;
   markClass [\rephdeva \reph_anusvaradeva \combiningFourdeva ] <anchor -96 606> @Anchor2;
   markClass [\combiningAdeva ] <anchor -154 606> @Anchor2;
@@ -1533,65 +1729,74 @@ lookup abvmAboveBaseMarklookup4 {
   markClass [\combiningPadeva ] <anchor -133 606> @Anchor2;
   markClass [\combiningRadeva \combiningSevendeva ] <anchor -104 606> @Anchor2;
   markClass [\combiningVideva ] <anchor -169 606> @Anchor2;
-  markClass [\combiningZerodeva ] <anchor -94 606> @Anchor2;
   markClass [\combiningTwodeva ] <anchor -92 606> @Anchor2;
   markClass [\combiningThreedeva ] <anchor -90 606> @Anchor2;
   markClass [\combiningFivedeva ] <anchor -108 606> @Anchor2;
   markClass [\combiningNinedeva ] <anchor -107 606> @Anchor2;
-  pos base [\kadeva \badeva \vadeva \qadeva \bbadeva \k_kadeva \k_radeva \k_vadeva \b_radeva \v_radeva \k_ladeva.loclMAR \kdeva \b_rdeva \qdeva ] <anchor 275 606> mark @Anchor2;
+  pos base [\kadeva \badeva \vadeva \qadeva \bbadeva \k_kadeva \k_radeva \k_vadeva \b_radeva \v_radeva \k_ladeva.loclMAR \kdeva \b_rdeva \v_rdeva \qdeva ] <anchor 275 606> mark @Anchor2;
   pos base [\khadeva \khhadeva \kh_radeva ] <anchor 499 606> mark @Anchor2;
-  pos base [\gadeva \ghhadeva \ggadeva \g_radeva ] <anchor 384 606> mark @Anchor2;
-  pos base [\ghadeva \gh_radeva ] <anchor 302 606> mark @Anchor2;
+  pos base [\gadeva \ghhadeva \ggadeva \g_radeva \g_rdeva ] <anchor 384 606> mark @Anchor2;
+  pos base [\ghadeva \gh_radeva \gh_rdeva ] <anchor 302 606> mark @Anchor2;
   pos base [\ngadeva \ddadeva \dddhadeva \dddadeva \ideva ] <anchor 271 606> mark @Anchor2;
-  pos base [\cadeva \c_radeva ] <anchor 315 606> mark @Anchor2;
-  pos base [\chadeva ] <anchor 345 606> mark @Anchor2;
-  pos base [\jadeva \jjadeva \jdeva \zdeva ] <anchor 360 606> mark @Anchor2;
+  pos base [\cadeva \c_radeva \c_cadeva.alt \c_ladeva.loclMAR ] <anchor 315 606> mark @Anchor2;
+  pos base [\chadeva \ch_nadeva \ch_vadeva \ch_ladeva.loclMAR \chdeva.post ] <anchor 345 606> mark @Anchor2;
+  pos base [\jadeva \zhadeva \jjadeva \j_jadeva \jdeva \j_jdeva \zdeva ] <anchor 360 606> mark @Anchor2;
   pos base [\jhadeva \ladeva \l_radeva \lVocalicdeva \llVocalicdeva \jhdeva ] <anchor 454 606> mark @Anchor2;
-  pos base [\nyadeva \zadeva \zhadeva \ny_radeva ] <anchor 365 606> mark @Anchor2;
+  pos base [\nyadeva \zadeva \ny_cadeva \ny_jadeva \ny_radeva ] <anchor 365 606> mark @Anchor2;
   pos base [\ttadeva \tthdeva ] <anchor 252 606> mark @Anchor2;
   pos base [\tthadeva ] <anchor 251 606> mark @Anchor2;
-  pos base [\ddhadeva \dadeva \rhadeva \ddh_ddhadeva \d_radeva \d_rVocalicMatradeva \ddhdeva \ddeva ] <anchor 260 606> mark @Anchor2;
+  pos base [\ddhadeva \dadeva \rhadeva \ddh_ddhadeva \d_radeva \d_ra_uMatradeva \d_ra_uuMatradeva \d_rVocalicMatradeva \ddhdeva \ddeva ] <anchor 260 606> mark @Anchor2;
   pos base [\nnadeva \nn_radeva ] <anchor 467 606> mark @Anchor2;
   pos base [\tadeva ] <anchor 314 606> mark @Anchor2;
   pos base [\thadeva \th_radeva ] <anchor 352 606> mark @Anchor2;
-  pos base [\dhadeva \dh_radeva ] <anchor 317 606> mark @Anchor2;
+  pos base [\dhadeva \dh_radeva \dh_rdeva ] <anchor 317 606> mark @Anchor2;
   pos base [\nadeva \nnnadeva \n_radeva ] <anchor 334 606> mark @Anchor2;
   pos base [\padeva \phadeva \ssadeva \fadeva \tt_ddhadeva \p_radeva \ph_radeva \ss_radeva \f_radeva \ph_ladeva.loclMAR \phdeva \fdeva ] <anchor 282 606> mark @Anchor2;
-  pos base [\bhadeva \jhadeva.NEP \bh_radeva \jhdeva.NEP ] <anchor 408 606> mark @Anchor2;
-  pos base [\madeva \m_radeva ] <anchor 376 606> mark @Anchor2;
-  pos base [\yadeva \yyadeva \jjyadeva \y_radeva ] <anchor 319 606> mark @Anchor2;
+  pos base [\bhadeva \jhadeva.loclNEP \bh_radeva \bh_rdeva \jhdeva.loclNEP ] <anchor 408 606> mark @Anchor2;
+  pos base [\madeva \m_radeva \m_rdeva ] <anchor 376 606> mark @Anchor2;
+  pos base [\yadeva \yyadeva \jjyadeva \y_radeva \y_rdeva ] <anchor 319 606> mark @Anchor2;
   pos base [\radeva \rradeva \ra_uMatradeva \ra_uuMatradeva ] <anchor 189 606> mark @Anchor2;
   pos base [\lladeva \llladeva ] <anchor 419 606> mark @Anchor2;
-  pos base [\shadeva \shadeva.loclMAR \sh_rVocalicdeva \sh_nadeva \sh_radeva \sh_vadeva \shdeva.loclMAR ] <anchor 377 606> mark @Anchor2;
-  pos base [\sadeva ] <anchor 396 606> mark @Anchor2;
-  pos base [\hadeva ] <anchor 256 606> mark @Anchor2;
+  pos base [\shadeva \shadeva.loclMAR \sh_rVocalicdeva \sh_nadeva \sh_radeva \sh_vadeva \sh_rdeva \shdeva.loclMAR ] <anchor 377 606> mark @Anchor2;
+  pos base [\sadeva ] <anchor 367 606> mark @Anchor2;
+  pos base [\hadeva \ha_uMatradeva \ha_uuMatradeva ] <anchor 256 606> mark @Anchor2;
   pos base [\ladeva.loclMAR \l_ladeva.loclMAR ] <anchor 381 606> mark @Anchor2;
+  pos base [\zhadeva.loclNEP ] <anchor 259 606> mark @Anchor2;
   pos base [\yadeva.post ] <anchor 262 606> mark @Anchor2;
-  pos base [\vadeva.post \ttdeva ] <anchor 253 606> mark @Anchor2;
-  pos base [\ka_uMatradeva \ka_uuMatradeva ] <anchor 270 606> mark @Anchor2;
+  pos base [\vadeva.post ] <anchor 253 676> mark @Anchor2;
+  pos base [\nadeva.post2 \radeva.post2 ] <anchor -98 606> mark @Anchor2;
   pos base [\k_tadeva \t_tadeva \t_tdeva ] <anchor 343 606> mark @Anchor2;
   pos base [\k_ladeva ] <anchor 884 606> mark @Anchor2;
   pos base [\k_ssadeva \k_ssdeva ] <anchor 442 606> mark @Anchor2;
   pos base [\k_ss_radeva ] <anchor 552 606> mark @Anchor2;
-  pos base [\g_nadeva ] <anchor 390 606> mark @Anchor2;
+  pos base [\g_nadeva \g_ndeva ] <anchor 390 606> mark @Anchor2;
   pos base [\ng_kadeva \ng_ghadeva \ng_kdeva ] <anchor 324 606> mark @Anchor2;
   pos base [\ng_k_ssadeva \ng_khadeva \ng_gadeva \ng_madeva ] <anchor 318 606> mark @Anchor2;
+  pos base [\c_cadeva ] <anchor 534 606> mark @Anchor2;
+  pos base [\c_ch_vadeva ] <anchor 562 606> mark @Anchor2;
+  pos base [\c_ladeva ] <anchor 672 606> mark @Anchor2;
+  pos base [\ch_ladeva ] <anchor 914 606> mark @Anchor2;
   pos base [\j_nyadeva \j_nydeva ] <anchor 417 606> mark @Anchor2;
-  pos base [\j_ny_radeva ] <anchor 421 606> mark @Anchor2;
-  pos base [\j_radeva ] <anchor 375 606> mark @Anchor2;
+  pos base [\j_ny_radeva \j_ny_rdeva ] <anchor 421 606> mark @Anchor2;
+  pos base [\j_radeva \j_rdeva ] <anchor 375 606> mark @Anchor2;
   pos base [\jh_radeva ] <anchor 482 606> mark @Anchor2;
   pos base [\tt_ttadeva \tt_tthadeva \tt_vadeva ] <anchor 284 606> mark @Anchor2;
   pos base [\tt_yadeva ] <anchor 685 606> mark @Anchor2;
-  pos base [\tth_tthadeva ] <anchor 250 606> mark @Anchor2;
+  pos base [\tth_tthadeva \tth_nadeva ] <anchor 250 606> mark @Anchor2;
   pos base [\tth_yadeva \ss_tt_yadeva ] <anchor 715 606> mark @Anchor2;
   pos base [\dd_ttadeva \dd_ddadeva \dd_ddhadeva ] <anchor 327 606> mark @Anchor2;
-  pos base [\dd_yadeva ] <anchor 659 606> mark @Anchor2;
+  pos base [\dd_yadeva \audeva ] <anchor 659 606> mark @Anchor2;
   pos base [\ddh_yadeva ] <anchor 691 606> mark @Anchor2;
-  pos base [\t_radeva \k_radeva.NEP \rVocalicdeva \rrVocalicdeva ] <anchor 287 606> mark @Anchor2;
-  pos base [\d_gadeva \d_gadeva.ss02 ] <anchor 280 606> mark @Anchor2;
+  pos base [\t_radeva \k_radeva.loclNEP \rVocalicdeva \rrVocalicdeva ] <anchor 287 606> mark @Anchor2;
+  pos base [\d_gadeva \d_ga_uMatradeva \d_ga_uuMatradeva ] <anchor 285 606> mark @Anchor2;
+  pos base [\d_ghadeva \d_gha_uMatradeva \d_gha_uuMatradeva ] <anchor 385 606> mark @Anchor2;
   pos base [\d_dadeva ] <anchor 248 606> mark @Anchor2;
   pos base [\d_d_yadeva ] <anchor 623 606> mark @Anchor2;
-  pos base [\d_nadeva ] <anchor 255 606> mark @Anchor2;
+  pos base [\d_dhadeva \d_dha_uMatradeva \d_dha_uuMatradeva \sh_ladeva ] <anchor 418 606> mark @Anchor2;
+  pos base [\d_dh_yadeva \d_dh_r_yadeva ] <anchor 812 606> mark @Anchor2;
+  pos base [\d_nadeva \d_na_uMatradeva \d_na_uuMatradeva ] <anchor 289 606> mark @Anchor2;
+  pos base [\d_badeva \d_ba_uMatradeva \d_ba_uuMatradeva \d_vadeva \d_va_uMatradeva \d_va_uuMatradeva ] <anchor 280 606> mark @Anchor2;
+  pos base [\d_bhadeva ] <anchor 471 606> mark @Anchor2;
   pos base [\d_madeva ] <anchor 433 606> mark @Anchor2;
   pos base [\d_yadeva \shdeva.ss02 ] <anchor 416 606> mark @Anchor2;
   pos base [\n_nadeva \n_ndeva ] <anchor 371 606> mark @Anchor2;
@@ -1599,26 +1804,30 @@ lookup abvmAboveBaseMarklookup4 {
   pos base [\p_ladeva ] <anchor 676 606> mark @Anchor2;
   pos base [\ph_ladeva ] <anchor 890 606> mark @Anchor2;
   pos base [\l_ladeva ] <anchor 854 606> mark @Anchor2;
-  pos base [\sh_ladeva ] <anchor 418 606> mark @Anchor2;
+  pos base [\sh_cadeva ] <anchor 413 606> mark @Anchor2;
   pos base [\ss_ttadeva \ss_tthadeva ] <anchor 309 606> mark @Anchor2;
   pos base [\ss_tth_yadeva ] <anchor 714 606> mark @Anchor2;
-  pos base [\s_t_radeva ] <anchor 566 606> mark @Anchor2;
+  pos base [\s_t_radeva ] <anchor 546 606> mark @Anchor2;
   pos base [\s_radeva ] <anchor 415 606> mark @Anchor2;
   pos base [\ha_rVocalicMatradeva \mdeva ] <anchor 277 606> mark @Anchor2;
   pos base [\h_nnadeva \h_nadeva \h_ladeva \h_vadeva ] <anchor 273 606> mark @Anchor2;
   pos base [\h_madeva \h_yadeva ] <anchor 451 606> mark @Anchor2;
   pos base [\h_radeva ] <anchor 276 606> mark @Anchor2;
-  pos base [\j_nyadeva.alt ] <anchor 431 606> mark @Anchor2;
+  pos base [\oMatra_candraBindudeva \oMatra_reph_candraBindudeva \auMatra_candraBindudeva \auMatra_reph_candraBindudeva \aaMatradeva \oCandraMatradeva \oShortMatradeva \oMatra_anusvaradeva \oMatra_rephdeva \oMatra_reph_anusvaradeva \oMatradeva \auMatra_anusvaradeva \auMatra_rephdeva \auMatra_reph_anusvaradeva \auMatradeva \ooeMatradeva \awMatradeva ] <anchor 97 606> mark @Anchor2;
   pos base [\p_ladeva.loclMAR ] <anchor 298 606> mark @Anchor2;
   pos base [\sh_ladeva.loclMAR ] <anchor 699 606> mark @Anchor2;
-  pos base [\adeva \uedeva \uuedeva ] <anchor 464 606> mark @Anchor2;
+  pos base [\aShortdeva ] <anchor 466 606> mark @Anchor2;
+  pos base [\aCandradeva \adeva \oedeva \uedeva \uuedeva ] <anchor 464 606> mark @Anchor2;
   pos base [\aadeva \oCandradeva \ooedeva ] <anchor 656 606> mark @Anchor2;
+  pos base [\iideva ] <anchor 249 606> mark @Anchor2;
   pos base [\udeva ] <anchor 180 604> mark @Anchor2;
-  pos base [\eShortdeva \aideva ] <anchor 195 465> mark @Anchor2;
+  pos base [\eCandradeva \eShortdeva \aideva ] <anchor 195 465> mark @Anchor2;
   pos base [\edeva ] <anchor 292 606> mark @Anchor2;
+  pos base [\oShortdeva ] <anchor 655 606> mark @Anchor2;
+  pos base [\odeva \awdeva ] <anchor 658 606> mark @Anchor2;
   pos base [\ngdeva ] <anchor 241 606> mark @Anchor2;
-  pos base [\chdeva ] <anchor 139 465> mark @Anchor2;
   pos base [\nydeva ] <anchor 231 465> mark @Anchor2;
+  pos base [\ttdeva ] <anchor 253 606> mark @Anchor2;
   pos base [\dddeva ] <anchor 242 606> mark @Anchor2;
   pos base [\nndeva ] <anchor 283 465> mark @Anchor2;
   pos base [\tdeva \ydeva ] <anchor 208 465> mark @Anchor2;
@@ -1630,9 +1839,8 @@ lookup abvmAboveBaseMarklookup4 {
   pos base [\shdeva ] <anchor 238 465> mark @Anchor2;
   pos base [\ssdeva ] <anchor 91 465> mark @Anchor2;
   pos base [\sdeva ] <anchor 235 465> mark @Anchor2;
-  pos base [\aaMatradeva \oCandraMatradeva \oShortMatradeva \oMatra_anusvaradeva \oMatra_rephdeva \oMatra_reph_anusvaradeva \oMatradeva \auMatra_anusvaradeva \auMatra_rephdeva \auMatra_reph_anusvaradeva \auMatradeva \ooeMatradeva \awMatradeva ] <anchor 97 606> mark @Anchor2;
   pos base [\iMatra_anusvaradeva \iMatra_rephdeva \iMatra_reph_anusvaradeva \iiMatra_anusvaradeva ] <anchor 98 465> mark @Anchor2;
-  pos base [\iMatradeva \iiMatradeva ] <anchor 95 606> mark @Anchor2;
+  pos base [\iMatradeva \iiMatradeva \iMatradeva.0 \iMatradeva.1 ] <anchor 95 606> mark @Anchor2;
   pos base [\iiMatra_rephdeva ] <anchor 98 606> mark @Anchor2;
   pos base [\iiMatra_reph_anusvaradeva ] <anchor 95 465> mark @Anchor2;
   pos base [\prishthaMatraEdeva ] <anchor 100 606> mark @Anchor2;
@@ -1641,64 +1849,76 @@ lookup abvmAboveBaseMarklookup4 {
 lookup blwmBelowBaseMarklookup5 {
   lookupflag 0;
   markClass [\commaaccent ] <anchor -117 0> @Anchor3;
-  markClass [\uMatradeva \rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor3;
+  markClass [\uMatradeva ] <anchor -96 0> @Anchor3;
   markClass [\uuMatradeva \lVocalicMatradeva \llVocalicMatradeva \rakardeva \rakar_uMatradeva \rakar_uuMatradeva ] <anchor -98 0> @Anchor3;
+  markClass [\rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor3;
   markClass [\halantdeva ] <anchor -77 0> @Anchor3;
-  pos base [\kadeva \badeva \vadeva \qadeva \bbadeva \k_radeva \d_radeva \b_radeva \v_radeva \kdeva \b_rdeva \qdeva ] <anchor 275 0> mark @Anchor3;
+  pos base [\kadeva \badeva \vadeva \qadeva \bbadeva \k_radeva \b_radeva \v_radeva \kdeva \b_rdeva \v_rdeva \qdeva ] <anchor 275 0> mark @Anchor3;
   pos base [\khadeva \khhadeva \kh_radeva ] <anchor 499 0> mark @Anchor3;
-  pos base [\gadeva \ghhadeva \ggadeva \g_radeva ] <anchor 384 0> mark @Anchor3;
-  pos base [\ghadeva \gh_radeva ] <anchor 302 0> mark @Anchor3;
+  pos base [\gadeva \ghhadeva \ggadeva \g_radeva \g_rdeva ] <anchor 384 0> mark @Anchor3;
+  pos base [\ghadeva \gh_radeva \gh_rdeva ] <anchor 302 0> mark @Anchor3;
   pos base [\ngadeva \tthadeva \pdeva ] <anchor 197 0> mark @Anchor3;
-  pos base [\cadeva \c_radeva ] <anchor 315 0> mark @Anchor3;
+  pos base [\cadeva \c_radeva \c_ladeva.loclMAR ] <anchor 315 0> mark @Anchor3;
   pos base [\chadeva ] <anchor 247 0> mark @Anchor3;
-  pos base [\jadeva \jjadeva \jdeva \zdeva ] <anchor 360 0> mark @Anchor3;
-  pos base [\jhadeva \ladeva \l_radeva \llVocalicdeva \jhdeva ] <anchor 454 0> mark @Anchor3;
-  pos base [\nyadeva \zadeva \zhadeva \ny_radeva ] <anchor 365 0> mark @Anchor3;
-  pos base [\ttadeva \d_nadeva ] <anchor 190 0> mark @Anchor3;
+  pos base [\jadeva \zhadeva \jjadeva \j_jadeva \jdeva \j_jdeva \zdeva ] <anchor 360 0> mark @Anchor3;
+  pos base [\jhadeva \ladeva \l_radeva \lVocalicdeva \llVocalicdeva \jhdeva ] <anchor 454 0> mark @Anchor3;
+  pos base [\nyadeva \zadeva \ny_radeva ] <anchor 365 0> mark @Anchor3;
+  pos base [\ttadeva ] <anchor 190 0> mark @Anchor3;
   pos base [\ddadeva ] <anchor 215 0> mark @Anchor3;
   pos base [\ddhadeva \eCandradeva \eShortdeva \edeva \aideva ] <anchor 195 0> mark @Anchor3;
   pos base [\nnadeva \nn_radeva ] <anchor 467 0> mark @Anchor3;
   pos base [\tadeva ] <anchor 314 0> mark @Anchor3;
   pos base [\thadeva \th_radeva ] <anchor 352 0> mark @Anchor3;
-  pos base [\dadeva \yadeva.post ] <anchor 262 0> mark @Anchor3;
-  pos base [\dhadeva \dh_radeva ] <anchor 317 0> mark @Anchor3;
+  pos base [\dadeva ] <anchor 300 0> mark @Anchor3;
+  pos base [\dhadeva \dh_radeva \dh_rdeva ] <anchor 317 0> mark @Anchor3;
   pos base [\nadeva \nnnadeva \n_radeva ] <anchor 334 0> mark @Anchor3;
   pos base [\padeva \phadeva \llladeva \ssadeva \fadeva \p_radeva \ph_radeva \ss_radeva \f_radeva \phdeva \fdeva ] <anchor 282 0> mark @Anchor3;
-  pos base [\bhadeva \jhadeva.NEP \bh_radeva ] <anchor 408 0> mark @Anchor3;
-  pos base [\madeva \m_radeva ] <anchor 376 0> mark @Anchor3;
-  pos base [\yadeva \yyadeva \jjyadeva \y_radeva ] <anchor 319 0> mark @Anchor3;
-  pos base [\radeva \ra_uMatradeva \ra_uuMatradeva ] <anchor 143 0> mark @Anchor3;
+  pos base [\bhadeva \jhadeva.loclNEP \bh_radeva \bh_rdeva ] <anchor 408 0> mark @Anchor3;
+  pos base [\madeva \m_radeva \m_rdeva ] <anchor 376 0> mark @Anchor3;
+  pos base [\yadeva \yyadeva \jjyadeva \y_radeva \y_rdeva ] <anchor 319 0> mark @Anchor3;
+  pos base [\radeva ] <anchor 123 0> mark @Anchor3;
   pos base [\rradeva \tthdeva ] <anchor 189 0> mark @Anchor3;
   pos base [\lladeva ] <anchor 284 0> mark @Anchor3;
-  pos base [\shadeva \shadeva.loclMAR \sh_rVocalicdeva \sh_nadeva \sh_radeva \sh_vadeva \shdeva.loclMAR ] <anchor 377 0> mark @Anchor3;
-  pos base [\sadeva ] <anchor 396 0> mark @Anchor3;
+  pos base [\shadeva \shadeva.loclMAR \sh_rVocalicdeva \sh_nadeva \sh_radeva \sh_vadeva \sh_rdeva \shdeva.loclMAR ] <anchor 377 0> mark @Anchor3;
+  pos base [\sadeva ] <anchor 367 0> mark @Anchor3;
   pos base [\hadeva ] <anchor 208 -30> mark @Anchor3;
   pos base [\dddhadeva ] <anchor 221 0> mark @Anchor3;
   pos base [\rhadeva ] <anchor 260 0> mark @Anchor3;
   pos base [\dddadeva ] <anchor 181 0> mark @Anchor3;
   pos base [\ladeva.loclMAR ] <anchor 381 0> mark @Anchor3;
+  pos base [\zhadeva.loclNEP ] <anchor 259 0> mark @Anchor3;
+  pos base [\yadeva.post ] <anchor 262 0> mark @Anchor3;
   pos base [\vadeva.post ] <anchor 253 -186> mark @Anchor3;
-  pos base [\ka_uMatradeva \ka_uuMatradeva ] <anchor 270 0> mark @Anchor3;
+  pos base [\nadeva.post2 \radeva.post2 ] <anchor -98 0> mark @Anchor3;
   pos base [\k_kadeva \k_vadeva ] <anchor 275 -50> mark @Anchor3;
   pos base [\k_tadeva \t_tadeva \t_tdeva ] <anchor 343 0> mark @Anchor3;
   pos base [\k_ladeva ] <anchor 884 0> mark @Anchor3;
   pos base [\k_ssadeva \k_ssdeva ] <anchor 442 0> mark @Anchor3;
   pos base [\k_ss_radeva ] <anchor 552 0> mark @Anchor3;
-  pos base [\g_nadeva ] <anchor 390 0> mark @Anchor3;
+  pos base [\g_nadeva \g_ndeva ] <anchor 390 0> mark @Anchor3;
   pos base [\ng_kadeva \ng_kdeva ] <anchor 223 -186> mark @Anchor3;
   pos base [\ng_k_ssadeva \ng_ghadeva ] <anchor 343 -186> mark @Anchor3;
   pos base [\ng_khadeva ] <anchor 346 -186> mark @Anchor3;
   pos base [\ng_gadeva \ng_madeva ] <anchor 341 -186> mark @Anchor3;
+  pos base [\c_cadeva ] <anchor 534 0> mark @Anchor3;
+  pos base [\c_ch_vadeva ] <anchor 557 -186> mark @Anchor3;
+  pos base [\c_ladeva ] <anchor 672 0> mark @Anchor3;
+  pos base [\ch_nadeva ] <anchor 345 -186> mark @Anchor3;
+  pos base [\ch_ladeva ] <anchor 914 0> mark @Anchor3;
+  pos base [\ch_vadeva ] <anchor 340 -186> mark @Anchor3;
   pos base [\j_nyadeva \j_nydeva ] <anchor 417 0> mark @Anchor3;
-  pos base [\j_ny_radeva ] <anchor 421 0> mark @Anchor3;
-  pos base [\j_radeva ] <anchor 375 0> mark @Anchor3;
+  pos base [\j_ny_radeva \j_ny_rdeva ] <anchor 421 0> mark @Anchor3;
+  pos base [\j_radeva \j_rdeva ] <anchor 375 0> mark @Anchor3;
   pos base [\jh_radeva ] <anchor 482 0> mark @Anchor3;
+  pos base [\ny_cadeva ] <anchor 365 -186> mark @Anchor3;
+  pos base [\ny_jadeva ] <anchor 365 -80> mark @Anchor3;
   pos base [\tt_ttadeva ] <anchor 233 -186> mark @Anchor3;
   pos base [\tt_tthadeva ] <anchor 217 -186> mark @Anchor3;
   pos base [\tt_ddhadeva ] <anchor 216 -186> mark @Anchor3;
   pos base [\tt_yadeva ] <anchor 685 0> mark @Anchor3;
   pos base [\tt_vadeva ] <anchor 286 -186> mark @Anchor3;
   pos base [\tth_tthadeva ] <anchor 242 -186> mark @Anchor3;
+  pos base [\tth_nadeva ] <anchor 291 -186> mark @Anchor3;
   pos base [\tth_yadeva \ss_tt_yadeva ] <anchor 715 0> mark @Anchor3;
   pos base [\dd_ttadeva ] <anchor 255 -186> mark @Anchor3;
   pos base [\dd_ddadeva ] <anchor 248 -186> mark @Anchor3;
@@ -1706,45 +1926,54 @@ lookup blwmBelowBaseMarklookup5 {
   pos base [\dd_yadeva \audeva ] <anchor 659 0> mark @Anchor3;
   pos base [\ddh_ddhadeva ] <anchor 224 -186> mark @Anchor3;
   pos base [\ddh_yadeva ] <anchor 691 0> mark @Anchor3;
-  pos base [\t_radeva \k_radeva.NEP \rVocalicdeva \rrVocalicdeva ] <anchor 287 0> mark @Anchor3;
-  pos base [\d_gadeva ] <anchor 338 40> mark @Anchor3;
+  pos base [\t_radeva \k_radeva.loclNEP \rVocalicdeva \rrVocalicdeva ] <anchor 287 0> mark @Anchor3;
+  pos base [\d_gadeva \d_ga_uMatradeva \d_ga_uuMatradeva ] <anchor 344 40> mark @Anchor3;
+  pos base [\d_ghadeva \d_gha_uMatradeva \d_gha_uuMatradeva ] <anchor 444 40> mark @Anchor3;
   pos base [\d_dadeva ] <anchor 276 -69> mark @Anchor3;
   pos base [\d_d_yadeva ] <anchor 623 0> mark @Anchor3;
+  pos base [\d_dhadeva \d_dha_uMatradeva \d_dha_uuMatradeva ] <anchor 477 40> mark @Anchor3;
+  pos base [\d_dh_yadeva \d_dh_r_yadeva ] <anchor 812 0> mark @Anchor3;
+  pos base [\d_nadeva \d_na_uMatradeva \d_na_uuMatradeva ] <anchor 351 40> mark @Anchor3;
+  pos base [\d_badeva \d_ba_uMatradeva \d_ba_uuMatradeva \d_vadeva \d_va_uMatradeva \d_va_uuMatradeva ] <anchor 328 -28> mark @Anchor3;
+  pos base [\d_bhadeva ] <anchor 520 0> mark @Anchor3;
   pos base [\d_madeva ] <anchor 433 -50> mark @Anchor3;
   pos base [\d_yadeva \shdeva.ss02 ] <anchor 416 0> mark @Anchor3;
+  pos base [\d_radeva \d_ra_uMatradeva \d_ra_uuMatradeva ] <anchor 297 0> mark @Anchor3;
   pos base [\d_rVocalicMatradeva ] <anchor 269 -186> mark @Anchor3;
   pos base [\n_nadeva \n_ndeva ] <anchor 371 0> mark @Anchor3;
   pos base [\p_tadeva ] <anchor 308 0> mark @Anchor3;
   pos base [\p_ladeva ] <anchor 676 0> mark @Anchor3;
   pos base [\ph_ladeva ] <anchor 890 0> mark @Anchor3;
+  pos base [\ra_uMatradeva \ra_uuMatradeva ] <anchor 143 0> mark @Anchor3;
   pos base [\l_ladeva ] <anchor 854 0> mark @Anchor3;
+  pos base [\sh_cadeva ] <anchor 413 -18> mark @Anchor3;
   pos base [\sh_ladeva ] <anchor 418 0> mark @Anchor3;
   pos base [\ss_ttadeva \ss_tthadeva ] <anchor 251 0> mark @Anchor3;
   pos base [\ss_tth_yadeva ] <anchor 714 0> mark @Anchor3;
-  pos base [\s_t_radeva ] <anchor 566 0> mark @Anchor3;
+  pos base [\s_t_radeva ] <anchor 546 0> mark @Anchor3;
   pos base [\s_radeva ] <anchor 415 0> mark @Anchor3;
+  pos base [\ha_uMatradeva \ha_uuMatradeva ] <anchor 208 -186> mark @Anchor3;
   pos base [\ha_rVocalicMatradeva ] <anchor 281 -114> mark @Anchor3;
   pos base [\h_nnadeva \h_nadeva \h_ladeva \h_vadeva ] <anchor 263 -186> mark @Anchor3;
   pos base [\h_madeva \h_yadeva ] <anchor 452 0> mark @Anchor3;
   pos base [\h_radeva ] <anchor 201 -71> mark @Anchor3;
-  pos base [\j_nyadeva.alt ] <anchor 431 0> mark @Anchor3;
+  pos base [\oMatra_candraBindudeva \oMatra_reph_candraBindudeva \auMatra_candraBindudeva \auMatra_reph_candraBindudeva \aaMatradeva \oCandraMatradeva \oShortMatradeva \oMatra_anusvaradeva \oMatra_rephdeva \oMatra_reph_anusvaradeva \oMatradeva \auMatra_anusvaradeva \auMatra_rephdeva \auMatra_reph_anusvaradeva \auMatradeva \ooeMatradeva \awMatradeva ] <anchor 97 0> mark @Anchor3;
+  pos base [\c_cadeva.alt ] <anchor 315 -186> mark @Anchor3;
   pos base [\k_ladeva.loclMAR ] <anchor 275 -186> mark @Anchor3;
+  pos base [\ch_ladeva.loclMAR ] <anchor 265 -186> mark @Anchor3;
   pos base [\p_ladeva.loclMAR ] <anchor 298 -186> mark @Anchor3;
   pos base [\ph_ladeva.loclMAR ] <anchor 282 -186> mark @Anchor3;
   pos base [\l_ladeva.loclMAR ] <anchor 381 -186> mark @Anchor3;
   pos base [\sh_ladeva.loclMAR ] <anchor 699 0> mark @Anchor3;
-  pos base [\d_gadeva.ss02 ] <anchor 282 20> mark @Anchor3;
   pos base [\aShortdeva ] <anchor 465 0> mark @Anchor3;
   pos base [\aCandradeva \adeva \oedeva \uedeva \uuedeva ] <anchor 463 0> mark @Anchor3;
   pos base [\aadeva \oCandradeva \ooedeva ] <anchor 656 0> mark @Anchor3;
   pos base [\ideva ] <anchor 199 0> mark @Anchor3;
   pos base [\iideva ] <anchor 249 0> mark @Anchor3;
   pos base [\udeva \ttdeva ] <anchor 180 0> mark @Anchor3;
-  pos base [\lVocalicdeva ] <anchor 454 -48> mark @Anchor3;
   pos base [\oShortdeva ] <anchor 655 0> mark @Anchor3;
   pos base [\odeva \awdeva ] <anchor 658 0> mark @Anchor3;
   pos base [\ngdeva \dddeva ] <anchor 169 0> mark @Anchor3;
-  pos base [\chdeva ] <anchor 139 0> mark @Anchor3;
   pos base [\nydeva ] <anchor 231 0> mark @Anchor3;
   pos base [\ddhdeva ] <anchor 188 0> mark @Anchor3;
   pos base [\nndeva ] <anchor 283 0> mark @Anchor3;
@@ -1758,19 +1987,20 @@ lookup blwmBelowBaseMarklookup5 {
   pos base [\shdeva ] <anchor 238 0> mark @Anchor3;
   pos base [\ssdeva ] <anchor 91 0> mark @Anchor3;
   pos base [\sdeva ] <anchor 235 0> mark @Anchor3;
-  pos base [\aaMatradeva \oCandraMatradeva \oShortMatradeva \oMatra_anusvaradeva \oMatra_rephdeva \oMatra_reph_anusvaradeva \oMatradeva \auMatra_anusvaradeva \auMatra_rephdeva \auMatra_reph_anusvaradeva \auMatradeva \ooeMatradeva \awMatradeva ] <anchor 97 0> mark @Anchor3;
   pos base [\iMatra_anusvaradeva \iMatra_rephdeva \iMatra_reph_anusvaradeva \iiMatra_anusvaradeva \iiMatra_rephdeva \prishthaMatraEdeva ] <anchor 98 0> mark @Anchor3;
-  pos base [\iMatradeva \iiMatra_reph_anusvaradeva \iiMatradeva ] <anchor 95 0> mark @Anchor3;
-  pos base [\jhdeva.NEP ] <anchor 411 0> mark @Anchor3;
+  pos base [\iMatradeva \iiMatra_reph_anusvaradeva \iiMatradeva \iMatradeva.0 \iMatradeva.1 ] <anchor 95 0> mark @Anchor3;
+  pos base [\jhdeva.loclNEP ] <anchor 411 0> mark @Anchor3;
+  pos base [\chdeva.post ] <anchor 216 150> mark @Anchor3;
 } blwmBelowBaseMarklookup5;
 
 lookup mkmkMarktoMarklookup6 {
   lookupflag MarkAttachmentType @MarkClass1;
   markClass [\commaaccent ] <anchor -117 0> @Anchor4;
-  markClass [\uMatradeva \rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor4;
+  markClass [\uMatradeva ] <anchor -96 0> @Anchor4;
   markClass [\uuMatradeva \lVocalicMatradeva \llVocalicMatradeva \rakardeva \rakar_uMatradeva \rakar_uuMatradeva ] <anchor -98 0> @Anchor4;
+  markClass [\rVocalicMatradeva \rrVocalicMatradeva ] <anchor -97 0> @Anchor4;
   markClass [\halantdeva ] <anchor -77 0> @Anchor4;
-  pos mark [\reph_anusvaradeva ] <anchor 0 0> mark @Anchor4;
+  pos mark [\reph_candraBindudeva \reph_anusvaradeva ] <anchor 0 0> mark @Anchor4;
   pos mark [\rakardeva ] <anchor -98 -186> mark @Anchor4;
   pos mark [\rephdeva.loclMAR ] <anchor 142 0> mark @Anchor4;
 } mkmkMarktoMarklookup6;
@@ -1779,8 +2009,12 @@ lookup mkmkMarktoMarklookup7 {
   lookupflag MarkAttachmentType @MarkClass2;
   markClass [\eCandraMatradeva \candraBindudeva \eMatradeva \eMatra_rephdeva \eLongCandradeva ] <anchor -97 606> @Anchor5;
   markClass [\eShortMatradeva \eMatra_reph_anusvaradeva \oeMatradeva \udattadeva \gravedeva \acutedeva \combiningAvagrahadeva ] <anchor -98 606> @Anchor5;
+  markClass [\eMatra_candraBindudeva \combiningZerodeva ] <anchor -94 606> @Anchor5;
   markClass [\eMatra_anusvaradeva \aiMatradeva \aiMatra_anusvaradeva \combiningOnedeva ] <anchor -95 606> @Anchor5;
+  markClass [\eMatra_reph_candraBindudeva ] <anchor -93 606> @Anchor5;
+  markClass [\aiMatra_candraBindudeva ] <anchor -88 606> @Anchor5;
   markClass [\aiMatra_rephdeva \aiMatra_reph_anusvaradeva \combiningUdeva ] <anchor -102 606> @Anchor5;
+  markClass [\aiMatra_reph_candraBindudeva ] <anchor -84 606> @Anchor5;
   markClass [\anusvaradeva \combiningSixdeva ] <anchor -99 606> @Anchor5;
   markClass [\rephdeva \reph_anusvaradeva \combiningFourdeva ] <anchor -96 606> @Anchor5;
   markClass [\combiningAdeva ] <anchor -154 606> @Anchor5;
@@ -1789,11 +2023,11 @@ lookup mkmkMarktoMarklookup7 {
   markClass [\combiningPadeva ] <anchor -133 606> @Anchor5;
   markClass [\combiningRadeva \combiningSevendeva ] <anchor -104 606> @Anchor5;
   markClass [\combiningVideva ] <anchor -169 606> @Anchor5;
-  markClass [\combiningZerodeva ] <anchor -94 606> @Anchor5;
   markClass [\combiningTwodeva ] <anchor -92 606> @Anchor5;
   markClass [\combiningThreedeva ] <anchor -90 606> @Anchor5;
   markClass [\combiningFivedeva ] <anchor -108 606> @Anchor5;
   markClass [\combiningNinedeva ] <anchor -107 606> @Anchor5;
+  pos mark [\reph_candraBindudeva ] <anchor -127 695> mark @Anchor5;
   pos mark [\reph_anusvaradeva ] <anchor 0 465> mark @Anchor5;
   pos mark [\rephdeva.loclMAR ] <anchor 142 465> mark @Anchor5;
 } mkmkMarktoMarklookup7;
@@ -1989,7 +2223,7 @@ feature mkmk {
 } mkmk;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @MarkClass1 = [ commaaccent uMatradeva uuMatradeva rVocalicMatradeva rrVocalicMatradeva lVocalicMatradeva llVocalicMatradeva halantdeva rakardeva rakar_uMatradeva rakar_uuMatradeva ];
-@MarkClass2 = [ eCandraMatradeva candraBindudeva eShortMatradeva eMatradeva eMatra_anusvaradeva eMatra_rephdeva eMatra_reph_anusvaradeva aiMatradeva aiMatra_anusvaradeva aiMatra_rephdeva aiMatra_reph_anusvaradeva anusvaradeva rephdeva reph_anusvaradeva eLongCandradeva oeMatradeva udattadeva gravedeva acutedeva combiningAdeva combiningUdeva combiningKadeva combiningNadeva combiningPadeva combiningRadeva combiningVideva combiningAvagrahadeva combiningZerodeva combiningOnedeva combiningTwodeva combiningThreedeva combiningFourdeva combiningFivedeva combiningSixdeva combiningSevendeva combiningEightdeva combiningNinedeva ];
+@MarkClass2 = [ eCandraMatradeva candraBindudeva eShortMatradeva eMatradeva eMatra_candraBindudeva eMatra_anusvaradeva eMatra_rephdeva eMatra_reph_candraBindudeva eMatra_reph_anusvaradeva aiMatradeva aiMatra_candraBindudeva aiMatra_anusvaradeva aiMatra_rephdeva aiMatra_reph_candraBindudeva aiMatra_reph_anusvaradeva anusvaradeva rephdeva reph_anusvaradeva eLongCandradeva oeMatradeva udattadeva gravedeva acutedeva combiningAdeva combiningUdeva combiningKadeva combiningNadeva combiningPadeva combiningRadeva combiningVideva combiningAvagrahadeva combiningZerodeva combiningOnedeva combiningTwodeva combiningThreedeva combiningFourdeva combiningFivedeva combiningSixdeva combiningSevendeva combiningEightdeva combiningNinedeva ];
 
 @GDEF_Simple = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Aringacute \Atilde \AE \AEacute \B \C \Cacute \Ccaron \Ccedilla 
@@ -2025,83 +2259,95 @@ feature mkmk {
 	\badeva \bhadeva \madeva \yadeva \radeva \rradeva \ladeva \lladeva \llladeva 
 	\vadeva \shadeva \ssadeva \sadeva \hadeva \qadeva \khhadeva \ghhadeva \zadeva 
 	\dddhadeva \rhadeva \fadeva \yyadeva \zhadeva \jjyadeva \ggadeva \jjadeva 
-	\dddadeva \bbadeva \jhadeva.NEP \ladeva.loclMAR \shadeva.loclMAR \yadeva.post 
-	\vadeva.post \aShortdeva \aCandradeva \adeva \aadeva \ideva \iideva \udeva 
-	\uudeva \rVocalicdeva \rrVocalicdeva \lVocalicdeva \llVocalicdeva 
-	\eCandradeva \eShortdeva \edeva \aideva \oCandradeva \oShortdeva \odeva \audeva 
-	\oedeva \ooedeva \awdeva \uedeva \uuedeva \kdeva \k_ssdeva \khdeva \gdeva \ghdeva 
-	\ngdeva \ng_kdeva \cdeva \chdeva \jdeva \j_nydeva \jhdeva \nydeva \ttdeva 
-	\tthdeva \dddeva \ddhdeva \nndeva \tdeva \t_tdeva \t_rdeva \thdeva \ddeva \dhdeva 
-	\ndeva \n_ndeva \nnndeva \pdeva \phdeva \bdeva \b_rdeva \bhdeva \mdeva \ydeva 
-	\rrdeva \ldeva \lldeva \llldeva \vdeva \shdeva \ssdeva \sdeva \hdeva \qdeva 
-	\khhdeva \ghhdeva \zdeva \fdeva \aaMatradeva \iMatra_anusvaradeva 
-	\iMatra_rephdeva \iMatra_reph_anusvaradeva \iMatradeva 
+	\dddadeva \bbadeva \ladeva.loclMAR \shadeva.loclMAR \jhadeva.loclNEP 
+	\zhadeva.loclNEP \yadeva.post \vadeva.post \nadeva.post2 \radeva.post2 
+	\aShortdeva \aCandradeva \adeva \aadeva \ideva \iideva \udeva \uudeva 
+	\rVocalicdeva \rrVocalicdeva \lVocalicdeva \llVocalicdeva \eCandradeva 
+	\eShortdeva \edeva \aideva \oCandradeva \oShortdeva \odeva \audeva \oedeva 
+	\ooedeva \awdeva \uedeva \uuedeva \kdeva \k_ssdeva \khdeva \gdeva \g_ndeva 
+	\g_rdeva \ghdeva \gh_rdeva \ngdeva \ng_kdeva \cdeva \chdeva \jdeva \j_jdeva 
+	\j_nydeva \j_ny_rdeva \j_rdeva \jhdeva \nydeva \ttdeva \tthdeva \dddeva \ddhdeva 
+	\nndeva \tdeva \t_tdeva \t_rdeva \thdeva \ddeva \dhdeva \dh_rdeva \ndeva \n_ndeva 
+	\nnndeva \pdeva \phdeva \bdeva \b_rdeva \bhdeva \bh_rdeva \mdeva \m_rdeva \ydeva 
+	\y_rdeva \rrdeva \ldeva \lldeva \llldeva \vdeva \v_rdeva \shdeva \sh_rdeva 
+	\ssdeva \sdeva \hdeva \qdeva \khhdeva \ghhdeva \zdeva \fdeva \aaMatradeva 
+	\iMatra_anusvaradeva \iMatra_rephdeva \iMatra_reph_anusvaradeva \iMatradeva 
 	\iiMatra_anusvaradeva \iiMatra_rephdeva \iiMatra_reph_anusvaradeva 
 	\iiMatradeva \oCandraMatradeva \oShortMatradeva \oMatra_anusvaradeva 
 	\oMatra_rephdeva \oMatra_reph_anusvaradeva \oMatradeva 
 	\auMatra_anusvaradeva \auMatra_rephdeva \auMatra_reph_anusvaradeva 
-	\auMatradeva \prishthaMatraEdeva \ooeMatradeva \awMatradeva \jhdeva.NEP 
-	\shdeva.loclMAR \shdeva.ss02 \zero \one \two \three \four \five \six \seven \eight 
-	\nine \fraction \onesuperior \twosuperior \threesuperior \zerodeva \onedeva 
-	\twodeva \threedeva \fourdeva \fivedeva \sixdeva \sevendeva \eightdeva 
-	\ninedeva \fivedeva.loclNEP \eightdeva.loclNEP \asterisk \backslash 
-	\periodcentered \bullet \colon \comma \ellipsis \exclam \exclamdbl \exclamdown 
-	\numbersign \overline \period \question \questiondown \quotedbl \quotesingle 
-	\semicolon \slash \underscore \underscoredbl \braceleft \braceright 
-	\bracketleft \bracketright \parenleft \parenright \emdash \endash 
-	\horizontalbar \hyphen \softhyphen \guillemotleft \guillemotright 
-	\guilsinglleft \guilsinglright \quotedblbase \quotedblleft \quotedblright 
-	\quoteleft \quotereversed \quoteright \quotesinglbase \glottalstopdeva 
-	\dandadeva \dbldandadeva \abbreviationdeva \highspacingdotdeva \caretdeva 
-	\headstrokeddeva \space \nbspace \zerowidthjoiner \zerowidthnonjoiner \CR 
-	\cent \currency \dollar \euro \florin \franc \lira \peseta \rupeeIndian \sterling 
-	\yen \Ohm \approxequal \asciitilde \bulletoperator \divide \divisionslash 
-	\equal \equivalence \greater \greaterequal \increment \infinity \integral 
-	\integralbt \integraltp \intersection \less \lessequal \logicalnot 
-	\logicalnotReversed \micro \minus \multiply \notequal \orthogonal \partialdiff 
-	\percent \perthousand \plus \plusminus \product \radical \summation \arrowup 
-	\arrowright \arrowdown \arrowleft \arrowboth \arrowupdn \arrowupdownbase 
-	\dottedCircle \lozenge \bar \brokenbar \at \ampersand \paragraph \careof 
-	\copyright \registered \section \trademark \degree \estimated \literSign 
-	\numero \asciicircum \caret \dagger \daggerdbl \house \minute \second 
-	\avagrahadeva \omdeva \pushpikadeva \gapfillerdeva \acute \breve \caron 
-	\cedilla \circumflex \dieresis \dotaccent \grave \hungarumlaut \macron \ogonek 
-	\ring \tilde \firsttonechinese \visargadeva \spacingCandraBindudeva 
-	\candraBinduHalantdeva \dblcandraBinduHalantdeva \candraBinduTwodeva 
-	\candraBinduThreedeva \candraBinduAvagrahadeva \invertedCandraBindudeva 
-	\anudattadeva \rupeeIndiandeva \NULL \uni000C ];
-@GDEF_Ligature = [\fi \fl \ka_uMatradeva \ka_uuMatradeva \k_kadeva \k_tadeva 
-	\k_radeva \k_ladeva \k_vadeva \k_ssadeva \k_ss_radeva \kh_radeva \g_nadeva 
-	\g_radeva \gh_radeva \ng_kadeva \ng_k_ssadeva \ng_khadeva \ng_gadeva 
-	\ng_ghadeva \ng_madeva \c_radeva \j_nyadeva \j_ny_radeva \j_radeva \jh_radeva 
-	\ny_radeva \tt_ttadeva \tt_tthadeva \tt_ddhadeva \tt_yadeva \tt_vadeva 
-	\tth_tthadeva \tth_yadeva \dd_ttadeva \dd_ddadeva \dd_ddhadeva \dd_yadeva 
+	\auMatradeva \prishthaMatraEdeva \ooeMatradeva \awMatradeva \iMatradeva.0 
+	\iMatradeva.1 \shdeva.loclMAR \jhdeva.loclNEP \chdeva.post \shdeva.ss02 \zero 
+	\one \two \three \four \five \six \seven \eight \nine \fraction \onesuperior 
+	\twosuperior \threesuperior \zerodeva \onedeva \twodeva \threedeva \fourdeva 
+	\fivedeva \sixdeva \sevendeva \eightdeva \ninedeva \fivedeva.loclNEP 
+	\eightdeva.loclNEP \asterisk \backslash \periodcentered \bullet \colon \comma 
+	\ellipsis \exclam \exclamdbl \exclamdown \numbersign \overline \period 
+	\question \questiondown \quotedbl \quotesingle \semicolon \slash \underscore 
+	\underscoredbl \braceleft \braceright \bracketleft \bracketright \parenleft 
+	\parenright \emdash \endash \horizontalbar \hyphen \softhyphen \guillemotleft 
+	\guillemotright \guilsinglleft \guilsinglright \quotedblbase \quotedblleft 
+	\quotedblright \quoteleft \quotereversed \quoteright \quotesinglbase 
+	\glottalstopdeva \dandadeva \dbldandadeva \abbreviationdeva 
+	\highspacingdotdeva \caretdeva \headstrokeddeva \space \nbspace 
+	\zerowidthjoiner \zerowidthnonjoiner \CR \cent \currency \dollar \euro \florin 
+	\franc \lira \peseta \rupeeIndian \sterling \yen \Ohm \approxequal \asciitilde 
+	\bulletoperator \divide \divisionslash \equal \equivalence \greater 
+	\greaterequal \increment \infinity \integral \integralbt \integraltp 
+	\intersection \less \lessequal \logicalnot \logicalnotReversed \micro \minus 
+	\multiply \notequal \orthogonal \partialdiff \percent \perthousand \plus 
+	\plusminus \product \radical \summation \arrowup \arrowright \arrowdown 
+	\arrowleft \arrowboth \arrowupdn \arrowupdownbase \dottedCircle \lozenge \bar 
+	\brokenbar \at \ampersand \paragraph \careof \copyright \registered \section 
+	\trademark \degree \estimated \literSign \numero \asciicircum \caret \dagger 
+	\daggerdbl \house \minute \second \avagrahadeva \omdeva \pushpikadeva 
+	\gapfillerdeva \acute \breve \caron \cedilla \circumflex \dieresis \dotaccent 
+	\grave \hungarumlaut \macron \ogonek \ring \tilde \firsttonechinese 
+	\visargadeva \spacingCandraBindudeva \candraBinduHalantdeva 
+	\dblcandraBinduHalantdeva \candraBinduTwodeva \candraBinduThreedeva 
+	\candraBinduAvagrahadeva \invertedCandraBindudeva \anudattadeva 
+	\rupeeIndiandeva \NULL \uni000C ];
+@GDEF_Ligature = [\fi \fl \k_kadeva \k_tadeva \k_radeva \k_ladeva \k_vadeva 
+	\k_ssadeva \k_ss_radeva \kh_radeva \g_nadeva \g_radeva \gh_radeva \ng_kadeva 
+	\ng_k_ssadeva \ng_khadeva \ng_gadeva \ng_ghadeva \ng_madeva \c_cadeva 
+	\c_ch_vadeva \c_radeva \c_ladeva \ch_nadeva \ch_ladeva \ch_vadeva \j_jadeva 
+	\j_nyadeva \j_ny_radeva \j_radeva \jh_radeva \ny_cadeva \ny_jadeva \ny_radeva 
+	\tt_ttadeva \tt_tthadeva \tt_ddhadeva \tt_yadeva \tt_vadeva \tth_tthadeva 
+	\tth_nadeva \tth_yadeva \dd_ttadeva \dd_ddadeva \dd_ddhadeva \dd_yadeva 
 	\ddh_ddhadeva \ddh_yadeva \nn_radeva \t_tadeva \t_radeva \th_radeva \d_gadeva 
-	\d_dadeva \d_d_yadeva \d_nadeva \d_madeva \d_yadeva \d_radeva 
-	\d_rVocalicMatradeva \dh_radeva \n_nadeva \n_radeva \p_tadeva \p_radeva 
-	\p_ladeva \ph_radeva \ph_ladeva \b_radeva \bh_radeva \m_radeva \y_radeva 
-	\ra_uMatradeva \ra_uuMatradeva \l_radeva \l_ladeva \v_radeva \sh_rVocalicdeva 
-	\sh_nadeva \sh_radeva \sh_ladeva \sh_vadeva \ss_ttadeva \ss_tt_yadeva 
-	\ss_tthadeva \ss_tth_yadeva \ss_radeva \s_t_radeva \s_radeva 
+	\d_ga_uMatradeva \d_ga_uuMatradeva \d_ghadeva \d_gha_uMatradeva 
+	\d_gha_uuMatradeva \d_dadeva \d_d_yadeva \d_dhadeva \d_dha_uMatradeva 
+	\d_dha_uuMatradeva \d_dh_yadeva \d_dh_r_yadeva \d_nadeva \d_na_uMatradeva 
+	\d_na_uuMatradeva \d_badeva \d_ba_uMatradeva \d_ba_uuMatradeva \d_bhadeva 
+	\d_madeva \d_yadeva \d_radeva \d_ra_uMatradeva \d_ra_uuMatradeva \d_vadeva 
+	\d_va_uMatradeva \d_va_uuMatradeva \d_rVocalicMatradeva \dh_radeva \n_nadeva 
+	\n_radeva \p_tadeva \p_radeva \p_ladeva \ph_radeva \ph_ladeva \b_radeva 
+	\bh_radeva \m_radeva \y_radeva \ra_uMatradeva \ra_uuMatradeva \l_radeva 
+	\l_ladeva \v_radeva \sh_rVocalicdeva \sh_cadeva \sh_nadeva \sh_radeva 
+	\sh_ladeva \sh_vadeva \ss_ttadeva \ss_tt_yadeva \ss_tthadeva \ss_tth_yadeva 
+	\ss_radeva \s_t_radeva \s_radeva \ha_uMatradeva \ha_uuMatradeva 
 	\ha_rVocalicMatradeva \h_nnadeva \h_nadeva \h_madeva \h_yadeva \h_radeva 
-	\h_ladeva \h_vadeva \f_radeva \k_radeva.NEP \j_nyadeva.alt \k_ladeva.loclMAR 
-	\p_ladeva.loclMAR \ph_ladeva.loclMAR \l_ladeva.loclMAR \sh_ladeva.loclMAR 
-	\d_gadeva.ss02 \onehalf \onequarter \threequarters \oneeighth \threeeighths 
-	\fiveeighths \seveneighths ];
+	\h_ladeva \h_vadeva \f_radeva \oMatra_candraBindudeva 
+	\oMatra_reph_candraBindudeva \auMatra_candraBindudeva 
+	\auMatra_reph_candraBindudeva \c_cadeva.alt \k_ladeva.loclMAR 
+	\c_ladeva.loclMAR \ch_ladeva.loclMAR \p_ladeva.loclMAR \ph_ladeva.loclMAR 
+	\l_ladeva.loclMAR \sh_ladeva.loclMAR \k_radeva.loclNEP \onehalf \onequarter 
+	\threequarters \oneeighth \threeeighths \fiveeighths \seveneighths ];
 @GDEF_Mark = [\commaaccent \uMatradeva \uuMatradeva \rVocalicMatradeva 
 	\rrVocalicMatradeva \lVocalicMatradeva \llVocalicMatradeva 
 	\eCandraMatradeva \candraBindudeva \eShortMatradeva \eMatradeva 
-	\eMatra_anusvaradeva \eMatra_rephdeva \eMatra_reph_anusvaradeva 
-	\aiMatradeva \aiMatra_anusvaradeva \aiMatra_rephdeva 
-	\aiMatra_reph_anusvaradeva \anusvaradeva \halantdeva \nuktadeva \rephdeva 
-	\reph_anusvaradeva \rakardeva \rakar_uMatradeva \rakar_uuMatradeva 
-	\eLongCandradeva \oeMatradeva \ueMatradeva \uueMatradeva \udattadeva 
-	\gravedeva \acutedeva \combiningAdeva \combiningUdeva \combiningKadeva 
-	\combiningNadeva \combiningPadeva \combiningRadeva \combiningVideva 
-	\combiningAvagrahadeva \combiningZerodeva \combiningOnedeva 
-	\combiningTwodeva \combiningThreedeva \combiningFourdeva \combiningFivedeva 
-	\combiningSixdeva \combiningSevendeva \combiningEightdeva 
-	\combiningNinedeva \rephdeva.loclMAR ];
+	\eMatra_candraBindudeva \eMatra_anusvaradeva \eMatra_rephdeva 
+	\eMatra_reph_candraBindudeva \eMatra_reph_anusvaradeva \aiMatradeva 
+	\aiMatra_candraBindudeva \aiMatra_anusvaradeva \aiMatra_rephdeva 
+	\aiMatra_reph_candraBindudeva \aiMatra_reph_anusvaradeva \anusvaradeva 
+	\halantdeva \nuktadeva \rephdeva \reph_candraBindudeva \reph_anusvaradeva 
+	\rakardeva \rakar_uMatradeva \rakar_uuMatradeva \eLongCandradeva 
+	\oeMatradeva \ueMatradeva \uueMatradeva \udattadeva \gravedeva \acutedeva 
+	\combiningAdeva \combiningUdeva \combiningKadeva \combiningNadeva 
+	\combiningPadeva \combiningRadeva \combiningVideva \combiningAvagrahadeva 
+	\combiningZerodeva \combiningOnedeva \combiningTwodeva \combiningThreedeva 
+	\combiningFourdeva \combiningFivedeva \combiningSixdeva \combiningSevendeva 
+	\combiningEightdeva \combiningNinedeva \rephdeva.loclMAR ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

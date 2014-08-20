@@ -13,7 +13,8 @@
       <point x="-136" y="606" type="move" name="_Anchor-0"/>
     </contour>
     <contour>
-      <point x="-105" y="709" type="curve" smooth="yes"/>
+      <point x="-118" y="719" type="curve"/>
+      <point x="-105" y="709" type="line" smooth="yes"/>
       <point x="-78" y="687"/>
       <point x="-76" y="675"/>
       <point x="-76" y="668" type="curve" smooth="yes"/>
@@ -36,9 +37,6 @@
       <point x="-68" y="778" type="curve" smooth="yes"/>
       <point x="-68" y="747"/>
       <point x="-89" y="726"/>
-      <point x="-118" y="719" type="curve"/>
-      <point x="-113" y="716"/>
-      <point x="-109" y="712"/>
     </contour>
     <contour>
       <point x="-135" y="800" type="curve" smooth="yes"/>
