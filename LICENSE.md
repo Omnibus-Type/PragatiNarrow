@@ -4,6 +4,17 @@ Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com | omnibus.type@gmail
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL*
 
+Disclaimer
+ 
+Omnibus-Type give no warranty in relation to this font, and you use this
+at your own risk.
+ 
+Omnibus-Type shall not be liable for any direct, indirect, consequential, or incidental damages (including damages from loss of business profits, business interruption, loss of business information, and the like) arising out of the use of or inability to use the fonts.
+ 
+ 
+If you have further questions, please contact us:
+omnibus.type@gmail.com
+
 
 # SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 

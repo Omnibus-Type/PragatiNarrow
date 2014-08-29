@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="1">
+  <advance width="484"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <contour>
+      <point x="215" y="664" type="line"/>
+      <point x="119" y="778" type="line"/>
+      <point x="120" y="781" type="line"/>
+      <point x="226" y="781" type="line"/>
+      <point x="302" y="664" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="506" type="line"/>
+      <point x="166" y="361" type="line"/>
+      <point x="400" y="361" type="line"/>
+      <point x="400" y="260" type="line"/>
+      <point x="166" y="260" type="line"/>
+      <point x="166" y="101" type="line"/>
+      <point x="445" y="101" type="line"/>
+      <point x="445" y="0" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="53" y="606" type="line"/>
+      <point x="439" y="606" type="line"/>
+      <point x="439" y="506" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>101</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>260</integer>
+            <key>width</key>
+            <integer>101</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>506</integer>
+            <key>width</key>
+            <integer>100</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>53</integer>
+            <key>width</key>
+            <integer>113</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

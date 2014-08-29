@@ -12,16 +12,24 @@ Previously Archivo Narrow was designed to be used simultaneously in print and di
 
 Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://omnibus-type.com/). It was originally designed for highlights and headlines. This family is reminiscent of late nineteenth century American typefaces. It includes Narrow and Black styles, and was derived from Chivo.
 
-**Development progress**
-- [x] Sketching and Key design
-- [x] Metrics and Key design
-- [x] Letters
-- [x] half forms
-- [x] Marks
-- [x] Numbers
-- [x] Conjuncts
-- [x] Latin3
-- [ ] OpenType features
+**Features support**
+- `ccmp`
+- `locl`
+- `sups`
+- `frac`
+- `ordn`
+- `ss02`
+- `nukt`
+- `akhn`
+- `rphf`
+- `rkrf`
+- `blwf`
+- `half`
+- `vatu`
+- `cjct`
+- `abvs`
+- `psts`
+- `pres`
 
 
 To contribute to the project contact [Omnibus Type](http://omnibus-type.com/).
@@ -88,7 +96,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 ### Archivo is a typeface family that supports Unicode language range: 
 
-* Devanagari (333 glyphs) *work in progress*
+* Devanagari (550 glyphs)
 * Basic Latin (95 glyphs),
 * Latin-1 Supplement (96 glyphs),
 * Latin Extended-A (128 glyphs),
@@ -107,9 +115,10 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
-**20 June 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*work in progress*)**
-- New vertical metrics in Latin glyphs to match Devanagari writing system
+**29 August 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release*)**
+- Suporte all dev2 OT features (via FDK)
 - New Devanagari glyphs (range: 0900-097F and A8E0-A8FF)
+- Update hinted
 
 **23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
 - Fixed Name Table (Thanks to Dave Crossland @davelab6 for his technical input.)

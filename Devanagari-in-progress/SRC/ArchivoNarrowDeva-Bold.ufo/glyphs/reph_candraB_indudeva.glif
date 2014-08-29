@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reph_candraBindudeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-71" y="303" type="move" name="Anchor-5"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="Anchor-4"/>
+    </contour>
+    <contour>
+      <point x="-4" y="749" type="line"/>
+      <point x="-13" y="749" type="line" smooth="yes"/>
+      <point x="-72" y="749"/>
+      <point x="-102" y="722"/>
+      <point x="-102" y="680" type="curve" smooth="yes"/>
+      <point x="-102" y="643"/>
+      <point x="-88" y="608"/>
+      <point x="-53" y="560" type="curve"/>
+      <point x="-138" y="533" type="line"/>
+      <point x="-186" y="596"/>
+      <point x="-208" y="651"/>
+      <point x="-208" y="698" type="curve" smooth="yes"/>
+      <point x="-208" y="777"/>
+      <point x="-137" y="827"/>
+      <point x="-31" y="827" type="curve" smooth="yes"/>
+      <point x="-2" y="827" type="line"/>
+      <point x="-2" y="749" type="line"/>
+      <point x="62" y="749" type="line"/>
+      <point x="62" y="682" type="line"/>
+      <point x="-4" y="682" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="706" type="curve"/>
+      <point x="136" y="706" type="line"/>
+      <point x="136" y="653"/>
+      <point x="109" y="618"/>
+      <point x="27" y="618" type="curve" smooth="yes"/>
+      <point x="-52" y="618"/>
+      <point x="-83" y="653"/>
+      <point x="-83" y="706" type="curve"/>
+      <point x="-27" y="706" type="line"/>
+      <point x="-27" y="674"/>
+      <point x="-14" y="662"/>
+      <point x="27" y="662" type="curve" smooth="yes"/>
+      <point x="70" y="662"/>
+      <point x="80" y="674"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>618</integer>
+            <key>width</key>
+            <integer>44</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>682</integer>
+            <key>width</key>
+            <integer>67</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>749</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-208</integer>
+            <key>width</key>
+            <integer>106</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-83</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-4</integer>
+            <key>width</key>
+            <integer>66</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>80</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

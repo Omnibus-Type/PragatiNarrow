@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aiMatra_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-122" y="606" type="move" name="_Anchor-5"/>
+    </contour>
+    <contour>
+      <point x="-122" y="606" type="move" name="_Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="-122" y="606" type="move" name="_Anchor-0"/>
+    </contour>
+    <contour>
+      <point x="-73" y="606" type="line"/>
+      <point x="-64" y="606" type="line"/>
+      <point x="-64" y="513" type="line"/>
+      <point x="-295" y="513" type="line"/>
+      <point x="-295" y="606" type="line"/>
+      <point x="-286" y="606" type="line"/>
+      <point x="-407" y="821" type="line"/>
+      <point x="-300" y="821" type="line"/>
+      <point x="-188" y="606" type="line"/>
+      <point x="-171" y="606" type="line"/>
+      <point x="-239" y="821" type="line"/>
+      <point x="-132" y="821" type="line"/>
+    </contour>
+    <contour>
+      <point x="21" y="782" type="line"/>
+      <point x="21" y="699" type="line"/>
+      <point x="-62" y="699" type="line"/>
+      <point x="-62" y="782" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>513</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>699</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-62</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

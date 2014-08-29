@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra_rephdeva.5" format="1">
+  <advance width="246"/>
+  <outline>
+    <contour>
+      <point x="123" y="0" type="move" name="Anchor-3"/>
+    </contour>
+    <contour>
+      <point x="123" y="606" type="move" name="Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="776" y="827" type="curve" smooth="yes"/>
+      <point x="805" y="827" type="line"/>
+      <point x="805" y="734" type="line"/>
+      <point x="794" y="734" type="line" smooth="yes"/>
+      <point x="735" y="734"/>
+      <point x="705" y="711"/>
+      <point x="705" y="670" type="curve" smooth="yes"/>
+      <point x="705" y="658"/>
+      <point x="707" y="646"/>
+      <point x="710" y="634" type="curve"/>
+      <point x="624" y="634" type="line"/>
+      <point x="624" y="635" type="line"/>
+      <point x="534" y="708"/>
+      <point x="426" y="734"/>
+      <point x="337" y="734" type="curve" smooth="yes"/>
+      <point x="226" y="734"/>
+      <point x="176" y="695"/>
+      <point x="176" y="611" type="curve" smooth="yes"/>
+      <point x="176" y="606" type="line"/>
+      <point x="256" y="606" type="line"/>
+      <point x="256" y="513" type="line"/>
+      <point x="176" y="513" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="70" y="0" type="line"/>
+      <point x="70" y="513" type="line"/>
+      <point x="-10" y="513" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="70" y="606" type="line"/>
+      <point x="70" y="628" type="line" smooth="yes"/>
+      <point x="70" y="748"/>
+      <point x="175" y="827"/>
+      <point x="345" y="827" type="curve" smooth="yes"/>
+      <point x="447" y="827"/>
+      <point x="535" y="799"/>
+      <point x="623" y="746" type="curve"/>
+      <point x="645" y="797"/>
+      <point x="702" y="827"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>513</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>734</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>70</integer>
+            <key>width</key>
+            <integer>106</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>624</integer>
+            <key>width</key>
+            <integer>81</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

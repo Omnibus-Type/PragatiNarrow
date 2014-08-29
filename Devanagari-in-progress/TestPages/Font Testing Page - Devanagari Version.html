@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.impallari.com/testing/index-devanagari.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Font Testing Page - Devanagari Version</title>
+<link type="text/css" href="./Font Testing Page - Devanagari Version_files/styles-v9.css" rel="stylesheet" charset="utf-8">
+<link type="text/css" href="./Font Testing Page - Devanagari Version_files/print-v9.css" rel="stylesheet" media="print" charset="utf-8">
+<script src="./Font Testing Page - Devanagari Version_files/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script>localStorage.clear();</script>
+<script src="./Font Testing Page - Devanagari Version_files/fontdrag.js" type="text/javascript" charset="utf-8"></script>
+<script src="./Font Testing Page - Devanagari Version_files/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="./Font Testing Page - Devanagari Version_files/contentEditable" type="text/javascript" charset="utf-8"></script>
+<script src="./Font Testing Page - Devanagari Version_files/constants.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+ $(document).ready(function(){
+    
+    // Tabs
+    var tabContainers = $('div.tabs > div');
+    $('div.tabs ul.tabNavigation a').click(function () {
+        tabContainers.hide().filter(this.hash).show();
+        $('div.tabs ul.tabNavigation a').removeClass('selected');
+        $(this).addClass('selected');
+        return false;
+    }).filter(':first').click();
+    
+    // OT Features Panel
+    $('#showhide').click(function () {
+        $('#otfeatures').slideToggle("fast", function() {
+		    $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features" : "OpenType Features");
+		  });
+    });
+
+    // OT Features initial Run
+    refreshFeatures();
+    
+    // Grab the text from the JS constant file, and show it
+    prepareAndShowFontLayout();
+
+});
+</script>
+<style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -90px !important;
+    width: 180px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+
+<body spellcheck="false">
+
+<!-- Header -->
+<section id="top">
+	<header><h1>Drag fonts here!</h1></header>
+	<ul id="fonts"></ul>
+</section>
+
+<!-- OT Features Menu -->
+<div id="toggleotfeatures">
+	<span id="editions"><a href="http://www.impallari.com/testing/index.php">Latin 1</a> | <a href="http://www.impallari.com/testing/index-latin-02.php">Latin 2</a> |  <a href="http://www.impallari.com/testing/index-cyrillic.php">Cyrillic</a> | <a href="./Font Testing Page - Devanagari Version_files/Font Testing Page - Devanagari Version.html">Devanagari</a> | <a href="http://www.impallari.com/testing/tools.php">Tools</a></span>
+	<a href="javascript://" id="showhide">OpenType Features</a>
+</div>
+<div id="otfeatures" style="display: none;">
+	<table width="100%">
+		<tbody><tr>
+			<td valign="top" width="25%">
+				<input type="checkbox" id="kern" onchange="refreshFeatures()" checked="">OpenType Kerning<br>
+				<br>
+				<input type="checkbox" id="liga" checked="" onchange="refreshFeatures()">Standard Ligatures<br>
+				<input type="checkbox" id="calt" checked="" onchange="refreshFeatures()">Contextual Alternates<br>
+				<input type="checkbox" id="dlig" onchange="refreshFeatures()">Discretionary Ligatures<br>
+				<input type="checkbox" id="swsh" onchange="refreshFeatures()">Swashes<br>
+				<input type="checkbox" id="salt" onchange="refreshFeatures()">Stylistic Alternates<br>
+				<input type="checkbox" id="titl" onchange="refreshFeatures()">Titling
+			</td>
+			<td valign="top" width="25%">
+				<input type="radio" name="smcp" checked="" onchange="refreshFeatures()">SmallCaps Off<br>
+				<input type="radio" id="fake-smcp" name="smcp" onchange="refreshFeatures()">Fake SmallCaps<br>
+				<input type="radio" id="smcp" name="smcp" onchange="refreshFeatures()">Real SmallCaps<br>
+				<input type="checkbox" id="c2sc" onchange="refreshFeatures()">Capitals to Small Caps<br>
+				<br>
+				<input type="checkbox" id="case" onchange="refreshFeatures()">Case Sensitive Forms
+			</td>
+			<td valign="top" width="25%">
+				<input type="radio" name="numsty" checked="" onchange="refreshFeatures()">Default Figures Style<br>
+				<input type="radio" id="lnum" name="numsty" onchange="refreshFeatures()">Lining Figures<br>
+				<input type="radio" id="onum" name="numsty" onchange="refreshFeatures()">Oldstyle Figures<br>
+				<br>
+				<input type="radio" name="numspc" checked="" onchange="refreshFeatures()">Default Figures Width<br>
+				<input type="radio" id="pnum" name="numspc" onchange="refreshFeatures()">Proportional Figures<br>
+				<input type="radio" id="tnum" name="numspc" onchange="refreshFeatures()">Tabular Figures
+			</td>
+			<td valign="top" width="25%">
+				<input type="checkbox" id="ordn" onchange="refreshFeatures()">Ordinals<br>
+				<input type="checkbox" id="frac" name="frac" onchange="refreshFeatures()">Fractions<br>
+				<input type="checkbox" id="zero" onchange="refreshFeatures()">Slashed zero<br>
+				<br>
+				<input type="checkbox" id="sups" onchange="refreshFeatures()">Superiors<br>
+				<input type="checkbox" id="numr" onchange="refreshFeatures()">Numerator<br>
+				<input type="checkbox" id="dnom" onchange="refreshFeatures()">Denominator<br>
+				<input type="checkbox" id="sinf" onchange="refreshFeatures()">Inferiors			
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" valign="top">
+			   <input type="checkbox" id="ss01" onchange="refreshFeatures()">ss01 &nbsp; 
+			   <input type="checkbox" id="ss02" onchange="refreshFeatures()">ss02 &nbsp; 
+			   <input type="checkbox" id="ss03" onchange="refreshFeatures()">ss03 &nbsp; 
+			   <input type="checkbox" id="ss04" onchange="refreshFeatures()">ss04 &nbsp; 
+			   <input type="checkbox" id="ss05" onchange="refreshFeatures()">ss05 &nbsp; 
+			   <input type="checkbox" id="ss06" onchange="refreshFeatures()">ss06 &nbsp; 
+			   <input type="checkbox" id="ss07" onchange="refreshFeatures()">ss07 &nbsp; 
+			   <input type="checkbox" id="ss08" onchange="refreshFeatures()">ss08 &nbsp; 
+			   <input type="checkbox" id="ss09" onchange="refreshFeatures()">ss09 &nbsp; 
+			   <input type="checkbox" id="ss10" onchange="refreshFeatures()">ss10<br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" valign="top">
+			   <input type="checkbox" id="ss11" onchange="refreshFeatures()">ss11 &nbsp; 
+			   <input type="checkbox" id="ss12" onchange="refreshFeatures()">ss12 &nbsp; 
+			   <input type="checkbox" id="ss13" onchange="refreshFeatures()">ss13 &nbsp; 
+			   <input type="checkbox" id="ss14" onchange="refreshFeatures()">ss14 &nbsp; 
+			   <input type="checkbox" id="ss15" onchange="refreshFeatures()">ss15 &nbsp; 
+			   <input type="checkbox" id="ss16" onchange="refreshFeatures()">ss16 &nbsp; 
+			   <input type="checkbox" id="ss17" onchange="refreshFeatures()">ss17 &nbsp; 
+			   <input type="checkbox" id="ss18" onchange="refreshFeatures()">ss18 &nbsp; 
+			   <input type="checkbox" id="ss19" onchange="refreshFeatures()">ss19 &nbsp; 
+			   <input type="checkbox" id="ss20" onchange="refreshFeatures()">ss20<br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<p style="margin: 0 0 6px;">Recommended CSS:</p>
+				<p id="csscode">font-feature-settings: "kern" on, "liga" on, "calt" on<br>-moz-font-feature-settings: "kern" on, "liga" on, "calt" on<br>-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on<br>-ms-font-feature-settings: "kern" on, "liga" on, "calt" on<br>-o-font-feature-settings: "kern" on, "liga" on, "calt" on</p>
+			</td>
+		</tr>			
+	</tbody></table>
+</div>
+<!-- End OT Features Menu -->
+<section id="custom" style="font-variant: normal; -webkit-font-feature-settings: &#39;kern&#39; 1, &#39;liga&#39; 1, &#39;calt&#39; 1; font-family: ArchivoNarrowDevanagari-Light;">
+
+	<div class="tabs">
+	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
+	  <ul class="tabNavigation">
+	    <!--<li><a href="http://www.impallari.com/testing/index-devanagari.php#lettering" class="selected">Lettering</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#groups">Groups</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#unicode_table">Uni Table</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#unicode_list">Uni List</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#frequency">Frequency</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#syllables">Syllables</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#consonant_pairs">Consonant Pairs</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#conjunct">Conjuncts</a></li>
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#extremes">Extremes</a></li>	 -->   
+	    <li><a href="http://www.impallari.com/testing/index-devanagari.php#sample_one">Features Deva</a></li>
+	  </ul>
+<!--
+	  <!-/- Lettering Sheet -/->
+	  <div id="lettering" style="display: none;">
+	  	<div style="width: 920px;">
+
+	<p class="sizelabel">Contributed by Girish Dalvi, Ek Type</p>
+	
+	<p>&nbsp;</p>
+					
+	<table width="860" cellpadding="10" cellspacing="0" border="0">
+		<tbody><tr>
+			<td width="50%" valign="top">
+				<p class="sizelabel" style="font-size: 20px;">व्यंजने:</p>
+				<p style="font-size: 44px;">
+				क ख ग घ ङ<br>
+				च छ ज झ ञ<br> 
+				ट ठ ड ढ ण<br> 
+				त थ द ध न<br> 
+				प फ ब भ म<br>
+				य र ल व<br>
+				श ष स ह<br> 
+				ळ क्ष ज्ञ</p>
+			</td>
+			<td width="50%" valign="top">
+				<p class="sizelabel" style="font-size: 20px;">स्वर</p>
+				<p style="font-size: 44px;">
+				अ आ इ ई उ ऊ<br>
+				ऋ ॠ ऌ ॡ<br>
+				ऍ ऎ ए ऐ<br>
+				ऑ ऒ ओ औ</p>
+				
+				<p>&nbsp;</p>	
+				
+				<p class="sizelabel" style="font-size: 20px;">स्वरादी</p>
+				<p style="font-size: 44px;">अं अः</p>
+				
+				<p>&nbsp;</p>
+				
+				<p class="sizelabel" style="font-size: 20px;">अंक</p>
+				<p style="font-size: 44px;">० १ २ ३ ४<br>
+				५ ६ ७ ८ ९</p>						
+			</td>
+		</tr>
+		<tr>
+			<td width="50%" valign="top" colspan="2">
+				<p class="sizelabel" style="font-size: 20px;">नमूना</p>
+				<p style="font-size: 44px;">संवेदनशील मुद्राक्षर अभिकल्प</p>
+			</td>						
+		</tr>
+	</tbody></table>
+	
+</div>					  </div>
+
+	  <!-/- Anatomy -/->
+	  <div id="groups" style="display: none;">
+	  	<div>
+
+	<p class="sizelabel"><a href="http://books.google.co.in/books?id=zh9BujwGYG4C" target="_blank">Bhagwat’s groups</a>, by graphical similarities.</p>
+	<table cellpadding="36" cellspacing="0" border="0">
+		<tbody><tr>
+			<td valign="top">
+				<p style="font-size: 42px;">ग म भ न</p>
+				<p style="font-size: 42px;">र स (ग ख)</p>
+				<p style="font-size: 42px;">त ल लृ</p>
+				<p style="font-size: 42px;">व ब क ख</p>
+				<p style="font-size: 42px;">च (ज) घ ध छ</p>
+			</td>
+			<td valign="top">
+				<p style="font-size: 42px;">प ष फ ण</p>
+				<p style="font-size: 42px;">ट ठ ढ द (क्ष)</p>
+				<p style="font-size: 42px;">ङ ड इ ई झ ह</p>	
+				<p style="font-size: 42px;">य थ</p>
+				<p style="font-size: 42px;">श ळ ज्ञ ञ</p>
+			</td>
+			<td valign="top">
+				<p style="font-size: 42px;">अ आ ओ औ अं अः</p>
+				<p style="font-size: 42px;">ए ऐ</p>
+				<p style="font-size: 42px;">ऋ ॠ</p>
+				<p style="font-size: 42px;">उ ऊ</p>
+			</td>
+		</tr>
+	</tbody></table>
+
+	<p class="sizelabel">&nbsp;</p>
+
+	<p class="sizelabel"><a href="http://books.google.co.in/books?id=je94ngEACAAJ" target="_blank">Naik’s groups</a>, by position of the vertical bar.</p>
+	<table cellpadding="36" cellspacing="0" border="0">
+		<tbody><tr>
+			<td valign="top">
+				<p style="font-size: 42px;">अ ख घ च ज झ त थ ध न प ब भ म य व ष स क्ष ज्ञ</p>
+				<p style="font-size: 42px;">ग ण श</p>
+				<p style="font-size: 42px;">उ ऊ ऌ ॡ ड़ छ ट ठ ड ढ ळ</p>
+				<p style="font-size: 42px;">ऋ ॠ क फ</p>
+				<p style="font-size: 42px;">र</p>
+				<p style="font-size: 42px;">ए ऐ</p>
+			</td>
+		</tr>
+	</tbody></table>
+
+	<p class="sizelabel">&nbsp;</p>
+
+	<p class="sizelabel"><a href="http://www.ektype.in/" target="_blank">Girish Dalvi’s groups</a>, Roots Letter and Derived.</p>
+	<table cellpadding="36" cellspacing="0" border="0">
+		<tbody><tr>
+			<td valign="top">
+				<p style="font-size: 42px;">अ - आ उ ऊ ओ औ अं अः - ञ</p>
+				<p style="font-size: 42px;">इ - ई झ - ङ ड - ह - ज्ञ</p>
+				<p style="font-size: 42px;">ए - ऐ</p>
+				<p style="font-size: 42px;">ख - र स - क ब व - श</p>
+				<p style="font-size: 42px;">त - ल</p>
+				<p style="font-size: 42px;">भ - ग न म</p>
+				<p style="font-size: 42px;">द - ट ठ ढ क्ष - ळ</p>
+				<p style="font-size: 42px;">ध - घ छ - च ज</p>
+				<p style="font-size: 42px;">थ - य</p>
+				<p style="font-size: 42px;">ष - प फ ण</p>
+			</td>
+		</tr>
+	</tbody></table>
+
+	<p>&nbsp;</p>
+	
+	<p class="sizelabel">Knots and Loops</p>
+	<table cellpadding="4" cellspacing="0" border="0">
+				<tbody><tr>
+			<td><p class="sizelabel">42px</p></td>
+			<td><p style="font-size: 42px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">38px</p></td>
+			<td><p style="font-size: 38px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">34px</p></td>
+			<td><p style="font-size: 34px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">30px</p></td>
+			<td><p style="font-size: 30px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">26px</p></td>
+			<td><p style="font-size: 26px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">22px</p></td>
+			<td><p style="font-size: 22px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">18px</p></td>
+			<td><p style="font-size: 18px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">17px</p></td>
+			<td><p style="font-size: 17px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">16px</p></td>
+			<td><p style="font-size: 16px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">15px</p></td>
+			<td><p style="font-size: 15px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">14px</p></td>
+			<td><p style="font-size: 14px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">13px</p></td>
+			<td><p style="font-size: 13px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">12px</p></td>
+			<td><p style="font-size: 12px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">11px</p></td>
+			<td><p style="font-size: 11px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">10px</p></td>
+			<td><p style="font-size: 10px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+			</tbody></table>
+
+</div>	  </div>
+
+	  <!-/- Unicode Table -/->
+	  <div id="unicode_table" style="display: none;">
+	  	<div style="width: 920px;">
+
+	<p class="sizelabel">Unicode v7 - Table View</p>
+	
+	<p>&nbsp;</p>
+		
+	<table cellpadding="16" cellspacing="0" border="0" class="unicode">
+		<tbody><tr>
+			<td>&nbsp;</td>
+			<td>090</td>
+			<td>091</td>
+			<td>092</td>
+			<td>093</td>
+			<td>094</td>
+			<td>095</td>
+			<td>096</td>
+			<td>097</td>
+		</tr>
+		<tr><td>0</td><td class="bigslot">ऀ</td><td class="bigslot">ऐ</td><td class="bigslot">ठ</td><td class="bigslot">र</td><td class="bigslot">ी</td><td class="bigslot">ॐ</td><td class="bigslot">ॠ</td><td class="bigslot">॰</td></tr>
+<tr><td>1</td><td class="bigslot">ँ</td><td class="bigslot">ऑ</td><td class="bigslot">ड</td><td class="bigslot">ऱ</td><td class="bigslot">ु</td><td class="bigslot">॑</td><td class="bigslot">ॡ</td><td class="bigslot">ॱ</td></tr>
+<tr><td>2</td><td class="bigslot">ं</td><td class="bigslot">ऒ</td><td class="bigslot">ढ</td><td class="bigslot">ल</td><td class="bigslot">ू</td><td class="bigslot">॒</td><td class="bigslot">ॢ</td><td class="bigslot">ॲ</td></tr>
+<tr><td>3</td><td class="bigslot">ः</td><td class="bigslot">ओ</td><td class="bigslot">ण</td><td class="bigslot">ळ</td><td class="bigslot">ृ</td><td class="bigslot">॓</td><td class="bigslot">ॣ</td><td class="bigslot">ॳ</td></tr>
+<tr><td>4</td><td class="bigslot">ऄ</td><td class="bigslot">औ</td><td class="bigslot">त</td><td class="bigslot">ऴ</td><td class="bigslot">ॄ</td><td class="bigslot">॔</td><td class="bigslot">।</td><td class="bigslot">ॴ</td></tr>
+<tr><td>5</td><td class="bigslot">अ</td><td class="bigslot">क</td><td class="bigslot">थ</td><td class="bigslot">व</td><td class="bigslot">ॅ</td><td class="bigslot">ॕ</td><td class="bigslot">॥</td><td class="bigslot">ॵ</td></tr>
+<tr><td>6</td><td class="bigslot">आ</td><td class="bigslot">ख</td><td class="bigslot">द</td><td class="bigslot">श</td><td class="bigslot">ॆ</td><td class="bigslot">ॖ</td><td class="bigslot">०</td><td class="bigslot">ॶ</td></tr>
+<tr><td>7</td><td class="bigslot">इ</td><td class="bigslot">ग</td><td class="bigslot">ध</td><td class="bigslot">ष</td><td class="bigslot">े</td><td class="bigslot">ॗ</td><td class="bigslot">१</td><td class="bigslot">ॷ</td></tr>
+<tr><td>8</td><td class="bigslot">ई</td><td class="bigslot">घ</td><td class="bigslot">न</td><td class="bigslot">स</td><td class="bigslot">ै</td><td class="bigslot">क़</td><td class="bigslot">२</td><td class="bigslot">ॸ</td></tr>
+<tr><td>9</td><td class="bigslot">उ</td><td class="bigslot">ङ</td><td class="bigslot">ऩ</td><td class="bigslot">ह</td><td class="bigslot">ॉ</td><td class="bigslot">ख़</td><td class="bigslot">३</td><td class="bigslot">ॹ</td></tr>
+<tr><td>A</td><td class="bigslot">ऊ</td><td class="bigslot">च</td><td class="bigslot">प</td><td class="bigslot">ऺ</td><td class="bigslot">ॊ</td><td class="bigslot">ग़</td><td class="bigslot">४</td><td class="bigslot">ॺ</td></tr>
+<tr><td>B</td><td class="bigslot">ऋ</td><td class="bigslot">छ</td><td class="bigslot">फ</td><td class="bigslot">ऻ</td><td class="bigslot">ो</td><td class="bigslot">ज़</td><td class="bigslot">५</td><td class="bigslot">ॻ</td></tr>
+<tr><td>C</td><td class="bigslot">ऌ</td><td class="bigslot">ज</td><td class="bigslot">ब</td><td class="bigslot">़</td><td class="bigslot">ौ</td><td class="bigslot">ड़</td><td class="bigslot">६</td><td class="bigslot">ॼ</td></tr>
+<tr><td>D</td><td class="bigslot">ऍ</td><td class="bigslot">झ</td><td class="bigslot">भ</td><td class="bigslot">ऽ</td><td class="bigslot">्</td><td class="bigslot">ढ़</td><td class="bigslot">७</td><td class="bigslot">ॽ</td></tr>
+<tr><td>E</td><td class="bigslot">ऎ</td><td class="bigslot">ञ</td><td class="bigslot">म</td><td class="bigslot">ा</td><td class="bigslot">ॎ</td><td class="bigslot">फ़</td><td class="bigslot">८</td><td class="bigslot">ॾ</td></tr>
+<tr><td>F</td><td class="bigslot">ए</td><td class="bigslot">ट</td><td class="bigslot">य</td><td class="bigslot">ि</td><td class="bigslot">ॏ</td><td class="bigslot">य़</td><td class="bigslot">९</td><td class="bigslot">ॿ</td></tr>
+	</tbody></table>
+
+</div>	  </div>
+
+	  <!-/- Unicode List -/->
+	  <div id="unicode_list" style="display: none;">
+	  	<div style="width: 920px;">
+
+	<p class="sizelabel">Unicode v7 - List View</p>
+	
+	<h3>Various signs</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0900</p></td><td class="bigslot">ऀ</td><td><p class="sizelabel">DEVANAGARI SIGN INVERTED CANDRABINDU</p></td></tr>
+		<tr><td><p class="sizelabel">0901</p></td><td class="bigslot">ँ</td><td><p class="sizelabel">DEVANAGARI SIGN CANDRABINDU</p></td></tr>
+		<tr><td><p class="sizelabel">0902</p></td><td class="bigslot">ं</td><td><p class="sizelabel">DEVANAGARI SIGN ANUSVARA</p></td></tr>
+		<tr><td><p class="sizelabel">0903</p></td><td class="bigslot">ः</td><td><p class="sizelabel">DEVANAGARI SIGN VISARGA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Independent vowels</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0904</p></td><td class="bigslot">ऄ</td><td><p class="sizelabel">DEVANAGARI LETTER SHORT A</p></td></tr>
+		<tr><td><p class="sizelabel">0905</p></td><td class="bigslot">अ</td><td><p class="sizelabel">DEVANAGARI LETTER A</p></td></tr>
+		<tr><td><p class="sizelabel">0906</p></td><td class="bigslot">आ</td><td><p class="sizelabel">DEVANAGARI LETTER AA</p></td></tr>
+		<tr><td><p class="sizelabel">0907</p></td><td class="bigslot">इ</td><td><p class="sizelabel">DEVANAGARI LETTER I</p></td></tr>
+		<tr><td><p class="sizelabel">0908</p></td><td class="bigslot">ई</td><td><p class="sizelabel">DEVANAGARI LETTER II</p></td></tr>
+		<tr><td><p class="sizelabel">0909</p></td><td class="bigslot">उ</td><td><p class="sizelabel">DEVANAGARI LETTER U</p></td></tr>
+		<tr><td><p class="sizelabel">090A</p></td><td class="bigslot">ऊ</td><td><p class="sizelabel">DEVANAGARI LETTER UU</p></td></tr>
+		<tr><td><p class="sizelabel">090B</p></td><td class="bigslot">ऋ</td><td><p class="sizelabel">DEVANAGARI LETTER VOCALIC R</p></td></tr>
+		<tr><td><p class="sizelabel">090C</p></td><td class="bigslot">ऌ</td><td><p class="sizelabel">DEVANAGARI LETTER VOCALIC L</p></td></tr>
+		<tr><td><p class="sizelabel">090D</p></td><td class="bigslot">ऍ</td><td><p class="sizelabel">DEVANAGARI LETTER CANDRA E</p></td></tr>
+		<tr><td><p class="sizelabel">090E</p></td><td class="bigslot">ऎ</td><td><p class="sizelabel">DEVANAGARI LETTER SHORT E</p></td></tr>
+		<tr><td><p class="sizelabel">090F</p></td><td class="bigslot">ए</td><td><p class="sizelabel">DEVANAGARI LETTER E</p></td></tr>
+		<tr><td><p class="sizelabel">0910</p></td><td class="bigslot">ऐ</td><td><p class="sizelabel">DEVANAGARI LETTER AI</p></td></tr>
+		<tr><td><p class="sizelabel">0911</p></td><td class="bigslot">ऑ</td><td><p class="sizelabel">DEVANAGARI LETTER CANDRA O</p></td></tr>
+		<tr><td><p class="sizelabel">0912</p></td><td class="bigslot">ऒ</td><td><p class="sizelabel">DEVANAGARI LETTER SHORT O</p></td></tr>
+		<tr><td><p class="sizelabel">0913</p></td><td class="bigslot">ओ</td><td><p class="sizelabel">DEVANAGARI LETTER O</p></td></tr>
+		<tr><td><p class="sizelabel">0914</p></td><td class="bigslot">औ</td><td><p class="sizelabel">DEVANAGARI LETTER AU</p></td></tr>
+	</tbody></table>
+
+	<h3>Consonants</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0915</p></td><td class="bigslot">क</td><td><p class="sizelabel">DEVANAGARI LETTER KA</p></td></tr>
+		<tr><td><p class="sizelabel">0916</p></td><td class="bigslot">ख</td><td><p class="sizelabel">DEVANAGARI LETTER KHA</p></td></tr>
+		<tr><td><p class="sizelabel">0917</p></td><td class="bigslot">ग</td><td><p class="sizelabel">DEVANAGARI LETTER GA</p></td></tr>
+		<tr><td><p class="sizelabel">0918</p></td><td class="bigslot">घ</td><td><p class="sizelabel">DEVANAGARI LETTER GHA</p></td></tr>
+		<tr><td><p class="sizelabel">0919</p></td><td class="bigslot">ङ</td><td><p class="sizelabel">DEVANAGARI LETTER NGA</p></td></tr>
+		<tr><td><p class="sizelabel">091A</p></td><td class="bigslot">च</td><td><p class="sizelabel">DEVANAGARI LETTER CA</p></td></tr>
+		<tr><td><p class="sizelabel">091B</p></td><td class="bigslot">छ</td><td><p class="sizelabel">DEVANAGARI LETTER CHA</p></td></tr>
+		<tr><td><p class="sizelabel">091C</p></td><td class="bigslot">ज</td><td><p class="sizelabel">DEVANAGARI LETTER JA</p></td></tr>
+		<tr><td><p class="sizelabel">091D</p></td><td class="bigslot">झ</td><td><p class="sizelabel">DEVANAGARI LETTER JHA</p></td></tr>
+		<tr><td><p class="sizelabel">091E</p></td><td class="bigslot">ञ</td><td><p class="sizelabel">DEVANAGARI LETTER NYA</p></td></tr>
+		<tr><td><p class="sizelabel">091F</p></td><td class="bigslot">ट</td><td><p class="sizelabel">DEVANAGARI LETTER TTA</p></td></tr>
+		<tr><td><p class="sizelabel">0920</p></td><td class="bigslot">ठ</td><td><p class="sizelabel">DEVANAGARI LETTER TTHA</p></td></tr>
+		<tr><td><p class="sizelabel">0921</p></td><td class="bigslot">ड</td><td><p class="sizelabel">DEVANAGARI LETTER DDA</p></td></tr>
+		<tr><td><p class="sizelabel">0922</p></td><td class="bigslot">ढ</td><td><p class="sizelabel">DEVANAGARI LETTER DDHA</p></td></tr>
+		<tr><td><p class="sizelabel">0923</p></td><td class="bigslot">ण</td><td><p class="sizelabel">DEVANAGARI LETTER NNA</p></td></tr>
+		<tr><td><p class="sizelabel">0924</p></td><td class="bigslot">त</td><td><p class="sizelabel">DEVANAGARI LETTER TA</p></td></tr>
+		<tr><td><p class="sizelabel">0925</p></td><td class="bigslot">थ</td><td><p class="sizelabel">DEVANAGARI LETTER THA</p></td></tr>
+		<tr><td><p class="sizelabel">0926</p></td><td class="bigslot">द</td><td><p class="sizelabel">DEVANAGARI LETTER DA</p></td></tr>
+		<tr><td><p class="sizelabel">0927</p></td><td class="bigslot">ध</td><td><p class="sizelabel">DEVANAGARI LETTER DHA</p></td></tr>
+		<tr><td><p class="sizelabel">0928</p></td><td class="bigslot">न</td><td><p class="sizelabel">DEVANAGARI LETTER NA</p></td></tr>
+		<tr><td><p class="sizelabel">0929</p></td><td class="bigslot">ऩ</td><td><p class="sizelabel">DEVANAGARI LETTER NNNA</p></td></tr>
+		<tr><td><p class="sizelabel">092A</p></td><td class="bigslot">प</td><td><p class="sizelabel">DEVANAGARI LETTER PA</p></td></tr>
+		<tr><td><p class="sizelabel">092B</p></td><td class="bigslot">फ</td><td><p class="sizelabel">DEVANAGARI LETTER PHA</p></td></tr>
+		<tr><td><p class="sizelabel">092C</p></td><td class="bigslot">ब</td><td><p class="sizelabel">DEVANAGARI LETTER BA</p></td></tr>
+		<tr><td><p class="sizelabel">092D</p></td><td class="bigslot">भ</td><td><p class="sizelabel">DEVANAGARI LETTER BHA</p></td></tr>
+		<tr><td><p class="sizelabel">092E</p></td><td class="bigslot">म</td><td><p class="sizelabel">DEVANAGARI LETTER MA</p></td></tr>
+		<tr><td><p class="sizelabel">092F</p></td><td class="bigslot">य</td><td><p class="sizelabel">DEVANAGARI LETTER YA</p></td></tr>
+		<tr><td><p class="sizelabel">0930</p></td><td class="bigslot">र</td><td><p class="sizelabel">DEVANAGARI LETTER RA</p></td></tr>
+		<tr><td><p class="sizelabel">0931</p></td><td class="bigslot">ऱ</td><td><p class="sizelabel">DEVANAGARI LETTER RRA</p></td></tr>
+		<tr><td><p class="sizelabel">0932</p></td><td class="bigslot">ल</td><td><p class="sizelabel">DEVANAGARI LETTER LA</p></td></tr>
+		<tr><td><p class="sizelabel">0933</p></td><td class="bigslot">ळ</td><td><p class="sizelabel">DEVANAGARI LETTER LLA</p></td></tr>
+		<tr><td><p class="sizelabel">0934</p></td><td class="bigslot">ऴ</td><td><p class="sizelabel">DEVANAGARI LETTER LLLA</p></td></tr>
+		<tr><td><p class="sizelabel">0935</p></td><td class="bigslot">व</td><td><p class="sizelabel">DEVANAGARI LETTER VA</p></td></tr>
+		<tr><td><p class="sizelabel">0936</p></td><td class="bigslot">श</td><td><p class="sizelabel">DEVANAGARI LETTER SHA</p></td></tr>
+		<tr><td><p class="sizelabel">0937</p></td><td class="bigslot">ष</td><td><p class="sizelabel">DEVANAGARI LETTER SSA</p></td></tr>
+		<tr><td><p class="sizelabel">0938</p></td><td class="bigslot">स</td><td><p class="sizelabel">DEVANAGARI LETTER SA</p></td></tr>
+		<tr><td><p class="sizelabel">0939</p></td><td class="bigslot">ह</td><td><p class="sizelabel">DEVANAGARI LETTER HA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Dependent vowel signs for Kashmiri</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">093A</p></td><td class="bigslot">ऺ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN OE</p></td></tr>
+		<tr><td><p class="sizelabel">093B</p></td><td class="bigslot">ऻ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN OOE</p></td></tr>
+	</tbody></table>
+	
+	<h3>Various signs</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">093C</p></td><td class="bigslot">़</td><td><p class="sizelabel">DEVANAGARI SIGN NUKTA</p></td></tr>
+		<tr><td><p class="sizelabel">093D</p></td><td class="bigslot">ऽ</td><td><p class="sizelabel">DEVANAGARI SIGN AVAGRAHA</p></td></tr>
+	</tbody></table>
+
+	<h3>Dependent vowel signs</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">093E</p></td><td class="bigslot">ा</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN AA</p></td></tr>
+		<tr><td><p class="sizelabel">093F</p></td><td class="bigslot">ि</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN I</p></td></tr>
+		<tr><td><p class="sizelabel">0940</p></td><td class="bigslot">ी</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN II</p></td></tr>
+		<tr><td><p class="sizelabel">0941</p></td><td class="bigslot">ु</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN U</p></td></tr>
+		<tr><td><p class="sizelabel">0942</p></td><td class="bigslot">ू</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN UU</p></td></tr>
+		<tr><td><p class="sizelabel">0943</p></td><td class="bigslot">ृ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN VOCALIC R</p></td></tr>
+		<tr><td><p class="sizelabel">0944</p></td><td class="bigslot">ॄ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN VOCALIC RR</p></td></tr>
+		<tr><td><p class="sizelabel">0945</p></td><td class="bigslot">ॅ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN CANDRA E</p></td></tr>
+		<tr><td><p class="sizelabel">0946</p></td><td class="bigslot">ॆ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN SHORT E</p></td></tr>
+		<tr><td><p class="sizelabel">0947</p></td><td class="bigslot">े</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN E</p></td></tr>
+		<tr><td><p class="sizelabel">0948</p></td><td class="bigslot">ै</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN AI</p></td></tr>
+		<tr><td><p class="sizelabel">0949</p></td><td class="bigslot">ॉ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN CANDRA O</p></td></tr>
+		<tr><td><p class="sizelabel">094A</p></td><td class="bigslot">ॊ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN SHORT O</p></td></tr>
+		<tr><td><p class="sizelabel">094B</p></td><td class="bigslot">ो</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN O</p></td></tr>
+		<tr><td><p class="sizelabel">094C</p></td><td class="bigslot">ौ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN AU</p></td></tr>
+	</tbody></table>
+
+	<h3>Virama</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">094D</p></td><td class="bigslot">्</td><td><p class="sizelabel">DEVANAGARI SIGN VIRAMA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Dependent vowel signs</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">094E</p></td><td class="bigslot">ॎ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN PRISHTHAMATRA E</p></td></tr>
+		<tr><td><p class="sizelabel">094F</p></td><td class="bigslot">ॏ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN AW</p></td></tr>
+	</tbody></table>
+
+	<h3>Sign</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0950</p></td><td class="bigslot">ॐ</td><td><p class="sizelabel">DEVANAGARI OM</p></td></tr>
+	</tbody></table>
+	
+	<h3>Vedic tone marks</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0951</p></td><td class="bigslot">॑</td><td><p class="sizelabel">DEVANAGARI STRESS SIGN UDATTA</p></td></tr>
+		<tr><td><p class="sizelabel">0952</p></td><td class="bigslot">॒</td><td><p class="sizelabel">DEVANAGARI STRESS SIGN ANUDATTA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Accent marks</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0953</p></td><td class="bigslot">॓</td><td><p class="sizelabel">DEVANAGARI GRAVE ACCENT</p></td></tr>
+		<tr><td><p class="sizelabel">0954</p></td><td class="bigslot">॔</td><td><p class="sizelabel">DEVANAGARI ACUTE ACCENT</p></td></tr>
+	</tbody></table>
+	
+	<h3>Dependent vowel sign</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0955</p></td><td class="bigslot">ॕ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN CANDRA LONG E</p></td></tr>
+		<tr><td><p class="sizelabel">0956</p></td><td class="bigslot">ॖ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN UE</p></td></tr>
+		<tr><td><p class="sizelabel">0957</p></td><td class="bigslot">ॗ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN UUE</p></td></tr>
+	</tbody></table>
+	
+	<h3>Additional consonants</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0958</p></td><td class="bigslot">क़</td><td><p class="sizelabel">DEVANAGARI LETTER QA</p></td></tr>
+		<tr><td><p class="sizelabel">0959</p></td><td class="bigslot">ख़</td><td><p class="sizelabel">DEVANAGARI LETTER KHHA</p></td></tr>
+		<tr><td><p class="sizelabel">095A</p></td><td class="bigslot">ग़</td><td><p class="sizelabel">DEVANAGARI LETTER GHHA</p></td></tr>
+		<tr><td><p class="sizelabel">095B</p></td><td class="bigslot">ज़</td><td><p class="sizelabel">DEVANAGARI LETTER ZA</p></td></tr>
+		<tr><td><p class="sizelabel">095C</p></td><td class="bigslot">ड़</td><td><p class="sizelabel">DEVANAGARI LETTER DDDHA</p></td></tr>
+		<tr><td><p class="sizelabel">095D</p></td><td class="bigslot">ढ़</td><td><p class="sizelabel">DEVANAGARI LETTER RHA</p></td></tr>
+		<tr><td><p class="sizelabel">095E</p></td><td class="bigslot">फ़</td><td><p class="sizelabel">DEVANAGARI LETTER FA</p></td></tr>
+		<tr><td><p class="sizelabel">095F</p></td><td class="bigslot">य़</td><td><p class="sizelabel">DEVANAGARI LETTER YYA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Additional vowels for Sanskrit</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0960</p></td><td class="bigslot">ॠ</td><td><p class="sizelabel">DEVANAGARI LETTER VOCALIC RR</p></td></tr>
+		<tr><td><p class="sizelabel">0961</p></td><td class="bigslot">ॡ</td><td><p class="sizelabel">DEVANAGARI LETTER VOCALIC LL</p></td></tr>
+		<tr><td><p class="sizelabel">0962</p></td><td class="bigslot">ॢ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN VOCALIC L</p></td></tr>
+		<tr><td><p class="sizelabel">0963</p></td><td class="bigslot">ॣ</td><td><p class="sizelabel">DEVANAGARI VOWEL SIGN VOCALIC LL</p></td></tr>
+	</tbody></table>
+	
+	<h3>Generic punctuation for scripts of India</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0964</p></td><td class="bigslot">।</td><td><p class="sizelabel">DEVANAGARI DANDA</p></td></tr>
+		<tr><td><p class="sizelabel">0965</p></td><td class="bigslot">॥</td><td><p class="sizelabel">DEVANAGARI DOUBLE DANDA</p></td></tr>
+	</tbody></table>
+
+	<h3>Digits</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0966</p></td><td class="bigslot">०</td><td><p class="sizelabel">DEVANAGARI DIGIT ZERO</p></td></tr>
+		<tr><td><p class="sizelabel">0967</p></td><td class="bigslot">१</td><td><p class="sizelabel">DEVANAGARI DIGIT ONE</p></td></tr>
+		<tr><td><p class="sizelabel">0968</p></td><td class="bigslot">२</td><td><p class="sizelabel">DEVANAGARI DIGIT TWO</p></td></tr>
+		<tr><td><p class="sizelabel">0969</p></td><td class="bigslot">३</td><td><p class="sizelabel">DEVANAGARI DIGIT THREE</p></td></tr>
+		<tr><td><p class="sizelabel">096A</p></td><td class="bigslot">४</td><td><p class="sizelabel">DEVANAGARI DIGIT FOUR</p></td></tr>
+		<tr><td><p class="sizelabel">096B</p></td><td class="bigslot">५</td><td><p class="sizelabel">DEVANAGARI DIGIT FIVE</p></td></tr>
+		<tr><td><p class="sizelabel">096C</p></td><td class="bigslot">६</td><td><p class="sizelabel">DEVANAGARI DIGIT SIX</p></td></tr>
+		<tr><td><p class="sizelabel">096D</p></td><td class="bigslot">७</td><td><p class="sizelabel">DEVANAGARI DIGIT SEVEN</p></td></tr>
+		<tr><td><p class="sizelabel">096E</p></td><td class="bigslot">८</td><td><p class="sizelabel">DEVANAGARI DIGIT EIGHT</p></td></tr>
+		<tr><td><p class="sizelabel">096F</p></td><td class="bigslot">९</td><td><p class="sizelabel">DEVANAGARI DIGIT NINE</p></td></tr>
+	</tbody></table>
+	
+	<h3>Abbreviation sign</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0970</p></td><td class="bigslot">॰</td><td><p class="sizelabel">DEVANAGARI ABBREVIATION SIGN</p></td></tr>
+		<tr><td><p class="sizelabel">0971</p></td><td class="bigslot">ॱ</td><td><p class="sizelabel">DEVANAGARI SIGN HIGH SPACING DOT</p></td></tr>
+	</tbody></table>
+	
+	<h3>Independent vowel for Marathi</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0972</p></td><td class="bigslot">ॲ</td><td><p class="sizelabel">DEVANAGARI LETTER CANDRA A</p></td></tr>
+	</tbody></table>
+	
+	<h3>Independent vowels for Kashmiri</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0973</p></td><td class="bigslot">ॳ</td><td><p class="sizelabel">DEVANAGARI LETTER OE</p></td></tr>
+		<tr><td><p class="sizelabel">0974</p></td><td class="bigslot">ॴ</td><td><p class="sizelabel">DEVANAGARI LETTER OOE</p></td></tr>
+		<tr><td><p class="sizelabel">0975</p></td><td class="bigslot">ॵ</td><td><p class="sizelabel">DEVANAGARI LETTER AW</p></td></tr>
+		<tr><td><p class="sizelabel">0976</p></td><td class="bigslot">ॶ</td><td><p class="sizelabel">DEVANAGARI LETTER UE</p></td></tr>
+		<tr><td><p class="sizelabel">0977</p></td><td class="bigslot">ॷ</td><td><p class="sizelabel">DEVANAGARI LETTER UUE</p></td></tr>
+	</tbody></table>
+	
+	<h3>Additional consonants</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">0978</p></td><td class="bigslot">ॸ</td><td><p class="sizelabel">DEVANAGARI LETTER MARWARI DDA</p></td></tr>
+		<tr><td><p class="sizelabel">0979</p></td><td class="bigslot">ॹ</td><td><p class="sizelabel">DEVANAGARI LETTER ZHA</p></td></tr>
+		<tr><td><p class="sizelabel">097A</p></td><td class="bigslot">ॺ</td><td><p class="sizelabel">DEVANAGARI LETTER HEAVY YA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Sindhi implosives</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">097B</p></td><td class="bigslot">ॻ</td><td><p class="sizelabel">DEVANAGARI LETTER GGA</p></td></tr>
+		<tr><td><p class="sizelabel">097C</p></td><td class="bigslot">ॼ</td><td><p class="sizelabel">DEVANAGARI LETTER JJA</p></td></tr>
+	</tbody></table>
+	
+	<h3>Glottal stop</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">097D</p></td><td class="bigslot">ॽ</td><td><p class="sizelabel">DEVANAGARI LETTER GLOTTAL STOP</p></td></tr>
+	</tbody></table>
+	
+	<h3>Sindhi implosives</h3>
+	<table class="unicode">
+		<tbody><tr><td><p class="sizelabel">097E</p></td><td class="bigslot">ॾ</td><td><p class="sizelabel">DEVANAGARI LETTER DDDA</p></td></tr>
+		<tr><td><p class="sizelabel">097F</p></td><td class="bigslot">ॿ</td><td><p class="sizelabel">DEVANAGARI LETTER BBA</p></td></tr>
+	</tbody></table>
+
+</div>	  </div>
+
+	  <!-/- Frecuency -/->
+	  <div id="frequency" style="display: none;">
+	  	<div style="width: 920px;">
+
+	<table border="0" cellspacing="0" cellpadding="10">
+		<tbody><tr>
+			<td width="50%" valign="top">
+				<p class="sizelabel" style="margin-bottom: 6px;">Impallari Frequency Analysis</p>
+				<p class="sizelabel">Dictionary from http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html</p>
+				<!-/- IMPALLARI Table -/->
+				<table border="0" cellspacing="0" cellpadding="10">
+					<tbody><tr><td>Occurrences</td><td>Character</td></tr><tr>
+					</tr><tr><td>11641</td><td style="font-size: 40px;">ा</td></tr>
+					<tr><td>7449</td><td style="font-size: 40px;">्</td></tr>
+					<tr><td>6946</td><td style="font-size: 40px;">र</td></tr>
+					<tr><td>5724</td><td style="font-size: 40px;">न</td></tr>
+					<tr><td>4605</td><td style="font-size: 40px;">त</td></tr>
+					<tr><td>4469</td><td style="font-size: 40px;">क</td></tr>
+					<tr><td>4139</td><td style="font-size: 40px;">ि</td></tr>
+					<tr><td>3533</td><td style="font-size: 40px;">स</td></tr>
+					<tr><td>3408</td><td style="font-size: 40px;">ी</td></tr>
+					<tr><td>3211</td><td style="font-size: 40px;">ल</td></tr>
+					<tr><td>3114</td><td style="font-size: 40px;">प</td></tr>
+					<tr><td>2981</td><td style="font-size: 40px;">व</td></tr>
+					<tr><td>2940</td><td style="font-size: 40px;">म</td></tr>
+					<tr><td>2561</td><td style="font-size: 40px;">द</td></tr>
+					<tr><td>2416</td><td style="font-size: 40px;">ु</td></tr>
+					<tr><td>2361</td><td style="font-size: 40px;">य</td></tr>
+					<tr><td>2264</td><td style="font-size: 40px;">े</td></tr>
+					<tr><td>2086</td><td style="font-size: 40px;">ं</td></tr>
+					<tr><td>1801</td><td style="font-size: 40px;">ग</td></tr>
+					<tr><td>1705</td><td style="font-size: 40px;">ब</td></tr>
+					<tr><td>1674</td><td style="font-size: 40px;">ह</td></tr>
+					<tr><td>1640</td><td style="font-size: 40px;">ो</td></tr>
+					<tr><td>1500</td><td style="font-size: 40px;">ज</td></tr>
+					<tr><td>1484</td><td style="font-size: 40px;">च</td></tr>
+					<tr><td>1340</td><td style="font-size: 40px;">श</td></tr>
+					<tr><td>1299</td><td style="font-size: 40px;">अ</td></tr>
+					<tr><td>1276</td><td style="font-size: 40px;">ट</td></tr>
+					<tr><td>1151</td><td style="font-size: 40px;">ड</td></tr>
+					<tr><td>1083</td><td style="font-size: 40px;">ध</td></tr>
+					<tr><td>1029</td><td style="font-size: 40px;">ू</td></tr>
+					<tr><td>892</td><td style="font-size: 40px;">भ</td></tr>
+					<tr><td>871</td><td style="font-size: 40px;">ख</td></tr>
+					<tr><td>789</td><td style="font-size: 40px;">ष</td></tr>
+					<tr><td>715</td><td style="font-size: 40px;">ण</td></tr>
+					<tr><td>488</td><td style="font-size: 40px;">फ</td></tr>
+					<tr><td>474</td><td style="font-size: 40px;">थ</td></tr>
+					<tr><td>460</td><td style="font-size: 40px;">आ</td></tr>
+					<tr><td>442</td><td style="font-size: 40px;">उ</td></tr>
+					<tr><td>416</td><td style="font-size: 40px;">ठ</td></tr>
+					<tr><td>383</td><td style="font-size: 40px;">छ</td></tr>
+					<tr><td>364</td><td style="font-size: 40px;">घ</td></tr>
+					<tr><td>327</td><td style="font-size: 40px;">ै</td></tr>
+					<tr><td>317</td><td style="font-size: 40px;">ृ</td></tr>
+					<tr><td>315</td><td style="font-size: 40px;">ौ</td></tr>
+					<tr><td>248</td><td style="font-size: 40px;">ढ</td></tr>
+					<tr><td>228</td><td style="font-size: 40px;">झ</td></tr>
+					<tr><td>214</td><td style="font-size: 40px;">ई</td></tr>
+					<tr><td>165</td><td style="font-size: 40px;">इ</td></tr>
+					<tr><td>137</td><td style="font-size: 40px;">-</td></tr>
+					<tr><td>131</td><td style="font-size: 40px;">ञ</td></tr>
+					<tr><td>87</td><td style="font-size: 40px;">ए</td></tr>
+					<tr><td>68</td><td style="font-size: 40px;">ः</td></tr>
+					<tr><td>58</td><td style="font-size: 40px;">ओ</td></tr>
+					<tr><td>56</td><td style="font-size: 40px;">ऊ</td></tr>
+					<tr><td>44</td><td style="font-size: 40px;">ङ</td></tr>
+					<tr><td>25</td><td style="font-size: 40px;">औ</td></tr>
+					<tr><td>20</td><td style="font-size: 40px;">ऐ</td></tr>
+					<tr><td>19</td><td style="font-size: 40px;">२</td></tr>
+					<tr><td>14</td><td style="font-size: 40px;">ऋ</td></tr>
+					<tr><td>13</td><td style="font-size: 40px;">३</td></tr>
+					<tr><td>8</td><td style="font-size: 40px;">१</td></tr>
+					<tr><td>8</td><td style="font-size: 40px;">४</td></tr>
+					<tr><td>6</td><td style="font-size: 40px;">७</td></tr>
+					<tr><td>6</td><td style="font-size: 40px;">ळ</td></tr>
+					<tr><td>6</td><td style="font-size: 40px;">५</td></tr>
+					<tr><td>5</td><td style="font-size: 40px;">०</td></tr>
+					<tr><td>5</td><td style="font-size: 40px;">९</td></tr>
+					<tr><td>4</td><td style="font-size: 40px;">ॅ</td></tr>
+					<tr><td>3</td><td style="font-size: 40px;">ऽ</td></tr>
+					<tr><td>3</td><td style="font-size: 40px;">'</td></tr>
+					<tr><td>3</td><td style="font-size: 40px;">८</td></tr>
+					<tr><td>3</td><td style="font-size: 40px;">६</td></tr>
+					<tr><td>2</td><td style="font-size: 40px;">³</td></tr>
+					<tr><td>1</td><td style="font-size: 40px;">ݥ</td></tr>
+					<tr><td>1</td><td style="font-size: 40px;">,</td></tr>
+					<tr><td>1</td><td style="font-size: 40px;">ں</td></tr>
+				</tbody></table>
+				<!-/- End IMPALLARI Table -/->
+			</td>
+			<td width="50%" valign="top">
+				<p class="sizelabel" style="margin-bottom: 6px;">Stefan Trost Hindi Frequency Analysis</p>
+				<p class="sizelabel">http://www.sttmedia.com/characterfrequency-hindi</p>
+				<!-/- ST Table -/->
+				<table border="0" cellspacing="0" cellpadding="10">
+					<tbody><tr><td>Character</td><td>Frequency</td></tr><tr>
+					</tr><tr><td style="font-size: 40px;">ा</td><td>8,22%</td></tr>
+					<tr><td style="font-size: 40px;">क</td><td>7,14%</td></tr>
+					<tr><td style="font-size: 40px;">े</td><td>6,85%</td></tr>
+					<tr><td style="font-size: 40px;">र</td><td>5,91%</td></tr>
+					<tr><td style="font-size: 40px;">ह</td><td>4,82%</td></tr>
+					<tr><td style="font-size: 40px;">स</td><td>3,78%</td></tr>
+					<tr><td style="font-size: 40px;">न</td><td>3,48%</td></tr>
+					<tr><td style="font-size: 40px;">ी</td><td>3,47%</td></tr>
+					<tr><td style="font-size: 40px;">ं</td><td>3,44%</td></tr>
+					<tr><td style="font-size: 40px;">म</td><td>3,28%</td></tr>
+					<tr><td style="font-size: 40px;">ि</td><td>3,20%</td></tr>
+					<tr><td style="font-size: 40px;">्</td><td>3,02%</td></tr>
+					<tr><td style="font-size: 40px;">त</td><td>2,89%</td></tr>
+					<tr><td style="font-size: 40px;">प</td><td>2,66%</td></tr>
+					<tr><td style="font-size: 40px;">ल</td><td>2,45%</td></tr>
+					<tr><td style="font-size: 40px;">ो</td><td>2,21%</td></tr>
+					<tr><td style="font-size: 40px;">य</td><td>2,20%</td></tr>
+					<tr><td style="font-size: 40px;">ै</td><td>1,96%</td></tr>
+					<tr><td style="font-size: 40px;">ब</td><td>1,78%</td></tr>
+					<tr><td style="font-size: 40px;">द</td><td>1,68%</td></tr>
+					<tr><td style="font-size: 40px;">व</td><td>1,62%</td></tr>
+					<tr><td style="font-size: 40px;">ु</td><td>1,45%</td></tr>
+					<tr><td style="font-size: 40px;">ज</td><td>1,39%</td></tr>
+					<tr><td style="font-size: 40px;">ए</td><td>1,34%</td></tr>
+					<tr><td style="font-size: 40px;">ग</td><td>1,31%</td></tr>
+					<tr><td style="font-size: 40px;">च</td><td>1,16%</td></tr>
+					<tr><td style="font-size: 40px;">थ</td><td>1,15%</td></tr>
+					<tr><td style="font-size: 40px;">अ</td><td>1,01%</td></tr>
+					<tr><td style="font-size: 40px;">औ</td><td>0,94%</td></tr>
+					<tr><td style="font-size: 40px;">ू</td><td>0,81%</td></tr>
+					<tr><td style="font-size: 40px;">उ</td><td>0,78%</td></tr>
+					<tr><td style="font-size: 40px;">श</td><td>0,76%</td></tr>
+					<tr><td style="font-size: 40px;">ड</td><td>0,75%</td></tr>
+					<tr><td style="font-size: 40px;">ख</td><td>0,70%</td></tr>
+					<tr><td style="font-size: 40px;">़</td><td>0,67%</td></tr>
+					<tr><td style="font-size: 40px;">भ</td><td>0,67%</td></tr>
+					<tr><td style="font-size: 40px;">आ</td><td>0,66%</td></tr>
+					<tr><td style="font-size: 40px;">ट</td><td>0,57%</td></tr>
+					<tr><td style="font-size: 40px;">छ</td><td>0,45%</td></tr>
+					<tr><td style="font-size: 40px;">ध</td><td>0,36%</td></tr>
+					<tr><td style="font-size: 40px;">फ</td><td>0,35%</td></tr>
+					<tr><td style="font-size: 40px;">इ</td><td>0,31%</td></tr>
+					<tr><td style="font-size: 40px;">ँ</td><td>0,30%</td></tr>
+					<tr><td style="font-size: 40px;">ष</td><td>0,27%</td></tr>
+					<tr><td style="font-size: 40px;">घ</td><td>0,20%</td></tr>
+					<tr><td style="font-size: 40px;">ई</td><td>0,20%</td></tr>
+					<tr><td style="font-size: 40px;">झ</td><td>0,19%</td></tr>
+					<tr><td style="font-size: 40px;">ठ</td><td>0,17%</td></tr>
+					<tr><td style="font-size: 40px;">ौ</td><td>0,15%</td></tr>
+					<tr><td style="font-size: 40px;">ण</td><td>0,13%</td></tr>
+					<tr><td style="font-size: 40px;">ृ</td><td>0,10%</td></tr>
+					<tr><td style="font-size: 40px;">ओ</td><td>0,10%</td></tr>
+					<tr><td style="font-size: 40px;">ॉ</td><td>0,10%</td></tr>
+					<tr><td style="font-size: 40px;">ढ</td><td>0,09%</td></tr>
+					<tr><td style="font-size: 40px;">ऊ</td><td>0,05%</td></tr>
+					<tr><td style="font-size: 40px;">ऐ</td><td>0,03%</td></tr>
+					<tr><td style="font-size: 40px;">ऑ</td><td>0,03%</td></tr>
+					<tr><td style="font-size: 40px;">ञ</td><td>0,01%</td></tr>
+					<tr><td style="font-size: 40px;">ः</td><td>0,01%</td></tr>
+					<tr><td style="font-size: 40px;">ऋ</td><td>0,00%</td></tr>
+					<tr><td style="font-size: 40px;">ॅ</td><td>0,00%</td></tr>
+				</tbody></table>  
+				<!-/- End ST Tabke -/->
+			</td>
+		</tr>
+	</tbody></table>
+
+</div>
+
+	  </div>
+
+	  <!-/- Consonants -/->
+	  <div id="syllables" style="display: none;">
+	  	<div contenteditable="true" style="width: 920px;">
+
+<p class="sizelabel" style="line-height: 15px !important;">Every consonant with every vowel sign (or matra) and signs like candrabindu, anusvara and visarga, as well as the combining mark glyph for reph (Ra + virama) to each combination</p>
+<p class="sizelabel" style="line-height: 15px !important;">(All Included) - Generated using https://github.com/anexasajoop/devanagari-type-tools</p>
+
+<p>&nbsp;</p>
+
+<p style="font-size: 40px;">
+क का कि की कु कू कृ कॄ कॅ कॆ के कै कॉ कॊ को कौ कॢ कॣ  कँ काँ किँ कीँ कुँ कूँ कृँ कॄँ कॅँ कॆँ केँ कैँ कॉँ कॊँ कोँ कौँ कॢँ कॣँ  कं कां किं कीं कुं कूं कृं कॄं कॅं कॆं कें कैं कॉं कॊं कों कौं कॢं कॣं  कः काः किः कीः कुः कूः कृः कॄः कॅः कॆः केः कैः कॉः कॊः कोः कौः कॢः कॣः र्क र्का र्कि र्की र्कु र्कू र्कृ र्कॄ र्कॅ र्कॆ र्के र्कै र्कॉ र्कॊ र्को र्कौ र्कॢ र्कॣ  र्कँ र्काँ र्किँ र्कीँ र्कुँ र्कूँ र्कृँ र्कॄँ र्कॅँ र्कॆँ र्केँ र्कैँ र्कॉँ र्कॊँ र्कोँ र्कौँ र्कॢँ र्कॣँ  र्कं र्कां र्किं र्कीं र्कुं र्कूं र्कृं र्कॄं र्कॅं र्कॆं र्कें र्कैं र्कॉं र्कॊं र्कों र्कौं र्कॢं र्कॣं  र्कः र्काः र्किः र्कीः र्कुः र्कूः र्कृः र्कॄः र्कॅः र्कॆः र्केः र्कैः र्कॉः र्कॊः र्कोः र्कौः र्कॢः र्कॣः <br><br>
+
+ख खा खि खी खु खू खृ खॄ खॅ खॆ खे खै खॉ खॊ खो खौ खॢ खॣ  खँ खाँ खिँ खीँ खुँ खूँ खृँ खॄँ खॅँ खॆँ खेँ खैँ खॉँ खॊँ खोँ खौँ खॢँ खॣँ  खं खां खिं खीं खुं खूं खृं खॄं खॅं खॆं खें खैं खॉं खॊं खों खौं खॢं खॣं  खः खाः खिः खीः खुः खूः खृः खॄः खॅः खॆः खेः खैः खॉः खॊः खोः खौः खॢः खॣः र्ख र्खा र्खि र्खी र्खु र्खू र्खृ र्खॄ र्खॅ र्खॆ र्खे र्खै र्खॉ र्खॊ र्खो र्खौ र्खॢ र्खॣ  र्खँ र्खाँ र्खिँ र्खीँ र्खुँ र्खूँ र्खृँ र्खॄँ र्खॅँ र्खॆँ र्खेँ र्खैँ र्खॉँ र्खॊँ र्खोँ र्खौँ र्खॢँ र्खॣँ  र्खं र्खां र्खिं र्खीं र्खुं र्खूं र्खृं र्खॄं र्खॅं र्खॆं र्खें र्खैं र्खॉं र्खॊं र्खों र्खौं र्खॢं र्खॣं  र्खः र्खाः र्खिः र्खीः र्खुः र्खूः र्खृः र्खॄः र्खॅः र्खॆः र्खेः र्खैः र्खॉः र्खॊः र्खोः र्खौः र्खॢः र्खॣः <br><br>
+
+ग गा गि गी गु गू गृ गॄ गॅ गॆ गे गै गॉ गॊ गो गौ गॢ गॣ  गँ गाँ गिँ गीँ गुँ गूँ गृँ गॄँ गॅँ गॆँ गेँ गैँ गॉँ गॊँ गोँ गौँ गॢँ गॣँ  गं गां गिं गीं गुं गूं गृं गॄं गॅं गॆं गें गैं गॉं गॊं गों गौं गॢं गॣं  गः गाः गिः गीः गुः गूः गृः गॄः गॅः गॆः गेः गैः गॉः गॊः गोः गौः गॢः गॣः र्ग र्गा र्गि र्गी र्गु र्गू र्गृ र्गॄ र्गॅ र्गॆ र्गे र्गै र्गॉ र्गॊ र्गो र्गौ र्गॢ र्गॣ  र्गँ र्गाँ र्गिँ र्गीँ र्गुँ र्गूँ र्गृँ र्गॄँ र्गॅँ र्गॆँ र्गेँ र्गैँ र्गॉँ र्गॊँ र्गोँ र्गौँ र्गॢँ र्गॣँ  र्गं र्गां र्गिं र्गीं र्गुं र्गूं र्गृं र्गॄं र्गॅं र्गॆं र्गें र्गैं र्गॉं र्गॊं र्गों र्गौं र्गॢं र्गॣं  र्गः र्गाः र्गिः र्गीः र्गुः र्गूः र्गृः र्गॄः र्गॅः र्गॆः र्गेः र्गैः र्गॉः र्गॊः र्गोः र्गौः र्गॢः र्गॣः  <br><br>
+
+घ घा घि घी घु घू घृ घॄ घॅ घॆ घे घै घॉ घॊ घो घौ घॢ घॣ  घँ घाँ घिँ घीँ घुँ घूँ घृँ घॄँ घॅँ घॆँ घेँ घैँ घॉँ घॊँ घोँ घौँ घॢँ घॣँ  घं घां घिं घीं घुं घूं घृं घॄं घॅं घॆं घें घैं घॉं घॊं घों घौं घॢं घॣं  घः घाः घिः घीः घुः घूः घृः घॄः घॅः घॆः घेः घैः घॉः घॊः घोः घौः घॢः घॣः र्घ र्घा र्घि र्घी र्घु र्घू र्घृ र्घॄ र्घॅ र्घॆ र्घे र्घै र्घॉ र्घॊ र्घो र्घौ र्घॢ र्घॣ  र्घँ र्घाँ र्घिँ र्घीँ र्घुँ र्घूँ र्घृँ र्घॄँ र्घॅँ र्घॆँ र्घेँ र्घैँ र्घॉँ र्घॊँ र्घोँ र्घौँ र्घॢँ र्घॣँ  र्घं र्घां र्घिं र्घीं र्घुं र्घूं र्घृं र्घॄं र्घॅं र्घॆं र्घें र्घैं र्घॉं र्घॊं र्घों र्घौं र्घॢं र्घॣं  र्घः र्घाः र्घिः र्घीः र्घुः र्घूः र्घृः र्घॄः र्घॅः र्घॆः र्घेः र्घैः र्घॉः र्घॊः र्घोः र्घौः र्घॢः र्घॣः  <br><br>
+
+ङ ङा ङि ङी ङु ङू ङृ ङॄ ङॅ ङॆ ङे ङै ङॉ ङॊ ङो ङौ ङॢ ङॣ  ङँ ङाँ ङिँ ङीँ ङुँ ङूँ ङृँ ङॄँ ङॅँ ङॆँ ङेँ ङैँ ङॉँ ङॊँ ङोँ ङौँ ङॢँ ङॣँ  ङं ङां ङिं ङीं ङुं ङूं ङृं ङॄं ङॅं ङॆं ङें ङैं ङॉं ङॊं ङों ङौं ङॢं ङॣं  ङः ङाः ङिः ङीः ङुः ङूः ङृः ङॄः ङॅः ङॆः ङेः ङैः ङॉः ङॊः ङोः ङौः ङॢः ङॣः र्ङ र्ङा र्ङि र्ङी र्ङु र्ङू र्ङृ र्ङॄ र्ङॅ र्ङॆ र्ङे र्ङै र्ङॉ र्ङॊ र्ङो र्ङौ र्ङॢ र्ङॣ  र्ङँ र्ङाँ र्ङिँ र्ङीँ र्ङुँ र्ङूँ र्ङृँ र्ङॄँ र्ङॅँ र्ङॆँ र्ङेँ र्ङैँ र्ङॉँ र्ङॊँ र्ङोँ र्ङौँ र्ङॢँ र्ङॣँ  र्ङं र्ङां र्ङिं र्ङीं र्ङुं र्ङूं र्ङृं र्ङॄं र्ङॅं र्ङॆं र्ङें र्ङैं र्ङॉं र्ङॊं र्ङों र्ङौं र्ङॢं र्ङॣं  र्ङः र्ङाः र्ङिः र्ङीः र्ङुः र्ङूः र्ङृः र्ङॄः र्ङॅः र्ङॆः र्ङेः र्ङैः र्ङॉः र्ङॊः र्ङोः र्ङौः र्ङॢः र्ङॣः  <br><br>
+
+च चा चि ची चु चू चृ चॄ चॅ चॆ चे चै चॉ चॊ चो चौ चॢ चॣ  चँ चाँ चिँ चीँ चुँ चूँ चृँ चॄँ चॅँ चॆँ चेँ चैँ चॉँ चॊँ चोँ चौँ चॢँ चॣँ  चं चां चिं चीं चुं चूं चृं चॄं चॅं चॆं चें चैं चॉं चॊं चों चौं चॢं चॣं  चः चाः चिः चीः चुः चूः चृः चॄः चॅः चॆः चेः चैः चॉः चॊः चोः चौः चॢः चॣः र्च र्चा र्चि र्ची र्चु र्चू र्चृ र्चॄ र्चॅ र्चॆ र्चे र्चै र्चॉ र्चॊ र्चो र्चौ र्चॢ र्चॣ  र्चँ र्चाँ र्चिँ र्चीँ र्चुँ र्चूँ र्चृँ र्चॄँ र्चॅँ र्चॆँ र्चेँ र्चैँ र्चॉँ र्चॊँ र्चोँ र्चौँ र्चॢँ र्चॣँ  र्चं र्चां र्चिं र्चीं र्चुं र्चूं र्चृं र्चॄं र्चॅं र्चॆं र्चें र्चैं र्चॉं र्चॊं र्चों र्चौं र्चॢं र्चॣं  र्चः र्चाः र्चिः र्चीः र्चुः र्चूः र्चृः र्चॄः र्चॅः र्चॆः र्चेः र्चैः र्चॉः र्चॊः र्चोः र्चौः र्चॢः र्चॣः  <br><br>
+
+छ छा छि छी छु छू छृ छॄ छॅ छॆ छे छै छॉ छॊ छो छौ छॢ छॣ  छँ छाँ छिँ छीँ छुँ छूँ छृँ छॄँ छॅँ छॆँ छेँ छैँ छॉँ छॊँ छोँ छौँ छॢँ छॣँ  छं छां छिं छीं छुं छूं छृं छॄं छॅं छॆं छें छैं छॉं छॊं छों छौं छॢं छॣं  छः छाः छिः छीः छुः छूः छृः छॄः छॅः छॆः छेः छैः छॉः छॊः छोः छौः छॢः छॣः र्छ र्छा र्छि र्छी र्छु र्छू र्छृ र्छॄ र्छॅ र्छॆ र्छे र्छै र्छॉ र्छॊ र्छो र्छौ र्छॢ र्छॣ  र्छँ र्छाँ र्छिँ र्छीँ र्छुँ र्छूँ र्छृँ र्छॄँ र्छॅँ र्छॆँ र्छेँ र्छैँ र्छॉँ र्छॊँ र्छोँ र्छौँ र्छॢँ र्छॣँ  र्छं र्छां र्छिं र्छीं र्छुं र्छूं र्छृं र्छॄं र्छॅं र्छॆं र्छें र्छैं र्छॉं र्छॊं र्छों र्छौं र्छॢं र्छॣं  र्छः र्छाः र्छिः र्छीः र्छुः र्छूः र्छृः र्छॄः र्छॅः र्छॆः र्छेः र्छैः र्छॉः र्छॊः र्छोः र्छौः र्छॢः र्छॣः  <br><br>
+
+ज जा जि जी जु जू जृ जॄ जॅ जॆ जे जै जॉ जॊ जो जौ जॢ जॣ  जँ जाँ जिँ जीँ जुँ जूँ जृँ जॄँ जॅँ जॆँ जेँ जैँ जॉँ जॊँ जोँ जौँ जॢँ जॣँ  जं जां जिं जीं जुं जूं जृं जॄं जॅं जॆं जें जैं जॉं जॊं जों जौं जॢं जॣं  जः जाः जिः जीः जुः जूः जृः जॄः जॅः जॆः जेः जैः जॉः जॊः जोः जौः जॢः जॣः र्ज र्जा र्जि र्जी र्जु र्जू र्जृ र्जॄ र्जॅ र्जॆ र्जे र्जै र्जॉ र्जॊ र्जो र्जौ र्जॢ र्जॣ  र्जँ र्जाँ र्जिँ र्जीँ र्जुँ र्जूँ र्जृँ र्जॄँ र्जॅँ र्जॆँ र्जेँ र्जैँ र्जॉँ र्जॊँ र्जोँ र्जौँ र्जॢँ र्जॣँ  र्जं र्जां र्जिं र्जीं र्जुं र्जूं र्जृं र्जॄं र्जॅं र्जॆं र्जें र्जैं र्जॉं र्जॊं र्जों र्जौं र्जॢं र्जॣं  र्जः र्जाः र्जिः र्जीः र्जुः र्जूः र्जृः र्जॄः र्जॅः र्जॆः र्जेः र्जैः र्जॉः र्जॊः र्जोः र्जौः र्जॢः र्जॣः  <br><br>
+
+झ झा झि झी झु झू झृ झॄ झॅ झॆ झे झै झॉ झॊ झो झौ झॢ झॣ  झँ झाँ झिँ झीँ झुँ झूँ झृँ झॄँ झॅँ झॆँ झेँ झैँ झॉँ झॊँ झोँ झौँ झॢँ झॣँ  झं झां झिं झीं झुं झूं झृं झॄं झॅं झॆं झें झैं झॉं झॊं झों झौं झॢं झॣं  झः झाः झिः झीः झुः झूः झृः झॄः झॅः झॆः झेः झैः झॉः झॊः झोः झौः झॢः झॣः र्झ र्झा र्झि र्झी र्झु र्झू र्झृ र्झॄ र्झॅ र्झॆ र्झे र्झै र्झॉ र्झॊ र्झो र्झौ र्झॢ र्झॣ  र्झँ र्झाँ र्झिँ र्झीँ र्झुँ र्झूँ र्झृँ र्झॄँ र्झॅँ र्झॆँ र्झेँ र्झैँ र्झॉँ र्झॊँ र्झोँ र्झौँ र्झॢँ र्झॣँ  र्झं र्झां र्झिं र्झीं र्झुं र्झूं र्झृं र्झॄं र्झॅं र्झॆं र्झें र्झैं र्झॉं र्झॊं र्झों र्झौं र्झॢं र्झॣं  र्झः र्झाः र्झिः र्झीः र्झुः र्झूः र्झृः र्झॄः र्झॅः र्झॆः र्झेः र्झैः र्झॉः र्झॊः र्झोः र्झौः र्झॢः र्झॣः  <br><br>
+
+ञ ञा ञि ञी ञु ञू ञृ ञॄ ञॅ ञॆ ञे ञै ञॉ ञॊ ञो ञौ ञॢ ञॣ  ञँ ञाँ ञिँ ञीँ ञुँ ञूँ ञृँ ञॄँ ञॅँ ञॆँ ञेँ ञैँ ञॉँ ञॊँ ञोँ ञौँ ञॢँ ञॣँ  ञं ञां ञिं ञीं ञुं ञूं ञृं ञॄं ञॅं ञॆं ञें ञैं ञॉं ञॊं ञों ञौं ञॢं ञॣं  ञः ञाः ञिः ञीः ञुः ञूः ञृः ञॄः ञॅः ञॆः ञेः ञैः ञॉः ञॊः ञोः ञौः ञॢः ञॣः र्ञ र्ञा र्ञि र्ञी र्ञु र्ञू र्ञृ र्ञॄ र्ञॅ र्ञॆ र्ञे र्ञै र्ञॉ र्ञॊ र्ञो र्ञौ र्ञॢ र्ञॣ  र्ञँ र्ञाँ र्ञिँ र्ञीँ र्ञुँ र्ञूँ र्ञृँ र्ञॄँ र्ञॅँ र्ञॆँ र्ञेँ र्ञैँ र्ञॉँ र्ञॊँ र्ञोँ र्ञौँ र्ञॢँ र्ञॣँ  र्ञं र्ञां र्ञिं र्ञीं र्ञुं र्ञूं र्ञृं र्ञॄं र्ञॅं र्ञॆं र्ञें र्ञैं र्ञॉं र्ञॊं र्ञों र्ञौं र्ञॢं र्ञॣं  र्ञः र्ञाः र्ञिः र्ञीः र्ञुः र्ञूः र्ञृः र्ञॄः र्ञॅः र्ञॆः र्ञेः र्ञैः र्ञॉः र्ञॊः र्ञोः र्ञौः र्ञॢः र्ञॣः  <br><br>
+
+ट टा टि टी टु टू टृ टॄ टॅ टॆ टे टै टॉ टॊ टो टौ टॢ टॣ  टँ टाँ टिँ टीँ टुँ टूँ टृँ टॄँ टॅँ टॆँ टेँ टैँ टॉँ टॊँ टोँ टौँ टॢँ टॣँ  टं टां टिं टीं टुं टूं टृं टॄं टॅं टॆं टें टैं टॉं टॊं टों टौं टॢं टॣं  टः टाः टिः टीः टुः टूः टृः टॄः टॅः टॆः टेः टैः टॉः टॊः टोः टौः टॢः टॣः र्ट र्टा र्टि र्टी र्टु र्टू र्टृ र्टॄ र्टॅ र्टॆ र्टे र्टै र्टॉ र्टॊ र्टो र्टौ र्टॢ र्टॣ  र्टँ र्टाँ र्टिँ र्टीँ र्टुँ र्टूँ र्टृँ र्टॄँ र्टॅँ र्टॆँ र्टेँ र्टैँ र्टॉँ र्टॊँ र्टोँ र्टौँ र्टॢँ र्टॣँ  र्टं र्टां र्टिं र्टीं र्टुं र्टूं र्टृं र्टॄं र्टॅं र्टॆं र्टें र्टैं र्टॉं र्टॊं र्टों र्टौं र्टॢं र्टॣं  र्टः र्टाः र्टिः र्टीः र्टुः र्टूः र्टृः र्टॄः र्टॅः र्टॆः र्टेः र्टैः र्टॉः र्टॊः र्टोः र्टौः र्टॢः र्टॣः  <br><br>
+
+ठ ठा ठि ठी ठु ठू ठृ ठॄ ठॅ ठॆ ठे ठै ठॉ ठॊ ठो ठौ ठॢ ठॣ  ठँ ठाँ ठिँ ठीँ ठुँ ठूँ ठृँ ठॄँ ठॅँ ठॆँ ठेँ ठैँ ठॉँ ठॊँ ठोँ ठौँ ठॢँ ठॣँ  ठं ठां ठिं ठीं ठुं ठूं ठृं ठॄं ठॅं ठॆं ठें ठैं ठॉं ठॊं ठों ठौं ठॢं ठॣं  ठः ठाः ठिः ठीः ठुः ठूः ठृः ठॄः ठॅः ठॆः ठेः ठैः ठॉः ठॊः ठोः ठौः ठॢः ठॣः र्ठ र्ठा र्ठि र्ठी र्ठु र्ठू र्ठृ र्ठॄ र्ठॅ र्ठॆ र्ठे र्ठै र्ठॉ र्ठॊ र्ठो र्ठौ र्ठॢ र्ठॣ  र्ठँ र्ठाँ र्ठिँ र्ठीँ र्ठुँ र्ठूँ र्ठृँ र्ठॄँ र्ठॅँ र्ठॆँ र्ठेँ र्ठैँ र्ठॉँ र्ठॊँ र्ठोँ र्ठौँ र्ठॢँ र्ठॣँ  र्ठं र्ठां र्ठिं र्ठीं र्ठुं र्ठूं र्ठृं र्ठॄं र्ठॅं र्ठॆं र्ठें र्ठैं र्ठॉं र्ठॊं र्ठों र्ठौं र्ठॢं र्ठॣं  र्ठः र्ठाः र्ठिः र्ठीः र्ठुः र्ठूः र्ठृः र्ठॄः र्ठॅः र्ठॆः र्ठेः र्ठैः र्ठॉः र्ठॊः र्ठोः र्ठौः र्ठॢः र्ठॣः  <br><br>
+
+ड डा डि डी डु डू डृ डॄ डॅ डॆ डे डै डॉ डॊ डो डौ डॢ डॣ  डँ डाँ डिँ डीँ डुँ डूँ डृँ डॄँ डॅँ डॆँ डेँ डैँ डॉँ डॊँ डोँ डौँ डॢँ डॣँ  डं डां डिं डीं डुं डूं डृं डॄं डॅं डॆं डें डैं डॉं डॊं डों डौं डॢं डॣं  डः डाः डिः डीः डुः डूः डृः डॄः डॅः डॆः डेः डैः डॉः डॊः डोः डौः डॢः डॣः र्ड र्डा र्डि र्डी र्डु र्डू र्डृ र्डॄ र्डॅ र्डॆ र्डे र्डै र्डॉ र्डॊ र्डो र्डौ र्डॢ र्डॣ  र्डँ र्डाँ र्डिँ र्डीँ र्डुँ र्डूँ र्डृँ र्डॄँ र्डॅँ र्डॆँ र्डेँ र्डैँ र्डॉँ र्डॊँ र्डोँ र्डौँ र्डॢँ र्डॣँ  र्डं र्डां र्डिं र्डीं र्डुं र्डूं र्डृं र्डॄं र्डॅं र्डॆं र्डें र्डैं र्डॉं र्डॊं र्डों र्डौं र्डॢं र्डॣं  र्डः र्डाः र्डिः र्डीः र्डुः र्डूः र्डृः र्डॄः र्डॅः र्डॆः र्डेः र्डैः र्डॉः र्डॊः र्डोः र्डौः र्डॢः र्डॣः  <br><br>
+
+ढ ढा ढि ढी ढु ढू ढृ ढॄ ढॅ ढॆ ढे ढै ढॉ ढॊ ढो ढौ ढॢ ढॣ  ढँ ढाँ ढिँ ढीँ ढुँ ढूँ ढृँ ढॄँ ढॅँ ढॆँ ढेँ ढैँ ढॉँ ढॊँ ढोँ ढौँ ढॢँ ढॣँ  ढं ढां ढिं ढीं ढुं ढूं ढृं ढॄं ढॅं ढॆं ढें ढैं ढॉं ढॊं ढों ढौं ढॢं ढॣं  ढः ढाः ढिः ढीः ढुः ढूः ढृः ढॄः ढॅः ढॆः ढेः ढैः ढॉः ढॊः ढोः ढौः ढॢः ढॣः र्ढ र्ढा र्ढि र्ढी र्ढु र्ढू र्ढृ र्ढॄ र्ढॅ र्ढॆ र्ढे र्ढै र्ढॉ र्ढॊ र्ढो र्ढौ र्ढॢ र्ढॣ  र्ढँ र्ढाँ र्ढिँ र्ढीँ र्ढुँ र्ढूँ र्ढृँ र्ढॄँ र्ढॅँ र्ढॆँ र्ढेँ र्ढैँ र्ढॉँ र्ढॊँ र्ढोँ र्ढौँ र्ढॢँ र्ढॣँ  र्ढं र्ढां र्ढिं र्ढीं र्ढुं र्ढूं र्ढृं र्ढॄं र्ढॅं र्ढॆं र्ढें र्ढैं र्ढॉं र्ढॊं र्ढों र्ढौं र्ढॢं र्ढॣं  र्ढः र्ढाः र्ढिः र्ढीः र्ढुः र्ढूः र्ढृः र्ढॄः र्ढॅः र्ढॆः र्ढेः र्ढैः र्ढॉः र्ढॊः र्ढोः र्ढौः र्ढॢः र्ढॣः  <br><br>
+
+ण णा णि णी णु णू णृ णॄ णॅ णॆ णे णै णॉ णॊ णो णौ णॢ णॣ  णँ णाँ णिँ णीँ णुँ णूँ णृँ णॄँ णॅँ णॆँ णेँ णैँ णॉँ णॊँ णोँ णौँ णॢँ णॣँ  णं णां णिं णीं णुं णूं णृं णॄं णॅं णॆं णें णैं णॉं णॊं णों णौं णॢं णॣं  णः णाः णिः णीः णुः णूः णृः णॄः णॅः णॆः णेः णैः णॉः णॊः णोः णौः णॢः णॣः र्ण र्णा र्णि र्णी र्णु र्णू र्णृ र्णॄ र्णॅ र्णॆ र्णे र्णै र्णॉ र्णॊ र्णो र्णौ र्णॢ र्णॣ  र्णँ र्णाँ र्णिँ र्णीँ र्णुँ र्णूँ र्णृँ र्णॄँ र्णॅँ र्णॆँ र्णेँ र्णैँ र्णॉँ र्णॊँ र्णोँ र्णौँ र्णॢँ र्णॣँ  र्णं र्णां र्णिं र्णीं र्णुं र्णूं र्णृं र्णॄं र्णॅं र्णॆं र्णें र्णैं र्णॉं र्णॊं र्णों र्णौं र्णॢं र्णॣं  र्णः र्णाः र्णिः र्णीः र्णुः र्णूः र्णृः र्णॄः र्णॅः र्णॆः र्णेः र्णैः र्णॉः र्णॊः र्णोः र्णौः र्णॢः र्णॣः  <br><br>
+
+त ता ति ती तु तू तृ तॄ तॅ तॆ ते तै तॉ तॊ तो तौ तॢ तॣ  तँ ताँ तिँ तीँ तुँ तूँ तृँ तॄँ तॅँ तॆँ तेँ तैँ तॉँ तॊँ तोँ तौँ तॢँ तॣँ  तं तां तिं तीं तुं तूं तृं तॄं तॅं तॆं तें तैं तॉं तॊं तों तौं तॢं तॣं  तः ताः तिः तीः तुः तूः तृः तॄः तॅः तॆः तेः तैः तॉः तॊः तोः तौः तॢः तॣः र्त र्ता र्ति र्ती र्तु र्तू र्तृ र्तॄ र्तॅ र्तॆ र्ते र्तै र्तॉ र्तॊ र्तो र्तौ र्तॢ र्तॣ  र्तँ र्ताँ र्तिँ र्तीँ र्तुँ र्तूँ र्तृँ र्तॄँ र्तॅँ र्तॆँ र्तेँ र्तैँ र्तॉँ र्तॊँ र्तोँ र्तौँ र्तॢँ र्तॣँ  र्तं र्तां र्तिं र्तीं र्तुं र्तूं र्तृं र्तॄं र्तॅं र्तॆं र्तें र्तैं र्तॉं र्तॊं र्तों र्तौं र्तॢं र्तॣं  र्तः र्ताः र्तिः र्तीः र्तुः र्तूः र्तृः र्तॄः र्तॅः र्तॆः र्तेः र्तैः र्तॉः र्तॊः र्तोः र्तौः र्तॢः र्तॣः  <br><br>
+
+थ था थि थी थु थू थृ थॄ थॅ थॆ थे थै थॉ थॊ थो थौ थॢ थॣ  थँ थाँ थिँ थीँ थुँ थूँ थृँ थॄँ थॅँ थॆँ थेँ थैँ थॉँ थॊँ थोँ थौँ थॢँ थॣँ  थं थां थिं थीं थुं थूं थृं थॄं थॅं थॆं थें थैं थॉं थॊं थों थौं थॢं थॣं  थः थाः थिः थीः थुः थूः थृः थॄः थॅः थॆः थेः थैः थॉः थॊः थोः थौः थॢः थॣः र्थ र्था र्थि र्थी र्थु र्थू र्थृ र्थॄ र्थॅ र्थॆ र्थे र्थै र्थॉ र्थॊ र्थो र्थौ र्थॢ र्थॣ  र्थँ र्थाँ र्थिँ र्थीँ र्थुँ र्थूँ र्थृँ र्थॄँ र्थॅँ र्थॆँ र्थेँ र्थैँ र्थॉँ र्थॊँ र्थोँ र्थौँ र्थॢँ र्थॣँ  र्थं र्थां र्थिं र्थीं र्थुं र्थूं र्थृं र्थॄं र्थॅं र्थॆं र्थें र्थैं र्थॉं र्थॊं र्थों र्थौं र्थॢं र्थॣं  र्थः र्थाः र्थिः र्थीः र्थुः र्थूः र्थृः र्थॄः र्थॅः र्थॆः र्थेः र्थैः र्थॉः र्थॊः र्थोः र्थौः र्थॢः र्थॣः  <br><br>
+
+द दा दि दी दु दू दृ दॄ दॅ दॆ दे दै दॉ दॊ दो दौ दॢ दॣ  दँ दाँ दिँ दीँ दुँ दूँ दृँ दॄँ दॅँ दॆँ देँ दैँ दॉँ दॊँ दोँ दौँ दॢँ दॣँ  दं दां दिं दीं दुं दूं दृं दॄं दॅं दॆं दें दैं दॉं दॊं दों दौं दॢं दॣं  दः दाः दिः दीः दुः दूः दृः दॄः दॅः दॆः देः दैः दॉः दॊः दोः दौः दॢः दॣः र्द र्दा र्दि र्दी र्दु र्दू र्दृ र्दॄ र्दॅ र्दॆ र्दे र्दै र्दॉ र्दॊ र्दो र्दौ र्दॢ र्दॣ  र्दँ र्दाँ र्दिँ र्दीँ र्दुँ र्दूँ र्दृँ र्दॄँ र्दॅँ र्दॆँ र्देँ र्दैँ र्दॉँ र्दॊँ र्दोँ र्दौँ र्दॢँ र्दॣँ  र्दं र्दां र्दिं र्दीं र्दुं र्दूं र्दृं र्दॄं र्दॅं र्दॆं र्दें र्दैं र्दॉं र्दॊं र्दों र्दौं र्दॢं र्दॣं  र्दः र्दाः र्दिः र्दीः र्दुः र्दूः र्दृः र्दॄः र्दॅः र्दॆः र्देः र्दैः र्दॉः र्दॊः र्दोः र्दौः र्दॢः र्दॣः  <br><br>
+
+ध धा धि धी धु धू धृ धॄ धॅ धॆ धे धै धॉ धॊ धो धौ धॢ धॣ  धँ धाँ धिँ धीँ धुँ धूँ धृँ धॄँ धॅँ धॆँ धेँ धैँ धॉँ धॊँ धोँ धौँ धॢँ धॣँ  धं धां धिं धीं धुं धूं धृं धॄं धॅं धॆं धें धैं धॉं धॊं धों धौं धॢं धॣं  धः धाः धिः धीः धुः धूः धृः धॄः धॅः धॆः धेः धैः धॉः धॊः धोः धौः धॢः धॣः र्ध र्धा र्धि र्धी र्धु र्धू र्धृ र्धॄ र्धॅ र्धॆ र्धे र्धै र्धॉ र्धॊ र्धो र्धौ र्धॢ र्धॣ  र्धँ र्धाँ र्धिँ र्धीँ र्धुँ र्धूँ र्धृँ र्धॄँ र्धॅँ र्धॆँ र्धेँ र्धैँ र्धॉँ र्धॊँ र्धोँ र्धौँ र्धॢँ र्धॣँ  र्धं र्धां र्धिं र्धीं र्धुं र्धूं र्धृं र्धॄं र्धॅं र्धॆं र्धें र्धैं र्धॉं र्धॊं र्धों र्धौं र्धॢं र्धॣं  र्धः र्धाः र्धिः र्धीः र्धुः र्धूः र्धृः र्धॄः र्धॅः र्धॆः र्धेः र्धैः र्धॉः र्धॊः र्धोः र्धौः र्धॢः र्धॣः  <br><br>
+
+न ना नि नी नु नू नृ नॄ नॅ नॆ ने नै नॉ नॊ नो नौ नॢ नॣ  नँ नाँ निँ नीँ नुँ नूँ नृँ नॄँ नॅँ नॆँ नेँ नैँ नॉँ नॊँ नोँ नौँ नॢँ नॣँ  नं नां निं नीं नुं नूं नृं नॄं नॅं नॆं नें नैं नॉं नॊं नों नौं नॢं नॣं  नः नाः निः नीः नुः नूः नृः नॄः नॅः नॆः नेः नैः नॉः नॊः नोः नौः नॢः नॣः र्न र्ना र्नि र्नी र्नु र्नू र्नृ र्नॄ र्नॅ र्नॆ र्ने र्नै र्नॉ र्नॊ र्नो र्नौ र्नॢ र्नॣ  र्नँ र्नाँ र्निँ र्नीँ र्नुँ र्नूँ र्नृँ र्नॄँ र्नॅँ र्नॆँ र्नेँ र्नैँ र्नॉँ र्नॊँ र्नोँ र्नौँ र्नॢँ र्नॣँ  र्नं र्नां र्निं र्नीं र्नुं र्नूं र्नृं र्नॄं र्नॅं र्नॆं र्नें र्नैं र्नॉं र्नॊं र्नों र्नौं र्नॢं र्नॣं  र्नः र्नाः र्निः र्नीः र्नुः र्नूः र्नृः र्नॄः र्नॅः र्नॆः र्नेः र्नैः र्नॉः र्नॊः र्नोः र्नौः र्नॢः र्नॣः  <br><br>
+
+ऩ ऩा ऩि ऩी ऩु ऩू ऩृ ऩॄ ऩॅ ऩॆ ऩे ऩै ऩॉ ऩॊ ऩो ऩौ ऩॢ ऩॣ  ऩँ ऩाँ ऩिँ ऩीँ ऩुँ ऩूँ ऩृँ ऩॄँ ऩॅँ ऩॆँ ऩेँ ऩैँ ऩॉँ ऩॊँ ऩोँ ऩौँ ऩॢँ ऩॣँ  ऩं ऩां ऩिं ऩीं ऩुं ऩूं ऩृं ऩॄं ऩॅं ऩॆं ऩें ऩैं ऩॉं ऩॊं ऩों ऩौं ऩॢं ऩॣं  ऩः ऩाः ऩिः ऩीः ऩुः ऩूः ऩृः ऩॄः ऩॅः ऩॆः ऩेः ऩैः ऩॉः ऩॊः ऩोः ऩौः ऩॢः ऩॣः र्ऩ र्ऩा र्ऩि र्ऩी र्ऩु र्ऩू र्ऩृ र्ऩॄ र्ऩॅ र्ऩॆ र्ऩे र्ऩै र्ऩॉ र्ऩॊ र्ऩो र्ऩौ र्ऩॢ र्ऩॣ  र्ऩँ र्ऩाँ र्ऩिँ र्ऩीँ र्ऩुँ र्ऩूँ र्ऩृँ र्ऩॄँ र्ऩॅँ र्ऩॆँ र्ऩेँ र्ऩैँ र्ऩॉँ र्ऩॊँ र्ऩोँ र्ऩौँ र्ऩॢँ र्ऩॣँ  र्ऩं र्ऩां र्ऩिं र्ऩीं र्ऩुं र्ऩूं र्ऩृं र्ऩॄं र्ऩॅं र्ऩॆं र्ऩें र्ऩैं र्ऩॉं र्ऩॊं र्ऩों र्ऩौं र्ऩॢं र्ऩॣं  र्ऩः र्ऩाः र्ऩिः र्ऩीः र्ऩुः र्ऩूः र्ऩृः र्ऩॄः र्ऩॅः र्ऩॆः र्ऩेः र्ऩैः र्ऩॉः र्ऩॊः र्ऩोः र्ऩौः र्ऩॢः र्ऩॣः  <br><br>
+
+प पा पि पी पु पू पृ पॄ पॅ पॆ पे पै पॉ पॊ पो पौ पॢ पॣ  पँ पाँ पिँ पीँ पुँ पूँ पृँ पॄँ पॅँ पॆँ पेँ पैँ पॉँ पॊँ पोँ पौँ पॢँ पॣँ  पं पां पिं पीं पुं पूं पृं पॄं पॅं पॆं पें पैं पॉं पॊं पों पौं पॢं पॣं  पः पाः पिः पीः पुः पूः पृः पॄः पॅः पॆः पेः पैः पॉः पॊः पोः पौः पॢः पॣः र्प र्पा र्पि र्पी र्पु र्पू र्पृ र्पॄ र्पॅ र्पॆ र्पे र्पै र्पॉ र्पॊ र्पो र्पौ र्पॢ र्पॣ  र्पँ र्पाँ र्पिँ र्पीँ र्पुँ र्पूँ र्पृँ र्पॄँ र्पॅँ र्पॆँ र्पेँ र्पैँ र्पॉँ र्पॊँ र्पोँ र्पौँ र्पॢँ र्पॣँ  र्पं र्पां र्पिं र्पीं र्पुं र्पूं र्पृं र्पॄं र्पॅं र्पॆं र्पें र्पैं र्पॉं र्पॊं र्पों र्पौं र्पॢं र्पॣं  र्पः र्पाः र्पिः र्पीः र्पुः र्पूः र्पृः र्पॄः र्पॅः र्पॆः र्पेः र्पैः र्पॉः र्पॊः र्पोः र्पौः र्पॢः र्पॣः  <br><br>
+
+फ फा फि फी फु फू फृ फॄ फॅ फॆ फे फै फॉ फॊ फो फौ फॢ फॣ  फँ फाँ फिँ फीँ फुँ फूँ फृँ फॄँ फॅँ फॆँ फेँ फैँ फॉँ फॊँ फोँ फौँ फॢँ फॣँ  फं फां फिं फीं फुं फूं फृं फॄं फॅं फॆं फें फैं फॉं फॊं फों फौं फॢं फॣं  फः फाः फिः फीः फुः फूः फृः फॄः फॅः फॆः फेः फैः फॉः फॊः फोः फौः फॢः फॣः र्फ र्फा र्फि र्फी र्फु र्फू र्फृ र्फॄ र्फॅ र्फॆ र्फे र्फै र्फॉ र्फॊ र्फो र्फौ र्फॢ र्फॣ  र्फँ र्फाँ र्फिँ र्फीँ र्फुँ र्फूँ र्फृँ र्फॄँ र्फॅँ र्फॆँ र्फेँ र्फैँ र्फॉँ र्फॊँ र्फोँ र्फौँ र्फॢँ र्फॣँ  र्फं र्फां र्फिं र्फीं र्फुं र्फूं र्फृं र्फॄं र्फॅं र्फॆं र्फें र्फैं र्फॉं र्फॊं र्फों र्फौं र्फॢं र्फॣं  र्फः र्फाः र्फिः र्फीः र्फुः र्फूः र्फृः र्फॄः र्फॅः र्फॆः र्फेः र्फैः र्फॉः र्फॊः र्फोः र्फौः र्फॢः र्फॣः  <br><br>
+
+ब बा बि बी बु बू बृ बॄ बॅ बॆ बे बै बॉ बॊ बो बौ बॢ बॣ  बँ बाँ बिँ बीँ बुँ बूँ बृँ बॄँ बॅँ बॆँ बेँ बैँ बॉँ बॊँ बोँ बौँ बॢँ बॣँ  बं बां बिं बीं बुं बूं बृं बॄं बॅं बॆं बें बैं बॉं बॊं बों बौं बॢं बॣं  बः बाः बिः बीः बुः बूः बृः बॄः बॅः बॆः बेः बैः बॉः बॊः बोः बौः बॢः बॣः र्ब र्बा र्बि र्बी र्बु र्बू र्बृ र्बॄ र्बॅ र्बॆ र्बे र्बै र्बॉ र्बॊ र्बो र्बौ र्बॢ र्बॣ  र्बँ र्बाँ र्बिँ र्बीँ र्बुँ र्बूँ र्बृँ र्बॄँ र्बॅँ र्बॆँ र्बेँ र्बैँ र्बॉँ र्बॊँ र्बोँ र्बौँ र्बॢँ र्बॣँ  र्बं र्बां र्बिं र्बीं र्बुं र्बूं र्बृं र्बॄं र्बॅं र्बॆं र्बें र्बैं र्बॉं र्बॊं र्बों र्बौं र्बॢं र्बॣं  र्बः र्बाः र्बिः र्बीः र्बुः र्बूः र्बृः र्बॄः र्बॅः र्बॆः र्बेः र्बैः र्बॉः र्बॊः र्बोः र्बौः र्बॢः र्बॣः  <br><br>
+
+भ भा भि भी भु भू भृ भॄ भॅ भॆ भे भै भॉ भॊ भो भौ भॢ भॣ  भँ भाँ भिँ भीँ भुँ भूँ भृँ भॄँ भॅँ भॆँ भेँ भैँ भॉँ भॊँ भोँ भौँ भॢँ भॣँ  भं भां भिं भीं भुं भूं भृं भॄं भॅं भॆं भें भैं भॉं भॊं भों भौं भॢं भॣं  भः भाः भिः भीः भुः भूः भृः भॄः भॅः भॆः भेः भैः भॉः भॊः भोः भौः भॢः भॣः र्भ र्भा र्भि र्भी र्भु र्भू र्भृ र्भॄ र्भॅ र्भॆ र्भे र्भै र्भॉ र्भॊ र्भो र्भौ र्भॢ र्भॣ  र्भँ र्भाँ र्भिँ र्भीँ र्भुँ र्भूँ र्भृँ र्भॄँ र्भॅँ र्भॆँ र्भेँ र्भैँ र्भॉँ र्भॊँ र्भोँ र्भौँ र्भॢँ र्भॣँ  र्भं र्भां र्भिं र्भीं र्भुं र्भूं र्भृं र्भॄं र्भॅं र्भॆं र्भें र्भैं र्भॉं र्भॊं र्भों र्भौं र्भॢं र्भॣं  र्भः र्भाः र्भिः र्भीः र्भुः र्भूः र्भृः र्भॄः र्भॅः र्भॆः र्भेः र्भैः र्भॉः र्भॊः र्भोः र्भौः र्भॢः र्भॣः  <br><br>
+
+म मा मि मी मु मू मृ मॄ मॅ मॆ मे मै मॉ मॊ मो मौ मॢ मॣ  मँ माँ मिँ मीँ मुँ मूँ मृँ मॄँ मॅँ मॆँ मेँ मैँ मॉँ मॊँ मोँ मौँ मॢँ मॣँ  मं मां मिं मीं मुं मूं मृं मॄं मॅं मॆं में मैं मॉं मॊं मों मौं मॢं मॣं  मः माः मिः मीः मुः मूः मृः मॄः मॅः मॆः मेः मैः मॉः मॊः मोः मौः मॢः मॣः र्म र्मा र्मि र्मी र्मु र्मू र्मृ र्मॄ र्मॅ र्मॆ र्मे र्मै र्मॉ र्मॊ र्मो र्मौ र्मॢ र्मॣ  र्मँ र्माँ र्मिँ र्मीँ र्मुँ र्मूँ र्मृँ र्मॄँ र्मॅँ र्मॆँ र्मेँ र्मैँ र्मॉँ र्मॊँ र्मोँ र्मौँ र्मॢँ र्मॣँ  र्मं र्मां र्मिं र्मीं र्मुं र्मूं र्मृं र्मॄं र्मॅं र्मॆं र्में र्मैं र्मॉं र्मॊं र्मों र्मौं र्मॢं र्मॣं  र्मः र्माः र्मिः र्मीः र्मुः र्मूः र्मृः र्मॄः र्मॅः र्मॆः र्मेः र्मैः र्मॉः र्मॊः र्मोः र्मौः र्मॢः र्मॣः  <br><br>
+
+य या यि यी यु यू यृ यॄ यॅ यॆ ये यै यॉ यॊ यो यौ यॢ यॣ  यँ याँ यिँ यीँ युँ यूँ यृँ यॄँ यॅँ यॆँ येँ यैँ यॉँ यॊँ योँ यौँ यॢँ यॣँ  यं यां यिं यीं युं यूं यृं यॄं यॅं यॆं यें यैं यॉं यॊं यों यौं यॢं यॣं  यः याः यिः यीः युः यूः यृः यॄः यॅः यॆः येः यैः यॉः यॊः योः यौः यॢः यॣः र्य र्या र्यि र्यी र्यु र्यू र्यृ र्यॄ र्यॅ र्यॆ र्ये र्यै र्यॉ र्यॊ र्यो र्यौ र्यॢ र्यॣ  र्यँ र्याँ र्यिँ र्यीँ र्युँ र्यूँ र्यृँ र्यॄँ र्यॅँ र्यॆँ र्येँ र्यैँ र्यॉँ र्यॊँ र्योँ र्यौँ र्यॢँ र्यॣँ  र्यं र्यां र्यिं र्यीं र्युं र्यूं र्यृं र्यॄं र्यॅं र्यॆं र्यें र्यैं र्यॉं र्यॊं र्यों र्यौं र्यॢं र्यॣं  र्यः र्याः र्यिः र्यीः र्युः र्यूः र्यृः र्यॄः र्यॅः र्यॆः र्येः र्यैः र्यॉः र्यॊः र्योः र्यौः र्यॢः र्यॣः  <br><br>
+
+र रा रि री रु रू रृ रॄ रॅ रॆ रे रै रॉ रॊ रो रौ रॢ रॣ  रँ राँ रिँ रीँ रुँ रूँ रृँ रॄँ रॅँ रॆँ रेँ रैँ रॉँ रॊँ रोँ रौँ रॢँ रॣँ  रं रां रिं रीं रुं रूं रृं रॄं रॅं रॆं रें रैं रॉं रॊं रों रौं रॢं रॣं  रः राः रिः रीः रुः रूः रृः रॄः रॅः रॆः रेः रैः रॉः रॊः रोः रौः रॢः रॣः र्र र्रा र्रि र्री र्रु र्रू र्रृ र्रॄ र्रॅ र्रॆ र्रे र्रै र्रॉ र्रॊ र्रो र्रौ र्रॢ र्रॣ  र्रँ र्राँ र्रिँ र्रीँ र्रुँ र्रूँ र्रृँ र्रॄँ र्रॅँ र्रॆँ र्रेँ र्रैँ र्रॉँ र्रॊँ र्रोँ र्रौँ र्रॢँ र्रॣँ  र्रं र्रां र्रिं र्रीं र्रुं र्रूं र्रृं र्रॄं र्रॅं र्रॆं र्रें र्रैं र्रॉं र्रॊं र्रों र्रौं र्रॢं र्रॣं  र्रः र्राः र्रिः र्रीः र्रुः र्रूः र्रृः र्रॄः र्रॅः र्रॆः र्रेः र्रैः र्रॉः र्रॊः र्रोः र्रौः र्रॢः र्रॣः  <br><br>
+
+ऱ ऱा ऱि ऱी ऱु ऱू ऱृ ऱॄ ऱॅ ऱॆ ऱे ऱै ऱॉ ऱॊ ऱो ऱौ ऱॢ ऱॣ  ऱँ ऱाँ ऱिँ ऱीँ ऱुँ ऱूँ ऱृँ ऱॄँ ऱॅँ ऱॆँ ऱेँ ऱैँ ऱॉँ ऱॊँ ऱोँ ऱौँ ऱॢँ ऱॣँ  ऱं ऱां ऱिं ऱीं ऱुं ऱूं ऱृं ऱॄं ऱॅं ऱॆं ऱें ऱैं ऱॉं ऱॊं ऱों ऱौं ऱॢं ऱॣं  ऱः ऱाः ऱिः ऱीः ऱुः ऱूः ऱृः ऱॄः ऱॅः ऱॆः ऱेः ऱैः ऱॉः ऱॊः ऱोः ऱौः ऱॢः ऱॣः र्ऱ र्ऱा र्ऱि र्ऱी र्ऱु र्ऱू र्ऱृ र्ऱॄ र्ऱॅ र्ऱॆ र्ऱे र्ऱै र्ऱॉ र्ऱॊ र्ऱो र्ऱौ र्ऱॢ र्ऱॣ  र्ऱँ र्ऱाँ र्ऱिँ र्ऱीँ र्ऱुँ र्ऱूँ र्ऱृँ र्ऱॄँ र्ऱॅँ र्ऱॆँ र्ऱेँ र्ऱैँ र्ऱॉँ र्ऱॊँ र्ऱोँ र्ऱौँ र्ऱॢँ र्ऱॣँ  र्ऱं र्ऱां र्ऱिं र्ऱीं र्ऱुं र्ऱूं र्ऱृं र्ऱॄं र्ऱॅं र्ऱॆं र्ऱें र्ऱैं र्ऱॉं र्ऱॊं र्ऱों र्ऱौं र्ऱॢं र्ऱॣं  र्ऱः र्ऱाः र्ऱिः र्ऱीः र्ऱुः र्ऱूः र्ऱृः र्ऱॄः र्ऱॅः र्ऱॆः र्ऱेः र्ऱैः र्ऱॉः र्ऱॊः र्ऱोः र्ऱौः र्ऱॢः र्ऱॣः  <br><br>
+
+ल ला लि ली लु लू लृ लॄ लॅ लॆ ले लै लॉ लॊ लो लौ लॢ लॣ  लँ लाँ लिँ लीँ लुँ लूँ लृँ लॄँ लॅँ लॆँ लेँ लैँ लॉँ लॊँ लोँ लौँ लॢँ लॣँ  लं लां लिं लीं लुं लूं लृं लॄं लॅं लॆं लें लैं लॉं लॊं लों लौं लॢं लॣं  लः लाः लिः लीः लुः लूः लृः लॄः लॅः लॆः लेः लैः लॉः लॊः लोः लौः लॢः लॣः र्ल र्ला र्लि र्ली र्लु र्लू र्लृ र्लॄ र्लॅ र्लॆ र्ले र्लै र्लॉ र्लॊ र्लो र्लौ र्लॢ र्लॣ  र्लँ र्लाँ र्लिँ र्लीँ र्लुँ र्लूँ र्लृँ र्लॄँ र्लॅँ र्लॆँ र्लेँ र्लैँ र्लॉँ र्लॊँ र्लोँ र्लौँ र्लॢँ र्लॣँ  र्लं र्लां र्लिं र्लीं र्लुं र्लूं र्लृं र्लॄं र्लॅं र्लॆं र्लें र्लैं र्लॉं र्लॊं र्लों र्लौं र्लॢं र्लॣं  र्लः र्लाः र्लिः र्लीः र्लुः र्लूः र्लृः र्लॄः र्लॅः र्लॆः र्लेः र्लैः र्लॉः र्लॊः र्लोः र्लौः र्लॢः र्लॣः  <br><br>
+
+ळ ळा ळि ळी ळु ळू ळृ ळॄ ळॅ ळॆ ळे ळै ळॉ ळॊ ळो ळौ ळॢ ळॣ  ळँ ळाँ ळिँ ळीँ ळुँ ळूँ ळृँ ळॄँ ळॅँ ळॆँ ळेँ ळैँ ळॉँ ळॊँ ळोँ ळौँ ळॢँ ळॣँ  ळं ळां ळिं ळीं ळुं ळूं ळृं ळॄं ळॅं ळॆं ळें ळैं ळॉं ळॊं ळों ळौं ळॢं ळॣं  ळः ळाः ळिः ळीः ळुः ळूः ळृः ळॄः ळॅः ळॆः ळेः ळैः ळॉः ळॊः ळोः ळौः ळॢः ळॣः र्ळ र्ळा र्ळि र्ळी र्ळु र्ळू र्ळृ र्ळॄ र्ळॅ र्ळॆ र्ळे र्ळै र्ळॉ र्ळॊ र्ळो र्ळौ र्ळॢ र्ळॣ  र्ळँ र्ळाँ र्ळिँ र्ळीँ र्ळुँ र्ळूँ र्ळृँ र्ळॄँ र्ळॅँ र्ळॆँ र्ळेँ र्ळैँ र्ळॉँ र्ळॊँ र्ळोँ र्ळौँ र्ळॢँ र्ळॣँ  र्ळं र्ळां र्ळिं र्ळीं र्ळुं र्ळूं र्ळृं र्ळॄं र्ळॅं र्ळॆं र्ळें र्ळैं र्ळॉं र्ळॊं र्ळों र्ळौं र्ळॢं र्ळॣं  र्ळः र्ळाः र्ळिः र्ळीः र्ळुः र्ळूः र्ळृः र्ळॄः र्ळॅः र्ळॆः र्ळेः र्ळैः र्ळॉः र्ळॊः र्ळोः र्ळौः र्ळॢः र्ळॣः  <br><br>
+
+ऴ ऴा ऴि ऴी ऴु ऴू ऴृ ऴॄ ऴॅ ऴॆ ऴे ऴै ऴॉ ऴॊ ऴो ऴौ ऴॢ ऴॣ  ऴँ ऴाँ ऴिँ ऴीँ ऴुँ ऴूँ ऴृँ ऴॄँ ऴॅँ ऴॆँ ऴेँ ऴैँ ऴॉँ ऴॊँ ऴोँ ऴौँ ऴॢँ ऴॣँ  ऴं ऴां ऴिं ऴीं ऴुं ऴूं ऴृं ऴॄं ऴॅं ऴॆं ऴें ऴैं ऴॉं ऴॊं ऴों ऴौं ऴॢं ऴॣं  ऴः ऴाः ऴिः ऴीः ऴुः ऴूः ऴृः ऴॄः ऴॅः ऴॆः ऴेः ऴैः ऴॉः ऴॊः ऴोः ऴौः ऴॢः ऴॣः र्ऴ र्ऴा र्ऴि र्ऴी र्ऴु र्ऴू र्ऴृ र्ऴॄ र्ऴॅ र्ऴॆ र्ऴे र्ऴै र्ऴॉ र्ऴॊ र्ऴो र्ऴौ र्ऴॢ र्ऴॣ  र्ऴँ र्ऴाँ र्ऴिँ र्ऴीँ र्ऴुँ र्ऴूँ र्ऴृँ र्ऴॄँ र्ऴॅँ र्ऴॆँ र्ऴेँ र्ऴैँ र्ऴॉँ र्ऴॊँ र्ऴोँ र्ऴौँ र्ऴॢँ र्ऴॣँ  र्ऴं र्ऴां र्ऴिं र्ऴीं र्ऴुं र्ऴूं र्ऴृं र्ऴॄं र्ऴॅं र्ऴॆं र्ऴें र्ऴैं र्ऴॉं र्ऴॊं र्ऴों र्ऴौं र्ऴॢं र्ऴॣं  र्ऴः र्ऴाः र्ऴिः र्ऴीः र्ऴुः र्ऴूः र्ऴृः र्ऴॄः र्ऴॅः र्ऴॆः र्ऴेः र्ऴैः र्ऴॉः र्ऴॊः र्ऴोः र्ऴौः र्ऴॢः र्ऴॣः  <br><br>
+
+व वा वि वी वु वू वृ वॄ वॅ वॆ वे वै वॉ वॊ वो वौ वॢ वॣ  वँ वाँ विँ वीँ वुँ वूँ वृँ वॄँ वॅँ वॆँ वेँ वैँ वॉँ वॊँ वोँ वौँ वॢँ वॣँ  वं वां विं वीं वुं वूं वृं वॄं वॅं वॆं वें वैं वॉं वॊं वों वौं वॢं वॣं  वः वाः विः वीः वुः वूः वृः वॄः वॅः वॆः वेः वैः वॉः वॊः वोः वौः वॢः वॣः र्व र्वा र्वि र्वी र्वु र्वू र्वृ र्वॄ र्वॅ र्वॆ र्वे र्वै र्वॉ र्वॊ र्वो र्वौ र्वॢ र्वॣ  र्वँ र्वाँ र्विँ र्वीँ र्वुँ र्वूँ र्वृँ र्वॄँ र्वॅँ र्वॆँ र्वेँ र्वैँ र्वॉँ र्वॊँ र्वोँ र्वौँ र्वॢँ र्वॣँ  र्वं र्वां र्विं र्वीं र्वुं र्वूं र्वृं र्वॄं र्वॅं र्वॆं र्वें र्वैं र्वॉं र्वॊं र्वों र्वौं र्वॢं र्वॣं  र्वः र्वाः र्विः र्वीः र्वुः र्वूः र्वृः र्वॄः र्वॅः र्वॆः र्वेः र्वैः र्वॉः र्वॊः र्वोः र्वौः र्वॢः र्वॣः  <br><br>
+
+श शा शि शी शु शू शृ शॄ शॅ शॆ शे शै शॉ शॊ शो शौ शॢ शॣ  शँ शाँ शिँ शीँ शुँ शूँ शृँ शॄँ शॅँ शॆँ शेँ शैँ शॉँ शॊँ शोँ शौँ शॢँ शॣँ  शं शां शिं शीं शुं शूं शृं शॄं शॅं शॆं शें शैं शॉं शॊं शों शौं शॢं शॣं  शः शाः शिः शीः शुः शूः शृः शॄः शॅः शॆः शेः शैः शॉः शॊः शोः शौः शॢः शॣः र्श र्शा र्शि र्शी र्शु र्शू र्शृ र्शॄ र्शॅ र्शॆ र्शे र्शै र्शॉ र्शॊ र्शो र्शौ र्शॢ र्शॣ  र्शँ र्शाँ र्शिँ र्शीँ र्शुँ र्शूँ र्शृँ र्शॄँ र्शॅँ र्शॆँ र्शेँ र्शैँ र्शॉँ र्शॊँ र्शोँ र्शौँ र्शॢँ र्शॣँ  र्शं र्शां र्शिं र्शीं र्शुं र्शूं र्शृं र्शॄं र्शॅं र्शॆं र्शें र्शैं र्शॉं र्शॊं र्शों र्शौं र्शॢं र्शॣं  र्शः र्शाः र्शिः र्शीः र्शुः र्शूः र्शृः र्शॄः र्शॅः र्शॆः र्शेः र्शैः र्शॉः र्शॊः र्शोः र्शौः र्शॢः र्शॣः  <br><br>
+
+ष षा षि षी षु षू षृ षॄ षॅ षॆ षे षै षॉ षॊ षो षौ षॢ षॣ  षँ षाँ षिँ षीँ षुँ षूँ षृँ षॄँ षॅँ षॆँ षेँ षैँ षॉँ षॊँ षोँ षौँ षॢँ षॣँ  षं षां षिं षीं षुं षूं षृं षॄं षॅं षॆं षें षैं षॉं षॊं षों षौं षॢं षॣं  षः षाः षिः षीः षुः षूः षृः षॄः षॅः षॆः षेः षैः षॉः षॊः षोः षौः षॢः षॣः र्ष र्षा र्षि र्षी र्षु र्षू र्षृ र्षॄ र्षॅ र्षॆ र्षे र्षै र्षॉ र्षॊ र्षो र्षौ र्षॢ र्षॣ  र्षँ र्षाँ र्षिँ र्षीँ र्षुँ र्षूँ र्षृँ र्षॄँ र्षॅँ र्षॆँ र्षेँ र्षैँ र्षॉँ र्षॊँ र्षोँ र्षौँ र्षॢँ र्षॣँ  र्षं र्षां र्षिं र्षीं र्षुं र्षूं र्षृं र्षॄं र्षॅं र्षॆं र्षें र्षैं र्षॉं र्षॊं र्षों र्षौं र्षॢं र्षॣं  र्षः र्षाः र्षिः र्षीः र्षुः र्षूः र्षृः र्षॄः र्षॅः र्षॆः र्षेः र्षैः र्षॉः र्षॊः र्षोः र्षौः र्षॢः र्षॣः  <br><br>
+
+स सा सि सी सु सू सृ सॄ सॅ सॆ से सै सॉ सॊ सो सौ सॢ सॣ  सँ साँ सिँ सीँ सुँ सूँ सृँ सॄँ सॅँ सॆँ सेँ सैँ सॉँ सॊँ सोँ सौँ सॢँ सॣँ  सं सां सिं सीं सुं सूं सृं सॄं सॅं सॆं सें सैं सॉं सॊं सों सौं सॢं सॣं  सः साः सिः सीः सुः सूः सृः सॄः सॅः सॆः सेः सैः सॉः सॊः सोः सौः सॢः सॣः र्स र्सा र्सि र्सी र्सु र्सू र्सृ र्सॄ र्सॅ र्सॆ र्से र्सै र्सॉ र्सॊ र्सो र्सौ र्सॢ र्सॣ  र्सँ र्साँ र्सिँ र्सीँ र्सुँ र्सूँ र्सृँ र्सॄँ र्सॅँ र्सॆँ र्सेँ र्सैँ र्सॉँ र्सॊँ र्सोँ र्सौँ र्सॢँ र्सॣँ  र्सं र्सां र्सिं र्सीं र्सुं र्सूं र्सृं र्सॄं र्सॅं र्सॆं र्सें र्सैं र्सॉं र्सॊं र्सों र्सौं र्सॢं र्सॣं  र्सः र्साः र्सिः र्सीः र्सुः र्सूः र्सृः र्सॄः र्सॅः र्सॆः र्सेः र्सैः र्सॉः र्सॊः र्सोः र्सौः र्सॢः र्सॣः  <br><br>
+
+ह हा हि ही हु हू हृ हॄ हॅ हॆ हे है हॉ हॊ हो हौ हॢ हॣ  हँ हाँ हिँ हीँ हुँ हूँ हृँ हॄँ हॅँ हॆँ हेँ हैँ हॉँ हॊँ होँ हौँ हॢँ हॣँ  हं हां हिं हीं हुं हूं हृं हॄं हॅं हॆं हें हैं हॉं हॊं हों हौं हॢं हॣं  हः हाः हिः हीः हुः हूः हृः हॄः हॅः हॆः हेः हैः हॉः हॊः होः हौः हॢः हॣः र्ह र्हा र्हि र्ही र्हु र्हू र्हृ र्हॄ र्हॅ र्हॆ र्हे र्है र्हॉ र्हॊ र्हो र्हौ र्हॢ र्हॣ  र्हँ र्हाँ र्हिँ र्हीँ र्हुँ र्हूँ र्हृँ र्हॄँ र्हॅँ र्हॆँ र्हेँ र्हैँ र्हॉँ र्हॊँ र्होँ र्हौँ र्हॢँ र्हॣँ  र्हं र्हां र्हिं र्हीं र्हुं र्हूं र्हृं र्हॄं र्हॅं र्हॆं र्हें र्हैं र्हॉं र्हॊं र्हों र्हौं र्हॢं र्हॣं  र्हः र्हाः र्हिः र्हीः र्हुः र्हूः र्हृः र्हॄः र्हॅः र्हॆः र्हेः र्हैः र्हॉः र्हॊः र्होः र्हौः र्हॢः र्हॣः  <br><br>
+
+क़ क़ा क़ि क़ी क़ु क़ू क़ृ क़ॄ क़ॅ क़ॆ क़े क़ै क़ॉ क़ॊ क़ो क़ौ क़ॢ क़ॣ  क़ँ क़ाँ क़िँ क़ीँ क़ुँ क़ूँ क़ृँ क़ॄँ क़ॅँ क़ॆँ क़ेँ क़ैँ क़ॉँ क़ॊँ क़ोँ क़ौँ क़ॢँ क़ॣँ  क़ं क़ां क़िं क़ीं क़ुं क़ूं क़ृं क़ॄं क़ॅं क़ॆं क़ें क़ैं क़ॉं क़ॊं क़ों क़ौं क़ॢं क़ॣं  क़ः क़ाः क़िः क़ीः क़ुः क़ूः क़ृः क़ॄः क़ॅः क़ॆः क़ेः क़ैः क़ॉः क़ॊः क़ोः क़ौः क़ॢः क़ॣः र्क़ र्क़ा र्क़ि र्क़ी र्क़ु र्क़ू र्क़ृ र्क़ॄ र्क़ॅ र्क़ॆ र्क़े र्क़ै र्क़ॉ र्क़ॊ र्क़ो र्क़ौ र्क़ॢ र्क़ॣ  र्क़ँ र्क़ाँ र्क़िँ र्क़ीँ र्क़ुँ र्क़ूँ र्क़ृँ र्क़ॄँ र्क़ॅँ र्क़ॆँ र्क़ेँ र्क़ैँ र्क़ॉँ र्क़ॊँ र्क़ोँ र्क़ौँ र्क़ॢँ र्क़ॣँ  र्क़ं र्क़ां र्क़िं र्क़ीं र्क़ुं र्क़ूं र्क़ृं र्क़ॄं र्क़ॅं र्क़ॆं र्क़ें र्क़ैं र्क़ॉं र्क़ॊं र्क़ों र्क़ौं र्क़ॢं र्क़ॣं  र्क़ः र्क़ाः र्क़िः र्क़ीः र्क़ुः र्क़ूः र्क़ृः र्क़ॄः र्क़ॅः र्क़ॆः र्क़ेः र्क़ैः र्क़ॉः र्क़ॊः र्क़ोः र्क़ौः र्क़ॢः र्क़ॣः  <br><br>
+
+ख़ ख़ा ख़ि ख़ी ख़ु ख़ू ख़ृ ख़ॄ ख़ॅ ख़ॆ ख़े ख़ै ख़ॉ ख़ॊ ख़ो ख़ौ ख़ॢ ख़ॣ  ख़ँ ख़ाँ ख़िँ ख़ीँ ख़ुँ ख़ूँ ख़ृँ ख़ॄँ ख़ॅँ ख़ॆँ ख़ेँ ख़ैँ ख़ॉँ ख़ॊँ ख़ोँ ख़ौँ ख़ॢँ ख़ॣँ  ख़ं ख़ां ख़िं ख़ीं ख़ुं ख़ूं ख़ृं ख़ॄं ख़ॅं ख़ॆं ख़ें ख़ैं ख़ॉं ख़ॊं ख़ों ख़ौं ख़ॢं ख़ॣं  ख़ः ख़ाः ख़िः ख़ीः ख़ुः ख़ूः ख़ृः ख़ॄः ख़ॅः ख़ॆः ख़ेः ख़ैः ख़ॉः ख़ॊः ख़ोः ख़ौः ख़ॢः ख़ॣः र्ख़ र्ख़ा र्ख़ि र्ख़ी र्ख़ु र्ख़ू र्ख़ृ र्ख़ॄ र्ख़ॅ र्ख़ॆ र्ख़े र्ख़ै र्ख़ॉ र्ख़ॊ र्ख़ो र्ख़ौ र्ख़ॢ र्ख़ॣ  र्ख़ँ र्ख़ाँ र्ख़िँ र्ख़ीँ र्ख़ुँ र्ख़ूँ र्ख़ृँ र्ख़ॄँ र्ख़ॅँ र्ख़ॆँ र्ख़ेँ र्ख़ैँ र्ख़ॉँ र्ख़ॊँ र्ख़ोँ र्ख़ौँ र्ख़ॢँ र्ख़ॣँ  र्ख़ं र्ख़ां र्ख़िं र्ख़ीं र्ख़ुं र्ख़ूं र्ख़ृं र्ख़ॄं र्ख़ॅं र्ख़ॆं र्ख़ें र्ख़ैं र्ख़ॉं र्ख़ॊं र्ख़ों र्ख़ौं र्ख़ॢं र्ख़ॣं  र्ख़ः र्ख़ाः र्ख़िः र्ख़ीः र्ख़ुः र्ख़ूः र्ख़ृः र्ख़ॄः र्ख़ॅः र्ख़ॆः र्ख़ेः र्ख़ैः र्ख़ॉः र्ख़ॊः र्ख़ोः र्ख़ौः र्ख़ॢः र्ख़ॣः  <br><br>
+
+ग़ ग़ा ग़ि ग़ी ग़ु ग़ू ग़ृ ग़ॄ ग़ॅ ग़ॆ ग़े ग़ै ग़ॉ ग़ॊ ग़ो ग़ौ ग़ॢ ग़ॣ  ग़ँ ग़ाँ ग़िँ ग़ीँ ग़ुँ ग़ूँ ग़ृँ ग़ॄँ ग़ॅँ ग़ॆँ ग़ेँ ग़ैँ ग़ॉँ ग़ॊँ ग़ोँ ग़ौँ ग़ॢँ ग़ॣँ  ग़ं ग़ां ग़िं ग़ीं ग़ुं ग़ूं ग़ृं ग़ॄं ग़ॅं ग़ॆं ग़ें ग़ैं ग़ॉं ग़ॊं ग़ों ग़ौं ग़ॢं ग़ॣं  ग़ः ग़ाः ग़िः ग़ीः ग़ुः ग़ूः ग़ृः ग़ॄः ग़ॅः ग़ॆः ग़ेः ग़ैः ग़ॉः ग़ॊः ग़ोः ग़ौः ग़ॢः ग़ॣः र्ग़ र्ग़ा र्ग़ि र्ग़ी र्ग़ु र्ग़ू र्ग़ृ र्ग़ॄ र्ग़ॅ र्ग़ॆ र्ग़े र्ग़ै र्ग़ॉ र्ग़ॊ र्ग़ो र्ग़ौ र्ग़ॢ र्ग़ॣ  र्ग़ँ र्ग़ाँ र्ग़िँ र्ग़ीँ र्ग़ुँ र्ग़ूँ र्ग़ृँ र्ग़ॄँ र्ग़ॅँ र्ग़ॆँ र्ग़ेँ र्ग़ैँ र्ग़ॉँ र्ग़ॊँ र्ग़ोँ र्ग़ौँ र्ग़ॢँ र्ग़ॣँ  र्ग़ं र्ग़ां र्ग़िं र्ग़ीं र्ग़ुं र्ग़ूं र्ग़ृं र्ग़ॄं र्ग़ॅं र्ग़ॆं र्ग़ें र्ग़ैं र्ग़ॉं र्ग़ॊं र्ग़ों र्ग़ौं र्ग़ॢं र्ग़ॣं  र्ग़ः र्ग़ाः र्ग़िः र्ग़ीः र्ग़ुः र्ग़ूः र्ग़ृः र्ग़ॄः र्ग़ॅः र्ग़ॆः र्ग़ेः र्ग़ैः र्ग़ॉः र्ग़ॊः र्ग़ोः र्ग़ौः र्ग़ॢः र्ग़ॣः  <br><br>
+
+ज़ ज़ा ज़ि ज़ी ज़ु ज़ू ज़ृ ज़ॄ ज़ॅ ज़ॆ ज़े ज़ै ज़ॉ ज़ॊ ज़ो ज़ौ ज़ॢ ज़ॣ  ज़ँ ज़ाँ ज़िँ ज़ीँ ज़ुँ ज़ूँ ज़ृँ ज़ॄँ ज़ॅँ ज़ॆँ ज़ेँ ज़ैँ ज़ॉँ ज़ॊँ ज़ोँ ज़ौँ ज़ॢँ ज़ॣँ  ज़ं ज़ां ज़िं ज़ीं ज़ुं ज़ूं ज़ृं ज़ॄं ज़ॅं ज़ॆं ज़ें ज़ैं ज़ॉं ज़ॊं ज़ों ज़ौं ज़ॢं ज़ॣं  ज़ः ज़ाः ज़िः ज़ीः ज़ुः ज़ूः ज़ृः ज़ॄः ज़ॅः ज़ॆः ज़ेः ज़ैः ज़ॉः ज़ॊः ज़ोः ज़ौः ज़ॢः ज़ॣः र्ज़ र्ज़ा र्ज़ि र्ज़ी र्ज़ु र्ज़ू र्ज़ृ र्ज़ॄ र्ज़ॅ र्ज़ॆ र्ज़े र्ज़ै र्ज़ॉ र्ज़ॊ र्ज़ो र्ज़ौ र्ज़ॢ र्ज़ॣ  र्ज़ँ र्ज़ाँ र्ज़िँ र्ज़ीँ र्ज़ुँ र्ज़ूँ र्ज़ृँ र्ज़ॄँ र्ज़ॅँ र्ज़ॆँ र्ज़ेँ र्ज़ैँ र्ज़ॉँ र्ज़ॊँ र्ज़ोँ र्ज़ौँ र्ज़ॢँ र्ज़ॣँ  र्ज़ं र्ज़ां र्ज़िं र्ज़ीं र्ज़ुं र्ज़ूं र्ज़ृं र्ज़ॄं र्ज़ॅं र्ज़ॆं र्ज़ें र्ज़ैं र्ज़ॉं र्ज़ॊं र्ज़ों र्ज़ौं र्ज़ॢं र्ज़ॣं  र्ज़ः र्ज़ाः र्ज़िः र्ज़ीः र्ज़ुः र्ज़ूः र्ज़ृः र्ज़ॄः र्ज़ॅः र्ज़ॆः र्ज़ेः र्ज़ैः र्ज़ॉः र्ज़ॊः र्ज़ोः र्ज़ौः र्ज़ॢः र्ज़ॣः  <br><br>
+
+ड़ ड़ा ड़ि ड़ी ड़ु ड़ू ड़ृ ड़ॄ ड़ॅ ड़ॆ ड़े ड़ै ड़ॉ ड़ॊ ड़ो ड़ौ ड़ॢ ड़ॣ  ड़ँ ड़ाँ ड़िँ ड़ीँ ड़ुँ ड़ूँ ड़ृँ ड़ॄँ ड़ॅँ ड़ॆँ ड़ेँ ड़ैँ ड़ॉँ ड़ॊँ ड़ोँ ड़ौँ ड़ॢँ ड़ॣँ  ड़ं ड़ां ड़िं ड़ीं ड़ुं ड़ूं ड़ृं ड़ॄं ड़ॅं ड़ॆं ड़ें ड़ैं ड़ॉं ड़ॊं ड़ों ड़ौं ड़ॢं ड़ॣं  ड़ः ड़ाः ड़िः ड़ीः ड़ुः ड़ूः ड़ृः ड़ॄः ड़ॅः ड़ॆः ड़ेः ड़ैः ड़ॉः ड़ॊः ड़ोः ड़ौः ड़ॢः ड़ॣः र्ड़ र्ड़ा र्ड़ि र्ड़ी र्ड़ु र्ड़ू र्ड़ृ र्ड़ॄ र्ड़ॅ र्ड़ॆ र्ड़े र्ड़ै र्ड़ॉ र्ड़ॊ र्ड़ो र्ड़ौ र्ड़ॢ र्ड़ॣ  र्ड़ँ र्ड़ाँ र्ड़िँ र्ड़ीँ र्ड़ुँ र्ड़ूँ र्ड़ृँ र्ड़ॄँ र्ड़ॅँ र्ड़ॆँ र्ड़ेँ र्ड़ैँ र्ड़ॉँ र्ड़ॊँ र्ड़ोँ र्ड़ौँ र्ड़ॢँ र्ड़ॣँ  र्ड़ं र्ड़ां र्ड़िं र्ड़ीं र्ड़ुं र्ड़ूं र्ड़ृं र्ड़ॄं र्ड़ॅं र्ड़ॆं र्ड़ें र्ड़ैं र्ड़ॉं र्ड़ॊं र्ड़ों र्ड़ौं र्ड़ॢं र्ड़ॣं  र्ड़ः र्ड़ाः र्ड़िः र्ड़ीः र्ड़ुः र्ड़ूः र्ड़ृः र्ड़ॄः र्ड़ॅः र्ड़ॆः र्ड़ेः र्ड़ैः र्ड़ॉः र्ड़ॊः र्ड़ोः र्ड़ौः र्ड़ॢः र्ड़ॣः  <br><br>
+
+ढ़ ढ़ा ढ़ि ढ़ी ढ़ु ढ़ू ढ़ृ ढ़ॄ ढ़ॅ ढ़ॆ ढ़े ढ़ै ढ़ॉ ढ़ॊ ढ़ो ढ़ौ ढ़ॢ ढ़ॣ  ढ़ँ ढ़ाँ ढ़िँ ढ़ीँ ढ़ुँ ढ़ूँ ढ़ृँ ढ़ॄँ ढ़ॅँ ढ़ॆँ ढ़ेँ ढ़ैँ ढ़ॉँ ढ़ॊँ ढ़ोँ ढ़ौँ ढ़ॢँ ढ़ॣँ  ढ़ं ढ़ां ढ़िं ढ़ीं ढ़ुं ढ़ूं ढ़ृं ढ़ॄं ढ़ॅं ढ़ॆं ढ़ें ढ़ैं ढ़ॉं ढ़ॊं ढ़ों ढ़ौं ढ़ॢं ढ़ॣं  ढ़ः ढ़ाः ढ़िः ढ़ीः ढ़ुः ढ़ूः ढ़ृः ढ़ॄः ढ़ॅः ढ़ॆः ढ़ेः ढ़ैः ढ़ॉः ढ़ॊः ढ़ोः ढ़ौः ढ़ॢः ढ़ॣः र्ढ़ र्ढ़ा र्ढ़ि र्ढ़ी र्ढ़ु र्ढ़ू र्ढ़ृ र्ढ़ॄ र्ढ़ॅ र्ढ़ॆ र्ढ़े र्ढ़ै र्ढ़ॉ र्ढ़ॊ र्ढ़ो र्ढ़ौ र्ढ़ॢ र्ढ़ॣ  र्ढ़ँ र्ढ़ाँ र्ढ़िँ र्ढ़ीँ र्ढ़ुँ र्ढ़ूँ र्ढ़ृँ र्ढ़ॄँ र्ढ़ॅँ र्ढ़ॆँ र्ढ़ेँ र्ढ़ैँ र्ढ़ॉँ र्ढ़ॊँ र्ढ़ोँ र्ढ़ौँ र्ढ़ॢँ र्ढ़ॣँ  र्ढ़ं र्ढ़ां र्ढ़िं र्ढ़ीं र्ढ़ुं र्ढ़ूं र्ढ़ृं र्ढ़ॄं र्ढ़ॅं र्ढ़ॆं र्ढ़ें र्ढ़ैं र्ढ़ॉं र्ढ़ॊं र्ढ़ों र्ढ़ौं र्ढ़ॢं र्ढ़ॣं  र्ढ़ः र्ढ़ाः र्ढ़िः र्ढ़ीः र्ढ़ुः र्ढ़ूः र्ढ़ृः र्ढ़ॄः र्ढ़ॅः र्ढ़ॆः र्ढ़ेः र्ढ़ैः र्ढ़ॉः र्ढ़ॊः र्ढ़ोः र्ढ़ौः र्ढ़ॢः र्ढ़ॣः  <br><br>
+
+फ़ फ़ा फ़ि फ़ी फ़ु फ़ू फ़ृ फ़ॄ फ़ॅ फ़ॆ फ़े फ़ै फ़ॉ फ़ॊ फ़ो फ़ौ फ़ॢ फ़ॣ  फ़ँ फ़ाँ फ़िँ फ़ीँ फ़ुँ फ़ूँ फ़ृँ फ़ॄँ फ़ॅँ फ़ॆँ फ़ेँ फ़ैँ फ़ॉँ फ़ॊँ फ़ोँ फ़ौँ फ़ॢँ फ़ॣँ  फ़ं फ़ां फ़िं फ़ीं फ़ुं फ़ूं फ़ृं फ़ॄं फ़ॅं फ़ॆं फ़ें फ़ैं फ़ॉं फ़ॊं फ़ों फ़ौं फ़ॢं फ़ॣं  फ़ः फ़ाः फ़िः फ़ीः फ़ुः फ़ूः फ़ृः फ़ॄः फ़ॅः फ़ॆः फ़ेः फ़ैः फ़ॉः फ़ॊः फ़ोः फ़ौः फ़ॢः फ़ॣः र्फ़ र्फ़ा र्फ़ि र्फ़ी र्फ़ु र्फ़ू र्फ़ृ र्फ़ॄ र्फ़ॅ र्फ़ॆ र्फ़े र्फ़ै र्फ़ॉ र्फ़ॊ र्फ़ो र्फ़ौ र्फ़ॢ र्फ़ॣ  र्फ़ँ र्फ़ाँ र्फ़िँ र्फ़ीँ र्फ़ुँ र्फ़ूँ र्फ़ृँ र्फ़ॄँ र्फ़ॅँ र्फ़ॆँ र्फ़ेँ र्फ़ैँ र्फ़ॉँ र्फ़ॊँ र्फ़ोँ र्फ़ौँ र्फ़ॢँ र्फ़ॣँ  र्फ़ं र्फ़ां र्फ़िं र्फ़ीं र्फ़ुं र्फ़ूं र्फ़ृं र्फ़ॄं र्फ़ॅं र्फ़ॆं र्फ़ें र्फ़ैं र्फ़ॉं र्फ़ॊं र्फ़ों र्फ़ौं र्फ़ॢं र्फ़ॣं  र्फ़ः र्फ़ाः र्फ़िः र्फ़ीः र्फ़ुः र्फ़ूः र्फ़ृः र्फ़ॄः र्फ़ॅः र्फ़ॆः र्फ़ेः र्फ़ैः र्फ़ॉः र्फ़ॊः र्फ़ोः र्फ़ौः र्फ़ॢः र्फ़ॣः  <br><br>
+
+य़ य़ा य़ि य़ी य़ु य़ू य़ृ य़ॄ य़ॅ य़ॆ य़े य़ै य़ॉ य़ॊ य़ो य़ौ य़ॢ य़ॣ  य़ँ य़ाँ य़िँ य़ीँ य़ुँ य़ूँ य़ृँ य़ॄँ य़ॅँ य़ॆँ य़ेँ य़ैँ य़ॉँ य़ॊँ य़ोँ य़ौँ य़ॢँ य़ॣँ  य़ं य़ां य़िं य़ीं य़ुं य़ूं य़ृं य़ॄं य़ॅं य़ॆं य़ें य़ैं य़ॉं य़ॊं य़ों य़ौं य़ॢं य़ॣं  य़ः य़ाः य़िः य़ीः य़ुः य़ूः य़ृः य़ॄः य़ॅः य़ॆः य़ेः य़ैः य़ॉः य़ॊः य़ोः य़ौः य़ॢः य़ॣः र्य़ र्य़ा र्य़ि र्य़ी र्य़ु र्य़ू र्य़ृ र्य़ॄ र्य़ॅ र्य़ॆ र्य़े र्य़ै र्य़ॉ र्य़ॊ र्य़ो र्य़ौ र्य़ॢ र्य़ॣ  र्य़ँ र्य़ाँ र्य़िँ र्य़ीँ र्य़ुँ र्य़ूँ र्य़ृँ र्य़ॄँ र्य़ॅँ र्य़ॆँ र्य़ेँ र्य़ैँ र्य़ॉँ र्य़ॊँ र्य़ोँ र्य़ौँ र्य़ॢँ र्य़ॣँ  र्य़ं र्य़ां र्य़िं र्य़ीं र्य़ुं र्य़ूं र्य़ृं र्य़ॄं र्य़ॅं र्य़ॆं र्य़ें र्य़ैं र्य़ॉं र्य़ॊं र्य़ों र्य़ौं र्य़ॢं र्य़ॣं  र्य़ः र्य़ाः र्य़िः र्य़ीः र्य़ुः र्य़ूः र्य़ृः र्य़ॄः र्य़ॅः र्य़ॆः र्य़ेः र्य़ैः र्य़ॉः र्य़ॊः र्य़ोः र्य़ौः र्य़ॢः र्य़ॣः </p>
+
+</div>
+
+	  </div>
+
+	  <!-/- Half Forms -/->
+	  <div id="consonant_pairs" style="display: none;">
+	  	<div contenteditable="true" style="width: 920px;">
+
+<p class="sizelabel">Pairs of half forms followed by full consonants (All Included) - Generated using https://github.com/anexasajoop/devanagari-type-tools</p>
+
+<p>&nbsp;</p>
+
+<p style="font-size: 40px;">
+क्क क्ख क्ग क्घ क्ङ क्च क्छ क्ज क्झ क्ञ क्ट क्ठ क्ड क्ढ क्ण क्त क्थ क्द क्ध क्न क्ऩ क्प क्फ क्ब क्भ क्म क्य क्र क्ऱ क्ल क्ळ क्ऴ क्व क्श क्ष क्स क्ह क्क़ क्ख़ क्ग़ क्ज़ क्ड़ क्ढ़ क्फ़ क्य़ <br><br>
+ख्क ख्ख ख्ग ख्घ ख्ङ ख्च ख्छ ख्ज ख्झ ख्ञ ख्ट ख्ठ ख्ड ख्ढ ख्ण ख्त ख्थ ख्द ख्ध ख्न ख्ऩ ख्प ख्फ ख्ब ख्भ ख्म ख्य ख्र ख्ऱ ख्ल ख्ळ ख्ऴ ख्व ख्श ख्ष ख्स ख्ह ख्क़ ख्ख़ ख्ग़ ख्ज़ ख्ड़ ख्ढ़ ख्फ़ ख्य़ <br><br>
+ग्क ग्ख ग्ग ग्घ ग्ङ ग्च ग्छ ग्ज ग्झ ग्ञ ग्ट ग्ठ ग्ड ग्ढ ग्ण ग्त ग्थ ग्द ग्ध ग्न ग्ऩ ग्प ग्फ ग्ब ग्भ ग्म ग्य ग्र ग्ऱ ग्ल ग्ळ ग्ऴ ग्व ग्श ग्ष ग्स ग्ह ग्क़ ग्ख़ ग्ग़ ग्ज़ ग्ड़ ग्ढ़ ग्फ़ ग्य़ <br><br>
+घ्क घ्ख घ्ग घ्घ घ्ङ घ्च घ्छ घ्ज घ्झ घ्ञ घ्ट घ्ठ घ्ड घ्ढ घ्ण घ्त घ्थ घ्द घ्ध घ्न घ्ऩ घ्प घ्फ घ्ब घ्भ घ्म घ्य घ्र घ्ऱ घ्ल घ्ळ घ्ऴ घ्व घ्श घ्ष घ्स घ्ह घ्क़ घ्ख़ घ्ग़ घ्ज़ घ्ड़ घ्ढ़ घ्फ़ घ्य़ <br><br>
+ङ्क ङ्ख ङ्ग ङ्घ ङ्ङ ङ्च ङ्छ ङ्ज ङ्झ ङ्ञ ङ्ट ङ्ठ ङ्ड ङ्ढ ङ्ण ङ्त ङ्थ ङ्द ङ्ध ङ्न ङ्ऩ ङ्प ङ्फ ङ्ब ङ्भ ङ्म ङ्य ङ्र ङ्ऱ ङ्ल ङ्ळ ङ्ऴ ङ्व ङ्श ङ्ष ङ्स ङ्ह ङ्क़ ङ्ख़ ङ्ग़ ङ्ज़ ङ्ड़ ङ्ढ़ ङ्फ़ ङ्य़ <br><br>
+च्क च्ख च्ग च्घ च्ङ च्च च्छ च्ज च्झ च्ञ च्ट च्ठ च्ड च्ढ च्ण च्त च्थ च्द च्ध च्न च्ऩ च्प च्फ च्ब च्भ च्म च्य च्र च्ऱ च्ल च्ळ च्ऴ च्व च्श च्ष च्स च्ह च्क़ च्ख़ च्ग़ च्ज़ च्ड़ च्ढ़ च्फ़ च्य़ <br><br>
+छ्क छ्ख छ्ग छ्घ छ्ङ छ्च छ्छ छ्ज छ्झ छ्ञ छ्ट छ्ठ छ्ड छ्ढ छ्ण छ्त छ्थ छ्द छ्ध छ्न छ्ऩ छ्प छ्फ छ्ब छ्भ छ्म छ्य छ्र छ्ऱ छ्ल छ्ळ छ्ऴ छ्व छ्श छ्ष छ्स छ्ह छ्क़ छ्ख़ छ्ग़ छ्ज़ छ्ड़ छ्ढ़ छ्फ़ छ्य़ <br><br>
+ज्क ज्ख ज्ग ज्घ ज्ङ ज्च ज्छ ज्ज ज्झ ज्ञ ज्ट ज्ठ ज्ड ज्ढ ज्ण ज्त ज्थ ज्द ज्ध ज्न ज्ऩ ज्प ज्फ ज्ब ज्भ ज्म ज्य ज्र ज्ऱ ज्ल ज्ळ ज्ऴ ज्व ज्श ज्ष ज्स ज्ह ज्क़ ज्ख़ ज्ग़ ज्ज़ ज्ड़ ज्ढ़ ज्फ़ ज्य़ <br><br>
+झ्क झ्ख झ्ग झ्घ झ्ङ झ्च झ्छ झ्ज झ्झ झ्ञ झ्ट झ्ठ झ्ड झ्ढ झ्ण झ्त झ्थ झ्द झ्ध झ्न झ्ऩ झ्प झ्फ झ्ब झ्भ झ्म झ्य झ्र झ्ऱ झ्ल झ्ळ झ्ऴ झ्व झ्श झ्ष झ्स झ्ह झ्क़ झ्ख़ झ्ग़ झ्ज़ झ्ड़ झ्ढ़ झ्फ़ झ्य़ <br><br>
+ञ्क ञ्ख ञ्ग ञ्घ ञ्ङ ञ्च ञ्छ ञ्ज ञ्झ ञ्ञ ञ्ट ञ्ठ ञ्ड ञ्ढ ञ्ण ञ्त ञ्थ ञ्द ञ्ध ञ्न ञ्ऩ ञ्प ञ्फ ञ्ब ञ्भ ञ्म ञ्य ञ्र ञ्ऱ ञ्ल ञ्ळ ञ्ऴ ञ्व ञ्श ञ्ष ञ्स ञ्ह ञ्क़ ञ्ख़ ञ्ग़ ञ्ज़ ञ्ड़ ञ्ढ़ ञ्फ़ ञ्य़ <br><br>
+ट्क ट्ख ट्ग ट्घ ट्ङ ट्च ट्छ ट्ज ट्झ ट्ञ ट्ट ट्ठ ट्ड ट्ढ ट्ण ट्त ट्थ ट्द ट्ध ट्न ट्ऩ ट्प ट्फ ट्ब ट्भ ट्म ट्य ट्र ट्ऱ ट्ल ट्ळ ट्ऴ ट्व ट्श ट्ष ट्स ट्ह ट्क़ ट्ख़ ट्ग़ ट्ज़ ट्ड़ ट्ढ़ ट्फ़ ट्य़ <br><br>
+ठ्क ठ्ख ठ्ग ठ्घ ठ्ङ ठ्च ठ्छ ठ्ज ठ्झ ठ्ञ ठ्ट ठ्ठ ठ्ड ठ्ढ ठ्ण ठ्त ठ्थ ठ्द ठ्ध ठ्न ठ्ऩ ठ्प ठ्फ ठ्ब ठ्भ ठ्म ठ्य ठ्र ठ्ऱ ठ्ल ठ्ळ ठ्ऴ ठ्व ठ्श ठ्ष ठ्स ठ्ह ठ्क़ ठ्ख़ ठ्ग़ ठ्ज़ ठ्ड़ ठ्ढ़ ठ्फ़ ठ्य़ <br><br>
+ड्क ड्ख ड्ग ड्घ ड्ङ ड्च ड्छ ड्ज ड्झ ड्ञ ड्ट ड्ठ ड्ड ड्ढ ड्ण ड्त ड्थ ड्द ड्ध ड्न ड्ऩ ड्प ड्फ ड्ब ड्भ ड्म ड्य ड्र ड्ऱ ड्ल ड्ळ ड्ऴ ड्व ड्श ड्ष ड्स ड्ह ड्क़ ड्ख़ ड्ग़ ड्ज़ ड्ड़ ड्ढ़ ड्फ़ ड्य़ <br><br>
+ढ्क ढ्ख ढ्ग ढ्घ ढ्ङ ढ्च ढ्छ ढ्ज ढ्झ ढ्ञ ढ्ट ढ्ठ ढ्ड ढ्ढ ढ्ण ढ्त ढ्थ ढ्द ढ्ध ढ्न ढ्ऩ ढ्प ढ्फ ढ्ब ढ्भ ढ्म ढ्य ढ्र ढ्ऱ ढ्ल ढ्ळ ढ्ऴ ढ्व ढ्श ढ्ष ढ्स ढ्ह ढ्क़ ढ्ख़ ढ्ग़ ढ्ज़ ढ्ड़ ढ्ढ़ ढ्फ़ ढ्य़ <br><br>
+ण्क ण्ख ण्ग ण्घ ण्ङ ण्च ण्छ ण्ज ण्झ ण्ञ ण्ट ण्ठ ण्ड ण्ढ ण्ण ण्त ण्थ ण्द ण्ध ण्न ण्ऩ ण्प ण्फ ण्ब ण्भ ण्म ण्य ण्र ण्ऱ ण्ल ण्ळ ण्ऴ ण्व ण्श ण्ष ण्स ण्ह ण्क़ ण्ख़ ण्ग़ ण्ज़ ण्ड़ ण्ढ़ ण्फ़ ण्य़ <br><br>
+त्क त्ख त्ग त्घ त्ङ त्च त्छ त्ज त्झ त्ञ त्ट त्ठ त्ड त्ढ त्ण त्त त्थ त्द त्ध त्न त्ऩ त्प त्फ त्ब त्भ त्म त्य त्र त्ऱ त्ल त्ळ त्ऴ त्व त्श त्ष त्स त्ह त्क़ त्ख़ त्ग़ त्ज़ त्ड़ त्ढ़ त्फ़ त्य़ <br><br>
+थ्क थ्ख थ्ग थ्घ थ्ङ थ्च थ्छ थ्ज थ्झ थ्ञ थ्ट थ्ठ थ्ड थ्ढ थ्ण थ्त थ्थ थ्द थ्ध थ्न थ्ऩ थ्प थ्फ थ्ब थ्भ थ्म थ्य थ्र थ्ऱ थ्ल थ्ळ थ्ऴ थ्व थ्श थ्ष थ्स थ्ह थ्क़ थ्ख़ थ्ग़ थ्ज़ थ्ड़ थ्ढ़ थ्फ़ थ्य़ <br><br>
+द्क द्ख द्ग द्घ द्ङ द्च द्छ द्ज द्झ द्ञ द्ट द्ठ द्ड द्ढ द्ण द्त द्थ द्द द्ध द्न द्ऩ द्प द्फ द्ब द्भ द्म द्य द्र द्ऱ द्ल द्ळ द्ऴ द्व द्श द्ष द्स द्ह द्क़ द्ख़ द्ग़ द्ज़ द्ड़ द्ढ़ द्फ़ द्य़ <br><br>
+ध्क ध्ख ध्ग ध्घ ध्ङ ध्च ध्छ ध्ज ध्झ ध्ञ ध्ट ध्ठ ध्ड ध्ढ ध्ण ध्त ध्थ ध्द ध्ध ध्न ध्ऩ ध्प ध्फ ध्ब ध्भ ध्म ध्य ध्र ध्ऱ ध्ल ध्ळ ध्ऴ ध्व ध्श ध्ष ध्स ध्ह ध्क़ ध्ख़ ध्ग़ ध्ज़ ध्ड़ ध्ढ़ ध्फ़ ध्य़ <br><br>
+न्क न्ख न्ग न्घ न्ङ न्च न्छ न्ज न्झ न्ञ न्ट न्ठ न्ड न्ढ न्ण न्त न्थ न्द न्ध न्न न्ऩ न्प न्फ न्ब न्भ न्म न्य न्र न्ऱ न्ल न्ळ न्ऴ न्व न्श न्ष न्स न्ह न्क़ न्ख़ न्ग़ न्ज़ न्ड़ न्ढ़ न्फ़ न्य़ <br><br>
+ऩ्क ऩ्ख ऩ्ग ऩ्घ ऩ्ङ ऩ्च ऩ्छ ऩ्ज ऩ्झ ऩ्ञ ऩ्ट ऩ्ठ ऩ्ड ऩ्ढ ऩ्ण ऩ्त ऩ्थ ऩ्द ऩ्ध ऩ्न ऩ्ऩ ऩ्प ऩ्फ ऩ्ब ऩ्भ ऩ्म ऩ्य ऩ्र ऩ्ऱ ऩ्ल ऩ्ळ ऩ्ऴ ऩ्व ऩ्श ऩ्ष ऩ्स ऩ्ह ऩ्क़ ऩ्ख़ ऩ्ग़ ऩ्ज़ ऩ्ड़ ऩ्ढ़ ऩ्फ़ ऩ्य़ <br><br>
+प्क प्ख प्ग प्घ प्ङ प्च प्छ प्ज प्झ प्ञ प्ट प्ठ प्ड प्ढ प्ण प्त प्थ प्द प्ध प्न प्ऩ प्प प्फ प्ब प्भ प्म प्य प्र प्ऱ प्ल प्ळ प्ऴ प्व प्श प्ष प्स प्ह प्क़ प्ख़ प्ग़ प्ज़ प्ड़ प्ढ़ प्फ़ प्य़ <br><br>
+फ्क फ्ख फ्ग फ्घ फ्ङ फ्च फ्छ फ्ज फ्झ फ्ञ फ्ट फ्ठ फ्ड फ्ढ फ्ण फ्त फ्थ फ्द फ्ध फ्न फ्ऩ फ्प फ्फ फ्ब फ्भ फ्म फ्य फ्र फ्ऱ फ्ल फ्ळ फ्ऴ फ्व फ्श फ्ष फ्स फ्ह फ्क़ फ्ख़ फ्ग़ फ्ज़ फ्ड़ फ्ढ़ फ्फ़ फ्य़ <br><br>
+ब्क ब्ख ब्ग ब्घ ब्ङ ब्च ब्छ ब्ज ब्झ ब्ञ ब्ट ब्ठ ब्ड ब्ढ ब्ण ब्त ब्थ ब्द ब्ध ब्न ब्ऩ ब्प ब्फ ब्ब ब्भ ब्म ब्य ब्र ब्ऱ ब्ल ब्ळ ब्ऴ ब्व ब्श ब्ष ब्स ब्ह ब्क़ ब्ख़ ब्ग़ ब्ज़ ब्ड़ ब्ढ़ ब्फ़ ब्य़ <br><br>
+भ्क भ्ख भ्ग भ्घ भ्ङ भ्च भ्छ भ्ज भ्झ भ्ञ भ्ट भ्ठ भ्ड भ्ढ भ्ण भ्त भ्थ भ्द भ्ध भ्न भ्ऩ भ्प भ्फ भ्ब भ्भ भ्म भ्य भ्र भ्ऱ भ्ल भ्ळ भ्ऴ भ्व भ्श भ्ष भ्स भ्ह भ्क़ भ्ख़ भ्ग़ भ्ज़ भ्ड़ भ्ढ़ भ्फ़ भ्य़ <br><br>
+म्क म्ख म्ग म्घ म्ङ म्च म्छ म्ज म्झ म्ञ म्ट म्ठ म्ड म्ढ म्ण म्त म्थ म्द म्ध म्न म्ऩ म्प म्फ म्ब म्भ म्म म्य म्र म्ऱ म्ल म्ळ म्ऴ म्व म्श म्ष म्स म्ह म्क़ म्ख़ म्ग़ म्ज़ म्ड़ म्ढ़ म्फ़ म्य़ <br><br>
+य्क य्ख य्ग य्घ य्ङ य्च य्छ य्ज य्झ य्ञ य्ट य्ठ य्ड य्ढ य्ण य्त य्थ य्द य्ध य्न य्ऩ य्प य्फ य्ब य्भ य्म य्य य्र य्ऱ य्ल य्ळ य्ऴ य्व य्श य्ष य्स य्ह य्क़ य्ख़ य्ग़ य्ज़ य्ड़ य्ढ़ य्फ़ य्य़ <br><br>
+र्क र्ख र्ग र्घ र्ङ र्च र्छ र्ज र्झ र्ञ र्ट र्ठ र्ड र्ढ र्ण र्त र्थ र्द र्ध र्न र्ऩ र्प र्फ र्ब र्भ र्म र्य र्र र्ऱ र्ल र्ळ र्ऴ र्व र्श र्ष र्स र्ह र्क़ र्ख़ र्ग़ र्ज़ र्ड़ र्ढ़ र्फ़ र्य़ <br><br>
+ऱ्क ऱ्ख ऱ्ग ऱ्घ ऱ्ङ ऱ्च ऱ्छ ऱ्ज ऱ्झ ऱ्ञ ऱ्ट ऱ्ठ ऱ्ड ऱ्ढ ऱ्ण ऱ्त ऱ्थ ऱ्द ऱ्ध ऱ्न ऱ्ऩ ऱ्प ऱ्फ ऱ्ब ऱ्भ ऱ्म ऱ्य ऱ्र ऱ्ऱ ऱ्ल ऱ्ळ ऱ्ऴ ऱ्व ऱ्श ऱ्ष ऱ्स ऱ्ह ऱ्क़ ऱ्ख़ ऱ्ग़ ऱ्ज़ ऱ्ड़ ऱ्ढ़ ऱ्फ़ ऱ्य़ <br><br>
+ल्क ल्ख ल्ग ल्घ ल्ङ ल्च ल्छ ल्ज ल्झ ल्ञ ल्ट ल्ठ ल्ड ल्ढ ल्ण ल्त ल्थ ल्द ल्ध ल्न ल्ऩ ल्प ल्फ ल्ब ल्भ ल्म ल्य ल्र ल्ऱ ल्ल ल्ळ ल्ऴ ल्व ल्श ल्ष ल्स ल्ह ल्क़ ल्ख़ ल्ग़ ल्ज़ ल्ड़ ल्ढ़ ल्फ़ ल्य़ <br><br>
+ळ्क ळ्ख ळ्ग ळ्घ ळ्ङ ळ्च ळ्छ ळ्ज ळ्झ ळ्ञ ळ्ट ळ्ठ ळ्ड ळ्ढ ळ्ण ळ्त ळ्थ ळ्द ळ्ध ळ्न ळ्ऩ ळ्प ळ्फ ळ्ब ळ्भ ळ्म ळ्य ळ्र ळ्ऱ ळ्ल ळ्ळ ळ्ऴ ळ्व ळ्श ळ्ष ळ्स ळ्ह ळ्क़ ळ्ख़ ळ्ग़ ळ्ज़ ळ्ड़ ळ्ढ़ ळ्फ़ ळ्य़ <br><br>
+ऴ्क ऴ्ख ऴ्ग ऴ्घ ऴ्ङ ऴ्च ऴ्छ ऴ्ज ऴ्झ ऴ्ञ ऴ्ट ऴ्ठ ऴ्ड ऴ्ढ ऴ्ण ऴ्त ऴ्थ ऴ्द ऴ्ध ऴ्न ऴ्ऩ ऴ्प ऴ्फ ऴ्ब ऴ्भ ऴ्म ऴ्य ऴ्र ऴ्ऱ ऴ्ल ऴ्ळ ऴ्ऴ ऴ्व ऴ्श ऴ्ष ऴ्स ऴ्ह ऴ्क़ ऴ्ख़ ऴ्ग़ ऴ्ज़ ऴ्ड़ ऴ्ढ़ ऴ्फ़ ऴ्य़ <br><br>
+व्क व्ख व्ग व्घ व्ङ व्च व्छ व्ज व्झ व्ञ व्ट व्ठ व्ड व्ढ व्ण व्त व्थ व्द व्ध व्न व्ऩ व्प व्फ व्ब व्भ व्म व्य व्र व्ऱ व्ल व्ळ व्ऴ व्व व्श व्ष व्स व्ह व्क़ व्ख़ व्ग़ व्ज़ व्ड़ व्ढ़ व्फ़ व्य़ <br><br>
+श्क श्ख श्ग श्घ श्ङ श्च श्छ श्ज श्झ श्ञ श्ट श्ठ श्ड श्ढ श्ण श्त श्थ श्द श्ध श्न श्ऩ श्प श्फ श्ब श्भ श्म श्य श्र श्ऱ श्ल श्ळ श्ऴ श्व श्श श्ष श्स श्ह श्क़ श्ख़ श्ग़ श्ज़ श्ड़ श्ढ़ श्फ़ श्य़ <br><br>
+ष्क ष्ख ष्ग ष्घ ष्ङ ष्च ष्छ ष्ज ष्झ ष्ञ ष्ट ष्ठ ष्ड ष्ढ ष्ण ष्त ष्थ ष्द ष्ध ष्न ष्ऩ ष्प ष्फ ष्ब ष्भ ष्म ष्य ष्र ष्ऱ ष्ल ष्ळ ष्ऴ ष्व ष्श ष्ष ष्स ष्ह ष्क़ ष्ख़ ष्ग़ ष्ज़ ष्ड़ ष्ढ़ ष्फ़ ष्य़ <br><br>
+स्क स्ख स्ग स्घ स्ङ स्च स्छ स्ज स्झ स्ञ स्ट स्ठ स्ड स्ढ स्ण स्त स्थ स्द स्ध स्न स्ऩ स्प स्फ स्ब स्भ स्म स्य स्र स्ऱ स्ल स्ळ स्ऴ स्व स्श स्ष स्स स्ह स्क़ स्ख़ स्ग़ स्ज़ स्ड़ स्ढ़ स्फ़ स्य़ <br><br>
+ह्क ह्ख ह्ग ह्घ ह्ङ ह्च ह्छ ह्ज ह्झ ह्ञ ह्ट ह्ठ ह्ड ह्ढ ह्ण ह्त ह्थ ह्द ह्ध ह्न ह्ऩ ह्प ह्फ ह्ब ह्भ ह्म ह्य ह्र ह्ऱ ह्ल ह्ळ ह्ऴ ह्व ह्श ह्ष ह्स ह्ह ह्क़ ह्ख़ ह्ग़ ह्ज़ ह्ड़ ह्ढ़ ह्फ़ ह्य़ <br><br>
+क़्क क़्ख क़्ग क़्घ क़्ङ क़्च क़्छ क़्ज क़्झ क़्ञ क़्ट क़्ठ क़्ड क़्ढ क़्ण क़्त क़्थ क़्द क़्ध क़्न क़्ऩ क़्प क़्फ क़्ब क़्भ क़्म क़्य क़्र क़्ऱ क़्ल क़्ळ क़्ऴ क़्व क़्श क़्ष क़्स क़्ह क़्क़ क़्ख़ क़्ग़ क़्ज़ क़्ड़ क़्ढ़ क़्फ़ क़्य़ <br><br>
+ख़्क ख़्ख ख़्ग ख़्घ ख़्ङ ख़्च ख़्छ ख़्ज ख़्झ ख़्ञ ख़्ट ख़्ठ ख़्ड ख़्ढ ख़्ण ख़्त ख़्थ ख़्द ख़्ध ख़्न ख़्ऩ ख़्प ख़्फ ख़्ब ख़्भ ख़्म ख़्य ख़्र ख़्ऱ ख़्ल ख़्ळ ख़्ऴ ख़्व ख़्श ख़्ष ख़्स ख़्ह ख़्क़ ख़्ख़ ख़्ग़ ख़्ज़ ख़्ड़ ख़्ढ़ ख़्फ़ ख़्य़ <br><br>
+ग़्क ग़्ख ग़्ग ग़्घ ग़्ङ ग़्च ग़्छ ग़्ज ग़्झ ग़्ञ ग़्ट ग़्ठ ग़्ड ग़्ढ ग़्ण ग़्त ग़्थ ग़्द ग़्ध ग़्न ग़्ऩ ग़्प ग़्फ ग़्ब ग़्भ ग़्म ग़्य ग़्र ग़्ऱ ग़्ल ग़्ळ ग़्ऴ ग़्व ग़्श ग़्ष ग़्स ग़्ह ग़्क़ ग़्ख़ ग़्ग़ ग़्ज़ ग़्ड़ ग़्ढ़ ग़्फ़ ग़्य़ <br><br>
+ज़्क ज़्ख ज़्ग ज़्घ ज़्ङ ज़्च ज़्छ ज़्ज ज़्झ ज़्ञ ज़्ट ज़्ठ ज़्ड ज़्ढ ज़्ण ज़्त ज़्थ ज़्द ज़्ध ज़्न ज़्ऩ ज़्प ज़्फ ज़्ब ज़्भ ज़्म ज़्य ज़्र ज़्ऱ ज़्ल ज़्ळ ज़्ऴ ज़्व ज़्श ज़्ष ज़्स ज़्ह ज़्क़ ज़्ख़ ज़्ग़ ज़्ज़ ज़्ड़ ज़्ढ़ ज़्फ़ ज़्य़ <br><br>
+ड़्क ड़्ख ड़्ग ड़्घ ड़्ङ ड़्च ड़्छ ड़्ज ड़्झ ड़्ञ ड़्ट ड़्ठ ड़्ड ड़्ढ ड़्ण ड़्त ड़्थ ड़्द ड़्ध ड़्न ड़्ऩ ड़्प ड़्फ ड़्ब ड़्भ ड़्म ड़्य ड़्र ड़्ऱ ड़्ल ड़्ळ ड़्ऴ ड़्व ड़्श ड़्ष ड़्स ड़्ह ड़्क़ ड़्ख़ ड़्ग़ ड़्ज़ ड़्ड़ ड़्ढ़ ड़्फ़ ड़्य़ <br><br>
+ढ़्क ढ़्ख ढ़्ग ढ़्घ ढ़्ङ ढ़्च ढ़्छ ढ़्ज ढ़्झ ढ़्ञ ढ़्ट ढ़्ठ ढ़्ड ढ़्ढ ढ़्ण ढ़्त ढ़्थ ढ़्द ढ़्ध ढ़्न ढ़्ऩ ढ़्प ढ़्फ ढ़्ब ढ़्भ ढ़्म ढ़्य ढ़्र ढ़्ऱ ढ़्ल ढ़्ळ ढ़्ऴ ढ़्व ढ़्श ढ़्ष ढ़्स ढ़्ह ढ़्क़ ढ़्ख़ ढ़्ग़ ढ़्ज़ ढ़्ड़ ढ़्ढ़ ढ़्फ़ ढ़्य़ <br><br>
+फ़्क फ़्ख फ़्ग फ़्घ फ़्ङ फ़्च फ़्छ फ़्ज फ़्झ फ़्ञ फ़्ट फ़्ठ फ़्ड फ़्ढ फ़्ण फ़्त फ़्थ फ़्द फ़्ध फ़्न फ़्ऩ फ़्प फ़्फ फ़्ब फ़्भ फ़्म फ़्य फ़्र फ़्ऱ फ़्ल फ़्ळ फ़्ऴ फ़्व फ़्श फ़्ष फ़्स फ़्ह फ़्क़ फ़्ख़ फ़्ग़ फ़्ज़ फ़्ड़ फ़्ढ़ फ़्फ़ फ़्य़ <br><br>
+य़्क य़्ख य़्ग य़्घ य़्ङ य़्च य़्छ य़्ज य़्झ य़्ञ य़्ट य़्ठ य़्ड य़्ढ य़्ण य़्त य़्थ य़्द य़्ध य़्न य़्ऩ य़्प य़्फ य़्ब य़्भ य़्म य़्य य़्र य़्ऱ य़्ल य़्ळ य़्ऴ य़्व य़्श य़्ष य़्स य़्ह य़्क़ य़्ख़ य़्ग़ य़्ज़ य़्ड़ य़्ढ़ य़्फ़ य़्य़ </p>
+
+</div>	  </div>
+	  
+	  <!-/- Conjuncts -/->
+	  <div id="conjunct" style="display: none;">
+	  	<div contenteditable="true" style="width: 920px;">
+
+	<p class="sizelabel">A few conjunts - informal test</p>
+	
+	<table width="856px" cellpadding="16" border="0">
+		<tbody><tr>
+			<td width="33%" valign="top">
+				<p style="font-size: 40px;">
+				राष्ट्रप<br>
+				कार्रवाई<br>
+				विकल्पों<br>
+				सुन्नी<br>
+				तस्वीरें<br>
+				स्टेट<br>
+				हफ़्ते<br>
+				क़स्बों<br>
+				सुरक्षा<br>
+				क़ब्ज़ा<br>
+				वैद्यनाथन<br>
+				कार्यक्रम<br>
+				कार्रवाई<br>
+				राष्ट्रपति</p>
+			</td>
+			<td width="33%" valign="top">
+			<p style="font-size: 40px;">
+				एचडब्ल्यू<br>
+				कि<br>
+				प्रशिक्षण<br>
+				लिए<br>
+				रिवोल्यूशयूशनरी<br>
+				प्रमुख<br>
+				सक्रिय<br>
+				फ़ोटोग्राफ<br>
+				तस्वीरों<br>
+				नेतृत्व<br>
+				क्या<br>
+				अड्डे<br>
+				मार्चर्च<br>
+				फ़िल्माए</p>
+			</td>
+			<td width="33%" valign="top">
+			<p style="font-size: 40px;">
+				उन्होंने<br>
+				स्पीचर<br>
+				फ़ोटोग्राफ़<br>
+				आत्मसमर्पर्पण<br>
+				उन्हें<br>
+				कुछ<br>
+				दूसरी<br>
+				कर्मियोंमियों<br>
+				विद्रोहियोंरोहियों<br>
+				ट्विटर<br>
+				एंड्रॉएड<br>
+				धर्मगुरु<br>
+				हूँड्डूट्टूईंर्नौ<br>
+				हूँईंड्डूट्टूर्नौ</p>
+			</td>
+		</tr>
+	</tbody></table>
+
+</div>	  </div>
+
+	  <!-/- Extremes -/->
+	  <div id="extremes" style="display: none;">
+	  	<div style="width: 100%;">
+	
+	<p class="sizelabel">Height Extremes</p>
+	<table cellpadding="4" cellspacing="0" border="0">
+				<tbody><tr>
+			<td><p class="sizelabel">48px</p></td>
+			<td><p style="font-size: 48px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">44px</p></td>
+			<td><p style="font-size: 44px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">40px</p></td>
+			<td><p style="font-size: 40px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">36px</p></td>
+			<td><p style="font-size: 36px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">32px</p></td>
+			<td><p style="font-size: 32px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">28px</p></td>
+			<td><p style="font-size: 28px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">24px</p></td>
+			<td><p style="font-size: 24px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">20px</p></td>
+			<td><p style="font-size: 20px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">18px</p></td>
+			<td><p style="font-size: 18px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">17px</p></td>
+			<td><p style="font-size: 17px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">16px</p></td>
+			<td><p style="font-size: 16px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">15px</p></td>
+			<td><p style="font-size: 15px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">14px</p></td>
+			<td><p style="font-size: 14px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">13px</p></td>
+			<td><p style="font-size: 13px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">12px</p></td>
+			<td><p style="font-size: 12px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">11px</p></td>
+			<td><p style="font-size: 11px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">10px</p></td>
+			<td><p style="font-size: 10px;">Åर्मोंHड्डूļpx</p></td>
+		</tr>
+			</tbody></table>
+	
+	<p>&nbsp;</p>
+	
+	<p class="sizelabel">Suggested Progression</p>
+	<table cellpadding="4" cellspacing="0" border="0">
+				<tbody><tr>
+			<td><p class="sizelabel">48px</p></td>
+			<td><p style="font-size: 48px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">44px</p></td>
+			<td><p style="font-size: 44px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">40px</p></td>
+			<td><p style="font-size: 40px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">36px</p></td>
+			<td><p style="font-size: 36px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">32px</p></td>
+			<td><p style="font-size: 32px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">28px</p></td>
+			<td><p style="font-size: 28px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">24px</p></td>
+			<td><p style="font-size: 24px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">20px</p></td>
+			<td><p style="font-size: 20px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">18px</p></td>
+			<td><p style="font-size: 18px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">17px</p></td>
+			<td><p style="font-size: 17px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">16px</p></td>
+			<td><p style="font-size: 16px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">15px</p></td>
+			<td><p style="font-size: 15px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">14px</p></td>
+			<td><p style="font-size: 14px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">13px</p></td>
+			<td><p style="font-size: 13px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">12px</p></td>
+			<td><p style="font-size: 12px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">11px</p></td>
+			<td><p style="font-size: 11px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+				<tr>
+			<td><p class="sizelabel">10px</p></td>
+			<td><p style="font-size: 10px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p></td>
+		</tr>
+			</tbody></table>
+	
+</div>	  </div>-->
+	  	  	  
+	  <!-- Sample 1 -->
+	  <div id="sample_one" style="display: none;">
+	  	<div contenteditable="true" style="width: 920px;">
+
+	<p class="sizelabel">Test Page for Archivo Narrow Devanagari</br>
+  Based on Lohit Devanagari originally created by Sneha Kore <skore AT redhat DOT com> - 2013, Modified by Nicolas Silva <info AT nsilva DOT com> - 2014</br>
+</p>
+
+<p style="font-size: 40px;">  महाराष्ट्र शासन वर्णमाला:</p>
+
+<p class="sizelabel">Non Halfform</p>
+
+<p style="font-size: 40px;">  व्यंजन : क्  ख्  ग्  घ्  ङ्  च्  छ्  ज्  झ्  ञ्  ट्  ठ्  ड्  ढ्  </br>
+            ण्  त्  थ्  द्  ध्  न्  प्  फ्  ब्  भ्  म्  य्  र्  ल्  </br>
+            व्  श्  ष्  स्  ह्  ळ्</p>
+
+<p class="sizelabel">Non Halfform even in conjuncts</p>
+
+<p style="font-size: 40px;">  इतर व्यंजने :  क्ष्  ज्ञ् </br>
+</br>
+Localized Forms [locl]</p>
+
+<p class="sizelabel">Latin</p>
+
+<p style="font-size: 40px;">  ₹</p>
+
+<p class="sizelabel">Devanagari</p>
+
+<p style="font-size: 40px; font-language-override: "MAR";" lang="hi">  ₹</p>
+
+<p class="sizelabel">Default</p>
+
+<p style="font-size: 40px;">  ल  श  क्ल  च्ल  छ्ल  प्ल  ल्ल  श्ल</p>
+
+<p class="sizelabel">Marathi</p>
+
+<p style="font-size: 40px; font-language-override: "MAR";" lang="mr">  ल  श  क्ल  च्ल  छ्ल  प्ल  ल्ल  श्ल</p>
+
+<p class="sizelabel">Default</p>
+
+<p style="font-size: 40px;">  झ  ॹ  क्र  ५  ८ </p>
+  
+<p class="sizelabel">Nepali</p>
+
+<p style="font-size: 40px; font-language-override: "NEP";" lang="ne">  झ  ॹ  क्र  ५  ८ </br>
+</br>
+  Basic Shaping Forms</p>
+
+<p class="sizelabel">Nukta form substitution [nukt]</p>
+
+<p style="font-size: 40px;">  क़  ख़  ग़  ज़  ड़  ढ़  फ़  य़</p>
+
+<p class="sizelabel">Akhand ligature substitution [akhn]</p>
+
+<p style="font-size: 40px;">  क्ष  ज्ञ</p>
+  
+<p class="sizelabel">Reph form substitution [rphf]</p>
+
+<p style="font-size: 40px;">  र ् *</br>
+  र्क  र्ख  र्ग  र्घ  र्ङ  र्च  र्छ  र्ज  र्झ  र्ञ  र्ट  र्ठ  र्ड  र्ढ  र्ण  र्त  </br>
+  र्थ  र्द  र्ध  र्न  र्प  र्फ  र्ब  र्भ  र्म  र्य  र्र  र्ल  र्व  र्श  र्ष  र्स  र्ह  </br>
+  र्ळ  र्क्ष  र्ज्ञ …</p>
+
+<p class="sizelabel">Rakaar form substitution [pref]</p>
+
+<p style="font-size: 40px;">  * ् र </br>
+  क्र  क्ष्र  ख्र  ग्र  घ्र  च्र  ज्ञ्र  ज्र  झ्र  ञ्र  ण्र  त्र  थ्र  द्र  ध्र  </br>
+  न्र  प्र  फ्र  ब्र  भ्र  म्र  य्र  ल्र  व्र  श्र  ष्र  स्त्र  स्र  ह्र  फ़्र  क्र</p>
+
+<p class="sizelabel">Below-base form substitution [blwf]  </p>
+
+<p style="font-size: 40px;">  * ् र </br>
+  छ्र  ट्र  ठ्र  ड्र  ढ्र  ळ्र</p>
+
+<p class="sizelabel">Half-form substitution [half]</p>
+
+<p style="font-size: 40px;">  * ् * </br>
+  क्क  ख्ख  ग्ग  घ्घ  च्च  छ्छ  ज्ज  झ्झ  ञ्ञ  ट्  ठ्  ड्  ढ्  ण्  </br>
+  त्त  त्त्त  थ्थ  द्द  ध्ध  न्न  प्प  फ्फ  ब्ब  भ्भ  म्म</br>
+  य्य  ल्ल  व्व  श्श  स्स  ह्ह  ळ्ळ  क्ष्क्ष  ज्ञ्ज्ञ</p>
+
+<p class="sizelabel">Conjunct form substitution [cjct]</p>
+
+<p style="font-size: 40px;">  * ् * ् *</br>
+  द्ग  द्न  द्व  द्म  द्ध  द्घ द्ध्र्य  द्भ</p>
+
+<p class="sizelabel">iMatras Simple glyph</p>
+
+<p style="font-size: 40px;">  * ि    * ि   ं  * ि   ँ    </br>
+  र ् * ि     र ् * ि ं    र ् * ि   ँ  </br>
+</br>
+  कि  खि  गि  घि  ङि  चि  छि  जि  झि  डि  ढि  णि  थि  </br>
+  दि  धि  नि  फि  भि  रि  लि  शि  ळि  क्षि  ज्ञि </p>
+ 
+<p class="sizelabel">iMatras Simple glyph [iMatra + anusvara]</p>
+
+<p style="font-size: 40px;">  किं  खिं  गिं  घिं  ङिं  चिं  छिं  जिं  झिं  डिं  ढिं  णिं  थिं  </br>
+    दिं  धिं  निं  फिं  भिं  रिं  लिं  शिं  ळिं  क्षिं  ज्ञिं</p>  
+ 
+<p class="sizelabel">iMatras Simple glyph [iMatra + candraBindu]</p>
+
+<p style="font-size: 40px;">  किँ  खिँ  गिँ  घिँ  ङिँ  चिँ  छिँ  जिँ  झिँ  डिँ  ढिँ  णिँ  थिँ  </br>
+   दिँ  धिँ  निँ  फिँ  भिँ  रिँ  लिँ  शिँ  ळिँ  क्षिँ  ज्ञिँ</p> 
+ 
+<p class="sizelabel">iMatras Simple glyph [iMatra + reph]</p>
+
+<p style="font-size: 40px;">  र्कि  र्खि  र्गि  र्घि  र्ङि  र्चि  र्छि  र्जि  र्झि  र्डि  र्ढि  र्णि  र्थि  </br>
+  र्दि  र्धि  र्नि  र्फि  र्भि  र्रि  र्लि  र्शि  र्ळि  र्क्षि  र्ज्ञि </p>
+ 
+<p class="sizelabel">iMatras Simple glyph [iMatra + reph + anusvara]</p>
+
+<p style="font-size: 40px;">  र्किं  र्खिं  र्गिं  र्घिं  र्ङिं  र्चिं  र्छिं  र्जिं  र्झिं  र्डिं  र्ढिं  र्णिं  र्थिं  </br>
+  र्दिं  र्धिं  र्निं  र्फिं  र्भिं  र्रिं  र्लिं  र्शिं  र्ळिं  र्क्षिं  र्ज्ञिं  </p>
+ 
+<p class="sizelabel">iMatras Simple glyph  [iMatra + reph + candraBindu]</p>
+
+<p style="font-size: 40px;">  र्किँ  र्खिँ  र्गिँ  र्घिँ  र्ङिँ  र्चिँ  र्छिँ  र्जिँ  र्झिँ  र्डिँ  र्ढिँ  र्णिँ  र्थिँ  </br>
+  र्दिँ  र्धिँ  र्निँ  र्फिँ  र्भिँ  र्रिँ  र्लिँ  र्शिँ  र्ळिँ  र्क्षिँ  र्ज्ञिँ</p>
+  
+<p class="sizelabel">iMatras with conjunct</p>
+
+<p style="font-size: 40px;">  शृि  ज्जि ङ्क  ङ्खि  ङ्गि  ङ्घि  ङ्क्षि ङ्मि छ्वि  द्मि  द्यि  द्बि  द्भि  द्दि  </br>
+  द्घि  द्नि  द्वि  ड्डि  ड्ढि  ड्यि  ढ्ढि  ढ्यि  ग्नि  ह्मि  ह्नि  ह्वि  ह्लि  ह्रि  ह्णि  ह्यि</p>
+  
+<p class="sizelabel">iMatras with conjunct form substitution</p>
+
+<p style="font-size: 40px;">  ल्लि  न्नि  ञ्चि  ञ्जि  प्ति  श्चि  श्नि  श्लि  श्वि ष्टि  ष्ठि  क्ति  त्ति  ट्टि  </br>
+  ट्ठि  ट्यि  ट्वि  ठ्ठि  ठ्यि  त्ति ग्गि क्गि ग्कि</p>
+
+<p class="sizelabel">Conjunct form substitution without Matras</p>
+
+<p style="font-size: 40px;">  शृ  ज्ज ङ्क  ङ्ख  ङ्ग  ङ्घ  ङ्क्ष ङ्म छ्व  द्म  द्य  द्ब  द्भ  द्द  द्घ  द्न  द्व  ड्ड  ड्ढ  ड्य  </br>
+  ढ्ढ  ढ्य  ग्न  ह्म  ह्न  ह्व  ह्ल  ह्र  ह्ण  ह्य</br>
+  ल्ल  न्न  ञ्च  ञ्ज  प्त  श्च  श्न  श्ल  श्व  ष्ट  ष्ठ  क्त  त्त  ट्ट  ट्ठ  ट्य  ट्व  ठ्ठ  ठ्य</p>
+
+<p class="sizelabel">IiMatras Simple glyph</p>
+
+<p style="font-size: 40px;">  * ी   * ी ं   * ी ँ   </br>
+  र ् * ी   र ् * ी ं   र ् * ी ँ</p>
+
+<p class="sizelabel">IiMatras one conjunt</p>
+
+<p style="font-size: 40px;">  की  खी  पी  फी  बी  क्षी  ज्ञी  </br>
+   कीं  खीं  पीं  फीं  बीं  क्षीं  ज्ञीं  </br>
+   कीँ  खीँ  पीँ  फीँ  बीँ  क्षीँ  ज्ञीँ </br>
+   र्की  र्खी  र्पी  र्फी  र्बी  र्क्षी  र्ज्ञी  </br>
+   र्कीं  र्खीं  र्पीं  र्फीं  र्बीं  र्क्षीं  र्ज्ञीं  </br>
+   र्कीँ  र्खीँ  र्पीँ  र्फीँ  र्बीँ  र्क्षीँ  र्ज्ञीँ </p> 
+
+<p class="sizelabel">IiMatras halfforms and conjunct</p>
+
+<p style="font-size: 40px;">  क्की  क्ष्क्षी  ज्ञ्ज्ञी</br>
+  क्कीं  क्ष्क्षीं  ज्ञ्ज्ञीं</br>
+  क्कीँ  क्ष्क्षीँ  ज्ञ्ज्ञीँ</br>
+  र्क्की  र्क्ष्क्षी  र्ज्ञ्ज्ञी</br>
+  र्क्कीं  र्क्ष्क्षीं  र्ज्ञ्ज्ञीं</br>
+  र्क्कीँ  र्क्ष्क्षीँ  र्ज्ञ्ज्ञीँ</p>
+
+<p class="sizelabel">Above-base substitution</p>
+
+<p style="font-size: 40px;">   े  ै  ो  ौ  ें  ैं  ों  ौं  </p> 
+
+<p class="sizelabel">eMatra</p>
+
+<p style="font-size: 40px;">  के  खे  गे  घे  ङे  चे  छे  जे  झे  ञे  टे  ठे  डे  ढे  णे  ते  थे  दे  धे  ने  </br>
+   पे  फे  बे  भे  मे  ये  रे  ले  वे  शे  षे  से  हे  ळे  क्षे  ज्ञे</p> 
+
+ <p class="sizelabel">eMatra anusvara</p>
+
+<p style="font-size: 40px;">  कें  खें  गें  घें  ङें  चें  छें  जें  झें  ञें  टें  ठें  डें  ढें  णें  तें  थें  दें  धें  नें  </br>
+   पें  फें  बें  भें  में  यें  रें  लें  वें  शें  षें  सें  हें  ळें  क्षें  ज्ञें</p> 
+
+<p class="sizelabel">eMatra candraBindu</p>
+
+<p style="font-size: 40px;">  केँ  खेँ  गेँ  घेँ  ङेँ  चेँ  छेँ  जेँ  झेँ  ञेँ  टेँ  ठेँ  डेँ  ढेँ  णेँ  तेँ  थेँ  देँ  धेँ  नेँ  </br>
+   पेँ  फेँ  बेँ  भेँ  मेँ  येँ  रेँ  लेँ  वेँ  शेँ  षेँ  सेँ  हेँ  ळेँ  क्षेँ  ज्ञेँ</p>
+
+<p class="sizelabel">eMatra reph</p>
+
+<p style="font-size: 40px;">  र्के  र्खे  र्गे  र्घे  र्ङे  र्चे  र्छे  र्जे  र्झे  र्ञे  र्टे  र्ठे  र्डे  र्ढे  र्णे  र्ते  र्थे  र्दे  र्धे  र्ने  </br>
+  र्पे  र्फे  र्बे  र्भे  र्मे  र्ये  र्रे  र्ले  र्वे  र्शे  र्षे  र्से  र्हे  र्ळे  र्क्षे  र्ज्ञे</p>
+
+<p class="sizelabel">eMatra reph and anusvara</p>
+
+<p style="font-size: 40px;">  र्कें  र्खें  र्गें  र्घें  र्ङें  र्चें  र्छें  र्जें  र्झें  र्ञें  र्टें  र्ठें  र्डें  र्ढें  र्णें  र्तें  र्थें  र्दें  र्धें  र्नें  </br>
+  र्पें  र्फें  र्बें  र्भें  र्में  र्यें  र्रें  र्लें  र्वें  र्शें  र्षें  र्सें  र्हें  र्ळें  र्क्षें  र्ज्ञें</p>
+
+<p class="sizelabel">eMatra reph and candraBindu</p>
+
+<p style="font-size: 40px;">  र्केँ  र्खेँ  र्गेँ  र्घेँ  र्ङेँ  र्चेँ  र्छेँ  र्जेँ  र्झेँ  र्ञेँ  र्टेँ  र्ठेँ  र्डेँ  र्ढेँ  र्णेँ  र्तेँ  र्थेँ  र्देँ  र्धेँ  र्नेँ  </br>
+  र्पेँ  र्फेँ  र्बेँ  र्भेँ  र्मेँ  र्येँ  र्रेँ  र्लेँ  र्वेँ  र्शेँ  र्षेँ  र्सेँ  र्हेँ  र्ळेँ  र्क्षेँ  र्ज्ञेँ</p>
+
+<p class="sizelabel">aiMatra</p>
+
+<p style="font-size: 40px;">  कै  खै  गै  घै  ङै  चै  छै  जै  झै  ञै  टै  ठै  डै  ढै  णै  तै  थै  दै  धै  नै  </br>
+   पै  फै  बै  भै  मै  यै  रै  लै  वै  शै  षै  सै  है  ळै  क्षै  ज्ञै</p> 
+
+ <p class="sizelabel">aiMatra anusvara</p>
+
+<p style="font-size: 40px;">  कैं  खैं  गैं  घैं  ङैं  चैं  छैं  जैं  झैं  ञैं  टैं  ठैं  डैं  ढैं  णैं  तैं  थैं  दैं  धैं  नैं  </br>
+   पैं  फैं  बैं  भैं  मैं  यैं  रैं  लैं  वैं  शैं  षैं  सैं  हैं  ळैं  क्षैं  ज्ञैं</p> 
+
+<p class="sizelabel">aiMatra candraBindu</p>
+
+<p style="font-size: 40px;">  कैँ  खैँ  गैँ  घैँ  ङैँ  चैँ  छैँ  जैँ  झैँ  ञैँ  टैँ  ठैँ  डैँ  ढैँ  णैँ  तैँ  थैँ  दैँ  धैँ  नैँ  </br>
+   पैँ  फैँ  बैँ  भैँ  मैँ  यैँ  रैँ  लैँ  वैँ  शैँ  षैँ  सैँ  हैँ  ळैँ  क्षैँ  ज्ञैँ</p>
+
+<p class="sizelabel">aiMatra reph</p>
+
+<p style="font-size: 40px;">  र्कै  र्खै  र्गै  र्घै  र्ङै  र्चै  र्छै  र्जै  र्झै  र्ञै  र्टै  र्ठै  र्डै  र्ढै  र्णै  र्तै  र्थै  र्दै  र्धै  र्नै  </br>
+  र्पै  र्फै  र्बै  र्भै  र्मै  र्यै  र्रै  र्लै  र्वै  र्शै  र्षै  र्सै  र्है  र्ळै  र्क्षै  र्ज्ञै</p>
+
+<p class="sizelabel">aiMatra reph and anusvara</p>
+
+<p style="font-size: 40px;">  र्कैं  र्खैं  र्गैं  र्घैं  र्ङैं  र्चैं  र्छैं  र्जैं  र्झैं  र्ञैं  र्टैं  र्ठैं  र्डैं  र्ढैं  र्णैं  र्तैं  र्थैं  र्दैं  र्धैं  र्नैं  </br>
+  र्पैं  र्फैं  र्बैं  र्भैं  र्मैं  र्यैं  र्रैं  र्लैं  र्वैं  र्शैं  र्षैं  र्सैं  र्हैं  र्ळैं  र्क्षैं  र्ज्ञैं</p>
+
+<p class="sizelabel">aiMatra reph and candraBindu</p>
+
+<p style="font-size: 40px;">  र्कैँ  र्खैँ  र्गैँ  र्घैँ  र्ङैँ  र्चैँ  र्छैँ  र्जैँ  र्झैँ  र्ञैँ  र्टैँ  र्ठैँ  र्डैँ  र्ढैँ  र्णैँ  र्तैँ  र्थैँ  र्दैँ  र्धैँ  र्नैँ  </br>
+  र्पैँ  र्फैँ  र्बैँ  र्भैँ  र्मैँ  र्यैँ  र्रैँ  र्लैँ  र्वैँ  र्शैँ  र्षैँ  र्सैँ  र्हैँ  र्ळैँ  र्क्षैँ  र्ज्ञैँ</p>
+
+<p class="sizelabel">Reph and candraBindu</p>
+
+<p style="font-size: 40px;">  र्कँ  र्खँ  र्गँ  र्घँ  र्ङँ  र्चँ  र्छँ  र्जँ  र्झँ  र्ञँ  र्टँ  र्ठँ  र्डँ  र्ढँ  र्णँ  र्तँ  र्थँ  र्दँ  र्धँ  र्नँ  </br>
+  र्पँ  र्फँ  र्बँ  र्भँ  र्मँ  र्यँ  र्रँ  र्लँ  र्वँ  र्शँ  र्षँ  र्सँ  र्हँ  र्ळँ  र्क्षँ  र्ज्ञँ</p>
+
+<p class="sizelabel">oMatra </p>
+
+<p style="font-size: 40px;">  को  खो  गो  घो  ङो  चो  छो  जो  झो  ञो  टो  ठो  डो  ढो  णो  तो  थो  दो  धो  नो  </br>
+  पो  फो  बो  भो  मो  यो  रो  लो  वो  शो  षो  सो  हो  ळो  क्षो </p>
+
+  <p class="sizelabel">oMatra anusvara</p>
+
+<p style="font-size: 40px;">  कों  खों  गों  घों  ङों  चों  छों  जों  झों  ञों  टों  ठों  डों  ढों  णों  तों  थों  दों  धों  नों  </br>
+  पों  फों  बों  भों  मों  यों  रों  लों  वों  शों  षों  सों  हों  ळों  क्षों    </p>
+
+<p class="sizelabel">oMatra reph</p>
+
+<p style="font-size: 40px;">  को  र्खो  र्गो  र्घो  र्ङो  र्चो  र्छो  र्जो  र्झो  र्ञो  र्टो  र्ठो  र्डो  र्ढो  र्णो  र्तो  र्थो  र्दो  र्धो  र्नो  </br>
+  र्पो  र्फो  र्बो  र्भो  र्मो  र्यो  र्रो  र्लो  र्वो  र्शो  र्षो  र्सो  र्हो  र्ळो  र्क्षो    </p>
+
+<p class="sizelabel">oMatra reph and anusvara</p>
+
+<p style="font-size: 40px;">  र्कों  र्खों  र्गों  र्घों  र्ङों  र्चों  र्छों  र्जों  र्झों  र्ञों  र्टों  र्ठों  र्डों  र्ढों  र्णों  र्तों  र्थों  र्दों  र्धों  र्नों  </br>
+  र्पों  र्फों  र्बों  र्भों  र्मों  र्यों  र्रों  र्लों  र्वों  र्शों  र्षों  र्सों  र्हों  र्ळों  र्क्षों    </p>
+
+  <p class="sizelabel">oMatra reph and candraBindu</p>
+
+  <p style="font-size: 40px;">
+  र्कोँ  र्खोँ  र्गोँ  र्घोँ  र्ङोँ  र्चोँ  र्छोँ  र्जोँ  र्झोँ  र्ञोँ  र्टोँ  र्ठोँ  र्डोँ  र्ढोँ  र्णोँ  र्तोँ  र्थोँ  र्दोँ  र्धोँ  र्नोँ  </br>
+  र्पोँ  र्फोँ  र्बोँ  र्भोँ  र्मोँ  र्योँ  र्रोँ  र्लोँ  र्वोँ  र्शोँ  र्षोँ  र्सोँ  र्होँ  र्ळोँ  र्क्षोँ </p>
+
+
+<p class="sizelabel">auMatra </p>
+
+<p style="font-size: 40px;">  कौ  खौ  गौ  घौ  ङौ  चौ  छौ  जौ  झौ  ञौ  टौ  ठौ  डौ  ढौ  णौ  तौ  थौ  दौ  धौ  नौ  </br>
+  पौ  फौ  बौ  भौ  मौ  यौ  रौ  लौ  वौ  शौ  षौ  सौ  हौ  ळौ  क्षौ </p>
+
+  <p class="sizelabel">auMatra anusvara</p>
+
+<p style="font-size: 40px;">  कौं  खौं  गौं  घौं  ङौं  चौं  छौं  जौं  झौं  ञौं  टौं  ठौं  डौं  ढौं  णौं  तौं  थौं  दौं  धौं  नौं  </br>
+  पौं  फौं  बौं  भौं  मौं  यौं  रौं  लौं  वौं  शौं  षौं  सौं  हौं  ळौं  क्षौं    </p>
+
+<p class="sizelabel">auMatra reph</p>
+
+<p style="font-size: 40px;">  कौ  र्खौ  र्गौ  र्घौ  र्ङौ  र्चौ  र्छौ  र्जौ  र्झौ  र्ञौ  र्टौ  र्ठौ  र्डौ  र्ढौ  र्णौ  र्तौ  र्थौ  र्दौ  र्धौ  र्नौ  </br>
+  र्पौ  र्फौ  र्बौ  र्भौ  र्मौ  र्यौ  र्रौ  र्लौ  र्वौ  र्शौ  र्षौ  र्सौ  र्हौ  र्ळौ  र्क्षौ    </p>
+
+<p class="sizelabel">auMatra reph and anusvara</p>
+
+<p style="font-size: 40px;">  र्कौं  र्खौं  र्गौं  र्घौं  र्ङौं  र्चौं  र्छौं  र्जौं  र्झौं  र्ञौं  र्टौं  र्ठौं  र्डौं  र्ढौं  र्णौं  र्तौं  र्थौं  र्दौं  र्धौं  र्नौं  </br>
+  र्पौं  र्फौं  र्बौं  र्भौं  र्मौं  र्यौं  र्रौं  र्लौं  र्वौं  र्शौं  र्षौं  र्सौं  र्हौं  र्ळौं  र्क्षौं    </p>
+
+  <p class="sizelabel">auMatra reph and candraBindu</p>
+
+  <p style="font-size: 40px;">
+  र्कौँ  र्खौँ  र्गौँ  र्घौँ  र्ङौँ  र्चौँ  र्छौँ  र्जौँ  र्झौँ  र्ञौँ  र्टौँ  र्ठौँ  र्डौँ  र्ढौँ  र्णौँ  र्तौँ  र्थौँ  र्दौँ  र्धौँ  र्नौँ  </br>
+  र्पौँ  र्फौँ  र्बौँ  र्भौँ  र्मौँ  र्यौँ  र्रौँ  र्लौँ  र्वौँ  र्शौँ  र्षौँ  र्सौँ  र्हौँ  र्ळौँ  र्क्षौँ </p>
+ 
+
+<p class="sizelabel">Below-base substitution</p>
+
+<p style="font-size: 40px;">  ु   ू   ्रु  ्रू   ृ  </br>
+  छु  टु  ठु  डु  ढु  ळु  </br>
+  छू  टू  ठू  डू  ढू  ळू  </br>
+  छ्रु  ट्रु  ठ्रु  ड्रु  ढ्रु  ळ्रु</br>
+  छ्रू  ट्रू  ठ्रू  ड्रू  ढ्रू  ळ्रू</p>
+
+<p class="sizelabel">Halant form substitution</p>
+
+<p style="font-size: 40px;">  क्  ख्  ग्  घ्  ङ्  च्  छ्  ज्  झ्  ञ्  ट्  ठ्  ड्  ढ्  ण्  त्  थ्  द्  ध्  न्  प्  फ्  </br>
+  ब्  भ्  म्  य्  र्  ल्  व्  श्  ष्  स्  ह्  ळ्  क्ष्  ज्ञ्  </br>
+  ऱ्य  </br>
+  Glyph Testing Section</br>
+  क्वि  ट्वि  ट्विट  झ्रि  ड्ढि  ढ्ढि  ञ्चि  ह्नि  ह्णि  स्ञि  ग़्नि  क्त  शृ  र्ख्वौं  र्ख्वैं  र्ख्वें  र्कौं  र्किं  </br>
+  ट्ट्रु  ट्वू  दृ  र्कि  क्ल  खि  ख्वि  ग्नि  र्कीं  ह्णि        </br>
+  ऱ्य        </br>
+  विदर्भ</br>
+  शिक्षक असावेत "बेस्ट ऑफ दी ब्रेन्स'</br>
+  परदेशी विद्यार्थ्यांसाठी केवायसी नियम शिथिल </br>
+  तंटामुक्तीतील ८७ जिल्ह्यांना पुरस्कार रकमेची प्रतीक्षा</br>
+  ठ्ठ   ट्ठ   ह्र   हृ   ठ्ठ्रु   क्र </br>
+  अधिकारी </br>
+  अश्वमेध अश्विनी अस्मिता</br>
+  पैश्याच्या</br>
+  मुंब्र्यात </br>
+  मुंब्रा</br>
+  ब्र्य </br>
+  र्खैं </br>
+  र्‍ह  र्‍य   </br>
+  ऱ्क</br>
+  द्ध्र्य  </br>
+  श्र </p>
+
+</div>	  </div>
+
+	</div><!-- end tabs -->
+
+</section>
+		
+<!-- Footer -->
+<section id="footer">
+	<p>The Font Testing Page is a collective project made possible by a long list of wonderful people contributing together. Join us at <a href="https://github.com/impallari/font-testing-page">GitHub</a></p>
+</section>
+
+<div id="window-resizer-tooltip" style="display: none;"><a href="http://www.impallari.com/testing/index-devanagari.php#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png);"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1245</span> x <span class="tooltipHeight" id="winHeight">774</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1245</span> x <span class="tooltipHeight" id="vpHeight">635</span></div></body></html>
