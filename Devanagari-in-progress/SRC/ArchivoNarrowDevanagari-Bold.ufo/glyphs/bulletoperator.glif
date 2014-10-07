@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bulletoperator" format="1">
+  <advance width="202"/>
+  <unicode hex="2219"/>
+  <outline>
+    <contour>
+      <point x="47" y="362" type="line"/>
+      <point x="47" y="246" type="line"/>
+      <point x="154" y="246" type="line"/>
+      <point x="154" y="362" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>246</integer>
+            <integer>116</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>47</integer>
+            <integer>107</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

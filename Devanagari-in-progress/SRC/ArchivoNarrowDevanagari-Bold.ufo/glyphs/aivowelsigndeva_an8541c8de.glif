@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aivowelsigndeva_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-129" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-129" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-80" y="606" type="line"/>
+      <point x="-139" y="821" type="line"/>
+      <point x="-246" y="821" type="line"/>
+      <point x="-178" y="606" type="line"/>
+      <point x="-195" y="606" type="line"/>
+      <point x="-307" y="821" type="line"/>
+      <point x="-414" y="821" type="line"/>
+      <point x="-293" y="606" type="line"/>
+      <point x="-302" y="606" type="line"/>
+      <point x="-302" y="513" type="line"/>
+      <point x="-70" y="513" type="line"/>
+      <point x="-70" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="14" y="782" type="line"/>
+      <point x="-69" y="782" type="line"/>
+      <point x="-69" y="699" type="line"/>
+      <point x="14" y="699" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+          <array>
+            <integer>699</integer>
+            <integer>83</integer>
+          </array>
+        </array>
+        <key>replaceTable</key>
+        <array>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>7</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>12</integer>
+            <key>type</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>0</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>index</key>
+            <integer>1</integer>
+            <key>type</key>
+            <integer>2</integer>
+          </dict>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-302</integer>
+            <integer>232</integer>
+          </array>
+          <array>
+            <integer>-69</integer>
+            <integer>83</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

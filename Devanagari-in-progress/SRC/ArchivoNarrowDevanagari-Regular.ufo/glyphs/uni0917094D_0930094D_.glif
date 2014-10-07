@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0917094D0930094D" format="1">
+  <advance width="323"/>
+  <outline>
+    <contour>
+      <point x="432" y="606" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="432" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="265" y="247" type="curve"/>
+      <point x="265" y="541" type="line"/>
+      <point x="409" y="541" type="line"/>
+      <point x="409" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="541" type="line"/>
+      <point x="193" y="541" type="line"/>
+      <point x="193" y="372" type="line"/>
+      <point x="141" y="372" type="line" smooth="yes"/>
+      <point x="65" y="372"/>
+      <point x="18" y="322"/>
+      <point x="18" y="247" type="curve" smooth="yes"/>
+      <point x="18" y="177"/>
+      <point x="72" y="122"/>
+      <point x="141" y="122" type="curve" smooth="yes"/>
+      <point x="217" y="122"/>
+      <point x="265" y="172"/>
+    </contour>
+    <contour>
+      <point x="141" y="187" type="curve" smooth="yes"/>
+      <point x="111" y="187"/>
+      <point x="90" y="214"/>
+      <point x="90" y="247" type="curve" smooth="yes"/>
+      <point x="90" y="283"/>
+      <point x="110" y="306"/>
+      <point x="141" y="306" type="curve" smooth="yes"/>
+      <point x="193" y="306" type="line"/>
+      <point x="193" y="247" type="line" smooth="yes"/>
+      <point x="193" y="211"/>
+      <point x="174" y="187"/>
+    </contour>
+    <contour>
+      <point x="447" y="193" type="line"/>
+      <point x="412" y="239" type="line"/>
+      <point x="223" y="79" type="line"/>
+      <point x="223" y="-10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>11</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>122</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>306</integer>
+            <integer>66</integer>
+          </array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>18</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>193</integer>
+            <integer>72</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

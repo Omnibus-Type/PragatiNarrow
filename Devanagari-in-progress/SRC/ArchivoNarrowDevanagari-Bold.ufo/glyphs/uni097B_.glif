@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni097B" format="1">
+  <advance width="595"/>
+  <unicode hex="097B"/>
+  <outline>
+    <contour>
+      <point x="466" y="606" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="466" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="605" y="513" type="line"/>
+      <point x="605" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="513" type="line"/>
+      <point x="187" y="513" type="line"/>
+      <point x="187" y="414" type="line"/>
+      <point x="147" y="414" type="line" smooth="yes"/>
+      <point x="58" y="414"/>
+      <point x="0" y="355"/>
+      <point x="0" y="265" type="curve" smooth="yes"/>
+      <point x="0" y="175"/>
+      <point x="58" y="115"/>
+      <point x="147" y="115" type="curve" smooth="yes"/>
+      <point x="234" y="115"/>
+      <point x="293" y="175"/>
+      <point x="293" y="265" type="curve" smooth="yes"/>
+      <point x="293" y="513" type="line"/>
+      <point x="413" y="513" type="line"/>
+      <point x="413" y="80" type="line"/>
+      <point x="10" y="80" type="line"/>
+      <point x="10" y="0" type="line"/>
+      <point x="519" y="0" type="line"/>
+      <point x="519" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="147" y="209" type="curve" smooth="yes"/>
+      <point x="120" y="209"/>
+      <point x="106" y="228"/>
+      <point x="106" y="265" type="curve" smooth="yes"/>
+      <point x="106" y="298"/>
+      <point x="122" y="320"/>
+      <point x="147" y="320" type="curve" smooth="yes"/>
+      <point x="187" y="320" type="line"/>
+      <point x="187" y="265" type="line" smooth="yes"/>
+      <point x="187" y="228"/>
+      <point x="172" y="209"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>80</integer>
+          </array>
+          <array>
+            <integer>115</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>320</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>106</integer>
+          </array>
+          <array>
+            <integer>187</integer>
+            <integer>106</integer>
+          </array>
+          <array>
+            <integer>413</integer>
+            <integer>106</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

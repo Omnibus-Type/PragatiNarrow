@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0931094D" format="1">
+  <advance width="274"/>
+  <outline>
+    <contour>
+      <point x="182" y="465" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="182" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="-10" y="513" type="line"/>
+      <point x="382" y="513" type="line"/>
+      <point x="382" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="155" y="428" type="line"/>
+      <point x="51" y="428" type="line"/>
+      <point x="49" y="419"/>
+      <point x="48" y="404"/>
+      <point x="48" y="395" type="curve" smooth="yes"/>
+      <point x="48" y="295"/>
+      <point x="111" y="250"/>
+      <point x="234" y="250" type="curve" smooth="yes"/>
+      <point x="350" y="250" type="line"/>
+      <point x="350" y="344" type="line"/>
+      <point x="232" y="344" type="line" smooth="yes"/>
+      <point x="179" y="344"/>
+      <point x="155" y="365"/>
+      <point x="155" y="416" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>250</integer>
+            <integer>94</integer>
+          </array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>48</integer>
+            <integer>107</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

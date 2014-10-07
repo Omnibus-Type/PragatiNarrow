@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="madeva" format="1">
+  <advance width="530"/>
+  <unicode hex="092E"/>
+  <outline>
+    <contour>
+      <point x="420" y="606" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="420" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="540" y="541" type="line"/>
+      <point x="540" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="541" type="line"/>
+      <point x="171" y="541" type="line"/>
+      <point x="171" y="324" type="line"/>
+      <point x="124" y="324" type="line" smooth="yes"/>
+      <point x="51" y="324"/>
+      <point x="4" y="278"/>
+      <point x="4" y="209" type="curve" smooth="yes"/>
+      <point x="4" y="144"/>
+      <point x="57" y="92"/>
+      <point x="124" y="92" type="curve" smooth="yes"/>
+      <point x="195" y="92"/>
+      <point x="243" y="139"/>
+      <point x="243" y="209" type="curve" smooth="yes"/>
+      <point x="243" y="259" type="line"/>
+      <point x="384" y="259" type="line"/>
+      <point x="384" y="0" type="line"/>
+      <point x="457" y="0" type="line"/>
+      <point x="457" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="324" type="line"/>
+      <point x="243" y="324" type="line"/>
+      <point x="243" y="541" type="line"/>
+      <point x="384" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="259" type="line"/>
+      <point x="171" y="209" type="line" smooth="yes"/>
+      <point x="171" y="178"/>
+      <point x="152" y="157"/>
+      <point x="124" y="157" type="curve" smooth="yes"/>
+      <point x="97" y="157"/>
+      <point x="76" y="180"/>
+      <point x="76" y="209" type="curve" smooth="yes"/>
+      <point x="76" y="239"/>
+      <point x="95" y="259"/>
+      <point x="124" y="259" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>92</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>259</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>4</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>171</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>384</integer>
+            <integer>73</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

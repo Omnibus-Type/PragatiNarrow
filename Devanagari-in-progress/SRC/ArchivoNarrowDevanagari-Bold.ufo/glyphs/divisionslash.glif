@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash" format="1">
+  <advance width="83"/>
+  <unicode hex="2215"/>
+  <outline>
+    <contour>
+      <point x="204" y="617" type="line"/>
+      <point x="-146" y="-11" type="line"/>
+      <point x="-87" y="-11" type="line"/>
+      <point x="263" y="617" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>10</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>617</integer>
+            <integer>-20</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-146</integer>
+            <integer>409</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

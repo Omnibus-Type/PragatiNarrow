@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eshortvowelsigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0946"/>
+  <outline>
+    <contour>
+      <point x="-110" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-110" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-145" y="573" type="line"/>
+      <point x="-73" y="573" type="line"/>
+      <point x="-73" y="662" type="line" smooth="yes"/>
+      <point x="-73" y="734"/>
+      <point x="-108" y="765"/>
+      <point x="-191" y="765" type="curve" smooth="yes"/>
+      <point x="-359" y="765" type="line" smooth="yes"/>
+      <point x="-391" y="765"/>
+      <point x="-404" y="777"/>
+      <point x="-404" y="805" type="curve" smooth="yes"/>
+      <point x="-404" y="827" type="line"/>
+      <point x="-476" y="827" type="line"/>
+      <point x="-476" y="805" type="line" smooth="yes"/>
+      <point x="-476" y="732"/>
+      <point x="-441" y="701"/>
+      <point x="-359" y="701" type="curve" smooth="yes"/>
+      <point x="-191" y="701" type="line" smooth="yes"/>
+      <point x="-159" y="701"/>
+      <point x="-145" y="689"/>
+      <point x="-145" y="662" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>701</integer>
+            <integer>64</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-476</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>-145</integer>
+            <integer>72</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

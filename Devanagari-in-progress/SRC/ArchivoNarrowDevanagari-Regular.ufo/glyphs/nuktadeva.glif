@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nuktadeva" format="1">
+  <advance width="0"/>
+  <unicode hex="093C"/>
+  <outline>
+    <contour>
+      <point x="-107" y="0" type="move" name="_mark2"/>
+    </contour>
+    <contour>
+      <point x="-143" y="-56" type="line"/>
+      <point x="-143" y="-124" type="line"/>
+      <point x="-75" y="-124" type="line"/>
+      <point x="-75" y="-56" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-124</integer>
+            <integer>68</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-143</integer>
+            <integer>68</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

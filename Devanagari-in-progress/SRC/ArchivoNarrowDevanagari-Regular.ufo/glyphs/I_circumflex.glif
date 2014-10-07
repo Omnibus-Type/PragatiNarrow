@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex" format="1">
+  <advance width="202"/>
+  <unicode hex="00CE"/>
+  <outline>
+    <contour>
+      <point x="102" y="730" type="line"/>
+      <point x="141" y="660" type="line"/>
+      <point x="211" y="660" type="line"/>
+      <point x="136" y="780" type="line"/>
+      <point x="67" y="780" type="line"/>
+      <point x="-10" y="660" type="line"/>
+      <point x="62" y="660" type="line"/>
+    </contour>
+    <contour>
+      <point x="62" y="606" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>606</integer>
+            <integer>-20</integer>
+          </array>
+          <array>
+            <integer>660</integer>
+            <integer>120</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>62</integer>
+            <integer>78</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

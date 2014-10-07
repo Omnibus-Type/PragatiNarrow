@@ -1,5 +1,5 @@
 # Archivo Narrow-Devanagari  
-###(*work in progress*)
+###(*First Release*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
@@ -114,6 +114,16 @@ This information should be distributed along with the Archivo fonts and any deri
 * Alphabetic Presentation Forms (2 glyphs)
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
+
+**7 October 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release updated*)**
+- Suporte all dev2 and deva OT features (via Glyphs 2)
+- Improved the balance beetween Latin and Devanagari
+- Less latinized glyphs like इ ड and all the derivated glyphs
+- Enhance legibility on conjunction
+- Incremented the height of Matras
+- Cleaned OT Features
+- TableName windows compatible
+- Updated TTF Autohinting (v1.1): `-r 72 -c -i -x 0 -D deva -f none -W -w gGD`
 
 **29 August 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release*)**
 - Suporte all dev2 OT features (via FDK)

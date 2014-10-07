@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="1">
+  <advance width="443"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="222" y="606" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="128" y="71" type="line"/>
+      <point x="417" y="573" type="line"/>
+      <point x="417" y="606" type="line"/>
+      <point x="36" y="606" type="line"/>
+      <point x="36" y="536" type="line"/>
+      <point x="306" y="536" type="line"/>
+      <point x="18" y="34" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="423" y="0" type="line"/>
+      <point x="423" y="71" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>71</integer>
+          </array>
+          <array>
+            <integer>536</integer>
+            <integer>70</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>18</integer>
+            <integer>405</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

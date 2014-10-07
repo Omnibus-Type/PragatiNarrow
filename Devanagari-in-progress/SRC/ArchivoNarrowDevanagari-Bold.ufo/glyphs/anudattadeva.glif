@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anudattadeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0952"/>
+  <outline>
+    <contour>
+      <point x="-76" y="-90" type="line"/>
+      <point x="-422" y="-90" type="line"/>
+      <point x="-422" y="-170" type="line"/>
+      <point x="-76" y="-170" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>-170</integer>
+            <integer>80</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-422</integer>
+            <integer>346</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

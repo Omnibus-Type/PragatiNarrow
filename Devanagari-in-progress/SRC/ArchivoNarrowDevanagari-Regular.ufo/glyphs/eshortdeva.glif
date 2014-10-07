@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eshortdeva" format="1">
+  <advance width="438"/>
+  <unicode hex="090E"/>
+  <outline>
+    <contour>
+      <point x="219" y="465" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="219" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="448" y="541" type="line"/>
+      <point x="448" y="606" type="line"/>
+      <point x="365" y="606" type="line"/>
+      <point x="365" y="662" type="line" smooth="yes"/>
+      <point x="365" y="734"/>
+      <point x="330" y="765"/>
+      <point x="247" y="765" type="curve" smooth="yes"/>
+      <point x="79" y="765" type="line" smooth="yes"/>
+      <point x="47" y="765"/>
+      <point x="34" y="777"/>
+      <point x="34" y="805" type="curve" smooth="yes"/>
+      <point x="34" y="827" type="line"/>
+      <point x="-38" y="827" type="line"/>
+      <point x="-38" y="805" type="line" smooth="yes"/>
+      <point x="-38" y="732"/>
+      <point x="-3" y="701"/>
+      <point x="79" y="701" type="curve" smooth="yes"/>
+      <point x="247" y="701" type="line" smooth="yes"/>
+      <point x="279" y="701"/>
+      <point x="293" y="689"/>
+      <point x="293" y="662" type="curve" smooth="yes"/>
+      <point x="293" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="541" type="line"/>
+      <point x="73" y="541" type="line"/>
+      <point x="73" y="289" type="line" smooth="yes"/>
+      <point x="73" y="258"/>
+      <point x="81" y="236"/>
+      <point x="100" y="215" type="curve"/>
+      <point x="276" y="42" type="line"/>
+      <point x="290" y="27"/>
+      <point x="295" y="14"/>
+      <point x="295" y="-2" type="curve" smooth="yes"/>
+      <point x="295" y="-7"/>
+      <point x="294" y="-24"/>
+      <point x="289" y="-47" type="curve"/>
+      <point x="349" y="-47" type="line"/>
+      <point x="360" y="-26"/>
+      <point x="365" y="-7"/>
+      <point x="365" y="13" type="curve" smooth="yes"/>
+      <point x="365" y="38"/>
+      <point x="349" y="63"/>
+      <point x="324" y="90" type="curve"/>
+      <point x="160" y="250" type="line"/>
+      <point x="150" y="261"/>
+      <point x="146" y="274"/>
+      <point x="146" y="294" type="curve" smooth="yes"/>
+      <point x="146" y="541" type="line"/>
+      <point x="292" y="541" type="line"/>
+      <point x="292" y="356" type="line" smooth="yes"/>
+      <point x="292" y="328"/>
+      <point x="277" y="313"/>
+      <point x="251" y="313" type="curve" smooth="yes"/>
+      <point x="234" y="313" type="line"/>
+      <point x="234" y="257" type="line"/>
+      <point x="246" y="254"/>
+      <point x="260" y="252"/>
+      <point x="273" y="252" type="curve" smooth="yes"/>
+      <point x="344" y="252"/>
+      <point x="365" y="306"/>
+      <point x="365" y="359" type="curve" smooth="yes"/>
+      <point x="365" y="541" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>252</integer>
+            <integer>61</integer>
+          </array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+          <array>
+            <integer>701</integer>
+            <integer>64</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-38</integer>
+            <integer>72</integer>
+          </array>
+          <array>
+            <integer>73</integer>
+            <integer>73</integer>
+          </array>
+          <array>
+            <integer>292</integer>
+            <integer>73</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

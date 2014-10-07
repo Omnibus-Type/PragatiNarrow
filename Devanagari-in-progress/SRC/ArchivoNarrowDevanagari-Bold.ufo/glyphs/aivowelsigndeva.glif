@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aivowelsigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0948"/>
+  <outline>
+    <contour>
+      <point x="-129" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-129" y="606" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-70" y="606" type="line"/>
+      <point x="-79" y="606" type="line"/>
+      <point x="-79" y="821" type="line"/>
+      <point x="-186" y="821" type="line"/>
+      <point x="-186" y="743" type="line" smooth="yes"/>
+      <point x="-186" y="697"/>
+      <point x="-182" y="652"/>
+      <point x="-177" y="606" type="curve"/>
+      <point x="-194" y="606" type="line"/>
+      <point x="-254" y="821" type="line"/>
+      <point x="-361" y="821" type="line"/>
+      <point x="-293" y="606" type="line"/>
+      <point x="-301" y="606" type="line"/>
+      <point x="-301" y="513" type="line"/>
+      <point x="-70" y="513" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>513</integer>
+            <integer>93</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-186</integer>
+            <integer>107</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

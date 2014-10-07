@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="visargadeva" format="1">
+  <advance width="197"/>
+  <unicode hex="0903"/>
+  <outline>
+    <contour>
+      <point x="137" y="465" type="line"/>
+      <point x="60" y="465" type="line"/>
+      <point x="60" y="388" type="line"/>
+      <point x="137" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="137" y="169" type="line"/>
+      <point x="60" y="169" type="line"/>
+      <point x="60" y="92" type="line"/>
+      <point x="137" y="92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>92</integer>
+            <integer>77</integer>
+          </array>
+          <array>
+            <integer>388</integer>
+            <integer>77</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>60</integer>
+            <integer>77</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

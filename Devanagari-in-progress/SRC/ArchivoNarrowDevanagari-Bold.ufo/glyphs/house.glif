@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="house" format="1">
+  <advance width="530"/>
+  <unicode hex="2302"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="464" y="274" type="line"/>
+      <point x="265" y="498" type="line"/>
+      <point x="66" y="274" type="line"/>
+    </contour>
+    <contour>
+      <point x="383" y="79" type="line"/>
+      <point x="148" y="79" type="line"/>
+      <point x="148" y="245" type="line"/>
+      <point x="265" y="378" type="line"/>
+      <point x="383" y="245" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>0</integer>
+            <integer>79</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>66</integer>
+            <integer>82</integer>
+          </array>
+          <array>
+            <integer>383</integer>
+            <integer>81</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

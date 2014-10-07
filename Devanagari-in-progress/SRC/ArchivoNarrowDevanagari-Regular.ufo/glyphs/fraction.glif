@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="1">
+  <advance width="121"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="214" y="617" type="line"/>
+      <point x="-154" y="-11" type="line"/>
+      <point x="-98" y="-11" type="line"/>
+      <point x="269" y="617" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>10</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>617</integer>
+            <integer>-20</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>-154</integer>
+            <integer>423</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

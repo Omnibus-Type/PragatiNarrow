@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="1">
+  <advance width="443"/>
+  <unicode hex="0166"/>
+  <outline>
+    <contour>
+      <point x="260" y="536" type="line"/>
+      <point x="425" y="536" type="line"/>
+      <point x="425" y="606" type="line"/>
+      <point x="17" y="606" type="line"/>
+      <point x="17" y="536" type="line"/>
+      <point x="182" y="536" type="line"/>
+      <point x="182" y="347" type="line"/>
+      <point x="68" y="347" type="line"/>
+      <point x="68" y="283" type="line"/>
+      <point x="182" y="283" type="line"/>
+      <point x="182" y="0" type="line"/>
+      <point x="260" y="0" type="line"/>
+      <point x="260" y="283" type="line"/>
+      <point x="376" y="283" type="line"/>
+      <point x="376" y="347" type="line"/>
+      <point x="260" y="347" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>283</integer>
+            <integer>64</integer>
+          </array>
+          <array>
+            <integer>536</integer>
+            <integer>70</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>182</integer>
+            <integer>78</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

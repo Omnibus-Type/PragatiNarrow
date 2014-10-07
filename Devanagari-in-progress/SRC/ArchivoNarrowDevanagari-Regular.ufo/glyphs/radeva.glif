@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radeva" format="1">
+  <advance width="320"/>
+  <unicode hex="0930"/>
+  <outline>
+    <contour>
+      <point x="213" y="606" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="143" y="0" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="66" y="144" type="move" name="mark2"/>
+    </contour>
+    <contour>
+      <point x="249" y="405" type="curve"/>
+      <point x="249" y="541" type="line"/>
+      <point x="330" y="541" type="line"/>
+      <point x="330" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="541" type="line"/>
+      <point x="177" y="541" type="line"/>
+      <point x="177" y="398" type="line" smooth="yes"/>
+      <point x="177" y="337"/>
+      <point x="153" y="304"/>
+      <point x="108" y="304" type="curve" smooth="yes"/>
+      <point x="59" y="304" type="line"/>
+      <point x="59" y="258" type="line"/>
+      <point x="179" y="0" type="line"/>
+      <point x="257" y="0" type="line"/>
+      <point x="136" y="246" type="line"/>
+      <point x="209" y="251"/>
+      <point x="249" y="305"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>hHints</key>
+        <array>
+          <array>
+            <integer>21</integer>
+            <integer>-21</integer>
+          </array>
+          <array>
+            <integer>246</integer>
+            <integer>58</integer>
+          </array>
+          <array>
+            <integer>541</integer>
+            <integer>65</integer>
+          </array>
+        </array>
+        <key>vHints</key>
+        <array>
+          <array>
+            <integer>177</integer>
+            <integer>72</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
