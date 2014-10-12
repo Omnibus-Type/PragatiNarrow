@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscoredbl" format="1">
+  <advance width="442"/>
+  <unicode hex="2017"/>
+  <outline>
+    <contour>
+      <point x="442" y="-123" type="line"/>
+      <point x="442" y="-78" type="line"/>
+      <point x="0" y="-78" type="line"/>
+      <point x="0" y="-123" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="-200" type="line"/>
+      <point x="442" y="-155" type="line"/>
+      <point x="0" y="-155" type="line"/>
+      <point x="0" y="-200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

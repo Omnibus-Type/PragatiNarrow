@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra-deva" format="1">
+  <advance width="258"/>
+  <unicode hex="093F"/>
+  <outline>
+    <contour>
+      <point x="116" y="857"/>
+      <point x="76" y="721"/>
+      <point x="76" y="660" type="curve" smooth="yes"/>
+      <point x="76" y="485" type="line"/>
+      <point x="182" y="485" type="line"/>
+      <point x="182" y="643" type="line" smooth="yes"/>
+      <point x="182" y="710"/>
+      <point x="204" y="764"/>
+      <point x="319" y="764" type="curve" smooth="yes"/>
+      <point x="402" y="764"/>
+      <point x="502" y="736"/>
+      <point x="639" y="673" type="curve"/>
+      <point x="639" y="764" type="line"/>
+      <point x="505" y="833"/>
+      <point x="388" y="857"/>
+      <point x="308" y="857" type="curve" smooth="yes"/>
+    </contour>
+    <component base="aaMatra-deva"/>
+    <contour>
+      <point x="587" y="606" type="move" name="imatra"/>
+    </contour>
+    <contour>
+      <point x="125" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="639" y="673" type="move" name="post"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

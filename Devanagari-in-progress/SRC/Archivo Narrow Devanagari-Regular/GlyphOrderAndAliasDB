@@ -1,7 +1,3 @@
-.notdef	.notdef
-NULL	NULL
-CR	CR	uni000D
-space	space	uni0020
 A	A	uni0041
 Aacute	Aacute	uni00C1
 Abreve	Abreve	uni0102
@@ -271,6 +267,244 @@ Delta	Delta	uni0394
 Omega	Omega	uni03A9
 mu	mu	uni03BC
 pi	pi	uni03C0
+kadeva	ka-deva	uni0915
+khadeva	kha-deva	uni0916
+gadeva	ga-deva	uni0917
+ghadeva	gha-deva	uni0918
+ngadeva	nga-deva	uni0919
+cadeva	ca-deva	uni091A
+chadeva	cha-deva	uni091B
+jadeva	ja-deva	uni091C
+jhadeva	jha-deva	uni091D
+nyadeva	nya-deva	uni091E
+ttadeva	tta-deva	uni091F
+tthadeva	ttha-deva	uni0920
+ddadeva	dda-deva	uni0921
+ddhadeva	ddha-deva	uni0922
+nnadeva	nna-deva	uni0923
+tadeva	ta-deva	uni0924
+thadeva	tha-deva	uni0925
+dadeva	da-deva	uni0926
+dhadeva	dha-deva	uni0927
+nadeva	na-deva	uni0928
+nnnadeva	nnna-deva	uni0929
+padeva	pa-deva	uni092A
+uni092B	pha-deva	uni092B
+uni092C	ba-deva	uni092C
+bhadeva	bha-deva	uni092D
+madeva	ma-deva	uni092E
+uni092F	ya-deva	uni092F
+radeva	ra-deva	uni0930
+rradeva	rra-deva	uni0931
+uni0932	la-deva	uni0932
+lladeva	lla-deva	uni0933
+llladeva	llla-deva	uni0934
+vadeva	va-deva	uni0935
+shadeva	sha-deva	uni0936
+ssadeva	ssa-deva	uni0937
+sadeva	sa-deva	uni0938
+hadeva	ha-deva	uni0939
+qadeva	qa-deva	uni0958
+khhadeva	khha-deva	uni0959
+ghhadeva	ghha-deva	uni095A
+zadeva	za-deva	uni095B
+dddhadeva	dddha-deva	uni095C
+rhadeva	rha-deva	uni095D
+fadeva	fa-deva	uni095E
+yyadeva	yya-deva	uni095F
+uni0979	zha-deva	uni0979
+uni097A	jjya-deva	uni097A
+uni097B	gga-deva	uni097B
+uni097C	jja-deva	uni097C
+uni097E	ddda-deva	uni097E
+uni097F	bba-deva	uni097F
+uni0932.loclMAR	la-deva.loclMAR
+shadeva.loclMAR	sha-deva.loclMAR
+jhadeva.loclNEP	jha-deva.loclNEP
+uni0979.loclNEP	zha-deva.loclNEP
+uni092F.post	ya-deva.post
+vadeva.post	va-deva.post
+nadeva.post2	na-deva.post2
+radeva.post2	ra-deva.post2
+uni0915094D_kadeva	k_ka-deva
+uni0915094D_tadeva	k_ta-deva
+uni0915094D_radeva	k_ra-deva
+uni0915094D0932	k_la-deva
+uni0915094D_vadeva	k_va-deva
+uni0915094D_ssadeva	k_ssa-deva
+uni0915094D0937094D_radeva	k_ss_ra-deva
+uni0916094D_radeva	kh_ra-deva
+uni0917094D_nadeva	g_na-deva
+uni0917094D_radeva	g_ra-deva
+uni0918094D_radeva	gh_ra-deva
+uni0919094D_kadeva	ng_ka-deva
+uni0919094D0915094D_ssadeva	ng_k_ssa-deva
+uni0919094D_khadeva	ng_kha-deva
+uni0919094D_gadeva	ng_ga-deva
+uni0919094D_ghadeva	ng_gha-deva
+uni0919094D_madeva	ng_ma-deva
+uni091A094D_cadeva	c_ca-deva
+uni091A094D091B094D_vadeva	c_ch_va-deva
+uni091A094D_radeva	c_ra-deva
+uni091A094D0932	c_la-deva
+uni091B094D_nadeva	ch_na-deva
+uni091B094D0932	ch_la-deva
+uni091B094D_vadeva	ch_va-deva
+uni091C094D_jadeva	j_ja-deva
+uni091C094D_nyadeva	j_nya-deva
+uni091C094D091E094D_radeva	j_ny_ra-deva
+uni091C094D_radeva	j_ra-deva
+uni091D094D_radeva	jh_ra-deva
+uni091E094D_cadeva	ny_ca-deva
+uni091E094D_jadeva	ny_ja-deva
+uni091E094D_radeva	ny_ra-deva
+uni091F094D_ttadeva	tt_tta-deva
+uni091F094D_tthadeva	tt_ttha-deva
+uni091F094D_ddhadeva	tt_ddha-deva
+uni091F094D092F	tt_ya-deva
+uni091F094D_vadeva	tt_va-deva
+uni0920094D_tthadeva	tth_ttha-deva
+uni0920094D_nadeva	tth_na-deva
+uni0920094D092F	tth_ya-deva
+uni0921094D_ttadeva	dd_tta-deva
+uni0921094D_ddadeva	dd_dda-deva
+uni0921094D_ddhadeva	dd_ddha-deva
+uni0921094D092F	dd_ya-deva
+uni0922094D_ddhadeva	ddh_ddha-deva
+uni0922094D092F	ddh_ya-deva
+uni0923094D_radeva	nn_ra-deva
+uni0924094D_tadeva	t_ta-deva
+uni0924094D_radeva	t_ra-deva
+uni0925094D_radeva	th_ra-deva
+uni0926094D_gadeva	d_ga-deva
+uni0926094D_gadeva_uvowelsignde	d_ga_uMatra-deva
+uni0926094D_gadeva_uuvowelsignd	d_ga_uuMatra-deva
+uni0926094D_ghadeva	d_gha-deva
+uni0926094D_ghadeva_uvowelsignd	d_gha_uMatra-deva
+uni0926094D_ghadeva_uuvowelsign	d_gha_uuMatra-deva
+uni0926094D_dadeva	d_da-deva
+uni0926094D0926094D092F	d_d_ya-deva
+uni0926094D_dhadeva	d_dha-deva
+uni0926094D_dhadeva_uvowelsignd	d_dha_uMatra-deva
+uni0926094D_dhadeva_uuvowelsign	d_dha_uuMatra-deva
+uni0926094D0927094D092F	d_dh_ya-deva
+uni0926094D0927094D0930094D092F	d_dh_r_ya-deva
+uni0926094D_nadeva	d_na-deva
+uni0926094D_nadeva_uvowelsignde	d_na_uMatra-deva
+uni0926094D_nadeva_uuvowelsignd	d_na_uuMatra-deva
+uni0926094D092C	d_ba-deva
+uni0926094D092C_uvowelsigndeva	d_ba_uMatra-deva
+uni0926094D092C_uuvowelsigndeva	d_ba_uuMatra-deva
+uni0926094D_bhadeva	d_bha-deva
+uni0926094D_madeva	d_ma-deva
+uni0926094D092F	d_ya-deva
+uni0926094D_radeva	d_ra-deva
+uni0926094D_radeva_uvowelsignde	d_ra_uMatra-deva
+uni0926094D_radeva_uuvowelsignd	d_ra_uuMatra-deva
+uni0926094D_vadeva	d_va-deva
+uni0926094D_vadeva_uvowelsignde	d_va_uMatra-deva
+uni0926094D_vadeva_uuvowelsignd	d_va_uuMatra-deva
+uni0926094D_rvocalicvowelsignde	d_rVocalicMatra-deva
+uni0927094D_radeva	dh_ra-deva
+uni0928094D_nadeva	n_na-deva
+uni0928094D_radeva	n_ra-deva
+uni092A094D_tadeva	p_ta-deva
+uni092A094D_radeva	p_ra-deva
+uni092A094D0932	p_la-deva
+uni092B094D_radeva	ph_ra-deva
+uni092B094D0932	ph_la-deva
+uni092C094D_radeva	b_ra-deva
+uni092D094D_radeva	bh_ra-deva
+uni092E094D_radeva	m_ra-deva
+uni092F094D_radeva	y_ra-deva
+radeva_uvowelsigndeva	ra_uMatra-deva
+radeva_uuvowelsigndeva	ra_uuMatra-deva
+uni0932094D_radeva	l_ra-deva
+uni0932094D0932	l_la-deva
+uni0935094D_radeva	v_ra-deva
+uni0936094D_rvocalicdeva	sh_rVocalic-deva
+uni0936094D_cadeva	sh_ca-deva
+uni0936094D_nadeva	sh_na-deva
+uni0936094D_radeva	sh_ra-deva
+uni0936094D0932	sh_la-deva
+uni0936094D_vadeva	sh_va-deva
+uni0937094D_ttadeva	ss_tta-deva
+uni0937094D091F094D092F	ss_tt_ya-deva
+uni0937094D_tthadeva	ss_ttha-deva
+uni0937094D0920094D092F	ss_tth_ya-deva
+uni0937094D_radeva	ss_ra-deva
+uni0938094D0924094D_radeva	s_t_ra-deva
+uni0938094D_radeva	s_ra-deva
+hadeva_uvowelsigndeva	ha_uMatra-deva
+hadeva_uuvowelsigndeva	ha_uuMatra-deva
+hadeva_rvocalicvowelsigndeva	ha_rVocalicMatra-deva
+uni0939094D_nnadeva	h_nna-deva
+uni0939094D_nadeva	h_na-deva
+uni0939094D_madeva	h_ma-deva
+uni0939094D092F	h_ya-deva
+uni0939094D_radeva	h_ra-deva
+uni0939094D0932	h_la-deva
+uni0939094D_vadeva	h_va-deva
+uni095E094D_radeva	f_ra-deva
+uni093F_candrabindudeva	iMatra_candraBindu-deva
+uni093F0930094D_candrabindudeva	iMatra_reph_candraBindu-deva
+uni0940_candrabindudeva	iiMatra_candraBindu-deva
+uni09400930094D_candrabindudeva	iiMatra_reph_candraBindu-deva
+ovowelsigndeva_candrabindudeva	oMatra_candraBindu-deva
+ovowelsigndeva_uni0930094D_cand	oMatra_reph_candraBindu-deva
+uni094C_candrabindudeva	auMatra_candraBindu-deva
+uni094C0930094D_candrabindudeva	auMatra_reph_candraBindu-deva
+uni093F_candrabindudeva.0	iMatra_candraBindu-deva.0
+uni093F0930094D_candrabindudeva.0	iMatra_reph_candraBindu-deva.0
+uni0940_candrabindudeva.0	iiMatra_candraBindu-deva.0
+uni09400930094D_candrabindudeva.0	iiMatra_reph_candraBindu-deva.0
+uni093F_candrabindudeva.1	iMatra_candraBindu-deva.1
+uni093F0930094D_candrabindudeva.1	iMatra_reph_candraBindu-deva.1
+uni093F_candrabindudeva.10	iMatra_candraBindu-deva.10
+uni093F0930094D_candrabindudeva.10	iMatra_reph_candraBindu-deva.10
+uni093F_candrabindudeva.11	iMatra_candraBindu-deva.11
+uni093F0930094D_candrabindudeva.11	iMatra_reph_candraBindu-deva.11
+uni093F_candrabindudeva.12	iMatra_candraBindu-deva.12
+uni093F0930094D_candrabindudeva.12	iMatra_reph_candraBindu-deva.12
+uni093F_candrabindudeva.13	iMatra_candraBindu-deva.13
+uni093F0930094D_candrabindudeva.13	iMatra_reph_candraBindu-deva.13
+uni093F_candrabindudeva.14	iMatra_candraBindu-deva.14
+uni093F0930094D_candrabindudeva.14	iMatra_reph_candraBindu-deva.14
+uni093F_candrabindudeva.15	iMatra_candraBindu-deva.15
+uni093F0930094D_candrabindudeva.15	iMatra_reph_candraBindu-deva.15
+uni093F_candrabindudeva.16	iMatra_candraBindu-deva.16
+uni093F0930094D_candrabindudeva.16	iMatra_reph_candraBindu-deva.16
+uni093F_candrabindudeva.17	iMatra_candraBindu-deva.17
+uni093F0930094D_candrabindudeva.17	iMatra_reph_candraBindu-deva.17
+uni093F_candrabindudeva.18	iMatra_candraBindu-deva.18
+uni093F0930094D_candrabindudeva.18	iMatra_reph_candraBindu-deva.18
+uni093F_candrabindudeva.19	iMatra_candraBindu-deva.19
+uni093F0930094D_candrabindudeva.19	iMatra_reph_candraBindu-deva.19
+uni093F_candrabindudeva.2	iMatra_candraBindu-deva.2
+uni093F0930094D_candrabindudeva.2	iMatra_reph_candraBindu-deva.2
+uni093F_candrabindudeva.3	iMatra_candraBindu-deva.3
+uni093F0930094D_candrabindudeva.3	iMatra_reph_candraBindu-deva.3
+uni093F_candrabindudeva.4	iMatra_candraBindu-deva.4
+uni093F0930094D_candrabindudeva.4	iMatra_reph_candraBindu-deva.4
+uni093F_candrabindudeva.5	iMatra_candraBindu-deva.5
+uni093F0930094D_candrabindudeva.5	iMatra_reph_candraBindu-deva.5
+uni093F_candrabindudeva.6	iMatra_candraBindu-deva.6
+uni093F0930094D_candrabindudeva.6	iMatra_reph_candraBindu-deva.6
+uni093F_candrabindudeva.7	iMatra_candraBindu-deva.7
+uni093F0930094D_candrabindudeva.7	iMatra_reph_candraBindu-deva.7
+uni093F_candrabindudeva.8	iMatra_candraBindu-deva.8
+uni093F0930094D_candrabindudeva.8	iMatra_reph_candraBindu-deva.8
+uni093F_candrabindudeva.9	iMatra_candraBindu-deva.9
+uni093F0930094D_candrabindudeva.9	iMatra_reph_candraBindu-deva.9
+uni091A094D_cadeva.alt	c_ca-deva.alt
+uni0915094D0932.loclMAR	k_la-deva.loclMAR
+uni091A094D0932.loclMAR	c_la-deva.loclMAR
+uni091B094D0932.loclMAR	ch_la-deva.loclMAR
+uni092A094D0932.loclMAR	p_la-deva.loclMAR
+uni092B094D0932.loclMAR	ph_la-deva.loclMAR
+uni0932094D0932.loclMAR	l_la-deva.loclMAR
+uni0936094D0932.loclMAR	sh_la-deva.loclMAR
+uni0915094D_radeva.loclNEP	k_ra-deva.loclNEP
 uni0904	aShort-deva	uni0904
 uni0972	aCandra-deva	uni0972
 adeva	a-deva	uni0905
@@ -296,6 +530,66 @@ uni0974	ooe-deva	uni0974
 uni0975	aw-deva	uni0975
 uni0976	ue-deva	uni0976
 uni0977	uue-deva	uni0977
+uni0915094D	k-deva
+uni0915094D0937094D	k_ss-deva
+uni0916094D	kh-deva
+uni0917094D	g-deva
+uni0917094D0928094D	g_n-deva
+uni0917094D0930094D	g_r-deva
+uni0918094D	gh-deva
+uni0918094D0930094D	gh_r-deva
+uni0919094D	ng-deva
+uni0919094D0915094D	ng_k-deva
+uni091A094D	c-deva
+uni091B094D	ch-deva
+uni091C094D	j-deva
+uni091C094D091C094D	j_j-deva
+uni091C094D091E094D	j_ny-deva
+uni091C094D091E094D0930094D	j_ny_r-deva
+uni091C094D0930094D	j_r-deva
+uni091D094D	jh-deva
+uni091E094D	ny-deva
+uni091F094D	tt-deva
+uni0920094D	tth-deva
+uni0921094D	dd-deva
+uni0922094D	ddh-deva
+uni0923094D	nn-deva
+uni0924094D	t-deva
+uni0924094D0924094D	t_t-deva
+uni0924094D0930094D	t_r-deva
+uni0925094D	th-deva
+uni0926094D	d-deva
+uni0927094D	dh-deva
+uni0927094D0930094D	dh_r-deva
+uni0928094D	n-deva
+uni0928094D0928094D	n_n-deva
+uni0929094D	nnn-deva
+uni092A094D	p-deva
+uni092B094D	ph-deva
+uni092C094D	b-deva
+uni092C094D0930094D	b_r-deva
+uni092D094D	bh-deva
+uni092D094D0930094D	bh_r-deva
+uni092E094D	m-deva
+uni092E094D0930094D	m_r-deva
+uni092F094D	y-deva
+uni092F094D0930094D	y_r-deva
+uni0931094D	rr-deva
+uni0932094D	l-deva
+uni0933094D	ll-deva
+uni0934094D	lll-deva
+uni0935094D	v-deva
+uni0935094D0930094D	v_r-deva
+uni0936094D	sh-deva
+uni0936094D0930094D	sh_r-deva
+uni0937094D	ss-deva
+uni0938094D	s-deva
+uni0939094D	h-deva
+uni0958094D	q-deva
+uni0959094D	khh-deva
+uni095A094D	ghh-deva
+uni095B094D	z-deva
+uni095E094D	f-deva
 uni093E	aaMatra-deva	uni093E
 uni093F	iMatra-deva	uni093F
 uni093F0930094D	iMatra_reph-deva
@@ -402,304 +696,6 @@ uni093F.9	iMatra-deva.9
 uni093F0930094D.9	iMatra_reph-deva.9
 uni093F0930094D0902.9	iMatra_reph_anusvara-deva.9
 uni093F0902.9	iMatra_anusvara-deva.9
-kadeva	ka-deva	uni0915
-khadeva	kha-deva	uni0916
-gadeva	ga-deva	uni0917
-ghadeva	gha-deva	uni0918
-ngadeva	nga-deva	uni0919
-cadeva	ca-deva	uni091A
-chadeva	cha-deva	uni091B
-jadeva	ja-deva	uni091C
-jhadeva	jha-deva	uni091D
-nyadeva	nya-deva	uni091E
-ttadeva	tta-deva	uni091F
-tthadeva	ttha-deva	uni0920
-ddadeva	dda-deva	uni0921
-ddhadeva	ddha-deva	uni0922
-nnadeva	nna-deva	uni0923
-tadeva	ta-deva	uni0924
-thadeva	tha-deva	uni0925
-dadeva	da-deva	uni0926
-dhadeva	dha-deva	uni0927
-nadeva	na-deva	uni0928
-nnnadeva	nnna-deva	uni0929
-padeva	pa-deva	uni092A
-uni092B	pha-deva	uni092B
-uni092C	ba-deva	uni092C
-bhadeva	bha-deva	uni092D
-madeva	ma-deva	uni092E
-uni092F	ya-deva	uni092F
-radeva	ra-deva	uni0930
-rradeva	rra-deva	uni0931
-uni0932	la-deva	uni0932
-lladeva	lla-deva	uni0933
-llladeva	llla-deva	uni0934
-vadeva	va-deva	uni0935
-shadeva	sha-deva	uni0936
-ssadeva	ssa-deva	uni0937
-sadeva	sa-deva	uni0938
-hadeva	ha-deva	uni0939
-qadeva	qa-deva	uni0958
-khhadeva	khha-deva	uni0959
-ghhadeva	ghha-deva	uni095A
-zadeva	za-deva	uni095B
-dddhadeva	dddha-deva	uni095C
-rhadeva	rha-deva	uni095D
-fadeva	fa-deva	uni095E
-yyadeva	yya-deva	uni095F
-uni0979	zha-deva	uni0979
-uni097A	jjya-deva	uni097A
-uni097B	gga-deva	uni097B
-uni097C	jja-deva	uni097C
-uni097E	ddda-deva	uni097E
-uni097F	bba-deva	uni097F
-uni0932.loclMAR	la-deva.loclMAR
-shadeva.loclMAR	sha-deva.loclMAR
-jhadeva.loclNEP	jha-deva.loclNEP
-uni0979.loclNEP	zha-deva.loclNEP
-uni092F.post	ya-deva.post
-vadeva.post	va-deva.post
-nadeva.post2	na-deva.post2
-radeva.post2	ra-deva.post2
-uni0915094D0915	k_ka-deva
-uni0915094D0924	k_ta-deva
-uni0915094D0930	k_ra-deva
-uni0915094D0932	k_la-deva
-uni0915094D0935	k_va-deva
-uni0915094D0937	k_ssa-deva
-uni0915094D0937094D	k_ss-deva
-uni0915094D0937094D0930	k_ss_ra-deva
-uni0916094D0930	kh_ra-deva
-uni0917094D0928	g_na-deva
-uni0917094D0928094D	g_n-deva
-uni0917094D0930	g_ra-deva
-uni0917094D0930094D	g_r-deva
-uni0918094D0930	gh_ra-deva
-uni0918094D0930094D	gh_r-deva
-uni0919094D0915	ng_ka-deva
-uni0919094D0915094D	ng_k-deva
-uni0919094D0915094D0937	ng_k_ssa-deva
-uni0919094D0916	ng_kha-deva
-uni0919094D0917	ng_ga-deva
-uni0919094D0918	ng_gha-deva
-uni0919094D092E	ng_ma-deva
-uni091A094D091A	c_ca-deva
-uni091A094D091B094D0935	c_ch_va-deva
-uni091A094D0930	c_ra-deva
-uni091A094D0932	c_la-deva
-uni091B094D0928	ch_na-deva
-uni091B094D0932	ch_la-deva
-uni091B094D0935	ch_va-deva
-uni091C094D091C	j_ja-deva
-uni091C094D091C094D	j_j-deva
-uni091C094D091E	j_nya-deva
-uni091C094D091E094D	j_ny-deva
-uni091C094D091E094D0930	j_ny_ra-deva
-uni091C094D091E094D0930094D	j_ny_r-deva
-uni091C094D0930	j_ra-deva
-uni091C094D0930094D	j_r-deva
-uni091D094D0930	jh_ra-deva
-uni091E094D091A	ny_ca-deva
-uni091E094D091C	ny_ja-deva
-uni091E094D0930	ny_ra-deva
-uni091F094D091F	tt_tta-deva
-uni091F094D0920	tt_ttha-deva
-uni091F094D0922	tt_ddha-deva
-uni091F094D092F	tt_ya-deva
-uni091F094D0935	tt_va-deva
-uni0920094D0920	tth_ttha-deva
-uni0920094D0928	tth_na-deva
-uni0920094D092F	tth_ya-deva
-uni0921094D091F	dd_tta-deva
-uni0921094D0921	dd_dda-deva
-uni0921094D0922	dd_ddha-deva
-uni0921094D092F	dd_ya-deva
-uni0922094D0922	ddh_ddha-deva
-uni0922094D092F	ddh_ya-deva
-uni0923094D0930	nn_ra-deva
-uni0924094D0924	t_ta-deva
-uni0924094D0924094D	t_t-deva
-uni0924094D0930	t_ra-deva
-uni0924094D0930094D	t_r-deva
-uni0925094D0930	th_ra-deva
-uni0926094D0917	d_ga-deva
-uni0926094D09170941	d_ga_uMatra-deva
-uni0926094D09170942	d_ga_uuMatra-deva
-uni0926094D0918	d_gha-deva
-uni0926094D09180941	d_gha_uMatra-deva
-uni0926094D09180942	d_gha_uuMatra-deva
-uni0926094D0926	d_da-deva
-uni0926094D0926094D092F	d_d_ya-deva
-uni0926094D0927	d_dha-deva
-uni0926094D09270941	d_dha_uMatra-deva
-uni0926094D09270942	d_dha_uuMatra-deva
-uni0926094D0927094D092F	d_dh_ya-deva
-uni0926094D0927094D0930094D092F	d_dh_r_ya-deva
-uni0926094D0928	d_na-deva
-uni0926094D09280941	d_na_uMatra-deva
-uni0926094D09280942	d_na_uuMatra-deva
-uni0926094D092C	d_ba-deva
-uni0926094D092C0941	d_ba_uMatra-deva
-uni0926094D092C0942	d_ba_uuMatra-deva
-uni0926094D092D	d_bha-deva
-uni0926094D092E	d_ma-deva
-uni0926094D092F	d_ya-deva
-uni0926094D0930	d_ra-deva
-uni0926094D09300941	d_ra_uMatra-deva
-uni0926094D09300942	d_ra_uuMatra-deva
-uni0926094D0935	d_va-deva
-uni0926094D09350941	d_va_uMatra-deva
-uni0926094D09350942	d_va_uuMatra-deva
-uni0926094D0943	d_rVocalicMatra-deva
-uni0927094D0930	dh_ra-deva
-uni0927094D0930094D	dh_r-deva
-uni0928094D0928	n_na-deva
-uni0928094D0928094D	n_n-deva
-uni0928094D0930	n_ra-deva
-uni092A094D0924	p_ta-deva
-uni092A094D0930	p_ra-deva
-uni092A094D0932	p_la-deva
-uni092B094D0930	ph_ra-deva
-uni092B094D0932	ph_la-deva
-uni092C094D0930	b_ra-deva
-uni092C094D0930094D	b_r-deva
-uni092D094D0930	bh_ra-deva
-uni092D094D0930094D	bh_r-deva
-uni092E094D0930	m_ra-deva
-uni092E094D0930094D	m_r-deva
-uni092F094D0930	y_ra-deva
-uni092F094D0930094D	y_r-deva
-radeva_uvowelsigndeva	ra_uMatra-deva
-radeva_uuvowelsigndeva	ra_uuMatra-deva
-uni0932094D0930	l_ra-deva
-uni0932094D0932	l_la-deva
-uni0935094D0930	v_ra-deva
-uni0935094D0930094D	v_r-deva
-uni0936094D090B	sh_rVocalic-deva
-uni0936094D091A	sh_ca-deva
-uni0936094D0928	sh_na-deva
-uni0936094D0930	sh_ra-deva
-uni0936094D0930094D	sh_r-deva
-uni0936094D0932	sh_la-deva
-uni0936094D0935	sh_va-deva
-uni0937094D091F	ss_tta-deva
-uni0937094D091F094D092F	ss_tt_ya-deva
-uni0937094D0920	ss_ttha-deva
-uni0937094D0920094D092F	ss_tth_ya-deva
-uni0937094D0930	ss_ra-deva
-uni0938094D0924094D0930	s_t_ra-deva
-uni0938094D0930	s_ra-deva
-hadeva_uvowelsigndeva	ha_uMatra-deva
-hadeva_uuvowelsigndeva	ha_uuMatra-deva
-hadeva_rvocalicvowelsigndeva	ha_rVocalicMatra-deva
-uni0939094D0923	h_nna-deva
-uni0939094D0928	h_na-deva
-uni0939094D092E	h_ma-deva
-uni0939094D092F	h_ya-deva
-uni0939094D0930	h_ra-deva
-uni0939094D0932	h_la-deva
-uni0939094D0935	h_va-deva
-uni095E094D0930	f_ra-deva
-uni093F0901	iMatra_candraBindu-deva
-uni093F0930094D0901	iMatra_reph_candraBindu-deva
-uni09400901	iiMatra_candraBindu-deva
-uni09400930094D0901	iiMatra_reph_candraBindu-deva
-ovowelsigndeva_candraBindudeva	oMatra_candraBindu-deva
-uni094B0930094D0901	oMatra_reph_candraBindu-deva
-uni094C0901	auMatra_candraBindu-deva
-uni094C0930094D0901	auMatra_reph_candraBindu-deva
-uni093F0901.0	iMatra_candraBindu-deva.0
-uni093F0930094D0901.0	iMatra_reph_candraBindu-deva.0
-uni09400901.0	iiMatra_candraBindu-deva.0
-uni09400930094D0901.0	iiMatra_reph_candraBindu-deva.0
-uni093F0901.1	iMatra_candraBindu-deva.1
-uni093F0930094D0901.1	iMatra_reph_candraBindu-deva.1
-uni093F0901.10	iMatra_candraBindu-deva.10
-uni093F0930094D0901.10	iMatra_reph_candraBindu-deva.10
-uni093F0901.11	iMatra_candraBindu-deva.11
-uni093F0930094D0901.11	iMatra_reph_candraBindu-deva.11
-uni093F0901.12	iMatra_candraBindu-deva.12
-uni093F0930094D0901.12	iMatra_reph_candraBindu-deva.12
-uni093F0901.13	iMatra_candraBindu-deva.13
-uni093F0930094D0901.13	iMatra_reph_candraBindu-deva.13
-uni093F0901.14	iMatra_candraBindu-deva.14
-uni093F0930094D0901.14	iMatra_reph_candraBindu-deva.14
-uni093F0901.15	iMatra_candraBindu-deva.15
-uni093F0930094D0901.15	iMatra_reph_candraBindu-deva.15
-uni093F0901.16	iMatra_candraBindu-deva.16
-uni093F0930094D0901.16	iMatra_reph_candraBindu-deva.16
-uni093F0901.17	iMatra_candraBindu-deva.17
-uni093F0930094D0901.17	iMatra_reph_candraBindu-deva.17
-uni093F0901.18	iMatra_candraBindu-deva.18
-uni093F0930094D0901.18	iMatra_reph_candraBindu-deva.18
-uni093F0901.19	iMatra_candraBindu-deva.19
-uni093F0930094D0901.19	iMatra_reph_candraBindu-deva.19
-uni093F0901.2	iMatra_candraBindu-deva.2
-uni093F0930094D0901.2	iMatra_reph_candraBindu-deva.2
-uni093F0901.3	iMatra_candraBindu-deva.3
-uni093F0930094D0901.3	iMatra_reph_candraBindu-deva.3
-uni093F0901.4	iMatra_candraBindu-deva.4
-uni093F0930094D0901.4	iMatra_reph_candraBindu-deva.4
-uni093F0901.5	iMatra_candraBindu-deva.5
-uni093F0930094D0901.5	iMatra_reph_candraBindu-deva.5
-uni093F0901.6	iMatra_candraBindu-deva.6
-uni093F0930094D0901.6	iMatra_reph_candraBindu-deva.6
-uni093F0901.7	iMatra_candraBindu-deva.7
-uni093F0930094D0901.7	iMatra_reph_candraBindu-deva.7
-uni093F0901.8	iMatra_candraBindu-deva.8
-uni093F0930094D0901.8	iMatra_reph_candraBindu-deva.8
-uni093F0901.9	iMatra_candraBindu-deva.9
-uni093F0930094D0901.9	iMatra_reph_candraBindu-deva.9
-uni091A094D091A.alt	c_ca-deva.alt
-uni0915094D0932.loclMAR	k_la-deva.loclMAR
-uni091A094D0932.loclMAR	c_la-deva.loclMAR
-uni091B094D0932.loclMAR	ch_la-deva.loclMAR
-uni092A094D0932.loclMAR	p_la-deva.loclMAR
-uni092B094D0932.loclMAR	ph_la-deva.loclMAR
-uni0932094D0932.loclMAR	l_la-deva.loclMAR
-uni0936094D0932.loclMAR	sh_la-deva.loclMAR
-uni0915094D0930.loclNEP	k_ra-deva.loclNEP
-uni0915094D	k-deva
-uni0916094D	kh-deva
-uni0917094D	g-deva
-uni0918094D	gh-deva
-uni0919094D	ng-deva
-uni091A094D	c-deva
-uni091B094D	ch-deva
-uni091C094D	j-deva
-uni091D094D	jh-deva
-uni091E094D	ny-deva
-uni091F094D	tt-deva
-uni0920094D	tth-deva
-uni0921094D	dd-deva
-uni0922094D	ddh-deva
-uni0923094D	nn-deva
-uni0924094D	t-deva
-uni0925094D	th-deva
-uni0926094D	d-deva
-uni0927094D	dh-deva
-uni0928094D	n-deva
-uni0929094D	nnn-deva
-uni092A094D	p-deva
-uni092B094D	ph-deva
-uni092C094D	b-deva
-uni092D094D	bh-deva
-uni092E094D	m-deva
-uni092F094D	y-deva
-uni0931094D	rr-deva
-uni0932094D	l-deva
-uni0933094D	ll-deva
-uni0934094D	lll-deva
-uni0935094D	v-deva
-uni0936094D	sh-deva
-uni0937094D	ss-deva
-uni0938094D	s-deva
-uni0939094D	h-deva
-uni0958094D	q-deva
-uni0959094D	khh-deva
-uni095A094D	ghh-deva
-uni095B094D	z-deva
-uni095E094D	f-deva
 uni0936094D.loclMAR	sh-deva.loclMAR
 uni091D094D.loclNEP	jh-deva.loclNEP
 uni091B094D.post	ch-deva.post
@@ -786,10 +782,13 @@ dbldandadeva	dbldanda-deva	uni0965
 abbreviationsigndeva	abbreviation-deva	uni0970
 uni0971	highspacingdot-deva	uni0971
 caretdeva	caret-deva	uniA8FA
-headstrokeddeva	headstroked-deva	uniA8FB
+headstroked	headstroked-deva	uniA8FB
+space	space	uni0020
 uni00A0	nbspace	uni00A0
 uni200D	zerowidthjoiner	uni200D
 uni200C	zerowidthnonjoiner	uni200C
+CR	CR	uni000D
+.notdef	.notdef
 cent	cent	uni00A2
 currency	currency	uni00A4
 dollar	dollar	uni0024
@@ -884,12 +883,12 @@ tilde	tilde	uni02DC
 uni0326	commaaccent	uni0326
 firsttonechinese	firsttonechinese	uni02C9
 visargadeva	visarga-deva	uni0903
-spacingCandraBindudeva	spacingCandraBindu-deva	uniA8F2
-candraBinduHalantdeva	candraBinduHalant-deva	uniA8F3
-dblcandraBinduHalantdeva	dblcandraBinduHalant-deva	uniA8F4
-candraBinduTwodeva	candraBinduTwo-deva	uniA8F5
-candraBinduThreedeva	candraBinduThree-deva	uniA8F6
-candraBinduAvagrahadeva	candraBinduAvagraha-deva	uniA8F7
+spacingcandrabindudeva	spacingCandraBindu-deva	uniA8F2
+candrabinduviramadeva	candraBinduHalant-deva	uniA8F3
+doublecandrabinduviramadeva	dblcandraBinduHalant-deva	uniA8F4
+candrabindudigittwodeva	candraBinduTwo-deva	uniA8F5
+candrabindudigitthreedeva	candraBinduThree-deva	uniA8F6
+candrabinduavagrahadeva	candraBinduAvagraha-deva	uniA8F7
 uvowelsigndeva	uMatra-deva	uni0941
 uuvowelsigndeva	uuMatra-deva	uni0942
 rvocalicvowelsigndeva	rVocalicMatra-deva	uni0943
@@ -897,29 +896,29 @@ rrvocalicvowelsigndeva	rrVocalicMatra-deva	uni0944
 lvocalicvowelsigndeva	lVocalicMatra-deva	uni0962
 llvocalicvowelsigndeva	llVocalicMatra-deva	uni0963
 ecandravowelsigndeva	eCandraMatra-deva	uni0945
-candraBindudeva	candraBindu-deva	uni0901
+candrabindudeva	candraBindu-deva	uni0901
 eshortvowelsigndeva	eShortMatra-deva	uni0946
 evowelsigndeva	eMatra-deva	uni0947
-evowelsigndeva_candraBindudeva	eMatra_candraBindu-deva
+evowelsigndeva_candrabindudeva	eMatra_candraBindu-deva
 evowelsigndeva_anusvaradeva	eMatra_anusvara-deva
-uni09470930094D	eMatra_reph-deva
-uni09470930094D0901	eMatra_reph_candraBindu-deva
-uni09470930094D0902	eMatra_reph_anusvara-deva
+evowelsigndeva_uni0930094D	eMatra_reph-deva
+evowelsigndeva_uni0930094D_cand	eMatra_reph_candraBindu-deva
+evowelsigndeva_uni0930094D_anus	eMatra_reph_anusvara-deva
 aivowelsigndeva	aiMatra-deva	uni0948
-aivowelsigndeva_candraBindudeva	aiMatra_candraBindu-deva
+aivowelsigndeva_candrabindudeva	aiMatra_candraBindu-deva
 aivowelsigndeva_anusvaradeva	aiMatra_anusvara-deva
-uni09480930094D	aiMatra_reph-deva
-uni09480930094D0901	aiMatra_reph_candraBindu-deva
-uni09480930094D0902	aiMatra_reph_anusvara-deva
+aivowelsigndeva_uni0930094D	aiMatra_reph-deva
+aivowelsigndeva_uni0930094D_can	aiMatra_reph_candraBindu-deva
+aivowelsigndeva_uni0930094D_anu	aiMatra_reph_anusvara-deva
 anusvaradeva	anusvara-deva	uni0902
 viramadeva	halant-deva	uni094D
 nuktadeva	nukta-deva	uni093C
 uni0930094D	reph-deva
-uni0930094D0901	reph_candraBindu-deva
-uni0930094D0902	reph_anusvara-deva
-uni094D0930	rakar-deva
-uni094D09300941	rakar_uMatra-deva
-uni094D09300942	rakar_uuMatra-deva
+uni0930094D_candrabindudeva	reph_candraBindu-deva
+uni0930094D_anusvaradeva	reph_anusvara-deva
+rakardeva	rakar-deva
+rakardeva_uvowelsigndeva	rakar_uMatra-deva
+rakardeva_uuvowelsigndeva	rakar_uuMatra-deva
 uni0900	invertedCandraBindu-deva	uni0900
 uni0955	eLongCandra-deva	uni0955
 uni093A	oeMatra-deva	uni093A
@@ -929,24 +928,25 @@ udattadeva	udatta-deva	uni0951
 anudattadeva	anudatta-deva	uni0952
 gravedeva	grave-deva	uni0953
 acutedeva	acute-deva	uni0954
-combiningAdeva	combiningA-deva	uniA8EA
-combiningUdeva	combiningU-deva	uniA8EB
-combiningKadeva	combiningKa-deva	uniA8EC
-combiningNadeva	combiningNa-deva	uniA8ED
-combiningPadeva	combiningPa-deva	uniA8EE
-combiningRadeva	combiningRa-deva	uniA8EF
-combiningVideva	combiningVi-deva	uniA8F0
-combiningAvagrahadeva	combiningAvagraha-deva	uniA8F1
-combiningZerodeva	combiningZero-deva	uniA8E0
-combiningOnedeva	combiningOne-deva	uniA8E1
-combiningTwodeva	combiningTwo-deva	uniA8E2
-combiningThreedeva	combiningThree-deva	uniA8E3
-combiningFourdeva	combiningFour-deva	uniA8E4
-combiningFivedeva	combiningFive-deva	uniA8E5
-combiningSixdeva	combiningSix-deva	uniA8E6
-combiningSevendeva	combiningSeven-deva	uniA8E7
-combiningEightdeva	combiningEight-deva	uniA8E8
-combiningNinedeva	combiningNine-deva	uniA8E9
+acombiningletterdeva	combiningA-deva	uniA8EA
+ucombiningletterdeva	combiningU-deva	uniA8EB
+kacombiningletterdeva	combiningKa-deva	uniA8EC
+nacombiningletterdeva	combiningNa-deva	uniA8ED
+pacombiningletterdeva	combiningPa-deva	uniA8EE
+racombiningletterdeva	combiningRa-deva	uniA8EF
+vicombiningletterdeva	combiningVi-deva	uniA8F0
+avagrahacombiningsigndeva	combiningAvagraha-deva	uniA8F1
+zerocombiningdigitdeva	combiningZero-deva	uniA8E0
+onecombiningdigitdeva	combiningOne-deva	uniA8E1
+twocombiningdigitdeva	combiningTwo-deva	uniA8E2
+threecombiningdigitdeva	combiningThree-deva	uniA8E3
+fourcombiningdigitdeva	combiningFour-deva	uniA8E4
+fivecombiningdigitdeva	combiningFive-deva	uniA8E5
+sixcombiningdigitdeva	combiningSix-deva	uniA8E6
+sevencombiningdigitdeva	combiningSeven-deva	uniA8E7
+eightcombiningdigitdeva	combiningEight-deva	uniA8E8
+ninecombiningdigitdeva	combiningNine-deva	uniA8E9
 uni0930094D.loclMAR	reph-deva.loclMAR
 rupeeIndiandeva	rupeeIndian-deva
+NULL	NULL
 uni000C	uni000C	uni000C

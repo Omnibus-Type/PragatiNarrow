@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jjya-deva" format="1">
+  <advance width="472"/>
+  <unicode hex="097A"/>
+  <outline>
+    <contour>
+      <point x="333" y="191" type="line"/>
+      <point x="367" y="217" type="line"/>
+      <point x="187" y="547" type="line"/>
+      <point x="155" y="516" type="line"/>
+    </contour>
+    <component base="ya-deva"/>
+    <contour>
+      <point x="86" y="128" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="362" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="362" y="606" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

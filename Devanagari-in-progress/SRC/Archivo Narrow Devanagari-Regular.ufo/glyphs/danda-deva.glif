@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="danda-deva" format="1">
+  <advance width="253"/>
+  <unicode hex="0964"/>
+  <outline>
+    <contour>
+      <point x="90" y="606" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="163" y="0" type="line"/>
+      <point x="163" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="606" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="127" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>10</integer>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

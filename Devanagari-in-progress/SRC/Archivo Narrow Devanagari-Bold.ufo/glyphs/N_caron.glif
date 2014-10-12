@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="1">
+  <advance width="523"/>
+  <unicode hex="0147"/>
+  <outline>
+    <contour>
+      <point x="470" y="606" type="line"/>
+      <point x="370" y="606" type="line"/>
+      <point x="370" y="269" type="line" smooth="yes"/>
+      <point x="370" y="259"/>
+      <point x="370" y="218"/>
+      <point x="370" y="218" type="curve"/>
+      <point x="368" y="216" type="line"/>
+      <point x="368" y="216"/>
+      <point x="350" y="257"/>
+      <point x="340" y="272" type="curve" smooth="yes"/>
+      <point x="153" y="606" type="line"/>
+      <point x="53" y="606" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="153" y="0" type="line"/>
+      <point x="153" y="338" type="line" smooth="yes"/>
+      <point x="153" y="354"/>
+      <point x="151" y="388"/>
+      <point x="151" y="388" type="curve"/>
+      <point x="155" y="391" type="line"/>
+      <point x="155" y="391"/>
+      <point x="175" y="347"/>
+      <point x="182" y="334" type="curve" smooth="yes"/>
+      <point x="370" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="781" type="line"/>
+      <point x="301" y="781" type="line"/>
+      <point x="262" y="720" type="line"/>
+      <point x="222" y="781" type="line"/>
+      <point x="143" y="781" type="line"/>
+      <point x="219" y="661" type="line"/>
+      <point x="306" y="661" type="line"/>
+    </contour>
+  </outline>
+</glyph>

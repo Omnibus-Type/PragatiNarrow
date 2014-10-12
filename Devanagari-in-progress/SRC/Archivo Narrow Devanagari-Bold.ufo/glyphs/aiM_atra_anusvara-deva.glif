@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aiMatra_anusvara-deva" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-307" y="821" type="line"/>
+      <point x="-414" y="821" type="line"/>
+      <point x="-293" y="606" type="line"/>
+      <point x="-195" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="-70" y="606" type="line"/>
+      <point x="-302" y="606" type="line"/>
+      <point x="-302" y="513" type="line"/>
+      <point x="-70" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="-139" y="821" type="line"/>
+      <point x="-246" y="821" type="line"/>
+      <point x="-178" y="606" type="line"/>
+      <point x="-80" y="606" type="line"/>
+    </contour>
+    <component base="anusvara-deva" xOffset="101" yOffset="40"/>
+    <contour>
+      <point x="-129" y="606" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

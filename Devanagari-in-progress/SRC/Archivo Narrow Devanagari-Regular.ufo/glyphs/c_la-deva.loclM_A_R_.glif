@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c_la-deva.loclMAR" format="1">
+  <advance width="462"/>
+  <outline>
+    <contour>
+      <point x="250" y="446" type="line"/>
+      <point x="13" y="446" type="line"/>
+      <point x="13" y="380" type="line"/>
+      <point x="250" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="472" y="606" type="line"/>
+      <point x="-10" y="606" type="line"/>
+      <point x="-10" y="541" type="line"/>
+      <point x="472" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="288" y="107"/>
+      <point x="255" y="80"/>
+      <point x="241" y="32" type="curve"/>
+      <point x="239" y="32" type="line"/>
+      <point x="225" y="80"/>
+      <point x="191" y="107"/>
+      <point x="144" y="107" type="curve" smooth="yes"/>
+      <point x="73" y="107"/>
+      <point x="34" y="58"/>
+      <point x="34" y="-36" type="curve" smooth="yes"/>
+      <point x="34" y="-136"/>
+      <point x="85" y="-186"/>
+      <point x="154" y="-186" type="curve" smooth="yes"/>
+      <point x="161" y="-186"/>
+      <point x="172" y="-185"/>
+      <point x="179" y="-183" type="curve"/>
+      <point x="179" y="-122" type="line"/>
+      <point x="165" y="-122" type="line" smooth="yes"/>
+      <point x="120" y="-122"/>
+      <point x="104" y="-93"/>
+      <point x="104" y="-36" type="curve" smooth="yes"/>
+      <point x="104" y="16"/>
+      <point x="119" y="43"/>
+      <point x="153" y="43" type="curve" smooth="yes"/>
+      <point x="191" y="43"/>
+      <point x="204" y="13"/>
+      <point x="204" y="-23" type="curve" smooth="yes"/>
+      <point x="204" y="-55" type="line"/>
+      <point x="276" y="-55" type="line"/>
+      <point x="276" y="-23" type="line" smooth="yes"/>
+      <point x="276" y="12"/>
+      <point x="288" y="43"/>
+      <point x="324" y="43" type="curve" smooth="yes"/>
+      <point x="358" y="43"/>
+      <point x="373" y="14"/>
+      <point x="373" y="-35" type="curve" smooth="yes"/>
+      <point x="373" y="-93"/>
+      <point x="355" y="-122"/>
+      <point x="312" y="-122" type="curve" smooth="yes"/>
+      <point x="299" y="-122" type="line"/>
+      <point x="299" y="-183" type="line"/>
+      <point x="306" y="-185"/>
+      <point x="317" y="-186"/>
+      <point x="324" y="-186" type="curve" smooth="yes"/>
+      <point x="390" y="-186"/>
+      <point x="443" y="-135"/>
+      <point x="443" y="-34" type="curve" smooth="yes"/>
+      <point x="443" y="59"/>
+      <point x="403" y="107"/>
+      <point x="333" y="107" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="215" y="423" type="line"/>
+      <point x="132" y="423"/>
+      <point x="74" y="385"/>
+      <point x="74" y="293" type="curve" smooth="yes"/>
+      <point x="74" y="201"/>
+      <point x="148" y="161"/>
+      <point x="215" y="161" type="curve" smooth="yes"/>
+      <point x="261" y="161"/>
+      <point x="294" y="177"/>
+      <point x="313" y="197" type="curve"/>
+      <point x="316" y="197" type="line"/>
+      <point x="316" y="192" type="line"/>
+      <point x="389" y="192" type="line"/>
+      <point x="389" y="335" type="line"/>
+      <point x="316" y="335" type="line"/>
+      <point x="316" y="326" type="line" smooth="yes"/>
+      <point x="316" y="259"/>
+      <point x="289" y="225"/>
+      <point x="233" y="225" type="curve" smooth="yes"/>
+      <point x="178" y="225"/>
+      <point x="150" y="253"/>
+      <point x="150" y="297" type="curve" smooth="yes"/>
+      <point x="150" y="304" type="line" smooth="yes"/>
+      <point x="150" y="360"/>
+      <point x="178" y="380"/>
+      <point x="233" y="380" type="curve"/>
+    </contour>
+    <contour>
+      <point x="316" y="606" type="line"/>
+      <point x="316" y="70" type="line"/>
+      <point x="389" y="70" type="line"/>
+      <point x="389" y="606" type="line"/>
+    </contour>
+    <contour>
+      <point x="352" y="606" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="352" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

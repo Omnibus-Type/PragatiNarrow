@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="auMatra_reph-deva" format="1">
+  <advance width="219"/>
+  <outline>
+    <component base="aaMatra-deva"/>
+    <component base="aiMatra_reph-deva" xOffset="223"/>
+    <contour>
+      <point x="109" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="243" y="762" type="move" name="candraBindu"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>7</integer>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

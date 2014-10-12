@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra_reph_candraBindu-deva.17" format="1">
+  <advance width="219"/>
+  <outline>
+    <component base="iMatra_base-deva.17"/>
+    <component base="iMatra_reph_candraBindu-deva.alt" xOffset="627"/>
+    <contour>
+      <point x="1153" y="606" type="move" name="imatra"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
