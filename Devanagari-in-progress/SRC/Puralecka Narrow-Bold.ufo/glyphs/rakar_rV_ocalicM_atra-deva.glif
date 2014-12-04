@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rakar_rVocalicMatra-deva" format="1">
+  <advance width="0"/>
+  <outline>
+	<contour>
+	  <point x="-170" y="13" type="line"/>
+	  <point x="-335" y="-120" type="line"/>
+	  <point x="-216" y="-120" type="line"/>
+	  <point x="-96" y="-20" type="line"/>
+	  <point x="-162" y="-20" type="line"/>
+	  <point x="-42" y="-120" type="line"/>
+	  <point x="78" y="-120" type="line"/>
+	  <point x="-87" y="13" type="line"/>
+	</contour>
+	<component base="rVocalicMatra-deva" yOffset="-228"/>
+	<contour>
+	  <point x="-129" y="0" type="move" name="_bottom"/>
+	</contour>
+	<contour>
+	  <point x="-129" y="171" type="move" name="nukta"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>9</integer>
+	  <key>public.markColor</key>
+	  <string>0.98,0.36,0.67,1</string>
+	</dict>
+  </lib>
+</glyph>

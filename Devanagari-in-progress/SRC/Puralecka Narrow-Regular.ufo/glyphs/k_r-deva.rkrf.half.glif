@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k_r-deva.rkrf.half" format="1">
+  <advance width="480"/>
+  <outline>
+	<contour>
+	  <point x="395" y="469"/>
+	  <point x="364" y="453"/>
+	  <point x="347" y="433" type="curve"/>
+	  <point x="344" y="433" type="line"/>
+	  <point x="344" y="438" type="line"/>
+	  <point x="271" y="438" type="line"/>
+	  <point x="271" y="292" type="line"/>
+	  <point x="344" y="292" type="line"/>
+	  <point x="344" y="301" type="line" smooth="yes"/>
+	  <point x="344" y="370"/>
+	  <point x="371" y="405"/>
+	  <point x="427" y="405" type="curve" smooth="yes"/>
+	  <point x="483" y="405"/>
+	  <point x="510" y="376"/>
+	  <point x="510" y="301" type="curve"/>
+	  <point x="510" y="290" type="line"/>
+	  <point x="583" y="301" type="line"/>
+	  <point x="583" y="418"/>
+	  <point x="523" y="469"/>
+	  <point x="436" y="469" type="curve" smooth="yes"/>
+	</contour>
+	<contour>
+	  <point x="500" y="606" type="line"/>
+	  <point x="395" y="606" type="line"/>
+	  <point x="395" y="541" type="line"/>
+	  <point x="500" y="541" type="line"/>
+	</contour>
+	<component base="v_ra-deva.rkrf"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>9</integer>
+	  <key>public.markColor</key>
+	  <string>0.98,0.36,0.67,1</string>
+	</dict>
+  </lib>
+</glyph>

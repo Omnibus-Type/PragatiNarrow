@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra_anusvara-deva" format="1">
+  <advance width="258"/>
+  <outline>
+	<component base="iMatra-deva"/>
+	<component base="anusvara-deva" xOffset="853"/>
+	<contour>
+	  <point x="639" y="465" type="move" name="imatra"/>
+	</contour>
+	<contour>
+	  <point x="129" y="0" type="move" name="bottom"/>
+	</contour>
+	<contour>
+	  <point x="129" y="465" type="move" name="top"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>7</integer>
+	  <key>public.markColor</key>
+	  <string>0.18,0.16,0.78,1</string>
+	</dict>
+  </lib>
+</glyph>

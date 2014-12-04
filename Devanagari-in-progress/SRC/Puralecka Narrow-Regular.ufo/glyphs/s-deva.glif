@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s-deva" format="1">
+  <advance width="306"/>
+  <outline>
+	<contour>
+	  <point x="105" y="256" type="line"/>
+	  <point x="105" y="196" type="line"/>
+	  <point x="405" y="196" type="line"/>
+	  <point x="405" y="256" type="line"/>
+	</contour>
+	<contour>
+	  <point x="379" y="606" type="line"/>
+	  <point x="249" y="606" type="line"/>
+	  <point x="249" y="541" type="line"/>
+	  <point x="379" y="541" type="line"/>
+	</contour>
+	<component base="ra-deva"/>
+	<contour>
+	  <point x="263" y="465" type="move" name="top"/>
+	</contour>
+	<contour>
+	  <point x="263" y="0" type="move" name="bottom"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>1</integer>
+	  <key>public.markColor</key>
+	  <string>0.99,0.62,0.11,1</string>
+	</dict>
+  </lib>
+</glyph>

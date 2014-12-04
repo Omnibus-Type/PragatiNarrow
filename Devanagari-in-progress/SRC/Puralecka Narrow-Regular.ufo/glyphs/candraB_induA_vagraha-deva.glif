@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="candraBinduAvagraha-deva" format="1">
+  <advance width="374"/>
+  <unicode hex="A8F7"/>
+  <outline>
+	<contour>
+	  <point x="166" y="386" type="line" smooth="yes"/>
+	  <point x="87" y="386"/>
+	  <point x="44" y="349"/>
+	  <point x="44" y="287" type="curve" smooth="yes"/>
+	  <point x="44" y="236"/>
+	  <point x="73" y="210"/>
+	  <point x="148" y="176" type="curve" smooth="yes"/>
+	  <point x="186" y="159" type="line" smooth="yes"/>
+	  <point x="242" y="135"/>
+	  <point x="260" y="119"/>
+	  <point x="260" y="93" type="curve" smooth="yes"/>
+	  <point x="260" y="65"/>
+	  <point x="238" y="53"/>
+	  <point x="186" y="53" type="curve" smooth="yes"/>
+	  <point x="133" y="53"/>
+	  <point x="110" y="66"/>
+	  <point x="110" y="97" type="curve" smooth="yes"/>
+	  <point x="110" y="122" type="line"/>
+	  <point x="41" y="122" type="line"/>
+	  <point x="39" y="114"/>
+	  <point x="38" y="105"/>
+	  <point x="38" y="96" type="curve" smooth="yes"/>
+	  <point x="38" y="23"/>
+	  <point x="103" y="-11"/>
+	  <point x="188" y="-11" type="curve" smooth="yes"/>
+	  <point x="282" y="-11"/>
+	  <point x="332" y="27"/>
+	  <point x="332" y="97" type="curve" smooth="yes"/>
+	  <point x="332" y="147"/>
+	  <point x="305" y="179"/>
+	  <point x="223" y="215" type="curve" smooth="yes"/>
+	  <point x="181" y="234" type="line" smooth="yes"/>
+	  <point x="130" y="258"/>
+	  <point x="116" y="271"/>
+	  <point x="116" y="290" type="curve" smooth="yes"/>
+	  <point x="116" y="311"/>
+	  <point x="133" y="322"/>
+	  <point x="166" y="322" type="curve" smooth="yes"/>
+	  <point x="333" y="322" type="line"/>
+	  <point x="333" y="386" type="line"/>
+	</contour>
+	<component base="candraBindu-deva" xOffset="296" yOffset="-217"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>10</integer>
+	  <key>public.markColor</key>
+	  <string>0.75,0.75,0.75,1</string>
+	</dict>
+  </lib>
+</glyph>

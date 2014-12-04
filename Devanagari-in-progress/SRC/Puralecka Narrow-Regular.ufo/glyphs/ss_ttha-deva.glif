@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ss_ttha-deva" format="1">
+  <advance width="457"/>
+  <outline>
+	<contour>
+	  <point x="215" y="288" type="line" smooth="yes"/>
+	  <point x="120" y="288"/>
+	  <point x="57" y="229"/>
+	  <point x="57" y="145" type="curve" smooth="yes"/>
+	  <point x="57" y="50"/>
+	  <point x="127" y="0"/>
+	  <point x="246" y="0" type="curve" smooth="yes"/>
+	  <point x="363" y="0"/>
+	  <point x="433" y="51"/>
+	  <point x="433" y="144" type="curve" smooth="yes"/>
+	  <point x="433" y="214"/>
+	  <point x="379" y="265"/>
+	  <point x="325" y="290" type="curve"/>
+	  <point x="282" y="236" type="line"/>
+	  <point x="311" y="223"/>
+	  <point x="357" y="192"/>
+	  <point x="357" y="146" type="curve" smooth="yes"/>
+	  <point x="357" y="93"/>
+	  <point x="317" y="65"/>
+	  <point x="246" y="65" type="curve" smooth="yes"/>
+	  <point x="173" y="65"/>
+	  <point x="133" y="93"/>
+	  <point x="133" y="145" type="curve" smooth="yes"/>
+	  <point x="133" y="190"/>
+	  <point x="166" y="224"/>
+	  <point x="215" y="224" type="curve" smooth="yes"/>
+	  <point x="381" y="224" type="line"/>
+	  <point x="381" y="288" type="line"/>
+	</contour>
+	<contour>
+	  <point x="467" y="606" type="line"/>
+	  <point x="-10" y="606" type="line"/>
+	  <point x="-10" y="541" type="line"/>
+	  <point x="467" y="541" type="line"/>
+	</contour>
+	<contour>
+	  <point x="308" y="606" type="line"/>
+	  <point x="308" y="224" type="line"/>
+	  <point x="381" y="224" type="line"/>
+	  <point x="381" y="606" type="line"/>
+	</contour>
+	<contour>
+	  <point x="323" y="269" type="line"/>
+	  <point x="352" y="291" type="line"/>
+	  <point x="141" y="562" type="line"/>
+	  <point x="109" y="541" type="line"/>
+	</contour>
+	<contour>
+	  <point x="143" y="606" type="line"/>
+	  <point x="70" y="606" type="line"/>
+	  <point x="70" y="367" type="line" smooth="yes"/>
+	  <point x="70" y="279"/>
+	  <point x="118" y="232"/>
+	  <point x="200" y="232" type="curve"/>
+	  <point x="219" y="288" type="line"/>
+	  <point x="171" y="288"/>
+	  <point x="143" y="319"/>
+	  <point x="143" y="372" type="curve" smooth="yes"/>
+	</contour>
+	<contour>
+	  <point x="345" y="606" type="move" name="top"/>
+	</contour>
+	<contour>
+	  <point x="274" y="0" type="move" name="bottom"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>4</integer>
+	  <key>public.markColor</key>
+	  <string>0.67,0.95,0.38,1</string>
+	</dict>
+  </lib>
+</glyph>

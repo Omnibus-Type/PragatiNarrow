@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dh_r-deva.rkrf.half" format="1">
+  <advance width="266"/>
+  <outline>
+	<contour>
+	  <point x="87" y="617"/>
+	  <point x="43" y="576"/>
+	  <point x="43" y="501" type="curve" smooth="yes"/>
+	  <point x="43" y="439"/>
+	  <point x="76" y="410"/>
+	  <point x="118" y="391" type="curve"/>
+	  <point x="75" y="374"/>
+	  <point x="42" y="337"/>
+	  <point x="42" y="278" type="curve" smooth="yes"/>
+	  <point x="42" y="193"/>
+	  <point x="112" y="144"/>
+	  <point x="211" y="144" type="curve" smooth="yes"/>
+	  <point x="316" y="144"/>
+	  <point x="374" y="201"/>
+	  <point x="374" y="290" type="curve" smooth="yes"/>
+	  <point x="374" y="345" type="line"/>
+	  <point x="339" y="345" type="line"/>
+	  <point x="339" y="333" type="line" smooth="yes"/>
+	  <point x="339" y="245"/>
+	  <point x="297" y="206"/>
+	  <point x="220" y="206" type="curve" smooth="yes"/>
+	  <point x="161" y="206"/>
+	  <point x="117" y="227"/>
+	  <point x="117" y="284" type="curve" smooth="yes"/>
+	  <point x="117" y="338"/>
+	  <point x="157" y="356"/>
+	  <point x="199" y="356" type="curve" smooth="yes"/>
+	  <point x="245" y="356" type="line"/>
+	  <point x="245" y="417" type="line"/>
+	  <point x="198" y="417" type="line" smooth="yes"/>
+	  <point x="154" y="417"/>
+	  <point x="117" y="442"/>
+	  <point x="117" y="497" type="curve" smooth="yes"/>
+	  <point x="117" y="532"/>
+	  <point x="125" y="556"/>
+	  <point x="149" y="556" type="curve" smooth="yes"/>
+	  <point x="173" y="556"/>
+	  <point x="181" y="539"/>
+	  <point x="181" y="518" type="curve" smooth="yes"/>
+	  <point x="181" y="499" type="line"/>
+	  <point x="245" y="499" type="line"/>
+	  <point x="247" y="505"/>
+	  <point x="249" y="516"/>
+	  <point x="249" y="528" type="curve" smooth="yes"/>
+	  <point x="249" y="586"/>
+	  <point x="206" y="617"/>
+	  <point x="145" y="617" type="curve" smooth="yes"/>
+	</contour>
+	<contour>
+	  <point x="215" y="173" type="line"/>
+	  <point x="70" y="69" type="line"/>
+	  <point x="70" y="-10" type="line"/>
+	  <point x="320" y="174" type="line"/>
+	</contour>
+	<contour>
+	  <point x="375" y="606" type="move" name="top"/>
+	</contour>
+	<contour>
+	  <point x="375" y="0" type="move" name="bottom"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>1</integer>
+	  <key>public.markColor</key>
+	  <string>0.99,0.62,0.11,1</string>
+	</dict>
+  </lib>
+</glyph>

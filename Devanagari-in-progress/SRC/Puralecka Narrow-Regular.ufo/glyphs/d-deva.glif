@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d-deva" format="1">
+  <advance width="406"/>
+  <outline>
+	<component base="da-deva"/>
+	<component base="halant-deva" xOffset="417"/>
+	<contour>
+	  <point x="289" y="606" type="move" name="top"/>
+	</contour>
+	<contour>
+	  <point x="289" y="0" type="move" name="bottom"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>1</integer>
+	  <key>public.markColor</key>
+	  <string>0.99,0.62,0.11,1</string>
+	</dict>
+  </lib>
+</glyph>

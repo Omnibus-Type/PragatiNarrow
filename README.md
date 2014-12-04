@@ -1,10 +1,10 @@
-# Archivo Narrow-Devanagari  
-###(*First Release*)
+# Puralecka Narrow (Archivo Narrow-Devanagari)  
+###(*First Release candidate*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
 
-Archivo Narrow Devanagari is being developed from Archivo Narrow. This new font is still under development. Week by week we are working hard to create new Devanagari glyphs to complete a set of Devanagari glyphs based on [Lohit2](https://github.com/pravins/lohit2/tree/master/devanagari)
+Puralecka Narrow (previously Archivo Narrow Devanagari) is being developed from Archivo Narrow. This new font is still under development.
 
 ![Sample of Archivo Narrow Devanagari.](ArchivoNarrow-Devanagari.gif "Archivo Narrow Devanagari")
 
@@ -25,10 +25,8 @@ Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://o
 - `rkrf`
 - `blwf`
 - `half`
-- `vatu`
 - `cjct`
 - `abvs`
-- `psts`
 - `pres`
 
 
@@ -41,7 +39,7 @@ To contribute to the project contact [Omnibus Type](http://omnibus-type.com/).
 
 ### License
 
-Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Archivo'
+Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Puralecka'
 
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); you may not use this file except in compliance with the License.
 
@@ -57,7 +55,7 @@ Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); y
 **5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ	| ॥		|	ॵ
 **6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०		|	ॶ
 **7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १		|	ॷ
-**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	--
+**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	ॸ
 **9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३		|	ॹ
 **A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४		|	ॺ
 **B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५		|	ॻ
@@ -96,7 +94,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 ### Archivo is a typeface family that supports Unicode language range: 
 
-* Devanagari (550 glyphs)
+* Devanagari (618 glyphs)
 * Basic Latin (95 glyphs),
 * Latin-1 Supplement (96 glyphs),
 * Latin Extended-A (128 glyphs),
@@ -115,7 +113,11 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
-**7 October 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release updated*)**
+**December 3, 2014 (Omnibus Type) Puralecka Narrow Beta v1.004 (*release candidate*)**
+- Enhance mark suport in all dev2 and deva OT features (via Glyphs 2)
+- Expanded precompound marks ang conjuncts
+
+**October 7, 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release updated*)**
 - Suporte all dev2 and deva OT features (via Glyphs 2)
 - Improved the balance beetween Latin and Devanagari
 - Less latinized glyphs like इ ड and all the derivated glyphs
@@ -125,20 +127,20 @@ This information should be distributed along with the Archivo fonts and any deri
 - TableName windows compatible
 - Updated TTF Autohinting (v1.1): `-r 72 -c -i -x 0 -D deva -f none -W -w gGD`
 
-**29 August 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release*)**
+**August 29, 2014 (Omnibus Type) Archivo Narrow Devanagari v1.004 (*first release*)**
 - Suporte all dev2 OT features (via FDK)
 - New Devanagari glyphs (range: 0900-097F and A8E0-A8FF)
 - Update hinted
 
-**23 June 2013 (Omnibus Type) Archivo Narrow v1.003**
+**June 23, 2013 (Omnibus Type) Archivo Narrow v1.003**
 - Fixed Name Table (Thanks to Dave Crossland @davelab6 for his technical input.)
 - Updated hinting with ttfautohint (v0.95) with the follow values: `ttfautohint -l 8 -r 50 -G 200 -x 14 -w "G" -W [IN-FILE [OUT-FILE]]`
 
-**02 October 2012 (Omnibus Type) Archivo Narrow v1.002**
+**October 2, 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Fixed encoding Tables and index (Thanks to Theunis de Jong for his technical input.)
 - Fixed TTF Naming Tables
 
-**22 August 2012 (Omnibus Type) Archivo Narrow v1.002**
+**August 22, 2012 (Omnibus Type) Archivo Narrow v1.002**
 - Initial release under SIL Open Font License
 
 ### Acknowledgements

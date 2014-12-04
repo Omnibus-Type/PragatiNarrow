@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d_ba-deva" format="1">
+  <advance width="444"/>
+  <outline>
+	<contour>
+	  <point x="307" y="49" type="line"/>
+	  <point x="188" y="171" type="line"/>
+	  <point x="152" y="149" type="line"/>
+	  <point x="278" y="21" type="line"/>
+	</contour>
+	<component base="d_va-deva"/>
+	<contour>
+	  <point x="320" y="606" type="move" name="top"/>
+	</contour>
+	<contour>
+	  <point x="364" y="-37" type="move" name="bottom"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>4</integer>
+	  <key>public.markColor</key>
+	  <string>0.67,0.95,0.38,1</string>
+	</dict>
+  </lib>
+</glyph>
