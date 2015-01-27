@@ -2,7 +2,7 @@ ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
 
 PUBLICATION NAME: Pragati_InDesignFeaturesSheetTest.indd
 
-PACKAGE DATE: 1/27/15 2:14 AM
+PACKAGE DATE: 1/27/15 12:53 PM
 Creation Date: 1/27/15
 Modification Date: 1/27/15
 
@@ -82,7 +82,7 @@ Flip Mode: Off
 FILE PACKAGE LIST
 
 1. Pragati_InDesignFeaturesSheetTest.indd; type: Adobe InDesign publication; size: 2024K
-2. Pragati_InDesignFeaturesSheetTest.idml; type: InDesign Markup Document; size: 149K
+2. Pragati_InDesignFeaturesSheetTest.idml; type: InDesign Markup Document; size: 148K
 3. Pragati_InDesignFeaturesSheetTest.pdf; type: Adobe Acrobat Document; size: 214K
 4. Chivo-Black.otf; type: Font file; size: 50K
 5. Chivo-Regular.otf; type: Font file; size: 53K
