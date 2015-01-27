@@ -1,12 +1,12 @@
-# Puralecka Narrow (Archivo Narrow-Devanagari)  
+# Pragati Narrow (Archivo Narrow-Devanagari)  
 ###(*First Release candidate*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
 
-Puralecka Narrow (previously Archivo Narrow Devanagari) is being developed from Archivo Narrow. This new font is still under development.
+Pragati Narrow (previously Archivo Narrow Devanagari) have been developed from Archivo Narrow.
 
-![Sample of Archivo Narrow Devanagari.](ArchivoNarrow-Devanagari.gif "Archivo Narrow Devanagari")
+![Sample of Pragati Narrow.](Pragati.png "Pragati Narrow")
 
 Previously Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
 
@@ -39,7 +39,7 @@ To contribute to the project contact [Omnibus Type](http://omnibus-type.com/).
 
 ### License
 
-Copyright (c) 2012-2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Puralecka'
+Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
 
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); you may not use this file except in compliance with the License.
 
@@ -112,8 +112,11 @@ This information should be distributed along with the Archivo fonts and any deri
 * Alphabetic Presentation Forms (2 glyphs)
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
+**January 27, 2015 (Omnibus Type) Pragati Narrow Beta v1.005 (*release candidate*)**
+- Massive update in the design of the glyphs and expanded conjuncts
 
-**December 3, 2014 (Omnibus Type) Puralecka Narrow Beta v1.004 (*release candidate*)**
+
+**December 3, 2014 (Omnibus Type) Pragati Narrow Beta v1.004 (*release candidate*)**
 - Enhance mark suport in all dev2 and deva OT features (via Glyphs 2)
 - Expanded precompound marks ang conjuncts
 
