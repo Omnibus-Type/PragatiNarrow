@@ -112,6 +112,7 @@ This information should be distributed along with the Archivo fonts and any deri
 * Alphabetic Presentation Forms (2 glyphs)
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
+
 **January 27, 2015 (Omnibus Type) Pragati Narrow Beta v1.005 (*release candidate*)**
 - Massive update in the design of the glyphs and expanded conjuncts
 
