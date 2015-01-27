@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbldeva" format="1">
+  <advance width="211"/>
+  <outline>
+    <contour>
+      <point x="90" y="314" type="line"/>
+      <point x="78" y="237" type="line"/>
+      <point x="55" y="237" type="line"/>
+      <point x="43" y="314" type="line"/>
+      <point x="43" y="399" type="line"/>
+      <point x="90" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="168" y="314" type="line"/>
+      <point x="155" y="237" type="line"/>
+      <point x="132" y="237" type="line"/>
+      <point x="120" y="314" type="line"/>
+      <point x="120" y="399" type="line"/>
+      <point x="168" y="399" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>237</integer>
+            <key>width</key>
+            <integer>162</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>43</integer>
+            <key>width</key>
+            <integer>47</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>120</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

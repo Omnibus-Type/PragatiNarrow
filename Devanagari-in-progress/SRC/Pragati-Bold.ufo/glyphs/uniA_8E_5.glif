@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA8E5" format="1">
+  <advance width="0"/>
+  <unicode hex="A8E5"/>
+  <outline>
+    <contour>
+      <point x="-94" y="399" type="move" name="_Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="-78" y="499" type="line"/>
+      <point x="-47" y="499" type="line"/>
+      <point x="-47" y="429" type="line"/>
+      <point x="-78" y="429" type="line"/>
+      <point x="-78" y="451" type="line"/>
+      <point x="-84" y="448"/>
+      <point x="-92" y="447"/>
+      <point x="-100" y="447" type="curve" smooth="yes"/>
+      <point x="-125" y="447"/>
+      <point x="-142" y="458"/>
+      <point x="-142" y="491" type="curve" smooth="yes"/>
+      <point x="-142" y="510"/>
+      <point x="-136" y="529"/>
+      <point x="-125" y="549" type="curve"/>
+      <point x="-86" y="549" type="line"/>
+      <point x="-101" y="527"/>
+      <point x="-106" y="509"/>
+      <point x="-106" y="494" type="curve" smooth="yes"/>
+      <point x="-106" y="480"/>
+      <point x="-101" y="475"/>
+      <point x="-92" y="475" type="curve" smooth="yes"/>
+      <point x="-82" y="475"/>
+      <point x="-78" y="482"/>
+      <point x="-78" y="498" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>429</integer>
+            <key>width</key>
+            <integer>70</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>447</integer>
+            <key>width</key>
+            <integer>28</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-142</integer>
+            <key>width</key>
+            <integer>36</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-78</integer>
+            <key>width</key>
+            <integer>31</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
