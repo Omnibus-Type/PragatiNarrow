@@ -6,7 +6,7 @@
 
 Pragati Narrow (previously Archivo Narrow Devanagari) have been developed from Archivo Narrow.
 
-![Sample of Pragati Narrow.](Pragati.png "Pragati Narrow")
+![Sample of Pragati Narrow.](SRC/Pragati.png "Pragati Narrow")
 
 Previously Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
 
