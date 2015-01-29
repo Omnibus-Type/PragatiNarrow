@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright-deva" format="1">
+  <advance width="148"/>
+  <outline>
+    <component base="bracketleft-deva" xOffset="148" xScale="-1"/>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA8E5" format="1">
+  <advance width="0"/>
+  <unicode hex="A8E5"/>
+  <outline>
+    <contour>
+      <point x="-136" y="529"/>
+      <point x="-142" y="510"/>
+      <point x="-142" y="491" type="curve" smooth="yes"/>
+      <point x="-142" y="458"/>
+      <point x="-125" y="447"/>
+      <point x="-100" y="447" type="curve" smooth="yes"/>
+      <point x="-75" y="447"/>
+      <point x="-55" y="457"/>
+      <point x="-55" y="498" type="curve"/>
+      <point x="-78" y="498" type="line"/>
+      <point x="-78" y="482"/>
+      <point x="-82" y="475"/>
+      <point x="-92" y="475" type="curve" smooth="yes"/>
+      <point x="-101" y="475"/>
+      <point x="-106" y="480"/>
+      <point x="-106" y="494" type="curve" smooth="yes"/>
+      <point x="-106" y="509"/>
+      <point x="-101" y="527"/>
+      <point x="-86" y="549" type="curve"/>
+      <point x="-125" y="549" type="line"/>
+    </contour>
+    <contour>
+      <point x="-78" y="499" type="line"/>
+      <point x="-78" y="429" type="line"/>
+      <point x="-47" y="429" type="line"/>
+      <point x="-47" y="499" type="line"/>
+    </contour>
+    <contour>
+      <point x="-94" y="399" type="move" name="_candra"/>
+    </contour>
+  </outline>
+</glyph>

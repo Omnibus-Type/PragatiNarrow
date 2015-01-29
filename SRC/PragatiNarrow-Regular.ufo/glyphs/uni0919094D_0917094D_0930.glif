@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0919094D0917094D0930" format="1">
+  <advance width="348"/>
+  <outline>
+    <contour>
+      <point x="244" y="76"/>
+      <point x="293" y="104"/>
+      <point x="293" y="154" type="curve" smooth="yes"/>
+      <point x="293" y="186"/>
+      <point x="274" y="216"/>
+      <point x="215" y="216" type="curve" smooth="yes"/>
+      <point x="116" y="216" type="line" smooth="yes"/>
+      <point x="96" y="216"/>
+      <point x="84" y="222"/>
+      <point x="84" y="236" type="curve" smooth="yes"/>
+      <point x="84" y="248"/>
+      <point x="94" y="256"/>
+      <point x="113" y="256" type="curve" smooth="yes"/>
+      <point x="231" y="256" type="line"/>
+      <point x="231" y="299" type="line"/>
+      <point x="115" y="299" type="line" smooth="yes"/>
+      <point x="69" y="299"/>
+      <point x="34" y="277"/>
+      <point x="34" y="233" type="curve" smooth="yes"/>
+      <point x="34" y="202"/>
+      <point x="53" y="174"/>
+      <point x="109" y="174" type="curve" smooth="yes"/>
+      <point x="207" y="174" type="line" smooth="yes"/>
+      <point x="217" y="174"/>
+      <point x="243" y="173"/>
+      <point x="243" y="151" type="curve" smooth="yes"/>
+      <point x="243" y="127"/>
+      <point x="205" y="119"/>
+      <point x="161" y="119" type="curve" smooth="yes"/>
+      <point x="117" y="119"/>
+      <point x="74" y="130"/>
+      <point x="74" y="154" type="curve" smooth="yes"/>
+      <point x="74" y="159" type="line"/>
+      <point x="24" y="159" type="line"/>
+      <point x="24" y="158"/>
+      <point x="23" y="154"/>
+      <point x="23" y="149" type="curve" smooth="yes"/>
+      <point x="23" y="112"/>
+      <point x="61" y="76"/>
+      <point x="161" y="76" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="123" y="-85"/>
+      <point x="153" y="-57"/>
+      <point x="153" y="-20" type="curve" smooth="yes"/>
+      <point x="153" y="92" type="line"/>
+      <point x="107" y="92" type="line"/>
+      <point x="107" y="36" type="line"/>
+      <point x="109" y="18" type="line"/>
+      <point x="109" y="-17" type="line" smooth="yes"/>
+      <point x="109" y="-32"/>
+      <point x="101" y="-43"/>
+      <point x="86" y="-43" type="curve" smooth="yes"/>
+      <point x="72" y="-43"/>
+      <point x="63" y="-34"/>
+      <point x="63" y="-20" type="curve" smooth="yes"/>
+      <point x="63" y="-5"/>
+      <point x="72" y="5"/>
+      <point x="86" y="5" type="curve" smooth="yes"/>
+      <point x="140" y="5" type="line"/>
+      <point x="140" y="44" type="line"/>
+      <point x="86" y="44" type="line" smooth="yes"/>
+      <point x="46" y="44"/>
+      <point x="20" y="17"/>
+      <point x="20" y="-20" type="curve" smooth="yes"/>
+      <point x="20" y="-58"/>
+      <point x="45" y="-85"/>
+      <point x="86" y="-85" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="267" y="-33" type="line"/>
+      <point x="244" y="-3" type="line"/>
+      <point x="142" y="-87" type="line"/>
+      <point x="142" y="-146" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="-116" type="line"/>
+      <point x="273" y="123" type="line"/>
+      <point x="227" y="123" type="line"/>
+      <point x="227" y="-116" type="line"/>
+    </contour>
+    <contour>
+      <point x="355" y="357" type="line"/>
+      <point x="355" y="399" type="line"/>
+      <point x="-7" y="399" type="line"/>
+      <point x="-7" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="256" type="line"/>
+      <point x="260" y="399" type="line"/>
+      <point x="212" y="399" type="line"/>
+      <point x="212" y="256" type="line"/>
+    </contour>
+    <component base="uni0902" xOffset="384" yOffset="-165" xScale="0.9" yScale="0.9"/>
+    <contour>
+      <point x="236" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="250" y="-116" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="171" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0928094D" format="1">
+  <advance width="210"/>
+  <outline>
+    <contour>
+      <point x="273" y="243" type="line"/>
+      <point x="80" y="243" type="line" smooth="yes"/>
+      <point x="32" y="243"/>
+      <point x="1" y="212"/>
+      <point x="1" y="166" type="curve" smooth="yes"/>
+      <point x="1" y="123"/>
+      <point x="36" y="89"/>
+      <point x="80" y="89" type="curve" smooth="yes"/>
+      <point x="127" y="89"/>
+      <point x="158" y="120"/>
+      <point x="158" y="166" type="curve" smooth="yes"/>
+      <point x="158" y="215" type="line"/>
+      <point x="111" y="215" type="line"/>
+      <point x="111" y="166" type="line" smooth="yes"/>
+      <point x="111" y="146"/>
+      <point x="98" y="132"/>
+      <point x="80" y="132" type="curve" smooth="yes"/>
+      <point x="63" y="132"/>
+      <point x="48" y="148"/>
+      <point x="48" y="166" type="curve" smooth="yes"/>
+      <point x="48" y="186"/>
+      <point x="61" y="199"/>
+      <point x="80" y="199" type="curve" smooth="yes"/>
+      <point x="273" y="199" type="line"/>
+    </contour>
+    <contour>
+      <point x="244" y="399" type="line"/>
+      <point x="-7" y="399" type="line"/>
+      <point x="-7" y="357" type="line"/>
+      <point x="244" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="89" type="move" name="nukta"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

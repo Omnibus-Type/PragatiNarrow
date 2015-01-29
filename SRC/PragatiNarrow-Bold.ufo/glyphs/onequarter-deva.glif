@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onequarter-deva" format="1">
+  <advance width="488"/>
+  <outline>
+    <component base="uni096A" xOffset="282" xScale="0.59" yScale="0.59"/>
+    <component base="uni0967" xOffset="35" yOffset="194" xScale="0.59" yScale="0.59"/>
+    <component base="fraction" xOffset="182"/>
+  </outline>
+</glyph>

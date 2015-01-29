@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0923" format="1">
+  <advance width="413"/>
+  <unicode hex="0923"/>
+  <outline>
+    <contour>
+      <point x="326" y="399" type="line"/>
+      <point x="-7" y="399" type="line"/>
+      <point x="-7" y="357" type="line"/>
+      <point x="326" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="231" y="399" type="line"/>
+      <point x="183" y="399" type="line"/>
+      <point x="183" y="161" type="line" smooth="yes"/>
+      <point x="183" y="129"/>
+      <point x="162" y="111"/>
+      <point x="132" y="111" type="curve" smooth="yes"/>
+      <point x="101" y="111"/>
+      <point x="82" y="129"/>
+      <point x="82" y="161" type="curve" smooth="yes"/>
+      <point x="82" y="399" type="line"/>
+      <point x="35" y="399" type="line"/>
+      <point x="35" y="163" type="line" smooth="yes"/>
+      <point x="35" y="101"/>
+      <point x="71" y="68"/>
+      <point x="132" y="68" type="curve" smooth="yes"/>
+      <point x="192" y="68"/>
+      <point x="231" y="101"/>
+      <point x="231" y="163" type="curve" smooth="yes"/>
+    </contour>
+    <component base="uni093E" xOffset="268"/>
+    <contour>
+      <point x="206" y="399" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="132" y="34" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="340" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="340" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

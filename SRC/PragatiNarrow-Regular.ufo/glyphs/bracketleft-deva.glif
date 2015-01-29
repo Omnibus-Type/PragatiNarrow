@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft-deva" format="1">
+  <advance width="148"/>
+  <outline>
+    <contour>
+      <point x="121" y="469" type="line"/>
+      <point x="121" y="507" type="line"/>
+      <point x="28" y="507" type="line"/>
+      <point x="28" y="-94" type="line"/>
+      <point x="121" y="-94" type="line"/>
+      <point x="121" y="-56" type="line"/>
+      <point x="72" y="-56" type="line"/>
+      <point x="72" y="469" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0951" format="1">
+  <advance width="0"/>
+  <unicode hex="0951"/>
+  <outline>
+    <contour>
+      <point x="-94" y="733" type="line"/>
+      <point x="-94" y="587" type="line"/>
+      <point x="-51" y="587" type="line"/>
+      <point x="-51" y="733" type="line"/>
+    </contour>
+    <contour>
+      <point x="-72" y="399" type="move" name="_candra"/>
+    </contour>
+  </outline>
+</glyph>

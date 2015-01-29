@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni092B094D0072.01" format="1">
+  <advance width="304"/>
+  <outline>
+    <component base="uni092A094D0930"/>
+    <component base="rightHalfArc-deva.02" xOffset="3"/>
+    <contour>
+      <point x="-2" y="156" type="move" name="nukta"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

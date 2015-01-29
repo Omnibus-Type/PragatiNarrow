@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni094D0930" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-93" y="7" type="line"/>
+      <point x="-192" y="-101" type="line"/>
+      <point x="-136" y="-101" type="line"/>
+      <point x="-57" y="-8" type="line"/>
+      <point x="-88" y="-8" type="line"/>
+      <point x="-9" y="-101" type="line"/>
+      <point x="47" y="-101" type="line"/>
+      <point x="-51" y="7" type="line"/>
+    </contour>
+    <contour>
+      <point x="-72" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-72" y="-123" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-72" y="117" type="move" name="nukta"/>
+    </contour>
+  </outline>
+</glyph>

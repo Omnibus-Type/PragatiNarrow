@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni091D.loclNEP" format="1">
+  <advance width="577"/>
+  <outline>
+    <component base="uni092D"/>
+    <component base="rightArc-deva" xOffset="121"/>
+    <contour>
+      <point x="342" y="399" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="77" y="28" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="343" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="343" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

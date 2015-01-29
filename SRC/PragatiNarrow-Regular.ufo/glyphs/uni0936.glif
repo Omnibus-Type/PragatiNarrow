@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0936" format="1">
+  <advance width="351"/>
+  <unicode hex="0936"/>
+  <outline>
+    <contour>
+      <point x="255" y="399" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="302" y="0" type="line"/>
+      <point x="302" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="399" type="line"/>
+      <point x="213" y="357" type="line"/>
+      <point x="358" y="357" type="line"/>
+      <point x="358" y="399" type="line"/>
+    </contour>
+    <component base="uni0936094D"/>
+    <contour>
+      <point x="189" y="399" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="38" y="92" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="279" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="279" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

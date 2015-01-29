@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0915094D0930" format="1">
+  <advance width="403"/>
+  <outline>
+    <component base="uni0935094D0930"/>
+    <component base="rightArc-deva" xOffset="-6"/>
+    <contour>
+      <point x="196" y="0" type="move" name="caret_1"/>
+    </contour>
+    <contour>
+      <point x="202" y="399" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="-30" y="146" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="202" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="202" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

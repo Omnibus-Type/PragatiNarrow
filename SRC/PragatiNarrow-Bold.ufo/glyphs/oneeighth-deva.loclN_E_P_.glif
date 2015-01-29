@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneeighth-deva.loclNEP" format="1">
+  <advance width="488"/>
+  <outline>
+    <component base="uni096E.loclNEP" xOffset="259" xScale="0.59" yScale="0.59"/>
+    <component base="uni0967" xOffset="37" yOffset="194" xScale="0.59" yScale="0.59"/>
+    <component base="fraction" xOffset="185"/>
+  </outline>
+</glyph>

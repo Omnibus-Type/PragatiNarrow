@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0936094D0932.loclMAR" format="1">
+  <advance width="587"/>
+  <outline>
+    <component base="uni0936094D.ss02"/>
+    <component base="uni0932.loclMAR" xOffset="212"/>
+    <contour>
+      <point x="490" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="409" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="395" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni094C0902" format="1">
+  <advance width="144"/>
+  <outline>
+    <component base="uni093E"/>
+    <component base="uni09480902" xOffset="144"/>
+    <contour>
+      <point x="72" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

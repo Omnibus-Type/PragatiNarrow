@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0919094D0918094D0930" format="1">
+  <advance width="348"/>
+  <outline>
+    <contour>
+      <point x="165" y="-72" type="line"/>
+      <point x="69" y="-117" type="line"/>
+      <point x="69" y="-172" type="line"/>
+      <point x="234" y="-86" type="line"/>
+    </contour>
+    <component base="uni0919094D0918"/>
+    <contour>
+      <point x="236" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="244" y="-116" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="159" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

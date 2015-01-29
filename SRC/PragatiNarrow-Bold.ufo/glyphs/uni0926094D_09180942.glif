@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0926094D09180942" format="1">
+  <advance width="378"/>
+  <outline>
+    <component base="uni0926094D0918"/>
+    <component base="uni0942.alt" xOffset="438"/>
+    <contour>
+      <point x="308" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="213" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

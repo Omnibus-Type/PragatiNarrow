@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft-deva" format="1">
+  <advance width="218"/>
+  <outline>
+    <component base="quotedblleft" xOffset="33" yOffset="72"/>
+  </outline>
+</glyph>

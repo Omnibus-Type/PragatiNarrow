@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0926094D0930" format="1">
+  <advance width="286"/>
+  <outline>
+    <contour>
+      <point x="123" y="91" type="line"/>
+      <point x="26" y="41" type="line"/>
+      <point x="26" y="-26" type="line"/>
+      <point x="220" y="91" type="line"/>
+    </contour>
+    <contour>
+      <point x="233" y="399" type="line"/>
+      <point x="163" y="399" type="line"/>
+      <point x="163" y="240" type="line"/>
+      <point x="233" y="240" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="399" type="line"/>
+      <point x="-7" y="399" type="line"/>
+      <point x="-7" y="338" type="line"/>
+      <point x="293" y="338" type="line"/>
+    </contour>
+    <contour>
+      <point x="193" y="152" type="line"/>
+      <point x="188" y="131"/>
+      <point x="174" y="120"/>
+      <point x="144" y="120" type="curve" smooth="yes"/>
+      <point x="106" y="120"/>
+      <point x="93" y="137"/>
+      <point x="93" y="173" type="curve" smooth="yes"/>
+      <point x="93" y="187" type="line" smooth="yes"/>
+      <point x="93" y="221"/>
+      <point x="106" y="240"/>
+      <point x="142" y="240" type="curve" smooth="yes"/>
+      <point x="190" y="240" type="line"/>
+      <point x="190" y="299" type="line"/>
+      <point x="142" y="299" type="line" smooth="yes"/>
+      <point x="61" y="299"/>
+      <point x="20" y="262"/>
+      <point x="20" y="181" type="curve" smooth="yes"/>
+      <point x="20" y="103"/>
+      <point x="63" y="67"/>
+      <point x="146" y="67" type="curve"/>
+      <point x="229" y="103" type="line"/>
+    </contour>
+    <contour>
+      <point x="181" y="171" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="291" y="0" type="line"/>
+      <point x="250" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="198" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="239" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="140" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

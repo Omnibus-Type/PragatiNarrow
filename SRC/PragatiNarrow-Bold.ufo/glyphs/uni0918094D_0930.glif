@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0918094D0930" format="1">
+  <advance width="368"/>
+  <outline>
+    <contour>
+      <point x="74" y="376"/>
+      <point x="40" y="350"/>
+      <point x="40" y="310" type="curve" smooth="yes"/>
+      <point x="40" y="277"/>
+      <point x="64" y="262"/>
+      <point x="90" y="254" type="curve"/>
+      <point x="60" y="244"/>
+      <point x="40" y="219"/>
+      <point x="40" y="185" type="curve" smooth="yes"/>
+      <point x="40" y="129"/>
+      <point x="94" y="88"/>
+      <point x="171" y="88" type="curve" smooth="yes"/>
+      <point x="243" y="88"/>
+      <point x="279" y="126"/>
+      <point x="279" y="186" type="curve" smooth="yes"/>
+      <point x="279" y="231" type="line"/>
+      <point x="248" y="231" type="line"/>
+      <point x="248" y="217" type="line" smooth="yes"/>
+      <point x="248" y="172"/>
+      <point x="227" y="145"/>
+      <point x="184" y="145" type="curve" smooth="yes"/>
+      <point x="142" y="145"/>
+      <point x="113" y="163"/>
+      <point x="113" y="192" type="curve" smooth="yes"/>
+      <point x="113" y="214"/>
+      <point x="130" y="222"/>
+      <point x="151" y="222" type="curve" smooth="yes"/>
+      <point x="189" y="222" type="line"/>
+      <point x="189" y="279" type="line"/>
+      <point x="150" y="279" type="line" smooth="yes"/>
+      <point x="129" y="279"/>
+      <point x="113" y="291"/>
+      <point x="113" y="312" type="curve" smooth="yes"/>
+      <point x="113" y="324"/>
+      <point x="117" y="338"/>
+      <point x="134" y="338" type="curve"/>
+      <point x="133" y="376" type="line"/>
+    </contour>
+    <contour>
+      <point x="138" y="111" type="line"/>
+      <point x="42" y="61" type="line"/>
+      <point x="42" y="-7" type="line"/>
+      <point x="252" y="112" type="line"/>
+    </contour>
+    <contour>
+      <point x="-7" y="399" type="line"/>
+      <point x="-7" y="338" type="line"/>
+      <point x="262" y="338" type="line"/>
+      <point x="262" y="399" type="line"/>
+    </contour>
+    <component base="uni093E" xOffset="198"/>
+    <contour>
+      <point x="283" y="399" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="283" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="181" y="399" type="move" name="candra"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcircumflex" format="1">
+  <advance width="106"/>
+  <unicode hex="0135"/>
+  <outline>
+    <contour>
+      <point x="77" y="306" type="line"/>
+      <point x="29" y="306" type="line"/>
+      <point x="29" y="-38" type="line" smooth="yes"/>
+      <point x="29" y="-56"/>
+      <point x="20" y="-66"/>
+      <point x="2" y="-66" type="curve" smooth="yes"/>
+      <point x="-24" y="-66" type="line"/>
+      <point x="-24" y="-99" type="line"/>
+      <point x="-14" y="-103"/>
+      <point x="3" y="-106"/>
+      <point x="16" y="-106" type="curve" smooth="yes"/>
+      <point x="63" y="-106"/>
+      <point x="77" y="-71"/>
+      <point x="77" y="-36" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="126" y="342" type="line"/>
+      <point x="76" y="420" type="line"/>
+      <point x="30" y="420" type="line"/>
+      <point x="-20" y="342" type="line"/>
+      <point x="27" y="342" type="line"/>
+      <point x="53" y="388" type="line"/>
+      <point x="79" y="342" type="line"/>
+    </contour>
+  </outline>
+</glyph>

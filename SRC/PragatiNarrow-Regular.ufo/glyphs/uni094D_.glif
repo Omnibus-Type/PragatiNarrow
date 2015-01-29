@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni094D" format="1">
+  <advance width="0"/>
+  <unicode hex="094D"/>
+  <outline>
+    <contour>
+      <point x="11" y="-144" type="line"/>
+      <point x="11" y="-101" type="line"/>
+      <point x="-137" y="-41" type="line"/>
+      <point x="-137" y="-87" type="line"/>
+    </contour>
+    <contour>
+      <point x="-63" y="0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni09480902" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-219" y="574" type="line"/>
+      <point x="-290" y="574" type="line"/>
+      <point x="-193" y="399" type="line"/>
+      <point x="-129" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="-46" y="399" type="line"/>
+      <point x="-199" y="399" type="line"/>
+      <point x="-199" y="338" type="line"/>
+      <point x="-46" y="338" type="line"/>
+    </contour>
+    <contour>
+      <point x="-101" y="574" type="line"/>
+      <point x="-171" y="574" type="line"/>
+      <point x="-117" y="399" type="line"/>
+      <point x="-53" y="399" type="line"/>
+    </contour>
+    <component base="uni0902" xOffset="67" yOffset="26"/>
+    <contour>
+      <point x="-85" y="399" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
