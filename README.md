@@ -113,6 +113,13 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**28 January 2015 (Omnibus Type) Pragati Narrow Beta v1.005**  
+- Name tables adjusted
+- fsType Installable Mode
+- Set Panose values
+- Updates CFF and TTF hinting
+- Added Family Alignment Zones
+
 **January 27, 2015 (Omnibus Type) Pragati Narrow Beta v1.005 (*release candidate*)**
 - Massive update in the design of the glyphs and expanded conjuncts
 
