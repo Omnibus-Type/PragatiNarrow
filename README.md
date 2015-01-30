@@ -8,7 +8,7 @@ Pragati Narrow, the Devanagari typeface family designed as a complement of Archi
 
 ![Sample of Pragati Narrow.](SRC/Pragati.png "Pragati Narrow")
 
-Pragati Narrow is a libre Devanagari typeface family designed as a comploment to [Archivo Narrow](https://www.google.com/url?q=https%3A%2F%2Fwww.google.com%2Ffonts%2Fspecimen%2FArchivo%2BNarrow)*. Pragati Narrow is a sans-serif family with vertical and horizontal cuts designed by Marcela Romero, Pablo Cosgaya and Nicolás Silva. It comes in 2 weights (Regular and Bold) and was specially developed for screen as webfont and desktop font, too. The Latin version of Pragati is reminiscent of late nineteenth century American typefaces. It includes four Narrow styles and four Normal styles (in development), was derived from Chivo (designed by Héctor Gatti) and was developed with the collaboration of the [Omnibus-Type](http://www.google.com/url?q=http%3A%2F%2Fomnibus-type.com%2F&sa=D&sntz=1&usg=AFQjCNEK1dbRyWJN56zeP8EaPCup9kDYQw) team. 
+Pragati Narrow is a libre Devanagari typeface family designed as a complement to [Archivo Narrow](https://www.google.com/url?q=https%3A%2F%2Fwww.google.com%2Ffonts%2Fspecimen%2FArchivo%2BNarrow)*. Pragati Narrow is a sans-serif family with vertical and horizontal cuts designed by Marcela Romero, Pablo Cosgaya and Nicolás Silva. It comes in 2 weights (Regular and Bold) and was specially developed for screen as webfont and desktop font, too. The Latin version of Pragati is reminiscent of late nineteenth century American typefaces. It includes four Narrow styles and four Normal styles (in development), was derived from Chivo (designed by Héctor Gatti) and was developed with the collaboration of the [Omnibus-Type](http://www.google.com/url?q=http%3A%2F%2Fomnibus-type.com%2F&sa=D&sntz=1&usg=AFQjCNEK1dbRyWJN56zeP8EaPCup9kDYQw) team. 
 
 \* Pragati (प्रगति) is the Hindi word for ‘progress’. 
 
@@ -55,14 +55,14 @@ Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); y
 **5**| अ	| क	| थ	| व	| ◌ॅ	 | ◌ॕ	| ॥		|	ॵ
 **6**| आ	| ख	| द	| श	| ◌ॆ	 | ◌ॖ	| ०		|	ॶ
 **7**| इ	| ग	| ध	| ष	| ◌े	 | ◌ॗ	| १		|	ॷ
-**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	ॸ
-**9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३		|	ॹ
-**A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४		|	ॺ
-**B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५		|	ॻ
-**C**| ऌ 	| ज	| ब	| ◌़	| ◌ौ	 | ड़	| ६		|	ॼ
-**D**| ऍ		| झ	| भ	| ऽ	| ◌्	 | ढ़	| ७		|	ॽ
-**E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८		|	ॾ
-**F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९		|	ॿ
+**8**| ई	| घ	| न	| स	| ◌ै	 | क़	| २		|	ॸ
+**9**| उ	| ङ	| ऩ	| ह	| ◌ॉ	 | ख़	| ३		|	ॹ
+**A**| ऊ	| च	| प	| ◌ऺ	| ◌ॊ	 | ग़	| ४		|	ॺ
+**B**| ऋ	| छ	| फ	| ◌ऻ	| ◌ो	 | ज़	| ५		|	ॻ
+**C**| ऌ 	| ज	| ब	| ◌़	| ◌ौ	 | ड़	| ६		|	ॼ
+**D**| ऍ		| झ	| भ	| ऽ	| ◌्	 | ढ़	| ७		|	ॽ
+**E**| ऎ		| ञ	| म	| ◌ा	| ॎ◌	 | फ़	| ८		|	ॾ
+**F**| ए		| ट	| य	| ि◌	| ◌ॏ	 | य़	| ९		|	ॿ
 
 ### Devanagari Extended Unicode Character Map
 
