@@ -4,13 +4,13 @@
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
 
-Pragati Narrow (previously Archivo Narrow Devanagari) have been developed from Archivo Narrow.
+Pragati Narrow, the Devanagari typeface family designed as a compliment of Archivo Narrow.
 
 ![Sample of Pragati Narrow.](SRC/Pragati.png "Pragati Narrow")
 
-Previously Archivo Narrow was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
+Pragati Narrow is a libre Devanagari typeface family designed as a compliment of [Archivo Narrow](https://www.google.com/url?q=https%3A%2F%2Fwww.google.com%2Ffonts%2Fspecimen%2FArchivo%2BNarrow)*. Pragati Narrow is a sans-serif family with vertical and horizontal cuts and was designed by Marcela Romero, Pablo Cosgaya and Nicolás Silva. It comes in 2 weights (Regular and Bold) and was specially developed for screen as webfont and desktop font too. The latin version of Pragati is reminiscent of late nineteenth century American typefaces. It includes four Narrow styles, four Normal styles (in development) was derived on Chivo (designed by Héctor Gatti) and was developed with the collaboration of the [Omnibus-Type](http://www.google.com/url?q=http%3A%2F%2Fomnibus-type.com%2F&sa=D&sntz=1&usg=AFQjCNEK1dbRyWJN56zeP8EaPCup9kDYQw) team. 
 
-Archivo is a *grotesque sans serif* typeface family from [Omnibus Type](http://omnibus-type.com/). It was originally designed for highlights and headlines. This family is reminiscent of late nineteenth century American typefaces. It includes Narrow and Black styles, and was derived from Chivo.
+\* Pragati (प्रगति) is the hindi word for ‘progress’. 
 
 **Features support**
 - `ccmp`
