@@ -1,5 +1,5 @@
 # Pragati Narrow (Archivo Narrow-Devanagari)  
-###(*Second Release candidate*)
+###(*Release Candidate*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
