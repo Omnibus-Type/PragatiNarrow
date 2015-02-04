@@ -6,7 +6,7 @@
 
 Pragati Narrow, the Devanagari typeface family designed as a complement of Archivo Narrow.
 
-![Sample of Pragati Narrow.](SRC/Pragati.png "Pragati Narrow")
+![Sample of Pragati Narrow.](SRC/Pragati_poster.png "Pragati Narrow")
 
 Pragati Narrow is a libre Devanagari typeface family designed as a complement to [Archivo Narrow](https://www.google.com/url?q=https%3A%2F%2Fwww.google.com%2Ffonts%2Fspecimen%2FArchivo%2BNarrow)*. Pragati Narrow is a sans-serif family with vertical and horizontal cuts designed by Marcela Romero, Pablo Cosgaya and Nicolás Silva. It comes in 2 weights (Regular and Bold) and was specially developed for screen as webfont and desktop font, too. The Latin version of Pragati is reminiscent of late nineteenth century American typefaces. It includes four Narrow styles and four Normal styles (in development), was derived from Chivo (designed by Héctor Gatti) and was developed with the collaboration of the [Omnibus-Type](http://www.google.com/url?q=http%3A%2F%2Fomnibus-type.com%2F&sa=D&sntz=1&usg=AFQjCNEK1dbRyWJN56zeP8EaPCup9kDYQw) team. 
 
