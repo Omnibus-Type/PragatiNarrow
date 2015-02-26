@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni094C0901" format="1">
-  <advance width="144"/>
+  <advance width="228"/>
   <outline>
     <component base="uni093E"/>
-    <component base="uni09480901" xOffset="138"/>
+    <component base="uni09480901" xOffset="217"/>
     <contour>
-      <point x="72" y="0" type="move" name="bottom"/>
+      <point x="113" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

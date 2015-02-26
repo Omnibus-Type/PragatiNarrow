@@ -4,28 +4,28 @@
   <unicode hex="0948"/>
   <outline>
     <contour>
-      <point x="-152" y="574" type="line"/>
-      <point x="-200" y="574" type="line"/>
-      <point x="-146" y="399" type="line"/>
-      <point x="-104" y="399" type="line"/>
+      <point x="-240" y="906" type="line"/>
+      <point x="-316" y="906" type="line"/>
+      <point x="-231" y="630" type="line"/>
+      <point x="-164" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="-45" y="399" type="line"/>
-      <point x="-152" y="399" type="line"/>
-      <point x="-152" y="357" type="line"/>
-      <point x="-45" y="357" type="line"/>
+      <point x="-71" y="630" type="line"/>
+      <point x="-240" y="630" type="line"/>
+      <point x="-240" y="563" type="line"/>
+      <point x="-71" y="563" type="line"/>
     </contour>
     <contour>
-      <point x="-51" y="574" type="line"/>
-      <point x="-98" y="574" type="line"/>
-      <point x="-98" y="490" type="line"/>
-      <point x="-98" y="459"/>
-      <point x="-96" y="430"/>
-      <point x="-93" y="399" type="curve"/>
-      <point x="-51" y="399" type="line"/>
+      <point x="-80" y="906" type="line"/>
+      <point x="-155" y="906" type="line"/>
+      <point x="-155" y="773" type="line"/>
+      <point x="-155" y="725"/>
+      <point x="-152" y="678"/>
+      <point x="-147" y="630" type="curve"/>
+      <point x="-80" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="-72" y="399" type="move" name="_top"/>
+      <point x="-113" y="630" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0903" format="1">
-  <advance width="130"/>
+  <advance width="205"/>
   <unicode hex="0903"/>
   <outline>
     <contour>
-      <point x="136" y="357" type="line"/>
-      <point x="136" y="399" type="line"/>
-      <point x="-7" y="399" type="line"/>
-      <point x="-7" y="357" type="line"/>
+      <point x="215" y="563" type="line"/>
+      <point x="215" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="563" type="line"/>
     </contour>
-    <component base="uni0902" xOffset="136" yOffset="-208"/>
-    <component base="uni0902" xOffset="136" yOffset="-384"/>
+    <component base="uni0902" xOffset="215" yOffset="-328"/>
+    <component base="uni0902" xOffset="215" yOffset="-605"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0914" format="1">
-  <advance width="533"/>
+  <advance width="842"/>
   <unicode hex="0914"/>
   <outline>
     <component base="uni0905"/>
-    <component base="uni094C" xOffset="389"/>
+    <component base="uni094C" xOffset="614"/>
     <contour>
-      <point x="463" y="0" type="move" name="bottom"/>
+      <point x="855" y="739" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="730" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

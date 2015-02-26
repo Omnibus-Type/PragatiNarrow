@@ -2,18 +2,10 @@
 <glyph name="uni093C094D" format="1">
   <advance width="0"/>
   <outline>
-    <component base="uni093C" yOffset="13"/>
-    <component base="uni094D" xOffset="-7" yOffset="-92"/>
+    <component base="uni093C" yOffset="21"/>
+    <component base="uni094D" xOffset="-10" yOffset="-146"/>
     <contour>
-      <point x="-88" y="0" type="move" name="_bottom"/>
+      <point x="-139" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

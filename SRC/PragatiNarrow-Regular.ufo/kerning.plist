@@ -5,1319 +5,1319 @@
 	<key>@MMK_L_cdeva</key>
 	<dict>
 		<key>@MMK_R_khadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ladeva</key>
-		<real>8.5670003890991211</real>
+		<real>13.520000457763672</real>
 		<key>@MMK_R_madeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_nadeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_tadeva</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-14.498000144958496</real>
+		<real>-22.879999160766602</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>7.249000072479248</real>
+		<real>11.439999580383301</real>
 		<key>@MMK_R_vadeva</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 	</dict>
 	<key>@MMK_L_gh_rdeva</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.111000061035156</real>
+		<real>30.159999847412109</real>
 	</dict>
 	<key>@MMK_L_kdeva</key>
 	<dict>
 		<key>@MMK_R_badeva</key>
-		<real>15.156999588012695</real>
+		<real>23.920000076293945</real>
 		<key>@MMK_R_d_badeva</key>
-		<real>10.543999671936035</real>
+		<real>16.639999389648438</real>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>17.134000778198242</real>
+		<real>27.040000915527344</real>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_d_madeva</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-27.677999496459961</real>
+		<real>-43.680000305175781</real>
 		<key>@MMK_R_d_radeva</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 		<key>@MMK_R_g_nadeva</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 		<key>@MMK_R_gadeva</key>
-		<real>20.429000854492188</real>
+		<real>32.240001678466797</real>
 		<key>@MMK_R_j_jadeva</key>
-		<real>11.862000465393066</real>
+		<real>18.719999313354492</real>
 		<key>@MMK_R_jadeva</key>
-		<real>13.83899974822998</real>
+		<real>21.840000152587891</real>
 		<key>@MMK_R_k_kadeva</key>
-		<real>11.862000465393066</real>
+		<real>18.719999313354492</real>
 		<key>@MMK_R_k_ssadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_k_tadeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>@MMK_R_khadeva</key>
-		<real>17.134000778198242</real>
+		<real>27.040000915527344</real>
 		<key>@MMK_R_ladeva</key>
-		<real>14.498000144958496</real>
+		<real>22.879999160766602</real>
 		<key>@MMK_R_lladeva</key>
-		<real>15.815999984741211</real>
+		<real>24.959999084472656</real>
 		<key>@MMK_R_madeva</key>
-		<real>15.156999588012695</real>
+		<real>23.920000076293945</real>
 		<key>@MMK_R_n_nadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_nadeva</key>
-		<real>34.268001556396484</real>
+		<real>54.080001831054688</real>
 		<key>@MMK_R_nyadeva</key>
-		<real>15.156999588012695</real>
+		<real>23.920000076293945</real>
 		<key>@MMK_R_p_ladeva.loclMAR</key>
-		<real>-2.6359999179840088</real>
+		<real>-4.1599998474121094</real>
 		<key>@MMK_R_pa_nadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_radeva</key>
-		<real>9.8850002288818359</real>
+		<real>15.600000381469727</real>
 		<key>@MMK_R_sh_cadeva</key>
-		<real>30.313999176025391</real>
+		<real>47.840000152587891</real>
 		<key>@MMK_R_sh_ladeva</key>
-		<real>15.815999984741211</real>
+		<real>24.959999084472656</real>
 		<key>@MMK_R_sh_radeva</key>
-		<real>30.313999176025391</real>
+		<real>47.840000152587891</real>
 		<key>@MMK_R_sh_vadeva</key>
-		<real>30.313999176025391</real>
+		<real>47.840000152587891</real>
 		<key>@MMK_R_shadeva</key>
-		<real>-1.3179999589920044</real>
+		<real>-2.0799999237060547</real>
 		<key>@MMK_R_shadeva.loclMAR</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_t_radeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_tadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-16.475000381469727</real>
+		<integer>-26</integer>
 		<key>@MMK_R_tt_nadeva</key>
-		<real>-1.3179999589920044</real>
+		<real>-2.0799999237060547</real>
 		<key>@MMK_R_tt_ttadeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_vadeva</key>
-		<real>21.746999740600586</real>
+		<real>34.319999694824219</real>
 		<key>@MMK_R_yadeva</key>
-		<real>0.6589999794960022</real>
-		<key>dda-deva.MAW</key>
-		<real>-3.2950000762939453</real>
+		<real>1.0399999618530273</real>
 		<key>uni0915094D0932.loclMAR</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>uni0915094D0937094D0072</key>
-		<real>-48.765998840332031</real>
+		<real>-76.959999084472656</real>
 		<key>uni091B094D0932.loclMAR</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>uni091E094D091A</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>uni0924094D.01</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>uni092A094D0932.loclMAR</key>
-		<real>-17.134000778198242</real>
+		<real>-27.040000915527344</real>
 		<key>uni0932094D0932.loclMAR</key>
-		<real>15.815999984741211</real>
+		<real>24.959999084472656</real>
+		<key>uni0978</key>
+		<real>-5.1999998092651367</real>
 		<key>uni0979.loclNEP</key>
-		<real>4.6129999160766602</real>
+		<real>7.2800002098083496</real>
 	</dict>
 	<key>@MMK_L_khdeva</key>
 	<dict>
 		<key>@MMK_R_khadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ladeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_madeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_radeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_tadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>15.156999588012695</real>
+		<real>23.920000076293945</real>
 	</dict>
 	<key>@MMK_L_ndeva</key>
 	<dict>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_jadeva</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>@MMK_R_n_nadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_nadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_shadeva.loclMAR</key>
-		<real>-32.950000762939453</real>
+		<integer>-52</integer>
 		<key>@MMK_R_ss_tt_vadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 	</dict>
 	<key>@MMK_L_ndeva.01</key>
 	<dict>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_gadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_madeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 	</dict>
 	<key>@MMK_L_p_rdeva</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>7.9079999923706055</real>
+		<real>12.479999542236328</real>
 		<key>@MMK_R_vadeva</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 	</dict>
 	<key>@MMK_L_pdeva</key>
 	<dict>
 		<key>@MMK_R_badeva</key>
-		<real>14.498000144958496</real>
+		<real>22.879999160766602</real>
 		<key>@MMK_R_c_radeva</key>
-		<real>-16.475000381469727</real>
+		<integer>-26</integer>
 		<key>@MMK_R_cadeva</key>
-		<real>-18.451999664306641</real>
+		<real>-29.120000839233398</real>
 		<key>@MMK_R_d_badeva</key>
-		<real>11.862000465393066</real>
+		<real>18.719999313354492</real>
 		<key>@MMK_R_d_dadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_d_madeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-28.996000289916992</real>
+		<real>-45.759998321533203</real>
 		<key>@MMK_R_d_radeva</key>
-		<real>10.543999671936035</real>
+		<real>16.639999389648438</real>
 		<key>@MMK_R_d_yadeva</key>
-		<real>3.9539999961853027</real>
+		<real>6.2399997711181641</real>
 		<key>@MMK_R_g_nadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_gadeva</key>
-		<real>16.475000381469727</real>
+		<integer>26</integer>
 		<key>@MMK_R_ghadeva</key>
-		<real>5.9310002326965332</real>
+		<real>9.3599996566772461</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-7.249000072479248</real>
+		<real>-11.439999580383301</real>
 		<key>@MMK_R_j_jadeva</key>
-		<real>15.815999984741211</real>
+		<real>24.959999084472656</real>
 		<key>@MMK_R_j_nyadeva</key>
-		<real>17.134000778198242</real>
+		<real>27.040000915527344</real>
 		<key>@MMK_R_jadeva</key>
-		<real>22.406000137329102</real>
+		<real>35.360000610351562</real>
 		<key>@MMK_R_k_kadeva</key>
-		<real>15.156999588012695</real>
+		<real>23.920000076293945</real>
 		<key>@MMK_R_k_ssadeva</key>
-		<real>-1.3179999589920044</real>
+		<real>-2.0799999237060547</real>
 		<key>@MMK_R_k_tadeva</key>
-		<real>-22.406000137329102</real>
+		<real>-35.360000610351562</real>
 		<key>@MMK_R_khadeva</key>
-		<real>19.111000061035156</real>
+		<real>30.159999847412109</real>
 		<key>@MMK_R_ladeva</key>
-		<real>10.543999671936035</real>
+		<real>16.639999389648438</real>
 		<key>@MMK_R_lladeva</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 		<key>@MMK_R_madeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_nadeva</key>
-		<real>27.018999099731445</real>
+		<real>42.639999389648438</real>
 		<key>@MMK_R_ny_cadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ny_radeva</key>
-		<real>18.451999664306641</real>
+		<real>29.120000839233398</real>
 		<key>@MMK_R_nyadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_p_ladeva.loclMAR</key>
-		<real>-13.83899974822998</real>
+		<real>-21.840000152587891</real>
 		<key>@MMK_R_pa_nadeva</key>
-		<real>-11.862000465393066</real>
+		<real>-18.719999313354492</real>
 		<key>@MMK_R_radeva</key>
-		<real>9.8850002288818359</real>
+		<real>15.600000381469727</real>
 		<key>@MMK_R_sh_cadeva</key>
-		<real>39.540000915527344</real>
+		<real>62.400001525878906</real>
 		<key>@MMK_R_sh_ladeva</key>
-		<real>17.134000778198242</real>
+		<real>27.040000915527344</real>
 		<key>@MMK_R_sh_radeva</key>
-		<real>39.540000915527344</real>
+		<real>62.400001525878906</real>
 		<key>@MMK_R_sh_vadeva</key>
-		<real>32.291000366210938</real>
+		<real>50.959999084472656</real>
 		<key>@MMK_R_ss_tt_vadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_ss_ttadeva</key>
-		<real>-19.111000061035156</real>
+		<real>-30.159999847412109</real>
 		<key>@MMK_R_tadeva</key>
-		<real>10.543999671936035</real>
+		<real>16.639999389648438</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-14.498000144958496</real>
+		<real>-22.879999160766602</real>
 		<key>@MMK_R_tt_nadeva</key>
-		<real>-1.9769999980926514</real>
+		<real>-3.119999885559082</real>
 		<key>@MMK_R_tt_ttadeva</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>8.5670003890991211</real>
+		<real>13.520000457763672</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_yadeva</key>
-		<real>10.543999671936035</real>
+		<real>16.639999389648438</real>
 		<key>uni0915094D0932.loclMAR</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>uni091A094D091A.alt</key>
-		<real>-14.498000144958496</real>
+		<real>-22.879999160766602</real>
 		<key>uni091A094D0932.loclMAR</key>
-		<real>-15.815999984741211</real>
+		<real>-24.959999084472656</real>
 		<key>uni091B094D0928</key>
-		<real>3.2950000762939453</real>
+		<real>5.1999998092651367</real>
 		<key>uni092A094D0924</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>uni0932094D0932.loclMAR</key>
-		<real>14.498000144958496</real>
+		<real>22.879999160766602</real>
 		<key>uni0979.loclNEP</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 	</dict>
 	<key>@MMK_L_tdeva.01</key>
 	<dict>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 	</dict>
 	<key>@MMK_L_vdeva</key>
 	<dict>
 		<key>@MMK_R_d_badeva</key>
-		<real>-9.2259998321533203</real>
+		<real>-14.560000419616699</real>
 		<key>@MMK_R_ddadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_ghadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_madeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_radeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_tt_ttadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>uni0919094D092E</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>uni091B094D0928</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni091B094D0935</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>A</key>
 	<dict>
 		<key>T</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Tcaron</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>V</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>W</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>Y</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>quoteright</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>space</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni021A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>v</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>w</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>y</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>Aogonek</key>
 	<dict>
 		<key>T</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Tcaron</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>V</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>W</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>Y</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>quoteright</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>space</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni021A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>v</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>w</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>F</key>
 	<dict>
 		<key>A</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>Aogonek</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>comma</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>period</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 	</dict>
 	<key>L</key>
 	<dict>
 		<key>T</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Tcaron</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>V</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>W</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Y</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>quoteright</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>space</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>uni021A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>y</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 	</dict>
 	<key>Lacute</key>
 	<dict>
 		<key>T</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Tcaron</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>V</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>W</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Y</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>quoteright</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>space</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>uni021A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>y</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 	</dict>
 	<key>P</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>comma</key>
-		<real>-61.286998748779297</real>
+		<real>-96.720001220703125</real>
 		<key>period</key>
-		<real>-61.286998748779297</real>
+		<real>-96.720001220703125</real>
 		<key>space</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>R</key>
 	<dict>
 		<key>T</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Tcaron</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>V</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>W</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Y</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>uni021A</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>Racute</key>
 	<dict>
 		<key>T</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Tcaron</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>V</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>W</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Y</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>uni021A</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>Rcaron</key>
 	<dict>
 		<key>T</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Tcaron</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>V</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>W</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Y</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>uni021A</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>T</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>O</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Ohungarumlaut</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>a</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>aogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>c</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>colon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>comma</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>e</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>eogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>hyphen</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>i</key>
-		<real>-10.543999671936035</real>
+		<real>-16.639999389648438</real>
 		<key>o</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>period</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>r</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>s</key>
-		<real>-40.858001708984375</real>
+		<real>-64.480003356933594</real>
 		<key>semicolon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>space</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>u</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>w</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>y</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>Tcaron</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>O</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Ohungarumlaut</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>a</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>aogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>c</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>colon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>comma</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>e</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>eogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>hyphen</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>i</key>
-		<real>-10.543999671936035</real>
+		<real>-16.639999389648438</real>
 		<key>o</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>period</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>r</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>s</key>
-		<real>-40.858001708984375</real>
+		<real>-64.480003356933594</real>
 		<key>semicolon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>space</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>u</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>w</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>y</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>V</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>a</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>colon</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>comma</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>e</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>eogonek</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>hyphen</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>i</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>o</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>period</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>r</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>semicolon</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>u</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>y</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 	</dict>
 	<key>W</key>
 	<dict>
 		<key>A</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>Aogonek</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>a</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>aogonek</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>colon</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>comma</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>e</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>eogonek</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>hyphen</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>i</key>
 		<integer>0</integer>
 		<key>o</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>period</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>r</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>semicolon</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>u</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>y</key>
-		<real>-3.9539999961853027</real>
+		<real>-6.2399997711181641</real>
 	</dict>
 	<key>Y</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>a</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>colon</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>comma</key>
-		<real>-61.286998748779297</real>
+		<real>-96.720001220703125</real>
 		<key>e</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>eogonek</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>hyphen</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>i</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>o</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>p</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>period</key>
-		<real>-61.286998748779297</real>
+		<real>-96.720001220703125</real>
 		<key>q</key>
-		<real>-43.493999481201172</real>
+		<real>-68.639999389648438</real>
 		<key>semicolon</key>
-		<real>-30.972999572753906</real>
+		<real>-48.880001068115234</real>
 		<key>space</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>u</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>v</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>f</key>
 	<dict>
 		<key>f</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>quoteright</key>
-		<real>7.9079999923706055</real>
+		<real>12.479999542236328</real>
 	</dict>
 	<key>one</key>
 	<dict>
 		<key>one</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 	</dict>
 	<key>quoteleft</key>
 	<dict>
 		<key>quoteleft</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>quoteright</key>
 	<dict>
 		<key>quoteright</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>s</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>space</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 	</dict>
 	<key>r</key>
 	<dict>
 		<key>comma</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>period</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>quoteright</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 	</dict>
 	<key>racute</key>
 	<dict>
 		<key>comma</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>period</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>quoteright</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 	</dict>
 	<key>rcaron</key>
 	<dict>
 		<key>comma</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>period</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>quoteright</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 	</dict>
 	<key>space</key>
 	<dict>
 		<key>A</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>Aogonek</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>T</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Tcaron</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Y</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>uni021A</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 	</dict>
 	<key>uni021A</key>
 	<dict>
 		<key>A</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>Aogonek</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>O</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>Ohungarumlaut</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>a</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>aogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>c</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>colon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>comma</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>e</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>eogonek</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>hyphen</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>i</key>
-		<real>-10.543999671936035</real>
+		<real>-16.639999389648438</real>
 		<key>o</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>period</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>r</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>s</key>
-		<real>-40.858001708984375</real>
+		<real>-64.480003356933594</real>
 		<key>semicolon</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>space</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>u</key>
-		<real>-17.792999267578125</real>
+		<real>-28.079999923706055</real>
 		<key>w</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>y</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>uni0915094D0937094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 	</dict>
 	<key>uni0917094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni0917094D0928094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0918094D</key>
 	<dict>
 		<key>@MMK_R_badeva</key>
-		<real>13.83899974822998</real>
+		<real>21.840000152587891</real>
 		<key>@MMK_R_jadeva</key>
-		<real>24.382999420166016</real>
+		<real>38.479999542236328</real>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_madeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_tadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni091C094D</key>
 	<dict>
 		<key>@MMK_R_c_radeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_cadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_chadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-39.540000915527344</real>
+		<real>-62.400001525878906</real>
 		<key>@MMK_R_dhadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_ghadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>@MMK_R_k_ssadeva</key>
-		<real>-39.540000915527344</real>
+		<real>-62.400001525878906</real>
 		<key>@MMK_R_ladeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_tt_nadeva</key>
-		<real>-9.2259998321533203</real>
+		<real>-14.560000419616699</real>
 		<key>uni091A094D0932.loclMAR</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>uni091B094D0928</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni091B094D0932.loclMAR</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>uni091B094D0935</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni0921094D0922</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 	</dict>
 	<key>uni091C094D.01</key>
 	<dict>
 		<key>@MMK_R_bhadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 	</dict>
 	<key>uni091C094D0072</key>
 	<dict>
 		<key>@MMK_R_vadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni091C094D091C094D</key>
 	<dict>
 		<key>@MMK_R_vadeva</key>
-		<real>-1.9769999980926514</real>
+		<real>-3.119999885559082</real>
 	</dict>
 	<key>uni091C094D091E094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni091D094D</key>
 	<dict>
 		<key>@MMK_R_nadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni091D094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_vadeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 	</dict>
 	<key>uni091E094D</key>
 	<dict>
 		<key>@MMK_R_bhadeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>@MMK_R_chadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_gadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_madeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_nadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_shadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 	</dict>
 	<key>uni091E094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni091E094D091C094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni0923094D0072</key>
 	<dict>
 		<key>@MMK_R_vadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 	</dict>
 	<key>uni0924094D</key>
 	<dict>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_dhadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_ghadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_j_jadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_jadeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_k_ssadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_n_nadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ny_cadeva</key>
-		<real>7.9079999923706055</real>
+		<real>12.479999542236328</real>
 		<key>@MMK_R_ny_radeva</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>@MMK_R_nyadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>6.5900001525878906</real>
-		<key>dda-deva.MAW</key>
-		<real>-52.720001220703125</real>
+		<real>10.399999618530273</real>
 		<key>uni0915094D0937094D0072</key>
-		<real>-52.720001220703125</real>
+		<real>-83.199996948242188</real>
 		<key>uni091B094D0928</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>uni091B094D0932.loclMAR</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>uni091B094D0935</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
+		<key>uni0978</key>
+		<real>-83.199996948242188</real>
 		<key>uni0979.loclNEP</key>
-		<real>1.9769999980926514</real>
+		<real>3.119999885559082</real>
 	</dict>
 	<key>uni0924094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0925094D</key>
 	<dict>
 		<key>@MMK_R_cadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_j_nyadeva</key>
-		<real>-12.520999908447266</real>
+		<real>-19.760000228881836</real>
 		<key>@MMK_R_ladeva</key>
-		<real>7.249000072479248</real>
+		<real>11.439999580383301</real>
 		<key>@MMK_R_madeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_nadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_p_ladeva.loclMAR</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_pa_nadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_ss_ttadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_vadeva</key>
-		<real>21.746999740600586</real>
+		<real>34.319999694824219</real>
 		<key>@MMK_R_yadeva</key>
-		<real>-7.9079999923706055</real>
+		<real>-12.479999542236328</real>
 		<key>uni091A094D0932.loclMAR</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>uni0926094D092D</key>
-		<real>-11.203000068664551</real>
+		<real>-17.680000305175781</real>
 		<key>uni092A094D0924</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 	</dict>
 	<key>uni0925094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>1.9769999980926514</real>
+		<real>3.119999885559082</real>
 		<key>@MMK_R_vadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni0926094D092E094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>52.720001220703125</real>
+		<real>83.199996948242188</real>
 		<key>@MMK_R_vadeva</key>
-		<real>39.540000915527344</real>
+		<real>62.400001525878906</real>
 	</dict>
 	<key>uni0926094D092F094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>23.065000534057617</real>
+		<real>36.400001525878906</real>
 	</dict>
 	<key>uni0927094D</key>
 	<dict>
 		<key>@MMK_R_badeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_c_radeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_cadeva</key>
-		<real>-15.815999984741211</real>
+		<real>-24.959999084472656</real>
 		<key>@MMK_R_chadeva</key>
-		<real>-6.5900001525878906</real>
+		<real>-10.399999618530273</real>
 		<key>@MMK_R_d_badeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_d_ghadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 		<key>@MMK_R_d_madeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_d_nadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>@MMK_R_d_radeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_dhadeva</key>
-		<real>1.9769999980926514</real>
+		<real>3.119999885559082</real>
 		<key>@MMK_R_g_nadeva</key>
-		<real>13.83899974822998</real>
+		<real>21.840000152587891</real>
 		<key>@MMK_R_gadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ghadeva</key>
-		<real>3.9539999961853027</real>
+		<real>6.2399997711181641</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_j_jadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_j_nyadeva</key>
-		<real>17.134000778198242</real>
+		<real>27.040000915527344</real>
 		<key>@MMK_R_jadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_k_kadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_k_tadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_khadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_lladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_nadeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_ny_cadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ny_radeva</key>
-		<real>17.792999267578125</real>
+		<real>28.079999923706055</real>
 		<key>@MMK_R_p_ladeva.loclMAR</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_pa_nadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_radeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_sh_radeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_ss_tt_vadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_ss_ttadeva</key>
-		<real>-19.770000457763672</real>
+		<real>-31.200000762939453</real>
 		<key>@MMK_R_tadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-13.83899974822998</real>
+		<real>-21.840000152587891</real>
 		<key>@MMK_R_tt_ttadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>11.203000068664551</real>
+		<real>17.680000305175781</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_yadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>uni0915094D0932.loclMAR</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>uni091A094D091A.alt</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>uni091A094D091B094D0935</key>
-		<real>-19.111000061035156</real>
+		<real>-30.159999847412109</real>
 		<key>uni091A094D0932.loclMAR</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>uni092A094D0924</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>uni0932094D0932.loclMAR</key>
-		<real>13.83899974822998</real>
+		<real>21.840000152587891</real>
 	</dict>
 	<key>uni0927094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0928094D</key>
 	<dict>
 		<key>@MMK_R_d_dhadeva</key>
-		<real>-20.429000854492188</real>
+		<real>-32.240001678466797</real>
 		<key>@MMK_R_j_nyadeva</key>
-		<real>-32.950000762939453</real>
+		<integer>-52</integer>
 		<key>@MMK_R_khadeva</key>
-		<real>-39.540000915527344</real>
+		<real>-62.400001525878906</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-59.310001373291016</real>
+		<real>-93.599998474121094</real>
 	</dict>
 	<key>uni0928094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0928094D0928094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni092D094D</key>
 	<dict>
 		<key>@MMK_R_nadeva</key>
-		<real>27.677999496459961</real>
+		<real>43.680000305175781</real>
 	</dict>
 	<key>uni092D094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni092E094D</key>
 	<dict>
 		<key>@MMK_R_bhadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>uni092E094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni092F094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>9.2259998321533203</real>
+		<real>14.560000419616699</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.111000061035156</real>
+		<real>30.159999847412109</real>
 	</dict>
 	<key>uni092F094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_padeva</key>
-		<real>12.520999908447266</real>
+		<real>19.760000228881836</real>
 		<key>@MMK_R_vadeva</key>
-		<real>31.631999969482422</real>
+		<real>49.919998168945312</real>
 	</dict>
 	<key>uni0931094D</key>
 	<dict>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0932094D</key>
 	<dict>
 		<key>@MMK_R_badeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_gadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_hadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 		<key>@MMK_R_jadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_tadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_thadeva</key>
-		<real>-21.746999740600586</real>
+		<real>-34.319999694824219</real>
 		<key>@MMK_R_ttadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.111000061035156</real>
+		<real>30.159999847412109</real>
 	</dict>
 	<key>uni0932094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_vadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni0935094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>-13.180000305175781</real>
+		<real>-20.799999237060547</real>
 	</dict>
 	<key>uni0936094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>32.950000762939453</real>
+		<integer>52</integer>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni0936094D091A094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>20.429000854492188</real>
+		<real>32.240001678466797</real>
 	</dict>
 	<key>uni0936094D0928094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni0936094D0932094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0936094D0935094D</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_vadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 	</dict>
 	<key>uni0938094D</key>
 	<dict>
 		<key>@MMK_R_jadeva</key>
-		<real>13.180000305175781</real>
+		<real>20.799999237060547</real>
 		<key>@MMK_R_nadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 	</dict>
 	<key>uni0938094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 		<key>@MMK_R_vadeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 	</dict>
 	<key>uni0938094D0924094D0072</key>
 	<dict>
 		<key>@MMK_R_ladeva</key>
-		<real>19.770000457763672</real>
+		<real>31.200000762939453</real>
 		<key>@MMK_R_vadeva</key>
-		<real>26.360000610351562</real>
+		<real>41.599998474121094</real>
 	</dict>
 	<key>uni0939094D</key>
 	<dict>
 		<key>@MMK_R_vadeva</key>
-		<real>6.5900001525878906</real>
+		<real>10.399999618530273</real>
 	</dict>
 	<key>v</key>
 	<dict>
 		<key>comma</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>period</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 	</dict>
 	<key>w</key>
 	<dict>
 		<key>comma</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 		<key>period</key>
-		<real>-26.360000610351562</real>
+		<real>-41.599998474121094</real>
 	</dict>
 	<key>y</key>
 	<dict>
 		<key>comma</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 		<key>period</key>
-		<real>-34.926998138427734</real>
+		<real>-55.119998931884766</real>
 	</dict>
 </dict>
 </plist>

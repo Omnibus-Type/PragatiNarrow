@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowboth" format="1">
-  <advance width="583"/>
+  <advance width="919"/>
   <unicode hex="2194"/>
   <outline>
     <contour>
-      <point x="559" y="153" type="line"/>
-      <point x="444" y="248" type="line"/>
-      <point x="419" y="248" type="line"/>
-      <point x="453" y="168" type="line"/>
-      <point x="133" y="168" type="line"/>
-      <point x="163" y="248" type="line"/>
-      <point x="139" y="248" type="line"/>
-      <point x="24" y="153" type="line"/>
-      <point x="24" y="141" type="line"/>
-      <point x="139" y="46" type="line"/>
-      <point x="163" y="46" type="line"/>
-      <point x="133" y="126" type="line"/>
-      <point x="453" y="126" type="line"/>
-      <point x="419" y="46" type="line"/>
-      <point x="444" y="46" type="line"/>
-      <point x="559" y="141" type="line"/>
+      <point x="882" y="241" type="line"/>
+      <point x="701" y="392" type="line"/>
+      <point x="661" y="392" type="line"/>
+      <point x="716" y="265" type="line"/>
+      <point x="210" y="265" type="line"/>
+      <point x="258" y="392" type="line"/>
+      <point x="219" y="392" type="line"/>
+      <point x="38" y="241" type="line"/>
+      <point x="38" y="223" type="line"/>
+      <point x="219" y="73" type="line"/>
+      <point x="258" y="73" type="line"/>
+      <point x="210" y="199" type="line"/>
+      <point x="716" y="199" type="line"/>
+      <point x="661" y="73" type="line"/>
+      <point x="701" y="73" type="line"/>
+      <point x="882" y="223" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tbar" format="1">
-  <advance width="292"/>
+  <advance width="461"/>
   <unicode hex="0166"/>
   <outline>
     <contour>
-      <point x="280" y="399" type="line"/>
-      <point x="11" y="399" type="line"/>
-      <point x="11" y="353" type="line"/>
-      <point x="120" y="353" type="line"/>
-      <point x="120" y="229" type="line"/>
-      <point x="45" y="229" type="line"/>
-      <point x="45" y="186" type="line"/>
-      <point x="120" y="186" type="line"/>
-      <point x="120" y="0" type="line"/>
-      <point x="171" y="0" type="line"/>
-      <point x="171" y="186" type="line"/>
-      <point x="248" y="186" type="line"/>
-      <point x="248" y="229" type="line"/>
-      <point x="171" y="229" type="line"/>
-      <point x="171" y="353" type="line"/>
-      <point x="280" y="353" type="line"/>
+      <point x="442" y="630" type="line"/>
+      <point x="18" y="630" type="line"/>
+      <point x="18" y="557" type="line"/>
+      <point x="189" y="557" type="line"/>
+      <point x="189" y="361" type="line"/>
+      <point x="71" y="361" type="line"/>
+      <point x="71" y="294" type="line"/>
+      <point x="189" y="294" type="line"/>
+      <point x="189" y="0" type="line"/>
+      <point x="270" y="0" type="line"/>
+      <point x="270" y="294" type="line"/>
+      <point x="391" y="294" type="line"/>
+      <point x="391" y="361" type="line"/>
+      <point x="270" y="361" type="line"/>
+      <point x="270" y="557" type="line"/>
+      <point x="442" y="557" type="line"/>
     </contour>
   </outline>
 </glyph>

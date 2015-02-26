@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>733</integer>
+	<integer>1158</integer>
 	<key>capHeight</key>
-	<integer>399</integer>
+	<integer>630</integer>
 	<key>copyright</key>
 	<string>Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)</string>
 	<key>descender</key>
-	<integer>-267</integer>
+	<integer>-534</integer>
 	<key>familyName</key>
 	<string>PragatiNarrow</string>
 	<key>fsType</key>
 	<array>
 	</array>
 	<key>openTypeHeadCreated</key>
-	<string>2015/01/27 01:15:26</string>
+	<string>2014/07/11 03:34:57</string>
 	<key>openTypeNameDesigner</key>
 	<string>Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva</string>
-	<key>openTypeNameDesignerURL</key>
-	<string>http://www.omnibus-type.com</string>
 	<key>openTypeNameLicense</key>
 	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
@@ -41,44 +39,44 @@
 	<integer>5</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-7</integer>
+		<integer>-11</integer>
 		<integer>0</integer>
-		<integer>306</integer>
-		<integer>313</integer>
-		<integer>399</integer>
-		<integer>406</integer>
-		<integer>421</integer>
-		<integer>426</integer>
+		<integer>484</integer>
+		<integer>495</integer>
+		<integer>630</integer>
+		<integer>641</integer>
+		<integer>665</integer>
+		<integer>672</integer>
 	</array>
 	<key>postscriptFamilyBlues</key>
 	<array>
+		<integer>-11</integer>
 		<integer>0</integer>
-		<integer>20</integer>
-		<integer>306</integer>
-		<integer>313</integer>
-		<integer>399</integer>
-		<integer>406</integer>
+		<integer>489</integer>
+		<integer>500</integer>
+		<integer>630</integer>
+		<integer>641</integer>
 	</array>
 	<key>postscriptFamilyOtherBlues</key>
 	<array>
 	</array>
 	<key>postscriptOtherBlues</key>
 	<array>
-		<integer>-107</integer>
-		<integer>-101</integer>
+		<integer>-168</integer>
+		<integer>-159</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
-		<integer>43</integer>
-		<integer>47</integer>
-		<integer>49</integer>
+		<integer>68</integer>
+		<integer>75</integer>
+		<integer>77</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
-		<integer>47</integer>
-		<integer>50</integer>
-		<integer>51</integer>
-		<integer>53</integer>
+		<integer>75</integer>
+		<integer>79</integer>
+		<integer>81</integer>
+		<integer>84</integer>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
@@ -89,8 +87,8 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>5</integer>
+	<integer>6</integer>
 	<key>xHeight</key>
-	<integer>306</integer>
+	<integer>484</integer>
 </dict>
 </plist>

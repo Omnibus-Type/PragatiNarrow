@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0926094D0918094D0072092F" format="1">
-  <advance width="710"/>
+  <advance width="1121"/>
   <outline>
     <component base="uni0926094D0918094D092F"/>
-    <component base="uni0930.post2" xOffset="282" yOffset="-92"/>
+    <component base="uni0930.post2" xOffset="445" yOffset="-145"/>
     <contour>
-      <point x="625" y="399" type="move" name="top"/>
+      <point x="987" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="625" y="0" type="move" name="bottom"/>
+      <point x="987" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="540" y="399" type="move" name="candra"/>
+      <point x="852" y="630" type="move" name="candra"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0930.post2</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

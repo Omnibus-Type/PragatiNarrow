@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0936" format="1">
-  <advance width="407"/>
+  <advance width="643"/>
   <unicode hex="0936"/>
   <outline>
     <contour>
-      <point x="287" y="399" type="line"/>
-      <point x="287" y="0" type="line"/>
-      <point x="357" y="0" type="line"/>
-      <point x="357" y="399" type="line"/>
+      <point x="453" y="630" type="line"/>
+      <point x="453" y="0" type="line"/>
+      <point x="564" y="0" type="line"/>
+      <point x="564" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="248" y="399" type="line"/>
-      <point x="248" y="338" type="line"/>
-      <point x="414" y="338" type="line"/>
-      <point x="414" y="399" type="line"/>
+      <point x="391" y="630" type="line"/>
+      <point x="391" y="534" type="line"/>
+      <point x="653" y="534" type="line"/>
+      <point x="653" y="630" type="line"/>
     </contour>
     <component base="uni0936094D"/>
     <contour>
-      <point x="216" y="399" type="move" name="candra"/>
+      <point x="341" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="45" y="90" type="move" name="nukta"/>
+      <point x="71" y="142" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="322" y="399" type="move" name="top"/>
+      <point x="509" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="322" y="0" type="move" name="bottom"/>
+      <point x="509" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

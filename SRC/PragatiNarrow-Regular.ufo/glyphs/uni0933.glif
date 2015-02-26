@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0933" format="1">
-  <advance width="417"/>
+  <advance width="658"/>
   <unicode hex="0933"/>
   <outline>
     <contour>
-      <point x="284" y="399" type="line"/>
-      <point x="284" y="283" type="line"/>
-      <point x="331" y="283" type="line"/>
-      <point x="331" y="399" type="line"/>
+      <point x="448" y="630" type="line"/>
+      <point x="448" y="447" type="line"/>
+      <point x="523" y="447" type="line"/>
+      <point x="523" y="630" type="line"/>
     </contour>
     <component base="uni0933094D"/>
     <contour>
-      <point x="209" y="399" type="move" name="candra"/>
+      <point x="330" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="212" y="43" type="move" name="nukta"/>
+      <point x="335" y="69" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="308" y="399" type="move" name="top"/>
+      <point x="486" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="212" y="43" type="move" name="bottom"/>
+      <point x="335" y="69" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni090E" format="1">
-  <advance width="289"/>
+  <advance width="456"/>
   <unicode hex="090E"/>
   <outline>
     <component base="uni090F"/>
-    <component base="uni0946" xOffset="288"/>
+    <component base="uni0946" xOffset="455"/>
     <contour>
-      <point x="168" y="0" type="move" name="bottom"/>
+      <point x="415" y="739" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="265" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

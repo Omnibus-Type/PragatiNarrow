@@ -3,28 +3,43 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-83" y="545"/>
-      <point x="-123" y="512"/>
-      <point x="-123" y="465" type="curve" smooth="yes"/>
-      <point x="-123" y="434"/>
-      <point x="-109" y="401"/>
-      <point x="-78" y="365" type="curve"/>
-      <point x="-42" y="374" type="line"/>
-      <point x="-65" y="406"/>
-      <point x="-75" y="431"/>
-      <point x="-75" y="454" type="curve" smooth="yes"/>
-      <point x="-75" y="484"/>
-      <point x="-55" y="501"/>
-      <point x="-18" y="502" type="curve"/>
-      <point x="-16" y="502" type="line"/>
-      <point x="-16" y="544" type="line"/>
-      <point x="-18" y="545"/>
-      <point x="-25" y="545"/>
-      <point x="-29" y="545" type="curve" smooth="yes"/>
+      <point x="-131" y="860"/>
+      <point x="-194" y="808"/>
+      <point x="-194" y="733" type="curve" smooth="yes"/>
+      <point x="-194" y="685"/>
+      <point x="-172" y="632"/>
+      <point x="-123" y="576" type="curve"/>
+      <point x="-67" y="591" type="line"/>
+      <point x="-102" y="641"/>
+      <point x="-119" y="680"/>
+      <point x="-119" y="717" type="curve" smooth="yes"/>
+      <point x="-119" y="763"/>
+      <point x="-86" y="791"/>
+      <point x="-29" y="792" type="curve"/>
+      <point x="-25" y="792" type="line"/>
+      <point x="-25" y="859" type="line"/>
+      <point x="-29" y="860"/>
+      <point x="-40" y="860"/>
+      <point x="-46" y="860" type="curve" smooth="yes"/>
     </contour>
-    <component base="uni0902" xOffset="59" yOffset="47" xScale="0.85" yScale="0.85"/>
+    <component base="uni0902" xOffset="94" yOffset="74" xScale="0.85" yScale="0.85"/>
     <contour>
-      <point x="-71" y="399" type="move" name="_top"/>
+      <point x="-111" y="630" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0902</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

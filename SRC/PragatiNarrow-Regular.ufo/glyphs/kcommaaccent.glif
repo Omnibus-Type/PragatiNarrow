@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kcommaaccent" format="1">
-  <advance width="239"/>
+  <advance width="376"/>
   <unicode hex="0137"/>
   <outline>
     <contour>
-      <point x="83" y="164" type="line"/>
-      <point x="83" y="421" type="line"/>
-      <point x="35" y="421" type="line"/>
-      <point x="35" y="0" type="line"/>
-      <point x="83" y="0" type="line"/>
-      <point x="83" y="104" type="line"/>
-      <point x="115" y="140" type="line"/>
-      <point x="185" y="0" type="line"/>
-      <point x="239" y="0" type="line"/>
-      <point x="144" y="181" type="line"/>
-      <point x="235" y="306" type="line"/>
-      <point x="182" y="306" type="line"/>
+      <point x="131" y="259" type="line"/>
+      <point x="131" y="665" type="line"/>
+      <point x="55" y="665" type="line"/>
+      <point x="55" y="0" type="line"/>
+      <point x="131" y="0" type="line"/>
+      <point x="131" y="164" type="line"/>
+      <point x="182" y="220" type="line"/>
+      <point x="292" y="0" type="line"/>
+      <point x="378" y="0" type="line"/>
+      <point x="228" y="285" type="line"/>
+      <point x="370" y="484" type="line"/>
+      <point x="287" y="484" type="line"/>
     </contour>
     <contour>
-      <point x="144" y="-84" type="line"/>
-      <point x="144" y="-35" type="line"/>
-      <point x="95" y="-35" type="line"/>
-      <point x="95" y="-88" type="line"/>
-      <point x="115" y="-88" type="line"/>
-      <point x="101" y="-129" type="line"/>
-      <point x="128" y="-129" type="line"/>
+      <point x="228" y="-132" type="line"/>
+      <point x="228" y="-55" type="line"/>
+      <point x="150" y="-55" type="line"/>
+      <point x="150" y="-138" type="line"/>
+      <point x="181" y="-138" type="line"/>
+      <point x="160" y="-204" type="line"/>
+      <point x="202" y="-204" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni09400902.0" format="1">
-  <advance width="144"/>
+  <advance width="228"/>
   <outline>
     <contour>
-      <point x="97" y="357" type="line"/>
-      <point x="82" y="461" type="line" smooth="yes"/>
-      <point x="71" y="533"/>
-      <point x="34" y="574"/>
-      <point x="-64" y="574" type="curve" smooth="yes"/>
-      <point x="-156" y="574"/>
-      <point x="-220" y="537"/>
-      <point x="-220" y="466" type="curve" smooth="yes"/>
-      <point x="-220" y="457"/>
-      <point x="-220" y="449"/>
-      <point x="-219" y="444" type="curve"/>
-      <point x="-173" y="444" type="line"/>
-      <point x="-173" y="460" type="line" smooth="yes"/>
-      <point x="-173" y="494"/>
-      <point x="-150" y="532"/>
-      <point x="-69" y="532" type="curve" smooth="yes"/>
-      <point x="-59" y="532" type="line" smooth="yes"/>
-      <point x="16" y="532"/>
-      <point x="28" y="499"/>
-      <point x="34" y="454" type="curve" smooth="yes"/>
-      <point x="49" y="357" type="line"/>
+      <point x="153" y="563" type="line"/>
+      <point x="129" y="727" type="line" smooth="yes"/>
+      <point x="112" y="841"/>
+      <point x="53" y="906"/>
+      <point x="-101" y="906" type="curve" smooth="yes"/>
+      <point x="-246" y="906"/>
+      <point x="-347" y="848"/>
+      <point x="-347" y="735" type="curve" smooth="yes"/>
+      <point x="-347" y="721"/>
+      <point x="-347" y="709"/>
+      <point x="-346" y="700" type="curve"/>
+      <point x="-272" y="700" type="line"/>
+      <point x="-272" y="726" type="line" smooth="yes"/>
+      <point x="-272" y="780"/>
+      <point x="-237" y="839"/>
+      <point x="-108" y="839" type="curve" smooth="yes"/>
+      <point x="-93" y="839" type="line" smooth="yes"/>
+      <point x="25" y="839"/>
+      <point x="44" y="787"/>
+      <point x="54" y="717" type="curve" smooth="yes"/>
+      <point x="78" y="563" type="line"/>
     </contour>
     <component base="uni093E"/>
-    <component base="uni0902" xOffset="199" yOffset="67"/>
+    <component base="uni0902" xOffset="314" yOffset="106"/>
     <contour>
-      <point x="72" y="0" type="move" name="bottom"/>
+      <point x="114" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0902</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

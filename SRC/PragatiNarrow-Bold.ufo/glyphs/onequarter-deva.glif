@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onequarter-deva" format="1">
-  <advance width="488"/>
+  <advance width="770"/>
   <outline>
-    <component base="uni096A" xOffset="282" xScale="0.59" yScale="0.59"/>
-    <component base="uni0967" xOffset="35" yOffset="194" xScale="0.59" yScale="0.59"/>
-    <component base="fraction" xOffset="182"/>
+    <component base="uni096A" xOffset="445" xScale="0.59" yScale="0.59"/>
+    <component base="uni0967" xOffset="55" yOffset="307" xScale="0.59" yScale="0.59"/>
+    <component base="fraction" xOffset="287"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni096A</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0967</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

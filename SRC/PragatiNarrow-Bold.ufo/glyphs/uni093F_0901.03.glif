@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni093F0901.03" format="1">
-  <advance width="170"/>
+  <advance width="268"/>
   <outline>
     <component base="uni093F.03"/>
-    <component base="uni0901" xOffset="645" yOffset="15"/>
+    <component base="uni0901" xOffset="1018" yOffset="23"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>5</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -3,34 +3,26 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-194" y="574" type="line"/>
-      <point x="-243" y="574" type="line"/>
-      <point x="-145" y="399" type="line"/>
-      <point x="-103" y="399" type="line"/>
+      <point x="-307" y="906" type="line"/>
+      <point x="-383" y="906" type="line"/>
+      <point x="-229" y="630" type="line"/>
+      <point x="-163" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="-44" y="399" type="line"/>
-      <point x="-151" y="399" type="line"/>
-      <point x="-151" y="357" type="line"/>
-      <point x="-44" y="357" type="line"/>
+      <point x="-70" y="630" type="line"/>
+      <point x="-238" y="630" type="line"/>
+      <point x="-238" y="563" type="line"/>
+      <point x="-70" y="563" type="line"/>
     </contour>
     <contour>
-      <point x="-99" y="574" type="line"/>
-      <point x="-147" y="574" type="line"/>
-      <point x="-93" y="399" type="line"/>
-      <point x="-51" y="399" type="line"/>
+      <point x="-156" y="906" type="line"/>
+      <point x="-232" y="906" type="line"/>
+      <point x="-147" y="630" type="line"/>
+      <point x="-80" y="630" type="line"/>
     </contour>
-    <component base="uni0902" xOffset="49" yOffset="26"/>
+    <component base="uni0902" xOffset="77" yOffset="42"/>
     <contour>
-      <point x="-72" y="399" type="move" name="_top"/>
+      <point x="-113" y="630" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

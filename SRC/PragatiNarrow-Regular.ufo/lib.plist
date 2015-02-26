@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
-	<string>E0AA17FE-947E-4089-955E-70E92921D86D</string>
+	<string>F9754C76-BF5B-4405-B8AE-C91642E979E1</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<integer>1</integer>
 	<key>com.schriftgestaltung.weightValue</key>
@@ -270,8 +270,8 @@
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
-		<string>uniFB01</string>
-		<string>uniFB02</string>
+		<string>fi</string>
+		<string>fl</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>uni207F</string>
@@ -285,6 +285,7 @@
 		<string>uni0906</string>
 		<string>uni0907</string>
 		<string>uni0908</string>
+		<string>uni09080902</string>
 		<string>uni0909</string>
 		<string>uni090A</string>
 		<string>uni090B</string>
@@ -306,34 +307,55 @@
 		<string>uni0977</string>
 		<string>uni093E</string>
 		<string>uni093F</string>
-		<string>uni093F0930094D</string>
-		<string>uni093F0930094D0902</string>
+		<string>iMatra_base-deva</string>
+		<string>uni093F0901</string>
 		<string>uni093F0902</string>
+		<string>uni093F0930094D</string>
+		<string>uni093F0930094D0901</string>
+		<string>uni093F0930094D0902</string>
 		<string>uni0940</string>
-		<string>uni09400930094D</string>
-		<string>uni09400930094D0902</string>
+		<string>uni09400901</string>
 		<string>uni09400902</string>
+		<string>uni09400930094D</string>
+		<string>uni09400930094D0901</string>
+		<string>uni09400930094D0902</string>
 		<string>uni0949</string>
+		<string>uni09490902</string>
+		<string>uni09490930094D</string>
+		<string>uni09490930094D0902</string>
 		<string>uni094A</string>
+		<string>uni094A0901</string>
+		<string>uni094A0902</string>
+		<string>uni094A0930094D</string>
+		<string>uni094A0930094D0901</string>
+		<string>uni094A0930094D0902</string>
+		<string>uni094B</string>
+		<string>uni094B0901</string>
 		<string>uni094B0902</string>
 		<string>uni094B0930094D</string>
+		<string>uni094B0930094D0901</string>
 		<string>uni094B0930094D0902</string>
-		<string>uni094B</string>
+		<string>uni094C</string>
+		<string>uni094C0901</string>
 		<string>uni094C0902</string>
 		<string>uni094C0930094D</string>
+		<string>uni094C0930094D0901</string>
 		<string>uni094C0930094D0902</string>
-		<string>uni094C</string>
 		<string>uni094E</string>
 		<string>uni093B</string>
 		<string>uni094F</string>
 		<string>uni0940.0</string>
-		<string>uni09400930094D.0</string>
-		<string>uni09400930094D0902.0</string>
+		<string>uni09400901.0</string>
 		<string>uni09400902.0</string>
+		<string>uni09400930094D.0</string>
+		<string>uni09400930094D0901.0</string>
+		<string>uni09400930094D0902.0</string>
 		<string>uni093F.00</string>
-		<string>uni093F0930094D.00</string>
-		<string>uni093F0930094D0902.00</string>
+		<string>uni093F0901.00</string>
 		<string>uni093F0902.00</string>
+		<string>uni093F0930094D.00</string>
+		<string>uni093F0930094D0901.00</string>
+		<string>uni093F0930094D0902.00</string>
 		<string>uni093F.01</string>
 		<string>uni093F.02</string>
 		<string>uni093F.03</string>
@@ -364,66 +386,36 @@
 		<string>uni093F.28</string>
 		<string>uni093F.29</string>
 		<string>uni093F.30</string>
-		<string>uni093F0930094D.01</string>
-		<string>uni093F0930094D.02</string>
-		<string>uni093F0930094D.03</string>
-		<string>uni093F0930094D.04</string>
-		<string>uni093F0930094D.05</string>
-		<string>uni093F0930094D.06</string>
-		<string>uni093F0930094D.07</string>
-		<string>uni093F0930094D.08</string>
-		<string>uni093F0930094D.09</string>
-		<string>uni093F0930094D.10</string>
-		<string>uni093F0930094D.11</string>
-		<string>uni093F0930094D.12</string>
-		<string>uni093F0930094D.13</string>
-		<string>uni093F0930094D.14</string>
-		<string>uni093F0930094D.15</string>
-		<string>uni093F0930094D.16</string>
-		<string>uni093F0930094D.17</string>
-		<string>uni093F0930094D.18</string>
-		<string>uni093F0930094D.19</string>
-		<string>uni093F0930094D.20</string>
-		<string>uni093F0930094D.21</string>
-		<string>uni093F0930094D.22</string>
-		<string>uni093F0930094D.23</string>
-		<string>uni093F0930094D.24</string>
-		<string>uni093F0930094D.25</string>
-		<string>uni093F0930094D.26</string>
-		<string>uni093F0930094D.27</string>
-		<string>uni093F0930094D.28</string>
-		<string>uni093F0930094D.29</string>
-		<string>uni093F0930094D.30</string>
-		<string>uni093F0930094D0902.01</string>
-		<string>uni093F0930094D0902.02</string>
-		<string>uni093F0930094D0902.03</string>
-		<string>uni093F0930094D0902.04</string>
-		<string>uni093F0930094D0902.05</string>
-		<string>uni093F0930094D0902.06</string>
-		<string>uni093F0930094D0902.07</string>
-		<string>uni093F0930094D0902.08</string>
-		<string>uni093F0930094D0902.09</string>
-		<string>uni093F0930094D0902.10</string>
-		<string>uni093F0930094D0902.11</string>
-		<string>uni093F0930094D0902.12</string>
-		<string>uni093F0930094D0902.13</string>
-		<string>uni093F0930094D0902.14</string>
-		<string>uni093F0930094D0902.15</string>
-		<string>uni093F0930094D0902.16</string>
-		<string>uni093F0930094D0902.17</string>
-		<string>uni093F0930094D0902.18</string>
-		<string>uni093F0930094D0902.19</string>
-		<string>uni093F0930094D0902.20</string>
-		<string>uni093F0930094D0902.21</string>
-		<string>uni093F0930094D0902.22</string>
-		<string>uni093F0930094D0902.23</string>
-		<string>uni093F0930094D0902.24</string>
-		<string>uni093F0930094D0902.25</string>
-		<string>uni093F0930094D0902.26</string>
-		<string>uni093F0930094D0902.27</string>
-		<string>uni093F0930094D0902.28</string>
-		<string>uni093F0930094D0902.29</string>
-		<string>uni093F0930094D0902.30</string>
+		<string>uni093F0901.01</string>
+		<string>uni093F0901.02</string>
+		<string>uni093F0901.03</string>
+		<string>uni093F0901.04</string>
+		<string>uni093F0901.05</string>
+		<string>uni093F0901.06</string>
+		<string>uni093F0901.07</string>
+		<string>uni093F0901.08</string>
+		<string>uni093F0901.09</string>
+		<string>uni093F0901.10</string>
+		<string>uni093F0901.11</string>
+		<string>uni093F0901.12</string>
+		<string>uni093F0901.13</string>
+		<string>uni093F0901.14</string>
+		<string>uni093F0901.15</string>
+		<string>uni093F0901.16</string>
+		<string>uni093F0901.17</string>
+		<string>uni093F0901.18</string>
+		<string>uni093F0901.19</string>
+		<string>uni093F0901.20</string>
+		<string>uni093F0901.21</string>
+		<string>uni093F0901.22</string>
+		<string>uni093F0901.23</string>
+		<string>uni093F0901.24</string>
+		<string>uni093F0901.25</string>
+		<string>uni093F0901.26</string>
+		<string>uni093F0901.27</string>
+		<string>uni093F0901.28</string>
+		<string>uni093F0901.29</string>
+		<string>uni093F0901.30</string>
 		<string>uni093F0902.01</string>
 		<string>uni093F0902.02</string>
 		<string>uni093F0902.03</string>
@@ -454,6 +446,128 @@
 		<string>uni093F0902.28</string>
 		<string>uni093F0902.29</string>
 		<string>uni093F0902.30</string>
+		<string>uni093F0930094D.01</string>
+		<string>uni093F0930094D.02</string>
+		<string>uni093F0930094D.03</string>
+		<string>uni093F0930094D.04</string>
+		<string>uni093F0930094D.05</string>
+		<string>uni093F0930094D.06</string>
+		<string>uni093F0930094D.07</string>
+		<string>uni093F0930094D.08</string>
+		<string>uni093F0930094D.09</string>
+		<string>uni093F0930094D.10</string>
+		<string>uni093F0930094D.11</string>
+		<string>uni093F0930094D.12</string>
+		<string>uni093F0930094D.13</string>
+		<string>uni093F0930094D.14</string>
+		<string>uni093F0930094D.15</string>
+		<string>uni093F0930094D.16</string>
+		<string>uni093F0930094D.17</string>
+		<string>uni093F0930094D.18</string>
+		<string>uni093F0930094D.19</string>
+		<string>uni093F0930094D.20</string>
+		<string>uni093F0930094D.21</string>
+		<string>uni093F0930094D.22</string>
+		<string>uni093F0930094D.23</string>
+		<string>uni093F0930094D.24</string>
+		<string>uni093F0930094D.25</string>
+		<string>uni093F0930094D.26</string>
+		<string>uni093F0930094D.27</string>
+		<string>uni093F0930094D.28</string>
+		<string>uni093F0930094D.29</string>
+		<string>uni093F0930094D.30</string>
+		<string>uni093F0930094D0901.01</string>
+		<string>uni093F0930094D0901.02</string>
+		<string>uni093F0930094D0901.03</string>
+		<string>uni093F0930094D0901.04</string>
+		<string>uni093F0930094D0901.05</string>
+		<string>uni093F0930094D0901.06</string>
+		<string>uni093F0930094D0901.07</string>
+		<string>uni093F0930094D0901.08</string>
+		<string>uni093F0930094D0901.09</string>
+		<string>uni093F0930094D0901.10</string>
+		<string>uni093F0930094D0901.11</string>
+		<string>uni093F0930094D0901.12</string>
+		<string>uni093F0930094D0901.13</string>
+		<string>uni093F0930094D0901.14</string>
+		<string>uni093F0930094D0901.15</string>
+		<string>uni093F0930094D0901.16</string>
+		<string>uni093F0930094D0901.17</string>
+		<string>uni093F0930094D0901.18</string>
+		<string>uni093F0930094D0901.19</string>
+		<string>uni093F0930094D0901.20</string>
+		<string>uni093F0930094D0901.21</string>
+		<string>uni093F0930094D0901.22</string>
+		<string>uni093F0930094D0901.23</string>
+		<string>uni093F0930094D0901.24</string>
+		<string>uni093F0930094D0901.25</string>
+		<string>uni093F0930094D0901.26</string>
+		<string>uni093F0930094D0901.27</string>
+		<string>uni093F0930094D0901.28</string>
+		<string>uni093F0930094D0901.29</string>
+		<string>uni093F0930094D0901.30</string>
+		<string>uni093F0930094D0902.01</string>
+		<string>uni093F0930094D0902.02</string>
+		<string>uni093F0930094D0902.03</string>
+		<string>uni093F0930094D0902.04</string>
+		<string>uni093F0930094D0902.05</string>
+		<string>uni093F0930094D0902.06</string>
+		<string>uni093F0930094D0902.07</string>
+		<string>uni093F0930094D0902.08</string>
+		<string>uni093F0930094D0902.09</string>
+		<string>uni093F0930094D0902.10</string>
+		<string>uni093F0930094D0902.11</string>
+		<string>uni093F0930094D0902.12</string>
+		<string>uni093F0930094D0902.13</string>
+		<string>uni093F0930094D0902.14</string>
+		<string>uni093F0930094D0902.15</string>
+		<string>uni093F0930094D0902.16</string>
+		<string>uni093F0930094D0902.17</string>
+		<string>uni093F0930094D0902.18</string>
+		<string>uni093F0930094D0902.19</string>
+		<string>uni093F0930094D0902.20</string>
+		<string>uni093F0930094D0902.21</string>
+		<string>uni093F0930094D0902.22</string>
+		<string>uni093F0930094D0902.23</string>
+		<string>uni093F0930094D0902.24</string>
+		<string>uni093F0930094D0902.25</string>
+		<string>uni093F0930094D0902.26</string>
+		<string>uni093F0930094D0902.27</string>
+		<string>uni093F0930094D0902.28</string>
+		<string>uni093F0930094D0902.29</string>
+		<string>uni093F0930094D0902.30</string>
+		<string>iMatra_base-deva.0</string>
+		<string>iMatra_base-deva.00</string>
+		<string>iMatra_base-deva.01</string>
+		<string>iMatra_base-deva.02</string>
+		<string>iMatra_base-deva.03</string>
+		<string>iMatra_base-deva.04</string>
+		<string>iMatra_base-deva.05</string>
+		<string>iMatra_base-deva.06</string>
+		<string>iMatra_base-deva.07</string>
+		<string>iMatra_base-deva.08</string>
+		<string>iMatra_base-deva.09</string>
+		<string>iMatra_base-deva.10</string>
+		<string>iMatra_base-deva.11</string>
+		<string>iMatra_base-deva.12</string>
+		<string>iMatra_base-deva.13</string>
+		<string>iMatra_base-deva.14</string>
+		<string>iMatra_base-deva.15</string>
+		<string>iMatra_base-deva.16</string>
+		<string>iMatra_base-deva.17</string>
+		<string>iMatra_base-deva.18</string>
+		<string>iMatra_base-deva.19</string>
+		<string>iMatra_base-deva.20</string>
+		<string>iMatra_base-deva.21</string>
+		<string>iMatra_base-deva.22</string>
+		<string>iMatra_base-deva.23</string>
+		<string>iMatra_base-deva.24</string>
+		<string>iMatra_base-deva.25</string>
+		<string>iMatra_base-deva.26</string>
+		<string>iMatra_base-deva.27</string>
+		<string>iMatra_base-deva.28</string>
+		<string>iMatra_base-deva.29</string>
+		<string>iMatra_base-deva.30</string>
 		<string>uni0915</string>
 		<string>uni0916</string>
 		<string>uni0917</string>
@@ -467,7 +581,7 @@
 		<string>uni091F</string>
 		<string>uni0920</string>
 		<string>uni0921</string>
-		<string>dda-deva.MAW</string>
+		<string>uni0978</string>
 		<string>uni0922</string>
 		<string>uni0923</string>
 		<string>uni0924</string>
@@ -730,93 +844,12 @@
 		<string>uni0939094D0932</string>
 		<string>uni0939094D0935</string>
 		<string>uni095E094D0930</string>
-		<string>iMatra_base-deva</string>
-		<string>uni093F0901</string>
-		<string>uni093F0930094D0901</string>
-		<string>uni09400901</string>
-		<string>uni09400930094D0901</string>
-		<string>uni09490902</string>
-		<string>uni09490930094D</string>
-		<string>uni09490930094D0902</string>
-		<string>uni094A0901</string>
-		<string>uni094A0902</string>
-		<string>uni094A0930094D</string>
-		<string>uni094A0930094D0901</string>
-		<string>uni094A0930094D0902</string>
-		<string>uni094B0901</string>
-		<string>uni094B0930094D0901</string>
-		<string>uni094C0901</string>
-		<string>uni094C0930094D0901</string>
-		<string>uni09400901.0</string>
-		<string>uni09400930094D0901.0</string>
-		<string>uni093F0901.00</string>
-		<string>uni093F0930094D0901.00</string>
 		<string>uni091A094D091A.alt</string>
 		<string>uni0915094D0937094D.01</string>
 		<string>uni0915094D0937094D0072.01</string>
 		<string>uni0915094D0072.01</string>
 		<string>uni0924094D0924094D.01</string>
 		<string>uni092B094D0072.01</string>
-		<string>uni093F0901.01</string>
-		<string>uni093F0901.02</string>
-		<string>uni093F0901.03</string>
-		<string>uni093F0901.04</string>
-		<string>uni093F0901.05</string>
-		<string>uni093F0901.06</string>
-		<string>uni093F0901.07</string>
-		<string>uni093F0901.08</string>
-		<string>uni093F0901.09</string>
-		<string>uni093F0901.10</string>
-		<string>uni093F0901.11</string>
-		<string>uni093F0901.12</string>
-		<string>uni093F0901.13</string>
-		<string>uni093F0901.14</string>
-		<string>uni093F0901.15</string>
-		<string>uni093F0901.16</string>
-		<string>uni093F0901.17</string>
-		<string>uni093F0901.18</string>
-		<string>uni093F0901.19</string>
-		<string>uni093F0901.20</string>
-		<string>uni093F0901.21</string>
-		<string>uni093F0901.22</string>
-		<string>uni093F0901.23</string>
-		<string>uni093F0901.24</string>
-		<string>uni093F0901.25</string>
-		<string>uni093F0901.26</string>
-		<string>uni093F0901.27</string>
-		<string>uni093F0901.28</string>
-		<string>uni093F0901.29</string>
-		<string>uni093F0901.30</string>
-		<string>uni093F0930094D0901.01</string>
-		<string>uni093F0930094D0901.02</string>
-		<string>uni093F0930094D0901.03</string>
-		<string>uni093F0930094D0901.04</string>
-		<string>uni093F0930094D0901.05</string>
-		<string>uni093F0930094D0901.06</string>
-		<string>uni093F0930094D0901.07</string>
-		<string>uni093F0930094D0901.08</string>
-		<string>uni093F0930094D0901.09</string>
-		<string>uni093F0930094D0901.10</string>
-		<string>uni093F0930094D0901.11</string>
-		<string>uni093F0930094D0901.12</string>
-		<string>uni093F0930094D0901.13</string>
-		<string>uni093F0930094D0901.14</string>
-		<string>uni093F0930094D0901.15</string>
-		<string>uni093F0930094D0901.16</string>
-		<string>uni093F0930094D0901.17</string>
-		<string>uni093F0930094D0901.18</string>
-		<string>uni093F0930094D0901.19</string>
-		<string>uni093F0930094D0901.20</string>
-		<string>uni093F0930094D0901.21</string>
-		<string>uni093F0930094D0901.22</string>
-		<string>uni093F0930094D0901.23</string>
-		<string>uni093F0930094D0901.24</string>
-		<string>uni093F0930094D0901.25</string>
-		<string>uni093F0930094D0901.26</string>
-		<string>uni093F0930094D0901.27</string>
-		<string>uni093F0930094D0901.28</string>
-		<string>uni093F0930094D0901.29</string>
-		<string>uni093F0930094D0901.30</string>
 		<string>uni0915094D0932.loclMAR</string>
 		<string>uni091A094D0932.loclMAR</string>
 		<string>uni091B094D0932.loclMAR</string>
@@ -825,39 +858,7 @@
 		<string>uni0932094D0932.loclMAR</string>
 		<string>uni0936094D0932.loclMAR</string>
 		<string>uni0915094D0930.loclNEP</string>
-		<string>iMatra_base-deva.0</string>
-		<string>iMatra_base-deva.00</string>
 		<string>uni091C094D091E.alt</string>
-		<string>iMatra_base-deva.00.first01</string>
-		<string>iMatra_base-deva.00.first02</string>
-		<string>iMatra_base-deva.00.first03</string>
-		<string>iMatra_base-deva.00.first04</string>
-		<string>iMatra_base-deva.00.first05</string>
-		<string>iMatra_base-deva.00.first06</string>
-		<string>iMatra_base-deva.00.first07</string>
-		<string>iMatra_base-deva.00.first08</string>
-		<string>iMatra_base-deva.00.first09</string>
-		<string>iMatra_base-deva.00.first10</string>
-		<string>iMatra_base-deva.00.first11</string>
-		<string>iMatra_base-deva.00.first12</string>
-		<string>iMatra_base-deva.00.first13</string>
-		<string>iMatra_base-deva.00.first14</string>
-		<string>iMatra_base-deva.00.first15</string>
-		<string>iMatra_base-deva.00.first16</string>
-		<string>iMatra_base-deva.00.first17</string>
-		<string>iMatra_base-deva.00.first18</string>
-		<string>iMatra_base-deva.00.first19</string>
-		<string>iMatra_base-deva.00.first20</string>
-		<string>iMatra_base-deva.00.first21</string>
-		<string>iMatra_base-deva.00.first22</string>
-		<string>iMatra_base-deva.00.first23</string>
-		<string>iMatra_base-deva.00.first24</string>
-		<string>iMatra_base-deva.00.first25</string>
-		<string>iMatra_base-deva.00.first26</string>
-		<string>iMatra_base-deva.00.first27</string>
-		<string>iMatra_base-deva.00.first28</string>
-		<string>iMatra_base-deva.00.first29</string>
-		<string>iMatra_base-deva.00.first30</string>
 		<string>uni0926094D0917.ss02</string>
 		<string>uni0915094D</string>
 		<string>uni0916094D</string>
@@ -1080,6 +1081,8 @@
 		<string>uni0950</string>
 		<string>uniA8F8</string>
 		<string>uniA8F9</string>
+		<string>uni0326</string>
+		<string>uni02C9</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -1093,15 +1096,6 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>uni0326</string>
-		<string>uni02C9</string>
-		<string>uni0903</string>
-		<string>uniA8F2</string>
-		<string>uniA8F3</string>
-		<string>uniA8F4</string>
-		<string>uniA8F5</string>
-		<string>uniA8F6</string>
-		<string>uniA8F7</string>
 		<string>uni0941</string>
 		<string>uni0942</string>
 		<string>uni0943</string>
@@ -1185,6 +1179,13 @@
 		<string>uni0930094D.01</string>
 		<string>uni0930094D0901.01</string>
 		<string>uni0930094D0902.01</string>
+		<string>uni0903</string>
+		<string>uniA8F2</string>
+		<string>uniA8F3</string>
+		<string>uniA8F4</string>
+		<string>uniA8F5</string>
+		<string>uniA8F6</string>
+		<string>uniA8F7</string>
 		<string>rupeeIndian-deva</string>
 		<string>NULL</string>
 		<string>uni000C</string>

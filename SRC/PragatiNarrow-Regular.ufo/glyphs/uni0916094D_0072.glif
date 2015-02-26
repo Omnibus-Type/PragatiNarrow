@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0916094D0072" format="1">
-  <advance width="306"/>
+  <advance width="483"/>
   <outline>
     <contour>
-      <point x="281" y="68" type="line"/>
-      <point x="23" y="3" type="line"/>
-      <point x="23" y="-46" type="line"/>
-      <point x="287" y="34" type="line"/>
+      <point x="443" y="107" type="line"/>
+      <point x="36" y="5" type="line"/>
+      <point x="36" y="-73" type="line"/>
+      <point x="452" y="53" type="line"/>
     </contour>
     <component base="uni0916094D"/>
     <contour>
-      <point x="0" y="136" type="move" name="nukta"/>
+      <point x="0" y="214" type="move" name="nukta"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotereversed" format="1">
-  <advance width="133"/>
+  <advance width="210"/>
   <unicode hex="201B"/>
   <outline>
     <contour>
-      <point x="107" y="320" type="line"/>
-      <point x="107" y="399" type="line"/>
-      <point x="26" y="399" type="line"/>
-      <point x="26" y="327" type="line"/>
-      <point x="65" y="229" type="line"/>
-      <point x="107" y="229" type="line"/>
-      <point x="74" y="320" type="line"/>
+      <point x="168" y="504" type="line"/>
+      <point x="168" y="630" type="line"/>
+      <point x="42" y="630" type="line"/>
+      <point x="42" y="516" type="line"/>
+      <point x="102" y="361" type="line"/>
+      <point x="168" y="361" type="line"/>
+      <point x="118" y="504" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni091A094D0932" format="1">
-  <advance width="588"/>
+  <advance width="928"/>
   <outline>
     <component base="uni091A094D"/>
-    <component base="uni0932" xOffset="186"/>
+    <component base="uni0932" xOffset="294"/>
     <contour>
-      <point x="518" y="399" type="move" name="top"/>
+      <point x="817" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="518" y="0" type="move" name="bottom"/>
+      <point x="817" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="370" y="399" type="move" name="candra"/>
+      <point x="584" y="630" type="move" name="candra"/>
     </contour>
   </outline>
 </glyph>

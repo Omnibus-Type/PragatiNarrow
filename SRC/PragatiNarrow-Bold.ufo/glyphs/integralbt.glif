@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="integralbt" format="1">
-  <advance width="352"/>
+  <advance width="555"/>
   <unicode hex="2321"/>
   <outline>
     <contour>
-      <point x="138" y="500" type="line"/>
-      <point x="143" y="226"/>
-      <point x="148" y="-72"/>
-      <point x="148" y="-72" type="curve"/>
-      <point x="148" y="-98"/>
-      <point x="128" y="-105"/>
-      <point x="103" y="-105" type="curve"/>
-      <point x="103" y="-146" type="line"/>
-      <point x="162" y="-146"/>
-      <point x="213" y="-135"/>
-      <point x="213" y="-80" type="curve" smooth="yes"/>
-      <point x="213" y="-34"/>
-      <point x="208" y="244"/>
-      <point x="204" y="500" type="curve"/>
+      <point x="218" y="789" type="line"/>
+      <point x="226" y="357"/>
+      <point x="234" y="-114"/>
+      <point x="234" y="-114" type="curve"/>
+      <point x="234" y="-154"/>
+      <point x="202" y="-166"/>
+      <point x="162" y="-166" type="curve"/>
+      <point x="162" y="-230" type="line"/>
+      <point x="256" y="-230"/>
+      <point x="336" y="-213"/>
+      <point x="336" y="-127" type="curve" smooth="yes"/>
+      <point x="336" y="-53"/>
+      <point x="329" y="385"/>
+      <point x="322" y="789" type="curve"/>
     </contour>
   </outline>
 </glyph>

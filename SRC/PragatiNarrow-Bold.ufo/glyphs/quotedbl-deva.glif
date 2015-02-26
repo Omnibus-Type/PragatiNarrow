@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl-deva" format="1">
-  <advance width="262"/>
+  <advance width="414"/>
   <outline>
-    <component base="quotedbl" xOffset="16"/>
+    <component base="quotedbl" xOffset="26"/>
   </outline>
 </glyph>

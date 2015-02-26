@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni091D.loclNEP" format="1">
-  <advance width="507"/>
+  <advance width="800"/>
   <outline>
     <component base="uni092D"/>
-    <component base="rightArc-deva" xOffset="98"/>
+    <component base="rightArc-deva" xOffset="154"/>
     <contour>
-      <point x="301" y="399" type="move" name="candra"/>
+      <point x="474" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="59" y="34" type="move" name="nukta"/>
+      <point x="94" y="54" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="301" y="399" type="move" name="top"/>
+      <point x="474" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="301" y="0" type="move" name="bottom"/>
+      <point x="474" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni092D</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightArc-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

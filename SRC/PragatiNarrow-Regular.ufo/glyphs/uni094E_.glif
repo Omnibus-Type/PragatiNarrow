@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni094E" format="1">
-  <advance width="144"/>
+  <advance width="228"/>
   <unicode hex="094E"/>
   <outline>
     <contour>
-      <point x="48" y="399" type="line"/>
-      <point x="48" y="0" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="96" y="399" type="line"/>
+      <point x="76" y="630" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="152" y="0" type="line"/>
+      <point x="152" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="48" y="399" type="line"/>
-      <point x="48" y="357" type="line"/>
-      <point x="151" y="357" type="line"/>
-      <point x="151" y="399" type="line"/>
+      <point x="76" y="630" type="line"/>
+      <point x="76" y="563" type="line"/>
+      <point x="238" y="563" type="line"/>
+      <point x="238" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="72" y="399" type="move" name="top"/>
+      <point x="114" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="72" y="0" type="move" name="bottom"/>
+      <point x="114" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

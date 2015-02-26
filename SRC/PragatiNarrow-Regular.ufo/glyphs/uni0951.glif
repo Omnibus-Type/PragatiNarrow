@@ -4,13 +4,13 @@
   <unicode hex="0951"/>
   <outline>
     <contour>
-      <point x="-94" y="733" type="line"/>
-      <point x="-94" y="587" type="line"/>
-      <point x="-51" y="587" type="line"/>
-      <point x="-51" y="733" type="line"/>
+      <point x="-148" y="1158" type="line"/>
+      <point x="-148" y="926" type="line"/>
+      <point x="-80" y="926" type="line"/>
+      <point x="-80" y="1158" type="line"/>
     </contour>
     <contour>
-      <point x="-72" y="399" type="move" name="_candra"/>
+      <point x="-114" y="630" type="move" name="_candra"/>
     </contour>
   </outline>
 </glyph>

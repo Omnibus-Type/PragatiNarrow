@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rupeeIndian-deva" format="1">
-  <advance width="303"/>
+  <advance width="478"/>
   <outline>
     <contour>
-      <point x="40" y="305" type="line"/>
-      <point x="40" y="268" type="line"/>
-      <point x="264" y="268" type="line"/>
-      <point x="264" y="305" type="line"/>
+      <point x="62" y="482" type="line"/>
+      <point x="62" y="422" type="line"/>
+      <point x="416" y="422" type="line"/>
+      <point x="416" y="482" type="line"/>
     </contour>
-    <component base="uni0930" xOffset="46"/>
+    <component base="uni0930" xOffset="73"/>
   </outline>
 </glyph>

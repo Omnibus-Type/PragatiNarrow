@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="braceright-deva" format="1">
-  <advance width="175"/>
+  <advance width="276"/>
   <outline>
-    <component base="braceleft-deva" xOffset="175" xScale="-1"/>
+    <component base="braceleft-deva" xOffset="276" xScale="-1"/>
   </outline>
 </glyph>

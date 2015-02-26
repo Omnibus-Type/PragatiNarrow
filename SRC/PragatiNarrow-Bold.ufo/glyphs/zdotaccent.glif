@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zdotaccent" format="1">
-  <advance width="239"/>
+  <advance width="376"/>
   <unicode hex="017C"/>
   <outline>
     <contour>
-      <point x="224" y="277" type="line"/>
-      <point x="224" y="306" type="line"/>
-      <point x="18" y="306" type="line"/>
-      <point x="18" y="248" type="line"/>
-      <point x="129" y="248" type="line"/>
-      <point x="11" y="30" type="line"/>
-      <point x="11" y="0" type="line"/>
-      <point x="229" y="0" type="line"/>
-      <point x="229" y="59" type="line"/>
-      <point x="105" y="59" type="line"/>
+      <point x="354" y="438" type="line"/>
+      <point x="354" y="484" type="line"/>
+      <point x="28" y="484" type="line"/>
+      <point x="28" y="391" type="line"/>
+      <point x="204" y="391" type="line"/>
+      <point x="17" y="47" type="line"/>
+      <point x="17" y="0" type="line"/>
+      <point x="361" y="0" type="line"/>
+      <point x="361" y="93" type="line"/>
+      <point x="165" y="93" type="line"/>
     </contour>
     <contour>
-      <point x="151" y="354" type="line"/>
-      <point x="151" y="421" type="line"/>
-      <point x="88" y="421" type="line"/>
-      <point x="88" y="354" type="line"/>
+      <point x="238" y="558" type="line"/>
+      <point x="238" y="665" type="line"/>
+      <point x="139" y="665" type="line"/>
+      <point x="139" y="558" type="line"/>
     </contour>
   </outline>
 </glyph>

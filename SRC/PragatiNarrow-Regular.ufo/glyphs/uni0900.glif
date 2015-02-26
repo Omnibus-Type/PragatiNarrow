@@ -3,20 +3,12 @@
   <advance width="0"/>
   <unicode hex="0900"/>
   <outline>
-    <component base="uni0901" yOffset="982" yScale="-1"/>
+    <component base="uni0901" yOffset="1550" yScale="-1"/>
     <contour>
-      <point x="-72" y="399" type="move" name="_candra"/>
+      <point x="-113" y="630" type="move" name="_candra"/>
     </contour>
     <contour>
-      <point x="-71" y="549" type="move" name="top"/>
+      <point x="-111" y="866" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -4,9 +4,9 @@
   <unicode hex="0957"/>
   <outline>
     <component base="uni0956"/>
-    <component base="uni0956" yOffset="-86"/>
+    <component base="uni0956" yOffset="-135"/>
     <contour>
-      <point x="-157" y="0" type="move" name="_uesign-deva"/>
+      <point x="-248" y="0" type="move" name="_uesign-deva"/>
     </contour>
   </outline>
 </glyph>

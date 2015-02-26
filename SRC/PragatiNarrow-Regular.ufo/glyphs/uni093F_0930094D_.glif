@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni093F0930094D" format="1">
-  <advance width="144"/>
+  <advance width="228"/>
   <outline>
     <component base="iMatra_base-deva"/>
-    <component base="uni0930094D.01" xOffset="292"/>
+    <component base="uni0930094D.01" xOffset="460"/>
     <contour>
-      <point x="351" y="399" type="move" name="imatra"/>
+      <point x="553" y="630" type="move" name="imatra"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

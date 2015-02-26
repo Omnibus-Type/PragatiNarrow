@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0938" format="1">
-  <advance width="339"/>
+  <advance width="536"/>
   <unicode hex="0938"/>
   <outline>
     <contour>
-      <point x="72" y="202" type="line"/>
-      <point x="72" y="162" type="line"/>
-      <point x="280" y="162" type="line"/>
-      <point x="280" y="202" type="line"/>
+      <point x="114" y="318" type="line"/>
+      <point x="114" y="256" type="line"/>
+      <point x="442" y="256" type="line"/>
+      <point x="442" y="318" type="line"/>
     </contour>
     <component base="uni0930"/>
-    <component base="uni093E" xOffset="202"/>
+    <component base="uni093E" xOffset="318"/>
     <contour>
-      <point x="160" y="399" type="move" name="candra"/>
+      <point x="253" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="17" y="95" type="move" name="nukta"/>
+      <point x="27" y="150" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="273" y="399" type="move" name="top"/>
+      <point x="432" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="273" y="0" type="move" name="bottom"/>
+      <point x="432" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

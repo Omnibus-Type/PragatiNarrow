@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0915094D0930.loclNEP" format="1">
-  <advance width="463"/>
+  <advance width="730"/>
   <outline>
     <component base="uni0924094D0930"/>
-    <component base="rightArc-deva" xOffset="7"/>
+    <component base="rightArc-deva" xOffset="10"/>
     <contour>
-      <point x="229" y="399" type="move" name="top"/>
+      <point x="361" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="229" y="0" type="move" name="bottom"/>
+      <point x="361" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="229" y="399" type="move" name="candra"/>
+      <point x="361" y="630" type="move" name="candra"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0924094D0930</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightArc-deva</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

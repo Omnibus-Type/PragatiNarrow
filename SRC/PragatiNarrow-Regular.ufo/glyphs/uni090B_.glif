@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni090B" format="1">
-  <advance width="442"/>
+  <advance width="698"/>
   <unicode hex="090B"/>
   <outline>
     <contour>
-      <point x="449" y="399" type="line"/>
-      <point x="227" y="399" type="line"/>
-      <point x="227" y="357" type="line"/>
-      <point x="449" y="357" type="line"/>
+      <point x="708" y="630" type="line"/>
+      <point x="358" y="630" type="line"/>
+      <point x="358" y="563" type="line"/>
+      <point x="708" y="563" type="line"/>
     </contour>
     <contour>
-      <point x="354" y="111" type="line"/>
-      <point x="401" y="111" type="line"/>
-      <point x="401" y="284" type="line"/>
-      <point x="354" y="284" type="line"/>
+      <point x="558" y="175" type="line"/>
+      <point x="633" y="175" type="line"/>
+      <point x="633" y="448" type="line"/>
+      <point x="558" y="448" type="line"/>
     </contour>
     <contour>
-      <point x="210" y="126" type="line"/>
-      <point x="354" y="208" type="line"/>
-      <point x="354" y="258" type="line"/>
-      <point x="210" y="176" type="line"/>
+      <point x="331" y="199" type="line"/>
+      <point x="558" y="328" type="line"/>
+      <point x="558" y="407" type="line"/>
+      <point x="331" y="278" type="line"/>
     </contour>
-    <component base="uni0943" xOffset="449" yOffset="111"/>
+    <component base="uni0943" xOffset="709" yOffset="175"/>
     <component base="uni0924094D0930"/>
     <contour>
-      <point x="209" y="399" type="move" name="top"/>
+      <point x="330" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="209" y="0" type="move" name="bottom"/>
+      <point x="330" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

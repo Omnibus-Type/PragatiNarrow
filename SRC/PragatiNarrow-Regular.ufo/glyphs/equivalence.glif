@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="equivalence" format="1">
-  <advance width="279"/>
+  <advance width="440"/>
   <unicode hex="2261"/>
   <outline>
     <contour>
-      <point x="254" y="252" type="line"/>
-      <point x="254" y="301" type="line"/>
-      <point x="25" y="301" type="line"/>
-      <point x="25" y="252" type="line"/>
+      <point x="400" y="397" type="line"/>
+      <point x="400" y="474" type="line"/>
+      <point x="40" y="474" type="line"/>
+      <point x="40" y="397" type="line"/>
     </contour>
     <contour>
-      <point x="254" y="4" type="line"/>
-      <point x="254" y="53" type="line"/>
-      <point x="25" y="53" type="line"/>
-      <point x="25" y="4" type="line"/>
+      <point x="400" y="6" type="line"/>
+      <point x="400" y="83" type="line"/>
+      <point x="40" y="83" type="line"/>
+      <point x="40" y="6" type="line"/>
     </contour>
     <contour>
-      <point x="254" y="128" type="line"/>
-      <point x="254" y="177" type="line"/>
-      <point x="25" y="177" type="line"/>
-      <point x="25" y="128" type="line"/>
+      <point x="400" y="202" type="line"/>
+      <point x="400" y="279" type="line"/>
+      <point x="40" y="279" type="line"/>
+      <point x="40" y="202" type="line"/>
     </contour>
   </outline>
 </glyph>

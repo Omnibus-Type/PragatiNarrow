@@ -386,8 +386,6 @@
 	<string>dcaron.glif</string>
 	<key>dcroat</key>
 	<string>dcroat.glif</string>
-	<key>dda-deva.MAW</key>
-	<string>dda-deva.M_A_W_.glif</string>
 	<key>degree</key>
 	<string>degree.glif</string>
 	<key>dieresis</key>
@@ -448,10 +446,14 @@
 	<string>exclamdown.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
+	<key>fi</key>
+	<string>fi.glif</string>
 	<key>five</key>
 	<string>five.glif</string>
 	<key>fiveeighths</key>
 	<string>fiveeighths.glif</string>
+	<key>fl</key>
+	<string>fl.glif</string>
 	<key>florin</key>
 	<string>florin.glif</string>
 	<key>four</key>
@@ -512,66 +514,66 @@
 	<string>iM_atra_base-deva.0.glif</string>
 	<key>iMatra_base-deva.00</key>
 	<string>iM_atra_base-deva.00.glif</string>
-	<key>iMatra_base-deva.00.first01</key>
-	<string>iM_atra_base-deva.00.first01.glif</string>
-	<key>iMatra_base-deva.00.first02</key>
-	<string>iM_atra_base-deva.00.first02.glif</string>
-	<key>iMatra_base-deva.00.first03</key>
-	<string>iM_atra_base-deva.00.first03.glif</string>
-	<key>iMatra_base-deva.00.first04</key>
-	<string>iM_atra_base-deva.00.first04.glif</string>
-	<key>iMatra_base-deva.00.first05</key>
-	<string>iM_atra_base-deva.00.first05.glif</string>
-	<key>iMatra_base-deva.00.first06</key>
-	<string>iM_atra_base-deva.00.first06.glif</string>
-	<key>iMatra_base-deva.00.first07</key>
-	<string>iM_atra_base-deva.00.first07.glif</string>
-	<key>iMatra_base-deva.00.first08</key>
-	<string>iM_atra_base-deva.00.first08.glif</string>
-	<key>iMatra_base-deva.00.first09</key>
-	<string>iM_atra_base-deva.00.first09.glif</string>
-	<key>iMatra_base-deva.00.first10</key>
-	<string>iM_atra_base-deva.00.first10.glif</string>
-	<key>iMatra_base-deva.00.first11</key>
-	<string>iM_atra_base-deva.00.first11.glif</string>
-	<key>iMatra_base-deva.00.first12</key>
-	<string>iM_atra_base-deva.00.first12.glif</string>
-	<key>iMatra_base-deva.00.first13</key>
-	<string>iM_atra_base-deva.00.first13.glif</string>
-	<key>iMatra_base-deva.00.first14</key>
-	<string>iM_atra_base-deva.00.first14.glif</string>
-	<key>iMatra_base-deva.00.first15</key>
-	<string>iM_atra_base-deva.00.first15.glif</string>
-	<key>iMatra_base-deva.00.first16</key>
-	<string>iM_atra_base-deva.00.first16.glif</string>
-	<key>iMatra_base-deva.00.first17</key>
-	<string>iM_atra_base-deva.00.first17.glif</string>
-	<key>iMatra_base-deva.00.first18</key>
-	<string>iM_atra_base-deva.00.first18.glif</string>
-	<key>iMatra_base-deva.00.first19</key>
-	<string>iM_atra_base-deva.00.first19.glif</string>
-	<key>iMatra_base-deva.00.first20</key>
-	<string>iM_atra_base-deva.00.first20.glif</string>
-	<key>iMatra_base-deva.00.first21</key>
-	<string>iM_atra_base-deva.00.first21.glif</string>
-	<key>iMatra_base-deva.00.first22</key>
-	<string>iM_atra_base-deva.00.first22.glif</string>
-	<key>iMatra_base-deva.00.first23</key>
-	<string>iM_atra_base-deva.00.first23.glif</string>
-	<key>iMatra_base-deva.00.first24</key>
-	<string>iM_atra_base-deva.00.first24.glif</string>
-	<key>iMatra_base-deva.00.first25</key>
-	<string>iM_atra_base-deva.00.first25.glif</string>
-	<key>iMatra_base-deva.00.first26</key>
-	<string>iM_atra_base-deva.00.first26.glif</string>
-	<key>iMatra_base-deva.00.first27</key>
-	<string>iM_atra_base-deva.00.first27.glif</string>
-	<key>iMatra_base-deva.00.first28</key>
-	<string>iM_atra_base-deva.00.first28.glif</string>
-	<key>iMatra_base-deva.00.first29</key>
-	<string>iM_atra_base-deva.00.first29.glif</string>
-	<key>iMatra_base-deva.00.first30</key>
-	<string>iM_atra_base-deva.00.first30.glif</string>
+	<key>iMatra_base-deva.01</key>
+	<string>iM_atra_base-deva.01.glif</string>
+	<key>iMatra_base-deva.02</key>
+	<string>iM_atra_base-deva.02.glif</string>
+	<key>iMatra_base-deva.03</key>
+	<string>iM_atra_base-deva.03.glif</string>
+	<key>iMatra_base-deva.04</key>
+	<string>iM_atra_base-deva.04.glif</string>
+	<key>iMatra_base-deva.05</key>
+	<string>iM_atra_base-deva.05.glif</string>
+	<key>iMatra_base-deva.06</key>
+	<string>iM_atra_base-deva.06.glif</string>
+	<key>iMatra_base-deva.07</key>
+	<string>iM_atra_base-deva.07.glif</string>
+	<key>iMatra_base-deva.08</key>
+	<string>iM_atra_base-deva.08.glif</string>
+	<key>iMatra_base-deva.09</key>
+	<string>iM_atra_base-deva.09.glif</string>
+	<key>iMatra_base-deva.10</key>
+	<string>iM_atra_base-deva.10.glif</string>
+	<key>iMatra_base-deva.11</key>
+	<string>iM_atra_base-deva.11.glif</string>
+	<key>iMatra_base-deva.12</key>
+	<string>iM_atra_base-deva.12.glif</string>
+	<key>iMatra_base-deva.13</key>
+	<string>iM_atra_base-deva.13.glif</string>
+	<key>iMatra_base-deva.14</key>
+	<string>iM_atra_base-deva.14.glif</string>
+	<key>iMatra_base-deva.15</key>
+	<string>iM_atra_base-deva.15.glif</string>
+	<key>iMatra_base-deva.16</key>
+	<string>iM_atra_base-deva.16.glif</string>
+	<key>iMatra_base-deva.17</key>
+	<string>iM_atra_base-deva.17.glif</string>
+	<key>iMatra_base-deva.18</key>
+	<string>iM_atra_base-deva.18.glif</string>
+	<key>iMatra_base-deva.19</key>
+	<string>iM_atra_base-deva.19.glif</string>
+	<key>iMatra_base-deva.20</key>
+	<string>iM_atra_base-deva.20.glif</string>
+	<key>iMatra_base-deva.21</key>
+	<string>iM_atra_base-deva.21.glif</string>
+	<key>iMatra_base-deva.22</key>
+	<string>iM_atra_base-deva.22.glif</string>
+	<key>iMatra_base-deva.23</key>
+	<string>iM_atra_base-deva.23.glif</string>
+	<key>iMatra_base-deva.24</key>
+	<string>iM_atra_base-deva.24.glif</string>
+	<key>iMatra_base-deva.25</key>
+	<string>iM_atra_base-deva.25.glif</string>
+	<key>iMatra_base-deva.26</key>
+	<string>iM_atra_base-deva.26.glif</string>
+	<key>iMatra_base-deva.27</key>
+	<string>iM_atra_base-deva.27.glif</string>
+	<key>iMatra_base-deva.28</key>
+	<string>iM_atra_base-deva.28.glif</string>
+	<key>iMatra_base-deva.29</key>
+	<string>iM_atra_base-deva.29.glif</string>
+	<key>iMatra_base-deva.30</key>
+	<string>iM_atra_base-deva.30.glif</string>
 	<key>iacute</key>
 	<string>iacute.glif</string>
 	<key>ibreve</key>
@@ -932,6 +934,8 @@
 	<string>uni0907.glif</string>
 	<key>uni0908</key>
 	<string>uni0908.glif</string>
+	<key>uni09080902</key>
+	<string>uni09080902.glif</string>
 	<key>uni0909</key>
 	<string>uni0909.glif</string>
 	<key>uni090A</key>
@@ -2264,6 +2268,8 @@
 	<string>uni0976.glif</string>
 	<key>uni0977</key>
 	<string>uni0977.glif</string>
+	<key>uni0978</key>
+	<string>uni0978.glif</string>
 	<key>uni0979</key>
 	<string>uni0979.glif</string>
 	<key>uni0979.loclNEP</key>
@@ -2374,10 +2380,6 @@
 	<string>uniA_8F_A_.glif</string>
 	<key>uniA8FB</key>
 	<string>uniA_8F_B_.glif</string>
-	<key>uniFB01</key>
-	<string>uniF_B_01.glif</string>
-	<key>uniFB02</key>
-	<string>uniF_B_02.glif</string>
 	<key>uogonek</key>
 	<string>uogonek.glif</string>
 	<key>uring</key>

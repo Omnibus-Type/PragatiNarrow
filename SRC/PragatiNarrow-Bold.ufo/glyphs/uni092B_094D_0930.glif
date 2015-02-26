@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni092B094D0930" format="1">
-  <advance width="438"/>
+  <advance width="691"/>
   <outline>
     <component base="uni092A094D0930"/>
-    <component base="rightArc-deva" xOffset="4"/>
+    <component base="rightArc-deva" xOffset="6"/>
     <contour>
-      <point x="226" y="399" type="move" name="candra"/>
+      <point x="357" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="-2" y="156" type="move" name="nukta"/>
+      <point x="-3" y="246" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="226" y="399" type="move" name="top"/>
+      <point x="357" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="226" y="0" type="move" name="bottom"/>
+      <point x="357" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni092A094D0930</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightArc-deva</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

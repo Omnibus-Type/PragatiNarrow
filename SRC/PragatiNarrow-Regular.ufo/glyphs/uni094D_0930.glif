@@ -3,23 +3,23 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-93" y="7" type="line"/>
-      <point x="-192" y="-101" type="line"/>
-      <point x="-136" y="-101" type="line"/>
-      <point x="-57" y="-8" type="line"/>
-      <point x="-88" y="-8" type="line"/>
-      <point x="-9" y="-101" type="line"/>
-      <point x="47" y="-101" type="line"/>
-      <point x="-51" y="7" type="line"/>
+      <point x="-147" y="10" type="line"/>
+      <point x="-303" y="-159" type="line"/>
+      <point x="-214" y="-159" type="line"/>
+      <point x="-89" y="-12" type="line"/>
+      <point x="-139" y="-12" type="line"/>
+      <point x="-15" y="-159" type="line"/>
+      <point x="75" y="-159" type="line"/>
+      <point x="-81" y="10" type="line"/>
     </contour>
     <contour>
-      <point x="-72" y="0" type="move" name="_bottom"/>
+      <point x="-114" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-72" y="-123" type="move" name="bottom"/>
+      <point x="-114" y="-193" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="-72" y="117" type="move" name="nukta"/>
+      <point x="-114" y="184" type="move" name="nukta"/>
     </contour>
   </outline>
 </glyph>

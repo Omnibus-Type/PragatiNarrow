@@ -3,17 +3,9 @@
   <advance width="0"/>
   <outline>
     <component base="uni0946"/>
-    <component base="uni0902" xOffset="61" yOffset="60"/>
+    <component base="uni0902" xOffset="97" yOffset="95"/>
     <contour>
-      <point x="-85" y="399" type="move" name="_top"/>
+      <point x="-134" y="630" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

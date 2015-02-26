@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra_base-deva.23" format="1">
+  <advance width="228"/>
+  <outline>
+    <contour>
+      <point x="152" y="488" type="line"/>
+      <point x="152" y="654" type="line" smooth="yes"/>
+      <point x="152" y="754"/>
+      <point x="206" y="795"/>
+      <point x="331" y="816" type="curve" smooth="yes"/>
+      <point x="444" y="833"/>
+      <point x="626" y="840"/>
+      <point x="798" y="840" type="curve" smooth="yes"/>
+      <point x="854" y="840" type="line" smooth="yes"/>
+      <point x="1054" y="840"/>
+      <point x="1226" y="833"/>
+      <point x="1347" y="815" type="curve" smooth="yes"/>
+      <point x="1441" y="803"/>
+      <point x="1494" y="781"/>
+      <point x="1494" y="732" type="curve"/>
+      <point x="1556" y="742" type="line"/>
+      <point x="1556" y="808"/>
+      <point x="1505" y="856"/>
+      <point x="1359" y="880" type="curve" smooth="yes"/>
+      <point x="1235" y="899"/>
+      <point x="1051" y="906"/>
+      <point x="832" y="906" type="curve" smooth="yes"/>
+      <point x="585" y="906"/>
+      <point x="429" y="897"/>
+      <point x="317" y="880" type="curve" smooth="yes"/>
+      <point x="157" y="854"/>
+      <point x="76" y="800"/>
+      <point x="76" y="664" type="curve" smooth="yes"/>
+      <point x="76" y="488" type="line"/>
+    </contour>
+    <component base="uni093E"/>
+    <contour>
+      <point x="114" y="0" type="move" name="caret_1"/>
+    </contour>
+    <contour>
+      <point x="1530" y="630" type="move" name="imatra"/>
+    </contour>
+    <contour>
+      <point x="1536" y="700" type="move" name="post"/>
+    </contour>
+  </outline>
+</glyph>

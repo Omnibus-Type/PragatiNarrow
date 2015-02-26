@@ -113,6 +113,11 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**25 February 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.006**
+- Fixed issue with nukta next to halant
+- Matched size of the Devanagari letters with Ek Mukta
+- Improved conections between iMatras with reph and the stem of the last consonant in a cluster
+
 **28 January 2015 (Omnibus Type) Pragati Narrow Beta v1.005**  
 - Name tables adjusted
 - fsType Installable Mode
