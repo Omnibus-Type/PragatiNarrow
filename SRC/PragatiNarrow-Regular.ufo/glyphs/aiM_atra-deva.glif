@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aiMatra-deva" format="1">
+  <advance width="0"/>
+  <unicode hex="0948"/>
+  <outline>
+    <contour>
+      <point x="-240" y="906" type="line"/>
+      <point x="-316" y="906" type="line"/>
+      <point x="-231" y="630" type="line"/>
+      <point x="-164" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71" y="630" type="line"/>
+      <point x="-240" y="630" type="line"/>
+      <point x="-240" y="563" type="line"/>
+      <point x="-71" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="-80" y="906" type="line"/>
+      <point x="-155" y="906" type="line"/>
+      <point x="-155" y="773" type="line"/>
+      <point x="-155" y="725"/>
+      <point x="-152" y="678"/>
+      <point x="-147" y="630" type="curve"/>
+      <point x="-80" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="-113" y="630" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

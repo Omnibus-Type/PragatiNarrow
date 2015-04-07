@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l_la-deva" format="1">
+  <advance width="1081"/>
+  <outline>
+    <component base="l-deva"/>
+    <component base="la-deva" xOffset="447"/>
+    <contour>
+      <point x="762" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="751" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="974" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="974" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

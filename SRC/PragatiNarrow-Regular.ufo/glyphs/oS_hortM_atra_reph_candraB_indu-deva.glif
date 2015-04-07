@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oShortMatra_reph_candraBindu-deva" format="1">
+  <advance width="228"/>
+  <outline>
+    <component base="aaMatra-deva"/>
+    <component base="eShortMatra_reph_candraBindu-deva" xOffset="227"/>
+  </outline>
+</glyph>

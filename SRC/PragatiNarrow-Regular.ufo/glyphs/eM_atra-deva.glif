@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eMatra-deva" format="1">
+  <advance width="0"/>
+  <unicode hex="0947"/>
+  <outline>
+    <contour>
+      <point x="-163" y="906" type="line"/>
+      <point x="-239" y="906" type="line"/>
+      <point x="-154" y="630" type="line"/>
+      <point x="-87" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="-78" y="630" type="line"/>
+      <point x="-162" y="630" type="line"/>
+      <point x="-162" y="563" type="line"/>
+      <point x="-78" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="-116" y="630" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

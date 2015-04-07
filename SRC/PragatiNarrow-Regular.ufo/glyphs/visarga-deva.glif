@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="visarga-deva" format="1">
+  <advance width="205"/>
+  <unicode hex="0903"/>
+  <outline>
+    <contour>
+      <point x="215" y="563" type="line"/>
+      <point x="215" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="148" y="373" type="line"/>
+      <point x="148" y="472" type="line"/>
+      <point x="57" y="472" type="line"/>
+      <point x="57" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="148" y="96" type="line"/>
+      <point x="148" y="195" type="line"/>
+      <point x="57" y="195" type="line"/>
+      <point x="57" y="96" type="line"/>
+    </contour>
+  </outline>
+</glyph>

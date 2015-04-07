@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sh_la-deva.loclMAR" format="1">
+  <advance width="1000"/>
+  <outline>
+    <component base="sh-deva.ss02"/>
+    <component base="la-deva.loclMAR" xOffset="371"/>
+    <contour>
+      <point x="692" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="691" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="826" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="697" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dbldanda-deva" format="1">
+  <advance width="501"/>
+  <unicode hex="0965"/>
+  <outline>
+    <component base="danda-deva" xOffset="204"/>
+    <component base="danda-deva"/>
+  </outline>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k_ra-deva.loclNEP" format="1">
+  <advance width="730"/>
+  <outline>
+    <component base="t_ra-deva"/>
+    <component base="rightArc-deva" xOffset="10"/>
+    <contour>
+      <point x="361" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="361" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="361" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="361" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t_ra-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightArc-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

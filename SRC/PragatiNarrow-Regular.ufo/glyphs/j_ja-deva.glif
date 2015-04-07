@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j_ja-deva" format="1">
+  <advance width="581"/>
+  <outline>
+    <component base="j_j-deva"/>
+    <component base="aaMatra-deva" xOffset="353"/>
+    <contour>
+      <point x="274" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="167" y="-87" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="473" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="471" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="473" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

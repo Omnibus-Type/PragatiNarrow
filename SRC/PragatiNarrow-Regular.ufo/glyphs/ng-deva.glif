@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ng-deva" format="1">
+  <advance width="476"/>
+  <outline>
+    <component base="nga-deva"/>
+    <component base="halant-deva" xOffset="311" yOffset="9"/>
+    <contour>
+      <point x="220" y="-287" type="move" name="rakar"/>
+    </contour>
+    <contour>
+      <point x="196" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="281" y="630" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

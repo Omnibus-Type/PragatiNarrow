@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zha-deva" format="1">
+  <advance width="617"/>
+  <unicode hex="0979"/>
+  <outline>
+    <component base="ja-deva"/>
+    <component base="nukta-deva" xOffset="219" yOffset="80"/>
+    <component base="nukta-deva" xOffset="432" yOffset="80"/>
+    <component base="nukta-deva" xOffset="324" yOffset="-27"/>
+    <contour>
+      <point x="269" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="481" y="-120" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="486" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="487" y="0" type="move" name="rakar"/>
+    </contour>
+    <contour>
+      <point x="486" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>nukta-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>nukta-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>nukta-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

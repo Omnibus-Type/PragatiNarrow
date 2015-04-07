@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tth_ya-deva" format="1">
+  <advance width="943"/>
+  <outline>
+    <contour>
+      <point x="297" y="472" type="line"/>
+      <point x="297" y="406" type="line"/>
+      <point x="537" y="406" type="line" smooth="yes"/>
+      <point x="571" y="406"/>
+      <point x="598" y="387"/>
+      <point x="598" y="345" type="curve" smooth="yes"/>
+      <point x="598" y="283"/>
+      <point x="523" y="277"/>
+      <point x="490" y="277" type="curve"/>
+      <point x="527" y="213" type="line"/>
+      <point x="634" y="218"/>
+      <point x="677" y="279"/>
+      <point x="677" y="347" type="curve" smooth="yes"/>
+      <point x="677" y="433"/>
+      <point x="617" y="472"/>
+      <point x="536" y="472" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="791" y="250" type="line"/>
+      <point x="791" y="156"/>
+      <point x="749" y="118"/>
+      <point x="683" y="118" type="curve" smooth="yes"/>
+      <point x="618" y="118"/>
+      <point x="574" y="161"/>
+      <point x="569" y="264" type="curve"/>
+      <point x="490" y="277" type="line"/>
+      <point x="490" y="131"/>
+      <point x="561" y="53"/>
+      <point x="671" y="53" type="curve" smooth="yes"/>
+      <point x="734" y="53"/>
+      <point x="789" y="77"/>
+      <point x="809" y="133" type="curve"/>
+      <point x="791" y="149" type="line"/>
+      <point x="791" y="46" type="line"/>
+      <point x="820" y="46" type="line"/>
+      <point x="820" y="280" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="630" type="line"/>
+      <point x="317" y="563" type="line"/>
+      <point x="810" y="563" type="line"/>
+      <point x="810" y="630" type="line"/>
+    </contour>
+    <component base="ttha-deva"/>
+    <component base="aaMatra-deva" xOffset="716"/>
+    <contour>
+      <point x="725" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="671" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="829" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="829" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b_r-deva" format="1">
+  <advance width="230"/>
+  <outline>
+    <contour>
+      <point x="240" y="137"/>
+      <point x="286" y="148"/>
+      <point x="315" y="160" type="curve"/>
+      <point x="315" y="258" type="line"/>
+      <point x="298" y="245"/>
+      <point x="269" y="238"/>
+      <point x="225" y="238" type="curve" smooth="yes"/>
+      <point x="158" y="238"/>
+      <point x="132" y="259"/>
+      <point x="132" y="296" type="curve" smooth="yes"/>
+      <point x="132" y="319" type="line" smooth="yes"/>
+      <point x="132" y="358"/>
+      <point x="158" y="379"/>
+      <point x="225" y="379" type="curve" smooth="yes"/>
+      <point x="269" y="379"/>
+      <point x="298" y="371"/>
+      <point x="315" y="358" type="curve"/>
+      <point x="315" y="457" type="line"/>
+      <point x="287" y="469"/>
+      <point x="243" y="479"/>
+      <point x="190" y="479" type="curve" smooth="yes"/>
+      <point x="93" y="479"/>
+      <point x="30" y="428"/>
+      <point x="30" y="309" type="curve" smooth="yes"/>
+      <point x="30" y="190"/>
+      <point x="90" y="137"/>
+      <point x="184" y="137" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="315" y="160" type="line"/>
+      <point x="157" y="158" type="line"/>
+      <point x="52" y="106" type="line"/>
+      <point x="52" y="-10" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="224" type="line"/>
+      <point x="171" y="448" type="line"/>
+      <point x="138" y="411" type="line"/>
+      <point x="258" y="191" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="534" type="line"/>
+      <point x="315" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="534" type="line"/>
+    </contour>
+  </outline>
+</glyph>

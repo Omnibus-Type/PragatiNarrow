@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pha-deva" format="1">
+  <advance width="652"/>
+  <unicode hex="092B"/>
+  <outline>
+    <component base="pa-deva"/>
+    <component base="rightArc-deva" xOffset="6"/>
+    <contour>
+      <point x="327" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="60" y="145" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="326" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="323" y="0" type="move" name="rakar"/>
+    </contour>
+    <contour>
+      <point x="321" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="326" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>pa-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightArc-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

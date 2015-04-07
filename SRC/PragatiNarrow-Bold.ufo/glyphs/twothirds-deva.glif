@@ -2,8 +2,8 @@
 <glyph name="twothirds-deva" format="1">
   <advance width="770"/>
   <outline>
-    <component base="uni0969" xOffset="422" xScale="0.59" yScale="0.59"/>
-    <component base="uni0968" xOffset="84" yOffset="307" xScale="0.59" yScale="0.59"/>
+    <component base="three-deva" xOffset="422" xScale="0.59" yScale="0.59"/>
+    <component base="two-deva" xOffset="84" yOffset="307" xScale="0.59" yScale="0.59"/>
     <component base="fraction" xOffset="286"/>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>uni0969</string>
+          <string>three-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>
@@ -24,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uni0968</string>
+          <string>two-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>

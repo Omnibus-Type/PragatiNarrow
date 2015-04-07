@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lll-deva" format="1">
+  <advance width="731"/>
+  <outline>
+    <component base="ll-deva"/>
+    <component base="nukta-deva" xOffset="494" yOffset="78"/>
+    <contour>
+      <point x="366" y="-118" type="move" name="rakar"/>
+    </contour>
+  </outline>
+</glyph>

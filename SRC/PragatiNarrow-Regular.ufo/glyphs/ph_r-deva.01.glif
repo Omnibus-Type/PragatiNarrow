@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ph_r-deva.01" format="1">
+  <advance width="479"/>
+  <outline>
+    <component base="p_ra-deva"/>
+    <component base="rightHalfArc-deva.02" xOffset="5"/>
+    <contour>
+      <point x="-3" y="246" type="move" name="nukta"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>p_ra-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rightHalfArc-deva.02</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

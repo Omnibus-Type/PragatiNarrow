@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d_g_ra-deva" format="1">
+  <advance width="508"/>
+  <outline>
+    <contour>
+      <point x="433" y="111" type="line"/>
+      <point x="252" y="-80" type="line"/>
+      <point x="252" y="-184" type="line"/>
+      <point x="454" y="47" type="line"/>
+    </contour>
+    <component base="d_ga-deva"/>
+    <contour>
+      <point x="253" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="421" y="-140" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="366" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="483" y="-77" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

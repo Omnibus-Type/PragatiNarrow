@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ch_va-deva" format="1">
+  <advance width="629"/>
+  <outline>
+    <component base="ch-deva.post"/>
+    <component base="va-deva.post" xOffset="116"/>
+    <contour>
+      <point x="310" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="294" y="-190" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="451" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="426" y="-193" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>va-deva.post</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

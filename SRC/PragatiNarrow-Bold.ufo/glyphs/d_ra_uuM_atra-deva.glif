@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d_ra_uuMatra-deva" format="1">
+  <advance width="451"/>
+  <outline>
+    <component base="d_ra-deva"/>
+    <component base="uuMatra-deva.alt" xOffset="513"/>
+    <contour>
+      <point x="312" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="222" y="630" type="move" name="candra"/>
+    </contour>
+  </outline>
+</glyph>

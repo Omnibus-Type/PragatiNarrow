@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghha-deva" format="1">
+  <advance width="564"/>
+  <unicode hex="095A"/>
+  <outline>
+    <component base="ga-deva"/>
+    <component base="nukta-deva" xOffset="259" yOffset="139"/>
+    <contour>
+      <point x="312" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="441" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="449" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="448" y="0" type="move" name="rakar"/>
+    </contour>
+    <contour>
+      <point x="449" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

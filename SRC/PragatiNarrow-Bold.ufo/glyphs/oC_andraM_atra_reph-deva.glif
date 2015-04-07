@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oCandraMatra_reph-deva" format="1">
+  <advance width="268"/>
+  <outline>
+    <component base="aaMatra-deva"/>
+    <component base="eCandraMatra_reph-deva" xOffset="269"/>
+  </outline>
+</glyph>

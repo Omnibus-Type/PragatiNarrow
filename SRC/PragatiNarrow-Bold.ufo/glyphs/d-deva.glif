@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d-deva" format="1">
+  <advance width="451"/>
+  <outline>
+    <component base="da-deva"/>
+    <component base="halant-deva" xOffset="477"/>
+    <contour>
+      <point x="220" y="-287" type="move" name="rakar"/>
+    </contour>
+  </outline>
+</glyph>

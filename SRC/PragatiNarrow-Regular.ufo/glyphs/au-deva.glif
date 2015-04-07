@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="au-deva" format="1">
+  <advance width="842"/>
+  <unicode hex="0914"/>
+  <outline>
+    <component base="a-deva"/>
+    <component base="auMatra-deva" xOffset="614"/>
+    <contour>
+      <point x="855" y="739" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="730" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="507" y="0" type="move" name="uesign-deva"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha-deva" format="1">
+  <advance width="554"/>
+  <unicode hex="0936"/>
+  <outline>
+    <contour>
+      <point x="402" y="630" type="line"/>
+      <point x="402" y="0" type="line"/>
+      <point x="477" y="0" type="line"/>
+      <point x="477" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="630" type="line"/>
+      <point x="336" y="563" type="line"/>
+      <point x="565" y="563" type="line"/>
+      <point x="565" y="630" type="line"/>
+    </contour>
+    <component base="sh-deva"/>
+    <contour>
+      <point x="298" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="59" y="145" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="440" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="436" y="0" type="move" name="rakar"/>
+    </contour>
+    <contour>
+      <point x="291" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="440" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

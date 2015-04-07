@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ii-deva" format="1">
+  <advance width="485"/>
+  <unicode hex="0908"/>
+  <outline>
+    <component base="i-deva"/>
+    <component base="reph-deva" xOffset="488"/>
+    <contour>
+      <point x="353" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="177" y="-32" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="282" y="0" type="move" name="uesign-deva"/>
+    </contour>
+  </outline>
+</glyph>

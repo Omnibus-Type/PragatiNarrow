@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni093F0930094D.09" format="1">
-  <advance width="268"/>
-  <outline>
-    <component base="iMatra_base-deva.09"/>
-    <component base="uni0930094D.01" xOffset="857"/>
-  </outline>
-</glyph>

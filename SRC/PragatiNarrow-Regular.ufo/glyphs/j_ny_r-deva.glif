@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j_ny_r-deva" format="1">
+  <advance width="392"/>
+  <outline>
+    <contour>
+      <point x="523" y="238" type="line"/>
+      <point x="278" y="30" type="line"/>
+      <point x="278" y="-62" type="line"/>
+      <point x="523" y="160" type="line"/>
+    </contour>
+    <component base="j_ny-deva"/>
+    <contour>
+      <point x="162" y="0" type="move" name="nukta"/>
+    </contour>
+  </outline>
+</glyph>

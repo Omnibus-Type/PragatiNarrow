@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ph_la-deva" format="1">
+  <advance width="1137"/>
+  <outline>
+    <component base="ph-deva"/>
+    <component base="la-deva" xOffset="503"/>
+    <contour>
+      <point x="801" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="60" y="145" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="1023" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="811" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="1023" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d_dh_ra-deva" format="1">
+  <advance width="571"/>
+  <outline>
+    <component base="d_dha-deva"/>
+    <component base="ra-deva.post2" xOffset="406" yOffset="-134"/>
+    <contour>
+      <point x="338" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="451" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="448" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="539" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ra-deva.post2</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

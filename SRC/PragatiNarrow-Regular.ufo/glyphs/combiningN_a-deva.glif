@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="combiningNa-deva" format="1">
+  <advance width="0"/>
+  <unicode hex="A8ED"/>
+  <outline>
+    <contour>
+      <point x="-210" y="796" type="line" smooth="yes"/>
+      <point x="-243" y="796"/>
+      <point x="-265" y="779"/>
+      <point x="-265" y="751" type="curve" smooth="yes"/>
+      <point x="-265" y="721"/>
+      <point x="-244" y="704"/>
+      <point x="-210" y="704" type="curve" smooth="yes"/>
+      <point x="-176" y="704"/>
+      <point x="-154" y="723"/>
+      <point x="-154" y="751" type="curve" smooth="yes"/>
+      <point x="-154" y="782" type="line"/>
+      <point x="-196" y="782" type="line"/>
+      <point x="-196" y="751" type="line" smooth="yes"/>
+      <point x="-196" y="742"/>
+      <point x="-201" y="735"/>
+      <point x="-210" y="735" type="curve" smooth="yes"/>
+      <point x="-219" y="735"/>
+      <point x="-226" y="740"/>
+      <point x="-226" y="751" type="curve" smooth="yes"/>
+      <point x="-226" y="760"/>
+      <point x="-219" y="765"/>
+      <point x="-210" y="765" type="curve" smooth="yes"/>
+      <point x="-115" y="765" type="line"/>
+      <point x="-115" y="796" type="line"/>
+    </contour>
+    <contour>
+      <point x="-121" y="860" type="line"/>
+      <point x="-121" y="677" type="line"/>
+      <point x="-80" y="677" type="line"/>
+      <point x="-80" y="860" type="line"/>
+    </contour>
+    <contour>
+      <point x="-270" y="860" type="line"/>
+      <point x="-270" y="830" type="line"/>
+      <point x="-47" y="830" type="line"/>
+      <point x="-47" y="860" type="line"/>
+    </contour>
+    <contour>
+      <point x="-158" y="630" type="move" name="_candra"/>
+    </contour>
+  </outline>
+</glyph>

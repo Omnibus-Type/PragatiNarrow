@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anudatta-deva" format="1">
+  <advance width="0"/>
+  <unicode hex="0952"/>
+  <outline>
+    <contour>
+      <point x="-501" y="-420" type="line"/>
+      <point x="-17" y="-420" type="line"/>
+      <point x="-17" y="-337" type="line"/>
+      <point x="-501" y="-337" type="line"/>
+    </contour>
+    <contour>
+      <point x="-259" y="630" type="move" name="_candra"/>
+    </contour>
+  </outline>
+</glyph>

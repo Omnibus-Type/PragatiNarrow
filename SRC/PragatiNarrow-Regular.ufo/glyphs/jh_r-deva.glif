@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jh_r-deva" format="1">
+  <advance width="444"/>
+  <outline>
+    <contour>
+      <point x="180" y="317" type="line"/>
+      <point x="180" y="259" type="line"/>
+      <point x="548" y="259" type="line"/>
+      <point x="548" y="317" type="line"/>
+    </contour>
+    <contour>
+      <point x="595" y="230" type="line"/>
+      <point x="370" y="40" type="line"/>
+      <point x="370" y="-53" type="line"/>
+      <point x="595" y="152" type="line"/>
+    </contour>
+    <contour>
+      <point x="390" y="630" type="line"/>
+      <point x="390" y="563" type="line"/>
+      <point x="493" y="563" type="line"/>
+      <point x="493" y="630" type="line"/>
+    </contour>
+    <component base="jh-deva"/>
+  </outline>
+</glyph>

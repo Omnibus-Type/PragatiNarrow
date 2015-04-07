@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nn_ra-deva" format="1">
+  <advance width="723"/>
+  <outline>
+    <component base="nn_r-deva" xOffset="-3"/>
+    <component base="aaMatra-deva" xOffset="454"/>
+    <contour>
+      <point x="356" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="591" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="589" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="589" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>nn_r-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>aaMatra-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

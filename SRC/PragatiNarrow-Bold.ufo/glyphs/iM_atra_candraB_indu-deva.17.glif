@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iMatra_candraBindu-deva.17" format="1">
+  <advance width="268"/>
+  <outline>
+    <component base="iMatra-deva.17"/>
+    <component base="candraBindu-deva" xOffset="1638" yOffset="23"/>
+  </outline>
+</glyph>

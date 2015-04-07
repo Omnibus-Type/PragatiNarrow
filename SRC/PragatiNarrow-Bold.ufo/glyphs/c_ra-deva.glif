@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c_ra-deva" format="1">
+  <advance width="535"/>
+  <outline>
+    <contour>
+      <point x="284" y="462" type="line"/>
+      <point x="4" y="462" type="line"/>
+      <point x="4" y="364" type="line"/>
+      <point x="284" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="364" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="534" type="line"/>
+      <point x="364" y="534" type="line"/>
+    </contour>
+    <contour>
+      <point x="238" y="427" type="line"/>
+      <point x="145" y="427"/>
+      <point x="83" y="385"/>
+      <point x="83" y="281" type="curve" smooth="yes"/>
+      <point x="83" y="174"/>
+      <point x="165" y="124"/>
+      <point x="238" y="124" type="curve" smooth="yes"/>
+      <point x="284" y="124"/>
+      <point x="320" y="147"/>
+      <point x="341" y="160" type="curve"/>
+      <point x="345" y="160" type="line"/>
+      <point x="345" y="134" type="line"/>
+      <point x="456" y="134" type="line"/>
+      <point x="456" y="297" type="line"/>
+      <point x="345" y="297" type="line"/>
+      <point x="345" y="284" type="line" smooth="yes"/>
+      <point x="345" y="245"/>
+      <point x="326" y="225"/>
+      <point x="272" y="225" type="curve" smooth="yes"/>
+      <point x="218" y="225"/>
+      <point x="199" y="250"/>
+      <point x="199" y="288" type="curve" smooth="yes"/>
+      <point x="199" y="301" type="line" smooth="yes"/>
+      <point x="199" y="339"/>
+      <point x="218" y="364"/>
+      <point x="272" y="364" type="curve"/>
+    </contour>
+    <contour>
+      <point x="193" y="175" type="line"/>
+      <point x="42" y="96" type="line"/>
+      <point x="42" y="-10" type="line"/>
+      <point x="368" y="175" type="line"/>
+    </contour>
+    <component base="aaMatra-deva" xOffset="266"/>
+    <contour>
+      <point x="283" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="251" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="400" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="400" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

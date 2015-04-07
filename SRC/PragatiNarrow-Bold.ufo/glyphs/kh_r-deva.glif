@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kh_r-deva" format="1">
+  <advance width="510"/>
+  <outline>
+    <contour>
+      <point x="469" y="119" type="line"/>
+      <point x="57" y="25" type="line"/>
+      <point x="57" y="-78" type="line"/>
+      <point x="469" y="36" type="line"/>
+    </contour>
+    <component base="kh-deva"/>
+    <contour>
+      <point x="0" y="214" type="move" name="nukta"/>
+    </contour>
+  </outline>
+</glyph>

@@ -33,7 +33,7 @@
       <point x="152" y="504" type="line"/>
       <point x="152" y="702" type="line" smooth="yes"/>
     </contour>
-    <component base="uni093E"/>
+    <component base="aaMatra-deva"/>
     <contour>
       <point x="114" y="0" type="move" name="caret_1"/>
     </contour>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ss_tth_ya-deva" format="1">
+  <advance width="941"/>
+  <outline>
+    <component base="ss_ttha-deva"/>
+    <component base="ya-deva.post" xOffset="538"/>
+    <contour>
+      <point x="703" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="661" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="832" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="832" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ya-deva.post</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

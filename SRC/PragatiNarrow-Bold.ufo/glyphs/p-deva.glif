@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="p-deva" format="1">
+  <advance width="250"/>
+  <outline>
+    <contour>
+      <point x="160" y="630" type="line"/>
+      <point x="50" y="630" type="line"/>
+      <point x="50" y="302" type="line" smooth="yes"/>
+      <point x="50" y="200"/>
+      <point x="111" y="142"/>
+      <point x="224" y="142" type="curve" smooth="yes"/>
+      <point x="329" y="142"/>
+      <point x="405" y="193"/>
+      <point x="405" y="296" type="curve" smooth="yes"/>
+      <point x="405" y="334" type="line"/>
+      <point x="309" y="334" type="line"/>
+      <point x="309" y="305" type="line" smooth="yes"/>
+      <point x="309" y="263"/>
+      <point x="275" y="236"/>
+      <point x="231" y="236" type="curve" smooth="yes"/>
+      <point x="187" y="236"/>
+      <point x="160" y="263"/>
+      <point x="160" y="305" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="400" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="534" type="line"/>
+      <point x="400" y="534" type="line"/>
+    </contour>
+  </outline>
+</glyph>

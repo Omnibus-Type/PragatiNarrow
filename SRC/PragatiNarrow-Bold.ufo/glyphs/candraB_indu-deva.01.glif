@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="candraBindu-deva.01" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="108" y="734" type="line"/>
+      <point x="108" y="701"/>
+      <point x="98" y="688"/>
+      <point x="53" y="688" type="curve" smooth="yes"/>
+      <point x="10" y="688"/>
+      <point x="-3" y="701"/>
+      <point x="-3" y="734" type="curve"/>
+      <point x="-61" y="734" type="line"/>
+      <point x="-61" y="679"/>
+      <point x="-29" y="643"/>
+      <point x="53" y="643" type="curve" smooth="yes"/>
+      <point x="138" y="643"/>
+      <point x="166" y="679"/>
+      <point x="166" y="734" type="curve"/>
+    </contour>
+    <component base="anusvara-deva" xOffset="119" yOffset="376" xScale="0.5" yScale="0.5"/>
+  </outline>
+</glyph>

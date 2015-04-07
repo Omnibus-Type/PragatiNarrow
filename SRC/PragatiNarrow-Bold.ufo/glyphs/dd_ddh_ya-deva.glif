@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dd_ddh_ya-deva" format="1">
+  <advance width="1077"/>
+  <outline>
+    <contour>
+      <point x="888" y="249" type="line"/>
+      <point x="888" y="181"/>
+      <point x="860" y="134"/>
+      <point x="783" y="134" type="curve" smooth="yes"/>
+      <point x="701" y="134"/>
+      <point x="683" y="186"/>
+      <point x="676" y="240" type="curve"/>
+      <point x="562" y="263" type="line"/>
+      <point x="562" y="119"/>
+      <point x="639" y="44"/>
+      <point x="766" y="44" type="curve" smooth="yes"/>
+      <point x="842" y="44"/>
+      <point x="899" y="70"/>
+      <point x="915" y="128" type="curve"/>
+      <point x="888" y="172" type="line"/>
+      <point x="888" y="54" type="line"/>
+      <point x="963" y="54" type="line"/>
+      <point x="963" y="296" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="483" type="line"/>
+      <point x="358" y="391" type="line"/>
+      <point x="604" y="391" type="line" smooth="yes"/>
+      <point x="635" y="391"/>
+      <point x="649" y="379"/>
+      <point x="649" y="350" type="curve" smooth="yes"/>
+      <point x="649" y="316"/>
+      <point x="613" y="282"/>
+      <point x="562" y="263" type="curve"/>
+      <point x="615" y="182" type="line"/>
+      <point x="705" y="224"/>
+      <point x="761" y="277"/>
+      <point x="761" y="368" type="curve" smooth="yes"/>
+      <point x="761" y="444"/>
+      <point x="710" y="483"/>
+      <point x="615" y="483" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="432" y="630" type="line"/>
+      <point x="432" y="534" type="line"/>
+      <point x="907" y="534" type="line"/>
+      <point x="907" y="630" type="line"/>
+    </contour>
+    <component base="dd_ddha-deva"/>
+    <component base="aaMatra-deva" xOffset="809"/>
+    <contour>
+      <point x="816" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="623" y="44" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="943" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="811" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="943" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

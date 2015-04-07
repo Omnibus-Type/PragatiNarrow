@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eShort-deva" format="1">
+  <advance width="537"/>
+  <unicode hex="090E"/>
+  <outline>
+    <component base="e-deva"/>
+    <component base="eShortMatra-deva" xOffset="538"/>
+    <contour>
+      <point x="503" y="720" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="293" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="261" y="0" type="move" name="uesign-deva"/>
+    </contour>
+  </outline>
+</glyph>

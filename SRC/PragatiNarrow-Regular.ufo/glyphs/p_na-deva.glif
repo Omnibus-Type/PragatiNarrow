@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="p_na-deva" format="1">
+  <advance width="460"/>
+  <outline>
+    <contour>
+      <point x="151" y="630" type="line"/>
+      <point x="75" y="630" type="line"/>
+      <point x="75" y="323" type="line" smooth="yes"/>
+      <point x="75" y="226"/>
+      <point x="125" y="173"/>
+      <point x="210" y="173" type="curve" smooth="yes"/>
+      <point x="295" y="173"/>
+      <point x="347" y="226"/>
+      <point x="347" y="323" type="curve" smooth="yes"/>
+      <point x="347" y="362" type="line"/>
+      <point x="308" y="362" type="line"/>
+      <point x="308" y="319" type="line" smooth="yes"/>
+      <point x="308" y="269"/>
+      <point x="276" y="241"/>
+      <point x="230" y="241" type="curve" smooth="yes"/>
+      <point x="180" y="241"/>
+      <point x="151" y="274"/>
+      <point x="151" y="329" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="327" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="563" type="line"/>
+      <point x="327" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="67" y="140" type="line" smooth="yes"/>
+      <point x="14" y="109"/>
+      <point x="-10" y="79"/>
+      <point x="-10" y="34" type="curve" smooth="yes"/>
+      <point x="-10" y="-23"/>
+      <point x="30" y="-68"/>
+      <point x="95" y="-68" type="curve" smooth="yes"/>
+      <point x="159" y="-68"/>
+      <point x="200" y="-24"/>
+      <point x="200" y="33" type="curve" smooth="yes"/>
+      <point x="200" y="88"/>
+      <point x="163" y="122"/>
+      <point x="116" y="129" type="curve"/>
+      <point x="87" y="86" type="line"/>
+      <point x="115" y="75"/>
+      <point x="131" y="60"/>
+      <point x="131" y="34" type="curve" smooth="yes"/>
+      <point x="131" y="9"/>
+      <point x="116" y="-5"/>
+      <point x="95" y="-5" type="curve" smooth="yes"/>
+      <point x="73" y="-5"/>
+      <point x="58" y="9"/>
+      <point x="58" y="34" type="curve" smooth="yes"/>
+      <point x="58" y="54"/>
+      <point x="67" y="69"/>
+      <point x="90" y="81" type="curve" smooth="yes"/>
+      <point x="132" y="103" type="line"/>
+      <point x="150" y="112" type="line"/>
+      <point x="360" y="235" type="line"/>
+      <point x="219" y="230" type="line"/>
+    </contour>
+    <component base="aaMatra-deva" xOffset="232"/>
+    <contour>
+      <point x="222" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="95" y="-68" type="move" name="nukta"/>
+    </contour>
+    <contour>
+      <point x="345" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="291" y="0" type="move" name="uesign-deva"/>
+    </contour>
+    <contour>
+      <point x="345" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

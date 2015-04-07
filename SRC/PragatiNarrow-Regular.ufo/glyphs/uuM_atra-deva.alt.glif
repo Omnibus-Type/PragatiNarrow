@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uuMatra-deva.alt" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-96" y="-159" type="line"/>
+      <point x="-101" y="-160"/>
+      <point x="-107" y="-160"/>
+      <point x="-111" y="-160" type="curve" smooth="yes"/>
+      <point x="-145" y="-160"/>
+      <point x="-170" y="-132"/>
+      <point x="-170" y="-97" type="curve" smooth="yes"/>
+      <point x="-170" y="-67"/>
+      <point x="-151" y="-41"/>
+      <point x="-116" y="-41" type="curve" smooth="yes"/>
+      <point x="-74" y="-41"/>
+      <point x="-47" y="-79"/>
+      <point x="-47" y="-154" type="curve" smooth="yes"/>
+      <point x="-47" y="-227" type="line"/>
+      <point x="31" y="-227" type="line"/>
+      <point x="31" y="-154" type="line" smooth="yes"/>
+      <point x="31" y="-11"/>
+      <point x="-53" y="28"/>
+      <point x="-118" y="28" type="curve" smooth="yes"/>
+      <point x="-188" y="28"/>
+      <point x="-245" y="-19"/>
+      <point x="-245" y="-98" type="curve" smooth="yes"/>
+      <point x="-245" y="-180"/>
+      <point x="-183" y="-227"/>
+      <point x="-123" y="-227" type="curve" smooth="yes"/>
+      <point x="-113" y="-227"/>
+      <point x="-104" y="-226"/>
+      <point x="-96" y="-224" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-115" y="0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+</glyph>

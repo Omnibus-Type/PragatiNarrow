@@ -2,8 +2,8 @@
 <glyph name="oneeighth-deva" format="1">
   <advance width="764"/>
   <outline>
-    <component base="uni096E" xOffset="404" xScale="0.59" yScale="0.59"/>
-    <component base="uni0967" xOffset="103" yOffset="307" xScale="0.59" yScale="0.59"/>
+    <component base="eight-deva" xOffset="404" xScale="0.59" yScale="0.59"/>
+    <component base="one-deva" xOffset="103" yOffset="307" xScale="0.59" yScale="0.59"/>
     <component base="fraction" xOffset="282"/>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>uni096E</string>
+          <string>eight-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>
@@ -24,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uni0967</string>
+          <string>one-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>

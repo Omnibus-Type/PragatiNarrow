@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m-deva" format="1">
+  <advance width="373"/>
+  <outline>
+    <contour>
+      <point x="267" y="598" type="line"/>
+      <point x="192" y="598" type="line"/>
+      <point x="192" y="217" type="line" smooth="yes"/>
+      <point x="192" y="185"/>
+      <point x="173" y="163"/>
+      <point x="144" y="163" type="curve" smooth="yes"/>
+      <point x="115" y="163"/>
+      <point x="94" y="187"/>
+      <point x="94" y="217" type="curve" smooth="yes"/>
+      <point x="94" y="249"/>
+      <point x="114" y="269"/>
+      <point x="144" y="269" type="curve" smooth="yes"/>
+      <point x="460" y="269" type="line"/>
+      <point x="460" y="337" type="line"/>
+      <point x="144" y="337" type="line" smooth="yes"/>
+      <point x="68" y="337"/>
+      <point x="19" y="289"/>
+      <point x="19" y="217" type="curve" smooth="yes"/>
+      <point x="19" y="150"/>
+      <point x="75" y="96"/>
+      <point x="144" y="96" type="curve" smooth="yes"/>
+      <point x="218" y="96"/>
+      <point x="267" y="145"/>
+      <point x="267" y="217" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="480" y="630" type="line"/>
+      <point x="-10" y="630" type="line"/>
+      <point x="-10" y="563" type="line"/>
+      <point x="480" y="563" type="line"/>
+    </contour>
+  </outline>
+</glyph>

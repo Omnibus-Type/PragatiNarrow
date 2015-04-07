@@ -8,6 +8,6 @@
       <point x="416" y="422" type="line"/>
       <point x="416" y="482" type="line"/>
     </contour>
-    <component base="uni0930" xOffset="73"/>
+    <component base="ra-deva" xOffset="73"/>
   </outline>
 </glyph>

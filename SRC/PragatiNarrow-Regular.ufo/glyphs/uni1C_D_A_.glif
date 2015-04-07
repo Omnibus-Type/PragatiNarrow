@@ -3,8 +3,8 @@
   <advance width="0"/>
   <unicode hex="1CDA"/>
   <outline>
-    <component base="uni0951" xOffset="125"/>
-    <component base="uni0951"/>
+    <component base="udatta-deva" xOffset="125"/>
+    <component base="udatta-deva"/>
     <contour>
       <point x="-52" y="630" type="move" name="_candra"/>
     </contour>

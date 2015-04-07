@@ -2,8 +2,8 @@
 <glyph name="threequarters-deva" format="1">
   <advance width="770"/>
   <outline>
-    <component base="uni096A" xOffset="447" xScale="0.59" yScale="0.59"/>
-    <component base="uni0969" xOffset="50" yOffset="307" xScale="0.59" yScale="0.59"/>
+    <component base="four-deva" xOffset="447" xScale="0.59" yScale="0.59"/>
+    <component base="three-deva" xOffset="50" yOffset="307" xScale="0.59" yScale="0.59"/>
     <component base="fraction" xOffset="284"/>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>uni096A</string>
+          <string>four-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>
@@ -24,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uni0969</string>
+          <string>three-deva</string>
         </dict>
         <dict>
           <key>disableAlignment</key>
