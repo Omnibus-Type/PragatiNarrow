@@ -113,6 +113,13 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**6 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.007**
+- New ueMatra anchors
+- Fixed linked anchors in nukta instances
+- Inserted 'lookupflag IgnoreMarks' in pres
+- Separated oeMatra from the shoulder
+- Fixed Rakar before halant (Half Vattu Nukta)
+
 **25 February 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.006**
 - Fixed issue with nukta next to halant
 - Matched size of the Devanagari letters with Ek Mukta
