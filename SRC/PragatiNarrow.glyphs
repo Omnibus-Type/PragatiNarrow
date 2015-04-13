@@ -120,7 +120,7 @@ value = (
 );
 date = "2014-07-11 10:34:57 +0000";
 designer = "Hector Gatti, Marcela Romero, Pablo Cosgaya and Nicolas Silva";
-familyName = "PragatiNarrow";
+familyName = "Pragati Narrow";
 featurePrefixes = (
 {
 automatic = 1;
@@ -131369,6 +131369,7 @@ value = "--default-script=deva --fallback-script=deva --windows-compatibility --
 interpolationWeight = 106;
 isBold = 1;
 name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {

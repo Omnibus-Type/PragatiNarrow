@@ -113,7 +113,13 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
-**6 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.007**
+**13 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.007-beta.2**
+- Fixed Bold `usWeightClass value`
+- Removed all name tables records with `platformID="1"`
+- Fixed family name in all name tables records, from `PragatiNarrow` to `Pragati Narrow`
+- Updated TTFs with ttfautohint 1.3
+
+**6 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.007-beta.1**
 - New ueMatra anchors
 - Fixed linked anchors in nukta instances
 - Inserted 'lookupflag IgnoreMarks' in pres

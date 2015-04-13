@@ -11,7 +11,7 @@
 	<key>descender</key>
 	<integer>-534</integer>
 	<key>familyName</key>
-	<string>PragatiNarrow</string>
+	<string>Pragati Narrow</string>
 	<key>fsType</key>
 	<array>
 	</array>
@@ -34,7 +34,7 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.omnibus-type.com</string>
 	<key>openTypeNamePreferredFamilyName</key>
-	<string>PragatiNarrow</string>
+	<string>Pragati Narrow</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeOS2TypoAscender</key>
