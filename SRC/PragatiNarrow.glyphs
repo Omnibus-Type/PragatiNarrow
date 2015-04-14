@@ -132769,5 +132769,5 @@ manufacturer = "Omnibus-Type";
 manufacturerURL = "http://www.omnibus-type.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 8;
 }

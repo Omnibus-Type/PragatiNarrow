@@ -113,6 +113,9 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**13 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.008**
+- Changed semantic versioning to fit name tables records
+
 **13 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.007-beta.2**
 - Fixed Bold `usWeightClass value`
 - Removed all name tables records with `platformID="1"`
