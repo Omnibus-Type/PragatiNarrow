@@ -113,6 +113,10 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**21 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.009**
+- Added nukta anchors to vattu (rakar) letters
+- Support of most of the consonants for half forms with a nukta, rakar forms, rakar forms with a nukta, half rakar forms, and half rakar forms with a nukta
+
 **13 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.008**
 - Changed semantic versioning to fit name tables records
 

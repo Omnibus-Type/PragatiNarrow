@@ -190,6 +190,14 @@
           <key>disableAlignment</key>
           <true/>
           <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>anusvara-deva</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
           <integer>1</integer>
           <key>name</key>
           <string>aaMatra-deva</string>

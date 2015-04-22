@@ -47,13 +47,31 @@
     </contour>
     <component base="rVocalicMatra-deva" xOffset="446"/>
     <contour>
+      <point x="201" y="630" type="move" name="candra"/>
+    </contour>
+    <contour>
+      <point x="90" y="0" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="312" y="630" type="move" name="top"/>
     </contour>
     <contour>
       <point x="338" y="-183" type="move" name="bottom"/>
     </contour>
-    <contour>
-      <point x="201" y="630" type="move" name="candra"/>
-    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rVocalicMatra-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

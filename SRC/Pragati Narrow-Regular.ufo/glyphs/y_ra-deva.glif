@@ -62,7 +62,25 @@
       <point x="376" y="630" type="move" name="top"/>
     </contour>
     <contour>
+      <point x="242" y="72" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="376" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>aaMatra-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

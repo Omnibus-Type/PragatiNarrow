@@ -33,5 +33,23 @@
       <point x="499" y="289" type="line"/>
     </contour>
     <component base="ra-deva"/>
+    <contour>
+      <point x="64" y="88" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ra-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

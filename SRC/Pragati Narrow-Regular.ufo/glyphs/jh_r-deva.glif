@@ -21,5 +21,23 @@
       <point x="493" y="630" type="line"/>
     </contour>
     <component base="jh-deva"/>
+    <contour>
+      <point x="239" y="0" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>jh-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

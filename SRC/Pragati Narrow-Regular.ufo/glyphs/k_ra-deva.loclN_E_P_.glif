@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k_ra-deva.loclNEP" format="1">
-  <advance width="656"/>
+  <advance width="636"/>
   <outline>
     <component base="t_ra-deva"/>
     <component base="rightArc-deva" xOffset="10"/>
     <contour>
-      <point x="332" y="630" type="move" name="candra"/>
+      <point x="319" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="331" y="0" type="move" name="uesign-deva"/>
+      <point x="319" y="0" type="move" name="uesign-deva"/>
     </contour>
     <contour>
-      <point x="330" y="630" type="move" name="top"/>
+      <point x="311" y="0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-13" y="316" type="move" name="nukta"/>
     </contour>
     <contour>
       <point x="330" y="0" type="move" name="bottom"/>

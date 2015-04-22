@@ -37,5 +37,8 @@
       <point x="330" y="212" type="line"/>
       <point x="364" y="245" type="line"/>
     </contour>
+    <contour>
+      <point x="188" y="51" type="move" name="nukta"/>
+    </contour>
   </outline>
 </glyph>

@@ -60,6 +60,9 @@
       <point x="431" y="630" type="move" name="top"/>
     </contour>
     <contour>
+      <point x="2" y="213" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="431" y="0" type="move" name="bottom"/>
     </contour>
   </outline>

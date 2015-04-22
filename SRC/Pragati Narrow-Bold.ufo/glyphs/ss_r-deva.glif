@@ -9,5 +9,23 @@
       <point x="119" y="524" type="line"/>
     </contour>
     <component base="p_r-deva"/>
+    <contour>
+      <point x="-19" y="300" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>p_r-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

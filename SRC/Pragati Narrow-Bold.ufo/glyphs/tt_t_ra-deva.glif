@@ -88,6 +88,9 @@
       <point x="303" y="630" type="move" name="top"/>
     </contour>
     <contour>
+      <point x="189" y="-201" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="301" y="-193" type="move" name="bottom"/>
     </contour>
   </outline>

@@ -52,6 +52,9 @@
       <point x="627" y="630" type="move" name="top"/>
     </contour>
     <contour>
+      <point x="446" y="0" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="627" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
@@ -59,6 +62,14 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ra-deva</string>
+        </dict>
         <dict>
           <key>disableAlignment</key>
           <true/>

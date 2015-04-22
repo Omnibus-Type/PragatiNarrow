@@ -19,7 +19,25 @@
       <point x="372" y="630" type="move" name="top"/>
     </contour>
     <contour>
+      <point x="250" y="-214" type="move" name="nukta"/>
+    </contour>
+    <contour>
       <point x="385" y="-183" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ng_gha-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

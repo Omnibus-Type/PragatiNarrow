@@ -951,6 +951,7 @@
 		<string>backslash</string>
 		<string>periodcentered</string>
 		<string>bullet</string>
+		<string>caret</string>
 		<string>colon</string>
 		<string>comma</string>
 		<string>ellipsis</string>
@@ -1071,7 +1072,6 @@
 		<string>literSign</string>
 		<string>numero</string>
 		<string>asciicircum</string>
-		<string>caret</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
 		<string>house</string>

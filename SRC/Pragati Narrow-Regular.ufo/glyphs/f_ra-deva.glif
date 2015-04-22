@@ -3,7 +3,7 @@
   <advance width="652"/>
   <outline>
     <component base="ph_ra-deva"/>
-    <component base="nukta-deva" xOffset="108" yOffset="246"/>
+    <component base="nukta-deva" xOffset="108" yOffset="266"/>
     <contour>
       <point x="326" y="630" type="move" name="candra"/>
     </contour>
@@ -17,4 +17,19 @@
       <point x="326" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ph_ra-deva</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
