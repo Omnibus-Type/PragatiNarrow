@@ -45,13 +45,13 @@
       <point x="326" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="351" y="0" type="move" name="uesign-deva"/>
+      <point x="125" y="106" type="move" name="nukta"/>
     </contour>
     <contour>
       <point x="447" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="125" y="106" type="move" name="nukta"/>
+      <point x="351" y="0" type="move" name="uesign-deva"/>
     </contour>
     <contour>
       <point x="447" y="0" type="move" name="bottom"/>
@@ -59,6 +59,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ma-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ma-deva</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

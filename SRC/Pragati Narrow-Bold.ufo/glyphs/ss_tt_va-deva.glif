@@ -109,4 +109,12 @@
       <point x="386" y="-149" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ss_tta-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ss_tta-deva</string>
+    </dict>
+  </lib>
 </glyph>

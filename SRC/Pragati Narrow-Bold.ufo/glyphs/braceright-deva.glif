@@ -4,4 +4,12 @@
   <outline>
     <component base="braceleft-deva" xOffset="315" xScale="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|braceleft-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|braceleft-deva</string>
+    </dict>
+  </lib>
 </glyph>

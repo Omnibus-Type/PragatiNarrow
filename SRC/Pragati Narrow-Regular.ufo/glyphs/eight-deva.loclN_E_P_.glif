@@ -35,4 +35,12 @@
       <point x="378" y="475" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>eight-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>eight-deva</string>
+    </dict>
+  </lib>
 </glyph>

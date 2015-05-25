@@ -7,7 +7,7 @@
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<integer>1</integer>
 	<key>com.schriftgestaltung.weightValue</key>
-	<real>72</real>
+	<integer>72</integer>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>A</string>
@@ -1081,7 +1081,20 @@
 		<string>om-deva</string>
 		<string>pushpika-deva</string>
 		<string>gapfiller-deva</string>
+		<string>acutecomb</string>
+		<string>brevecomb</string>
+		<string>caroncomb</string>
+		<string>cedillacomb</string>
+		<string>circumflexcomb</string>
 		<string>commaaccentcomb</string>
+		<string>dieresiscomb</string>
+		<string>dotaccentcomb</string>
+		<string>gravecomb</string>
+		<string>hungarumlautcomb</string>
+		<string>macroncomb</string>
+		<string>ogonekcomb</string>
+		<string>ringcomb</string>
+		<string>tildecomb</string>
 		<string>firsttonechinese</string>
 		<string>acute</string>
 		<string>breve</string>

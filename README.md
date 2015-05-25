@@ -113,6 +113,15 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
 
+**25 May 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.010**
+- Nutka anchors in halfforms
+- Top and bottom anchors in basic latin
+- Top anchor for tops marks and bottom anchor for bottom marks to generate mark to mark positioning.
+- Improve some `dist` values relate with halfforms with rakar
+- Eliminate confilctives lines in ccmp related with the composition of qa, khha, ghha, za, nnna, fa, and llla
+- Checked non-even stem contounrs in bold
+- Inserted `lookupflag IgnoreMarks;` in `cjct` connections_devanagari lookup in order to avoid deactivation of this feature when Nukta is present.
+
 **21 April 2015 (Omnibus Type) Pragati Narrow Release Candidate v1.009**
 - Added nukta anchors to vattu (rakar) letters
 - Support of most of the consonants for half forms with a nukta, rakar forms, rakar forms with a nukta, half rakar forms, and half rakar forms with a nukta

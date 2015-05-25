@@ -74,4 +74,12 @@
       <point x="302" y="-193" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ch_na-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ch_na-deva</string>
+    </dict>
+  </lib>
 </glyph>

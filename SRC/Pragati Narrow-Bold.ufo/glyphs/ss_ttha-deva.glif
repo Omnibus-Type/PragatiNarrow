@@ -78,4 +78,12 @@
       <point x="290" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>tth_ttha-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>tth_ttha-deva</string>
+    </dict>
+  </lib>
 </glyph>

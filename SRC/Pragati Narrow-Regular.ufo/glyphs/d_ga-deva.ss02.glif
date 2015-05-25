@@ -85,4 +85,14 @@
       <point x="371" y="0" type="move" name="uesign-deva"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>da-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>da-deva</string>
+    </dict>
+  </lib>
 </glyph>

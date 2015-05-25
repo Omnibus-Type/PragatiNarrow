@@ -41,5 +41,14 @@
       <point x="572" y="495"/>
       <point x="503" y="495" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="335" y="484" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="356" y="484" type="move" name="candra"/>
+    </contour>
   </outline>
 </glyph>

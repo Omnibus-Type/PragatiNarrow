@@ -98,4 +98,12 @@
       <point x="416" y="-193" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>nya-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>nya-deva</string>
+    </dict>
+  </lib>
 </glyph>

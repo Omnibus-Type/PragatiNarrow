@@ -58,4 +58,10 @@
       <point x="355" y="285" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|three-deva</string>
+    </dict>
+  </lib>
 </glyph>

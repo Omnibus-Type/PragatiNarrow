@@ -19,8 +19,8 @@
       <point x="790" y="-66" type="curve"/>
       <point x="763" y="-22" type="line"/>
       <point x="763" y="-193" type="line"/>
-      <point x="874" y="-193" type="line"/>
-      <point x="874" y="55" type="line"/>
+      <point x="873" y="-193" type="line"/>
+      <point x="873" y="55" type="line"/>
     </contour>
     <contour>
       <point x="420" y="290" type="line"/>
@@ -184,6 +184,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ng_k_ra-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ya-deva.post</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

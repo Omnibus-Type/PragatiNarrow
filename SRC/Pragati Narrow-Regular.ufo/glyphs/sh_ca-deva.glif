@@ -99,4 +99,10 @@
       <point x="465" y="-31" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ca-deva</string>
+    </dict>
+  </lib>
 </glyph>

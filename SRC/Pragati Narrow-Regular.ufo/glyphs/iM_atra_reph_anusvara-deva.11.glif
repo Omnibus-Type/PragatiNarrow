@@ -5,4 +5,12 @@
     <component base="iMatra_base-deva.11"/>
     <component base="reph_anusvara-deva.01" xOffset="924"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

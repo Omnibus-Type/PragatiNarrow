@@ -3,32 +3,38 @@
   <advance width="494"/>
   <outline>
     <contour>
-      <point x="560" y="630" type="line"/>
-      <point x="462" y="630" type="line"/>
-      <point x="462" y="534" type="line"/>
-      <point x="560" y="534" type="line"/>
+      <point x="559" y="630" type="line"/>
+      <point x="461" y="630" type="line"/>
+      <point x="461" y="534" type="line"/>
+      <point x="559" y="534" type="line"/>
     </contour>
     <contour>
-      <point x="464" y="463"/>
-      <point x="432" y="442"/>
-      <point x="410" y="413" type="curve"/>
-      <point x="406" y="413" type="line"/>
-      <point x="406" y="426" type="line"/>
+      <point x="463" y="463"/>
+      <point x="431" y="442"/>
+      <point x="409" y="413" type="curve"/>
+      <point x="405" y="413" type="line"/>
+      <point x="405" y="426" type="line"/>
       <point x="295" y="426" type="line"/>
       <point x="295" y="271" type="line"/>
-      <point x="406" y="271" type="line"/>
-      <point x="406" y="281" type="line" smooth="yes"/>
-      <point x="406" y="333"/>
-      <point x="425" y="362"/>
-      <point x="479" y="362" type="curve" smooth="yes"/>
-      <point x="532" y="362"/>
-      <point x="552" y="333"/>
-      <point x="552" y="281" type="curve" smooth="yes"/>
-      <point x="552" y="241" type="line"/>
-      <point x="649" y="241" type="line"/>
-      <point x="649" y="376"/>
-      <point x="598" y="463"/>
-      <point x="515" y="463" type="curve" smooth="yes"/>
+      <point x="405" y="271" type="line"/>
+      <point x="405" y="281" type="line" smooth="yes"/>
+      <point x="405" y="333"/>
+      <point x="424" y="362"/>
+      <point x="478" y="362" type="curve" smooth="yes"/>
+      <point x="531" y="362"/>
+      <point x="551" y="333"/>
+      <point x="551" y="281" type="curve" smooth="yes"/>
+      <point x="551" y="241" type="line"/>
+      <point x="648" y="241" type="line"/>
+      <point x="648" y="376"/>
+      <point x="597" y="463"/>
+      <point x="514" y="463" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
 </glyph>

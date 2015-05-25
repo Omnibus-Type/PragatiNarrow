@@ -45,4 +45,12 @@
       <point x="401" y="504" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uniA8F8</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>uniA8F8</string>
+    </dict>
+  </lib>
 </glyph>

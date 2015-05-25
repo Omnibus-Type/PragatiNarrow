@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f-deva.01" format="1">
-  <advance width="500"/>
+  <advance width="501"/>
   <outline>
     <component base="ph-deva.01"/>
     <component base="nukta-deva" xOffset="261" yOffset="131"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>rightHalfArc-deva.01</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

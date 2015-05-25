@@ -5,10 +5,10 @@
     <component base="d_ra-deva"/>
     <component base="uMatra-deva.alt" xOffset="513"/>
     <contour>
-      <point x="312" y="630" type="move" name="top"/>
+      <point x="145" y="0" type="move" name="nukta"/>
     </contour>
     <contour>
-      <point x="145" y="0" type="move" name="nukta"/>
+      <point x="312" y="630" type="move" name="top"/>
     </contour>
     <contour>
       <point x="222" y="630" type="move" name="candra"/>
@@ -16,6 +16,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>d_ra-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>d_ra-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

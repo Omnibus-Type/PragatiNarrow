@@ -3,7 +3,7 @@
   <advance width="461"/>
   <outline>
     <component base="d_na-deva"/>
-    <component base="uuMatra-deva.alt" xOffset="555"/>
+    <component base="uuMatra-deva.alt" xOffset="551"/>
     <contour>
       <point x="140" y="-167" type="move" name="nukta"/>
     </contour>
@@ -14,4 +14,16 @@
       <point x="222" y="630" type="move" name="candra"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>d_na-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>d_na-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

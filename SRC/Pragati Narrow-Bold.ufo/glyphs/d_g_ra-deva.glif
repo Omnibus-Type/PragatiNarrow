@@ -13,13 +13,13 @@
       <point x="263" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="461" y="-140" type="move" name="uesign-deva"/>
+      <point x="136" y="-153" type="move" name="nukta"/>
     </contour>
     <contour>
       <point x="366" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="136" y="-153" type="move" name="nukta"/>
+      <point x="461" y="-140" type="move" name="uesign-deva"/>
     </contour>
     <contour>
       <point x="464" y="-80" type="move" name="bottom"/>
@@ -27,6 +27,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>d_ga-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>d_ga-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

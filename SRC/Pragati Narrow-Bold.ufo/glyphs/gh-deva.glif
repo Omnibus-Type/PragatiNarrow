@@ -47,5 +47,16 @@
       <point x="212" y="534" type="curve"/>
       <point x="210" y="593" type="line"/>
     </contour>
+    <contour>
+      <point x="21" y="142" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

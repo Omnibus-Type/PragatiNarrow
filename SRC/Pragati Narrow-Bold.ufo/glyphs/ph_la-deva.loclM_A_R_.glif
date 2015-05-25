@@ -131,4 +131,12 @@
       <point x="357" y="-193" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>k_la-deva.loclMAR</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>k_la-deva.loclMAR</string>
+    </dict>
+  </lib>
 </glyph>

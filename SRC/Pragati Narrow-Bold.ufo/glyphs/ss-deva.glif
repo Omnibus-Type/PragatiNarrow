@@ -9,5 +9,18 @@
       <point x="139" y="601" type="line"/>
     </contour>
     <component base="p-deva"/>
+    <contour>
+      <point x="45" y="142" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>p-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pha-deva" format="1">
-  <advance width="726"/>
+  <advance width="727"/>
   <unicode hex="092B"/>
   <outline>
     <component base="pa-deva"/>
-    <component base="rightArc-deva" xOffset="6"/>
+    <component base="rightArc-deva" xOffset="7"/>
     <contour>
       <point x="363" y="630" type="move" name="candra"/>
     </contour>
@@ -26,6 +26,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>pa-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>rightArc-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

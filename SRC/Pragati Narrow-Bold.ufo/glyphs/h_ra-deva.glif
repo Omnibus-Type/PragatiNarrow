@@ -72,16 +72,28 @@
       <point x="268" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="291" y="-70" type="move" name="uesign-deva"/>
+      <point x="271" y="-109" type="move" name="nukta"/>
     </contour>
     <contour>
       <point x="373" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="271" y="-109" type="move" name="nukta"/>
+      <point x="291" y="-70" type="move" name="uesign-deva"/>
     </contour>
     <contour>
       <point x="279" y="-67" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ha-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ha-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

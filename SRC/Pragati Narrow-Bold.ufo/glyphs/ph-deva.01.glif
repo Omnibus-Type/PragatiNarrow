@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ph-deva.01" format="1">
-  <advance width="500"/>
+  <advance width="501"/>
   <outline>
     <component base="pa-deva"/>
-    <component base="rightHalfArc-deva.02" xOffset="6"/>
+    <component base="rightHalfArc-deva.02" xOffset="7"/>
     <contour>
       <point x="131" y="131" type="move" name="nukta"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>rightHalfArc-deva.02</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

@@ -81,4 +81,12 @@
       <point x="494" y="-52" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>tt_tta-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ng_ma-deva</string>
+    </dict>
+  </lib>
 </glyph>

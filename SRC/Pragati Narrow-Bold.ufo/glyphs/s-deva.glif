@@ -15,5 +15,16 @@
       <point x="468" y="534" type="line"/>
     </contour>
     <component base="ra-deva"/>
+    <contour>
+      <point x="27" y="139" type="move" name="nukta"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

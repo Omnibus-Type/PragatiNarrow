@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ph_la-deva" format="1">
-  <advance width="1197"/>
+  <advance width="1198"/>
   <outline>
     <component base="ph-deva"/>
-    <component base="la-deva" xOffset="525"/>
+    <component base="la-deva" xOffset="526"/>
     <contour>
       <point x="851" y="630" type="move" name="candra"/>
     </contour>
@@ -20,4 +20,16 @@
       <point x="1062" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ph-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>la-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

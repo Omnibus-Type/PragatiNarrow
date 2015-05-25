@@ -4,6 +4,8 @@
 <dict>
 	<key>@MMK_L_c-deva</key>
 	<dict>
+		<key>@MMK_R_j_nya-deva</key>
+		<integer>20</integer>
 		<key>@MMK_R_kha-deva</key>
 		<real>31.200000762939453</real>
 		<key>@MMK_R_la-deva</key>
@@ -91,7 +93,7 @@
 		<key>@MMK_R_sha-deva.loclMAR</key>
 		<real>20.799999237060547</real>
 		<key>@MMK_R_t_ra-deva</key>
-		<real>41.599998474121094</real>
+		<integer>11</integer>
 		<key>@MMK_R_ta-deva</key>
 		<real>10.399999618530273</real>
 		<key>@MMK_R_tha-deva</key>
@@ -127,6 +129,8 @@
 	</dict>
 	<key>@MMK_L_kh-deva</key>
 	<dict>
+		<key>@MMK_R_ga-deva</key>
+		<integer>30</integer>
 		<key>@MMK_R_kha-deva</key>
 		<real>31.200000762939453</real>
 		<key>@MMK_R_la-deva</key>
@@ -281,6 +285,8 @@
 	<dict>
 		<key>@MMK_R_la-deva</key>
 		<real>12.479999542236328</real>
+		<key>@MMK_R_ra-deva</key>
+		<integer>10</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>28.079999923706055</real>
 	</dict>
@@ -732,6 +738,8 @@
 	<dict>
 		<key>@MMK_R_la-deva</key>
 		<real>31.200000762939453</real>
+		<key>@MMK_R_ma-deva</key>
+		<integer>40</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>41.599998474121094</real>
 	</dict>
@@ -842,8 +850,12 @@
 	</dict>
 	<key>dh_r-deva</key>
 	<dict>
+		<key>@MMK_R_dha-deva</key>
+		<integer>-7</integer>
 		<key>@MMK_R_la-deva</key>
 		<real>10.399999618530273</real>
+		<key>@MMK_R_na-deva</key>
+		<integer>40</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>31.200000762939453</real>
 	</dict>
@@ -863,6 +875,10 @@
 	</dict>
 	<key>g_r-deva</key>
 	<dict>
+		<key>@MMK_R_ga-deva</key>
+		<integer>40</integer>
+		<key>@MMK_R_gha-deva</key>
+		<integer>20</integer>
 		<key>@MMK_R_la-deva</key>
 		<real>31.200000762939453</real>
 		<key>@MMK_R_va-deva</key>
@@ -937,6 +953,10 @@
 	</dict>
 	<key>j_ny_r-deva</key>
 	<dict>
+		<key>@MMK_R_j_nya-deva</key>
+		<integer>30</integer>
+		<key>@MMK_R_ja-deva</key>
+		<integer>20</integer>
 		<key>@MMK_R_la-deva</key>
 		<real>31.200000762939453</real>
 		<key>@MMK_R_va-deva</key>
@@ -944,6 +964,8 @@
 	</dict>
 	<key>j_r-deva</key>
 	<dict>
+		<key>@MMK_R_ja-deva</key>
+		<integer>41</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>20.799999237060547</real>
 	</dict>
@@ -954,6 +976,8 @@
 	</dict>
 	<key>jh_r-deva</key>
 	<dict>
+		<key>@MMK_R_dda-deva</key>
+		<integer>10</integer>
 		<key>@MMK_R_la-deva</key>
 		<integer>52</integer>
 		<key>@MMK_R_va-deva</key>
@@ -963,6 +987,16 @@
 	<dict>
 		<key>@MMK_R_la-deva</key>
 		<real>-10.399999618530273</real>
+	</dict>
+	<key>k_ss_r-deva</key>
+	<dict>
+		<key>@MMK_R_va-deva</key>
+		<integer>5</integer>
+	</dict>
+	<key>k_ss_r-deva.01</key>
+	<dict>
+		<key>@MMK_R_va-deva</key>
+		<integer>10</integer>
 	</dict>
 	<key>l-deva</key>
 	<dict>
@@ -1026,6 +1060,8 @@
 	<dict>
 		<key>@MMK_R_la-deva</key>
 		<real>20.799999237060547</real>
+		<key>@MMK_R_na-deva</key>
+		<integer>50</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>31.200000762939453</real>
 	</dict>
@@ -1232,6 +1268,8 @@
 	<dict>
 		<key>@MMK_R_la-deva</key>
 		<real>31.200000762939453</real>
+		<key>@MMK_R_tha-deva</key>
+		<integer>-30</integer>
 		<key>@MMK_R_va-deva</key>
 		<real>31.200000762939453</real>
 	</dict>
@@ -1270,6 +1308,8 @@
 	</dict>
 	<key>th_r-deva</key>
 	<dict>
+		<key>@MMK_R_d_na-deva</key>
+		<integer>-50</integer>
 		<key>@MMK_R_la-deva</key>
 		<real>3.119999885559082</real>
 		<key>@MMK_R_va-deva</key>
@@ -1313,7 +1353,7 @@
 	<key>y_r-deva</key>
 	<dict>
 		<key>@MMK_R_la-deva</key>
-		<real>31.200000762939453</real>
+		<integer>37</integer>
 		<key>@MMK_R_pa-deva</key>
 		<real>19.760000228881836</real>
 		<key>@MMK_R_va-deva</key>

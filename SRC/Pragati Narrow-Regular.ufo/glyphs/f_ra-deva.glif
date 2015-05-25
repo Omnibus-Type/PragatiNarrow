@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_ra-deva" format="1">
-  <advance width="652"/>
+  <advance width="691"/>
   <outline>
-    <component base="ph_ra-deva"/>
-    <component base="nukta-deva" xOffset="108" yOffset="266"/>
     <contour>
-      <point x="326" y="630" type="move" name="candra"/>
+      <point x="-20" y="563" type="line"/>
+      <point x="44" y="563" type="line"/>
+      <point x="44" y="630" type="line"/>
+      <point x="-20" y="630" type="line"/>
+    </contour>
+    <component base="ph_ra-deva" xOffset="39"/>
+    <component base="nukta-deva" xOffset="147" yOffset="266"/>
+    <contour>
+      <point x="365" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="321" y="0" type="move" name="uesign-deva"/>
+      <point x="360" y="0" type="move" name="uesign-deva"/>
     </contour>
     <contour>
-      <point x="326" y="630" type="move" name="top"/>
+      <point x="365" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="326" y="0" type="move" name="bottom"/>
+      <point x="365" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>fa-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>fa-deva</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>

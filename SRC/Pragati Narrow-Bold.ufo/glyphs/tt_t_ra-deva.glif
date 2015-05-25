@@ -82,16 +82,24 @@
       <point x="234" y="630" type="move" name="candra"/>
     </contour>
     <contour>
-      <point x="251" y="-190" type="move" name="uesign-deva"/>
+      <point x="99" y="-160" type="move" name="nukta"/>
     </contour>
     <contour>
       <point x="303" y="630" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="189" y="-201" type="move" name="nukta"/>
+      <point x="251" y="-190" type="move" name="uesign-deva"/>
     </contour>
     <contour>
       <point x="301" y="-193" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>tt_ttha-deva</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>tt_ttha-deva</string>
+    </dict>
+  </lib>
 </glyph>

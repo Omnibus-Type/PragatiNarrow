@@ -62,5 +62,8 @@
       <point x="333" y="338"/>
       <point x="334" y="333" type="curve"/>
     </contour>
+    <contour>
+      <point x="287" y="44" type="move" name="nukta"/>
+    </contour>
   </outline>
 </glyph>

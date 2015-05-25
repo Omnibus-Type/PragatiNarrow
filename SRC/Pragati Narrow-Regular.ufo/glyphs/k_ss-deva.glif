@@ -69,4 +69,10 @@
       <point x="348" y="217" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>k_ssa-deva</string>
+    </dict>
+  </lib>
 </glyph>
